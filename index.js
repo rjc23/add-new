@@ -1,9 +1,13 @@
 const express = require("express");
-const newWhereTaken = require("./wheretakenNew");
-const whereTakenCurrent = require("./whereTakenCurrent");
+const dayjs = require('dayjs');
+const newWhereTaken = require('./wheretakenNew');
+const whereTakenCurrent = require('./whereTakenCurrent');
 const newWhereTakenUS = require('./wheretakenUSNew');
 const newWhereTakenUSFacts = require('./wheretakenUSNewFacts');
 const whereTakenUSCurrent = require('./whereTakenUSCurrent');
+const months = require('./whereTakenUSutils/months');
+const states = require('./whereTakenUSutils/states');
+const whereTakenUSPerms = require('./whereTakenUSPerms');
 const app = express();
 const PORT = 3006;
 
@@ -134,21 +138,6 @@ app.get('/wheretakenNew', async function (req, res, next) {
 
   res.send(whereTakenCurrent);
 });
-
-const months = [
-  'january',
-  'february',
-  'march',
-  'april',
-  'may',
-  'june',
-  'july',
-  'august',
-  'september',
-  'october',
-  'november',
-  'december',
-];
 
 app.get('/wheretakenUSNew', async function (req, res, next) {
   newWhereTakenUS.forEach((entry) => {
@@ -282,6 +271,67 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
   });
 
   res.send(whereTakenUSCurrent);
+});
+
+app.get('/wheretakenUSPerms', async function (req, res, next) {
+  const newPhotoCodes = [11, 12, 13, 14, 15]; // edit these as needed
+
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  };
+
+  const distributeStates = (states, codes) => {
+    const entries = [];
+    states.forEach((state) => {
+      codes.forEach((code) => {
+        entries.push({ state, photoCode: code });
+      });
+    });
+    shuffleArray(entries);
+
+    // This could be optimized to ensure the spacing between states
+    const spacedEntries = [];
+    entries.forEach((entry) => {
+      // Try to find an optimal place in spacedEntries
+      let placed = false;
+      for (let i = 0; !placed && i < spacedEntries.length; i += 53) {
+        if (
+          !spacedEntries
+            .slice(Math.max(0, i - 5), i)
+            .some((e) => e.state === entry.state)
+        ) {
+          spacedEntries.splice(i, 0, entry);
+          placed = true;
+        }
+      }
+      if (!placed) spacedEntries.push(entry);
+    });
+
+    return spacedEntries;
+  };
+
+  const lastEntry = whereTakenUSPerms[whereTakenUSPerms.length - 1];
+  let lastNumber = lastEntry.number;
+  let currentDate = dayjs(lastEntry.date, 'D/M/YYYY');
+
+  const extendedEntries = distributeStates(states, newPhotoCodes).map(
+    (entry) => {
+      lastNumber++;
+      currentDate = currentDate.add(1, 'day');
+      return {
+        ...entry,
+        date: currentDate.format('D/M/YYYY'),
+        number: lastNumber,
+      };
+    }
+  );
+
+  whereTakenUSPerms.push(...extendedEntries);
+
+  res.status(200).send(whereTakenUSPerms);
 });
 
 function getFact(gameNumber, facts) {
