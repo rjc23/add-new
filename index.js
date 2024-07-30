@@ -202,7 +202,15 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
 
     // If there are more than six cities, remove the first city not present in any game
     if (stateEntry.cities.length > 6) {
+      // only look at most recent games if they have been added
       let citiesInGames = new Set(stateEntry.game.map((g) => g.city.name));
+      if (stateEntry.game.length > 10) {
+        citiesInGames = new Set(
+          stateEntry.game
+            .slice(9, stateEntry.game.length - 1)
+            .map((g) => g.city.name)
+        );
+      }
       let cityToRemove = stateEntry.cities.find(
         (city) => !citiesInGames.has(city)
       );
@@ -219,9 +227,9 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
     let potential = [];
     let potentialNames = [];
 
-    newWhereTaken.forEach((p) => {
-      if (entry.country !== p.country) {
-        const permState = whereTakenCurrent.find((v) => v.name === p.country);
+    newWhereTakenUS.forEach((p) => {
+      if (entry.code !== p.code) {
+        const permState = whereTakenUSCurrent.find((v) => v.code === p.code);
         if (permState) {
           permState.game.forEach((game) => {
             if (game.landmark.hasLandmark) {
