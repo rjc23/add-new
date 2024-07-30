@@ -200,29 +200,6 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
       stateEntry.cities.push(entry.cityImageLocation.trim());
     }
 
-    // If there are more than six cities, remove the first city not present in any game
-    if (stateEntry.cities.length > 6) {
-      // only look at most recent games if they have been added
-      let citiesInGames = new Set(stateEntry.game.map((g) => g.city.name));
-      if (stateEntry.game.length > 10) {
-        citiesInGames = new Set(
-          stateEntry.game
-            .slice(9, stateEntry.game.length - 1)
-            .map((g) => g.city.name)
-        );
-      }
-      let cityToRemove = stateEntry.cities.find(
-        (city) => !citiesInGames.has(city)
-      );
-
-      if (cityToRemove) {
-        stateEntry.cities = stateEntry.cities.filter(
-          (city) => city !== cityToRemove
-        );
-      }
-      // Additional logic may be necessary if no city can be removed
-    }
-
     // Integration of logic from the first code
     let potential = [];
     let potentialNames = [];
