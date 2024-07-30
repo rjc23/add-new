@@ -6,13 +6,12 @@ const whereTakenUSCurrent = [
     long: -154.493062,
     cities: [
       'Juneau',
-      'Anchorage',
       'Sitka',
       'Fairbanks',
       'Ketchikan',
       'Nome',
       'Kodiak',
-      'Charleston',
+      'Anchorage',
     ],
     game: [
       {
@@ -696,6 +695,344 @@ const whereTakenUSCurrent = [
           'Amicalola Falls State Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Kachemak Bay',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/andymorffew/26480878520/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kachemak_Bay',
+        },
+        landmark: {
+          name: 'Goldbelt Tram',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/mytravelphotos/6953639559/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Goldbelt_Tram',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Anchorage',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Chugach_mountains_over_Anchorage_rooftops.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Anchorage,_Alaska',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 15,
+          },
+          {
+            code: 'HI',
+            number: 9,
+          },
+          {
+            code: 'SD',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Yale University',
+          'Timberline Lodge',
+          'La Fortaleza',
+          'Field Museum of Natural History',
+          'Drayton Hall',
+          'Cathedral Basilica',
+          'Taliesin West',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Land of Enchantment',
+          'Ocean State',
+          'Empire State',
+          'Lone Star State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Oregon Grape', 'Mayflower'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Alaska has more than 100 volcanoes and volcanic fields',
+          falseFact:
+            'Alaska is the 4th most wine producing state in the country.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'wrWk8kx8',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Sukakpak Mountain',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/blmalaska/29061042913/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sukakpak_Mountain',
+        },
+        landmark: {
+          name: 'Mendenhall Glacier',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/104625855@N07/14304133786/in/gallery-bob_cates-72157674384246711/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mendenhall_Glacier',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fairbanks',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Downtown_Fairbanks,_Alaska.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fairbanks,_Alaska',
+        },
+        landmarksRound: [
+          {
+            code: 'MD',
+            number: 10,
+          },
+          {
+            code: 'WI',
+            number: 7,
+          },
+          {
+            code: 'SC',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'St. Louis Cathedral',
+          'Mount Hood',
+          'Space Needle',
+          'Elephant Rocks State Park',
+          'Eastern State Penitentiary',
+          'Philadelphia Museum of Art',
+          'Golden Gate Bridge',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Centennial State',
+          'Mountain State',
+          'Magnolia State',
+          'Evergreen State/Chinhook State',
+          'Beehive State',
+        ],
+        flowerOptions: ['Mountain Laurel', 'Iris', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Alaska’s flag was designed by a 13-year-old.',
+          falseFact: 'Zinc is Alaska’s lowest mineral export.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'cwWx7pHR',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Arctic National Wildlife Refuge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/iip-photo-archive/46569241884/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Arctic_National_Wildlife_Refuge',
+        },
+        landmark: {
+          name: 'Kenai Fjords',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/kimberlykv/5061215966/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kenai_Fjords_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Juneau',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/dennissylvesterhurd/52345778302/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Juneau,_Alaska',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 8,
+          },
+          {
+            code: 'IL',
+            number: 3,
+          },
+          {
+            code: 'MT',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Temple Square',
+          'Space Needle',
+          'The Mark Twain House',
+          'Yale University',
+          'Taos Pueblo',
+          'Indiana Caverns',
+          'The Alamo',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Centennial State',
+          'America’s Paradise',
+          'Lone Star State',
+          'Beaver State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: [
+          'Peach Blossom',
+          'Saguaro Cactus Blossom',
+          'Orange Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Alaska’s flag was designed by a 13-year-old.',
+          falseFact: 'Alaska was part of the 1803 Louisiana Purchase.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'jSQRm2mt',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Matanuska-Susitna Valley',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/mtrienke/33953686798/in/album-72157708537735384/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Matanuska-Susitna_Valley',
+        },
+        landmark: {
+          name: 'Oolah Valley',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/alaskanps/16089307144/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Gates_of_the_Arctic_National_Park_and_Preserve',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sitka',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/alaska_region/8568156238/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sitka,_Alaska',
+        },
+        landmarksRound: [
+          {
+            code: 'NV',
+            number: 7,
+          },
+          {
+            code: 'HI',
+            number: 9,
+          },
+          {
+            code: 'AR',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Eastern State Penitentiary',
+          'Abraham Lincoln Birthplace National Historical Park',
+          'Vulcan Statue',
+          'Dover Motor Speedway',
+          'Carhenge',
+          'Fremont Troll',
+          'Devils Tower',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'The District',
+          'Bay State/Old Colony State',
+          "Badger State/America's Dairyland",
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: ['Orange Blossom', 'Peach Blossom', 'Red Clover'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Alaska is home to the largest population of ____ in the United States',
+          fillAnswer: 'bald eagles',
+          fillAnswers: ['polar bears', 'humans', 'bald eagles', 'wolves'],
+        },
+        uniqueId: 'btNp2KYj',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Alaska Range',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/wanderflechten/29364277644/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Alaska_Range',
+        },
+        landmark: {
+          name: 'Cape Krusenstern National Monument',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Muskox_and_Geese.jpg',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cape_Krusenstern_National_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Ketchikan',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/iceninejon/27622800300/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ketchikan,_Alaska',
+        },
+        landmarksRound: [
+          {
+            code: 'NM',
+            number: 5,
+          },
+          {
+            code: 'MD',
+            number: 10,
+          },
+          {
+            code: 'OR',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Mount Rushmore',
+          'Grand Canyon National Park',
+          'Dover Motor Speedway',
+          'The Breakers',
+          'West Side Market',
+          'Museum of the Rockies',
+          'Gillette Castle State Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Land of Enchantment',
+          'Ocean State',
+          'Empire State',
+          'Lone Star State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Oregon Grape', 'Mayflower'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: '_____  is the official state sport in Alaska.',
+          fillAnswer: 'Dog mushing',
+          fillAnswers: [
+            'Break dancing',
+            'Dog mushing',
+            'Marathon Swimming ',
+            'BMX Racing',
+          ],
+        },
+        uniqueId: '52YckcLJ',
+      },
     ],
     capital: 'Juneau',
     flower: {
@@ -714,11 +1051,11 @@ const whereTakenUSCurrent = [
     long: -86.902298,
     cities: [
       'Montgomery',
-      'Mobile',
-      'Auburn',
       'Huntsville',
       'Tuscaloosa',
       'Birmingham',
+      'Decatur',
+      'Mobile',
     ],
     game: [
       {
@@ -1388,6 +1725,347 @@ const whereTakenUSCurrent = [
           'Botanica, The Wichita Gardens',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Guntersville Lake',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/lake-guntersville-alabama-marina-nature-landscapes-2cf175',
+          wikiLink: 'https://en.wikipedia.org/wiki/Guntersville_Lake',
+        },
+        landmark: {
+          name: 'Edmund Pettus Bridge',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/the-edmund-pettus-bridge-selma-alabama',
+          wikiLink: 'https://en.wikipedia.org/wiki/Edmund_Pettus_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Montgomery',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Commerce_St,_Downtown_Montgomery_20160713_1.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Montgomery,_Alabama',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 4,
+          },
+          {
+            code: 'NH',
+            number: 5,
+          },
+          {
+            code: 'AR',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Hanauma Bay',
+          'Sandia Peak Tramway',
+          'Appalachian Trail',
+          'Annaberg Sugar Plantation',
+          'Grave Creek Mound',
+          'Rockefeller Center',
+          'Creek Street',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Show Me State',
+          'Hoosier State',
+          'Green Mountain State',
+          'Keystone State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Sagebrush', 'Peach Blossom', 'Coast Rhododendron'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Windshield Wipers Were Invented In Alabama',
+          falseFact:
+            'There are more than 3,000 rivers and 3 million lakes in Alabama.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'jYGr8rvQ',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'RTJ Golf Trail at Grand National',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/grand-national-golf-course-opelika-alabama-nature-landscapes-30ca5a',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Robert_Trent_Jones_Golf_Trail',
+        },
+        landmark: {
+          name: 'Cathedral Caverns',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/cathedral-caverns-scottsboro-alabama-9',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cathedral_Caverns_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Birmingham',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/61073993@N04/5795965934',
+          wikiLink: 'https://en.wikipedia.org/wiki/Birmingham,_Alabama',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 3,
+          },
+          {
+            code: 'MO',
+            number: 5,
+          },
+          {
+            code: 'TX',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Chimney Rock',
+          'Martin Luther King Jr. Childhood Home',
+          'Country Music Hall of Fame and Museum',
+          'Fort Adams State Park',
+          'Canyonlands National Park',
+          'Craters of the Moon',
+          'Iolani Palace',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'America’s Paradise',
+          'Sunshine State',
+          'Mountain State',
+          'Evergreen State/Chinhook State',
+          'First State/Diamond State',
+        ],
+        flowerOptions: ['Sagebrush', 'Sunflower', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Northern flicker state bird of Alabama.',
+          falseFact:
+            'The first pro football league was the American Professional Football Association, formed in Alabama in 1920.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '3wxpNcrg',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Thornhill plantation',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/thornhill-plantation-alabama-landscape-nature-landscapes-236981',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Thornhill_(Forkland,_Alabama)',
+        },
+        landmark: {
+          name: 'Vulcan Park',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/vulcan-statue-birmingham-alabama-5',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vulcan_statue',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Decatur',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Decatur_Downtown_Historic_District.JPG',
+          wikiLink: 'https://en.wikipedia.org/wiki/Decatur,_Alabama',
+        },
+        landmarksRound: [
+          {
+            code: 'AR',
+            number: 4,
+          },
+          {
+            code: 'NH',
+            number: 5,
+          },
+          {
+            code: 'AK',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Millennium Park',
+          'Mississippi Petrified Forest',
+          'Dover Motor Speedway',
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Cave of the Mounds',
+          'Missouri Botanical Garden',
+          'Portland Head Light',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Nutmeg State/Constitution State',
+          'Sooner State',
+          'Bay State/Old Colony State',
+          'Natural State',
+          'Hoosier State',
+        ],
+        flowerOptions: ['Scarlet Carnation', 'Oregon Grape', 'Wild Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The state is named after the Alabama Indian tribe that inhabited western Alabama and eastern Mississippi until the early nineteenth century.',
+          falseFact:
+            'Two of the top-rated waterfalls in the United States are located in Alabama',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'NrYXkkK9',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Rikard’s Mill Historical Park',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/alabama-rikards-mill-structure-nature-landscapes-21a18d',
+          wikiLink: 'https://en.wikipedia.org/wiki/Beatrice,_Alabama',
+        },
+        landmark: {
+          name: 'Ave Maria Grotto',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/ave-maria-grotto-cullman-alabama-100',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ave_Maria_Grotto',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Huntsville',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Scenic_downtown_Huntsville,_Alabama_LCCN2010639657.tif',
+          wikiLink: 'https://en.wikipedia.org/wiki/Huntsville,_Alabama',
+        },
+        landmarksRound: [
+          {
+            code: 'WA',
+            number: 8,
+          },
+          {
+            code: 'NE',
+            number: 5,
+          },
+          {
+            code: 'WA',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Union Trading Post',
+          'Vessel',
+          'Washington National Cathedral',
+          'Castillo de San Marcos',
+          'Red Rocks Ampitheatre',
+          'Golden Driller',
+          'Windmill Island',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Beaver State',
+          'Mountain State',
+          'America’s Paradise',
+          'Cornhusker State/Beef State',
+        ],
+        flowerOptions: ['Wood Violet', 'Sunflower', 'Red Clover'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Area of Alabama State was controlled at different times by _____',
+          fillAnswer: 'England, France and Spain',
+          fillAnswers: [
+            'England',
+            'Spain',
+            'Spain and France',
+            'England, France and Spain',
+          ],
+        },
+        uniqueId: 'Zr87wGWm',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Orange Beach',
+          photographer: '',
+          imageLink:
+            'https://picryl.com/media/alabamas-coastal-connection-heron-wading-in-orange-beach-946d59',
+          wikiLink: 'https://en.wikipedia.org/wiki/Orange_Beach,_Alabama',
+        },
+        landmark: {
+          name: 'Bamahenge',
+          photographer: '',
+          imageLink: 'https://commons.wikimedia.org/wiki/File:Bamahenge.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bamahenge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Mobile',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/thomashawk/46735565782/in/album-72157669582495542/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mobile,_Alabama',
+        },
+        landmarksRound: [
+          {
+            code: 'SD',
+            number: 4,
+          },
+          {
+            code: 'CT',
+            number: 5,
+          },
+          {
+            code: 'TX',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Castillo San Felipe Del Morro',
+          'Gateway Arch',
+          'Kennedy Space Center',
+          'Cloud Gate',
+          'Puerta de San Juan',
+          'Willis Tower',
+          'Craters of the Moon',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Show Me State',
+          'Hoosier State',
+          'Green Mountain State',
+          'Keystone State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Sagebrush', 'Peach Blossom', 'Coast Rhododendron'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'About 70 percent Alabama covered _____',
+          fillAnswer: 'In forests',
+          fillAnswers: ['In forests', 'By rivers', 'In desert', 'By fields '],
+        },
+        uniqueId: 'VjRFkwlr',
+      },
     ],
     capital: 'Montgomery',
     flower: {
@@ -1405,14 +2083,13 @@ const whereTakenUSCurrent = [
     lat: 35.20105,
     long: -91.831833,
     cities: [
-      'Hot Springs',
-      'Fayetteville',
       'Forth Smith',
       'Little Rock',
       'Bentonville',
       'Fort Smith',
       'Jonesboro',
-      'Des Moines',
+      'Springdale',
+      'Fayetteville',
     ],
     game: [
       {
@@ -2097,6 +2774,346 @@ const whereTakenUSCurrent = [
           'Franconia Notch State Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Arkansas',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/iip-photo-archive/25688613837/in/album-72157664031372197/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Arkansas',
+        },
+        landmark: {
+          name: 'Thorncrown Chapel',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/cwsteeds/279418930/in/photolist-qG6vL-FjAnQx-WuvT2g-BCWZHv-doFzdW-hSXmWN-WqNAoY-WeqNP5-Werci3-WurV6p-57YSnj-WqTV8S-WhSChT-Vd7c2A-WqNBL7-Vd7aJq-WeqQ9Q-WurXZk-WqTP3q-WeqSbf-WeqU2Q-Wus2oz-8mhwou-8memk8-4pw5Gt-Vd7cVj-WeqVAw-Vd7oPd-VU9HEm-VU9G3U-WeqWJ3-WqTPJf-VU9qRS-WhSysD-WhMEH4-VdchY5-WermbU-Wero7h-VU9CTs-VU9uoS-WhMDa4-Vdchnq-WurLpM-WerfK3-VU9wYS-WqNzw7-LUxonz-KXzKXH-KXmtRS-WurYYz',
+          wikiLink: 'https://en.wikipedia.org/wiki/Thorncrown_Chapel',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Little Rock',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/151542275@N03/48960019986/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Little_Rock,_Arkansas',
+        },
+        landmarksRound: [
+          {
+            code: 'MD',
+            number: 7,
+          },
+          {
+            code: 'OK',
+            number: 4,
+          },
+          {
+            code: 'IA',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'West Virginia Penitentiary',
+          'Portland Museum of Art',
+          'Willis Tower',
+          'Hearst Castle',
+          'Salvador Dalí Museum',
+          'Grave Creek Mound',
+          'Taliesin West',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Pine Tree State',
+          'The District',
+          'Sunflower State/Jayhawker State',
+          'Nutmeg State/Constitution State',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: ['Orange Blossom', 'Sagebrush', 'Black-eyed Susan'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Arkansas is correctly pronounced “Ar-kan-saw”, totally different than the state name “Kansas”, which the word Arkansas contains.',
+          falseFact:
+            'The nation’s two largest forests are located in Arkansas .',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'HxH9ykYW',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Lake Ouachita',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/33630741@N07/19789126383/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Ouachita',
+        },
+        landmark: {
+          name: 'Blanchard Springs Caverns',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/iip-photo-archive/39968767384/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Blanchard_Springs_Caverns',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fort Smith',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/71025477@N00/24959001972/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Smith,_Arkansas',
+        },
+        landmarksRound: [
+          {
+            code: 'MT',
+            number: 10,
+          },
+          {
+            code: 'WA',
+            number: 4,
+          },
+          {
+            code: 'NE',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Philadelphia Museum of Art',
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Multnomah Falls',
+          'Marsh-Billings-Rockefeller Mansion',
+          'Yale University',
+          'West Side Market',
+          'El Yunque National Forest',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'The Old Dominion/Mother of Presidents',
+          'Sunshine State',
+          'First State/Diamond State',
+          'Garden State',
+          'Aloha State',
+        ],
+        flowerOptions: ['Yucca Flower', 'Goldenrod', 'American Beauty Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The Ozark National Forest has over 500 species of plants and trees that cover 1.2 million acres of land in Arkansas.',
+          falseFact:
+            'Famous labor leader and activist Cesar Chavez was born in Arkansas.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '4MycKKDL',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Buffalo River',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/iip-photo-archive/39795028364/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Buffalo_National_River',
+        },
+        landmark: {
+          name: 'Garvan Woodland Gardens',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thomashawk/51271684447/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Garvan_Woodland_Gardens',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fayetteville',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cwsteeds/49490721/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fayetteville,_Arkansas',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 3,
+          },
+          {
+            code: 'KS',
+            number: 2,
+          },
+          {
+            code: 'FL',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Iolani Palace',
+          'Museum of the Rockies',
+          'Point State Park',
+          'Paine Art Center and Gardens',
+          'Everglades',
+          "John Brown's Fort",
+          'Liberty Bell',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Lone Star State',
+          'Golden State',
+          'Bay State/Old Colony State',
+          'Pine Tree State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'Coast Rhododendron',
+          'Saguaro Cactus Blossom',
+          'Hawaiian Hibiscus',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Both Hillary and Bill Clinton began their careers teaching law at the University of Arkansas.',
+          falseFact:
+            'Arkansas designated the sabal palm as the official state tree',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'ryltJW2G',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Eureka Springs',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/meltedplastic/8416232860/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Eureka_Springs,_Arkansas',
+        },
+        landmark: {
+          name: 'Christ of the Ozarks',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/22147410@N00/4748119240/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Christ_of_the_Ozarks',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Springdale',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Brushy_Creek_Golf_-_Hole_-9_(49999110782).jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Springdale,_Arkansas',
+        },
+        landmarksRound: [
+          {
+            code: 'NV',
+            number: 4,
+          },
+          {
+            code: 'AZ',
+            number: 12,
+          },
+          {
+            code: 'AK',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Bennington Battle Monument',
+          'Grave Creek Mound',
+          'Christiansted National Historic Site',
+          'Ryman Auditorium',
+          'Field of Dreams',
+          'Garden of the Gods',
+          'Buffalo Bill Ranch',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Keystone State',
+          'Hoosier State',
+          'Land of Enchantment',
+          'Hawkeye State/Corn State',
+          'Sunflower State/Jayhawker State',
+        ],
+        flowerOptions: [
+          'Black-eyed Susan',
+          'Wild Prairie Rose',
+          'Oklahoma Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In Arkansas, more ____ are eaten than in any of the other states.',
+          fillAnswer: 'catfish',
+          fillAnswers: ['catfish', 'fastfood', 'fish', 'mushrooms'],
+        },
+        uniqueId: 'LBynRjSm',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Arkansas River',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/hardgravephoto/20901349713/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Arkansas_River',
+        },
+        landmark: {
+          name: 'Roark Bluff',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/naturegal/3267093769/in/photolist-tbFSZh-iLfLfj-9h1fVN-62tcbA-5YGH9V-5YGHY4-62oWc6',
+          wikiLink: 'https://en.wikipedia.org/wiki/Buffalo_National_River',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Jonesboro',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/courthouselover/50868145986/in/photolist-4zXL3h-2nyN4Nt-2kv3xzL-2nxJV2g-4zXL3f-2nyMKKe-2kuYRrc-dcQovP-4zXL33-2nyGEne-2nyMTKs-2nyQjac-2nyGQpD-2nyGLLB-2nyPn5g-2nyMNEk-2nyPccq-2nyQj7G-2nyMWsg-22CkMd4-2oaJf9U-K6z8k-22CkMs2-22UXyEQ-22UXyR1-2oYriEt-2oYm9YH-2oYm9Ys-2oYriE3',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jonesboro,_Arkansas',
+        },
+        landmarksRound: [
+          {
+            code: 'NJ',
+            number: 4,
+          },
+          {
+            code: 'IA',
+            number: 1,
+          },
+          {
+            code: 'MO',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'ʻIolani Palace',
+          'Klondike Gold Rush National Historic Park',
+          'Gillette Castle State Park',
+          'Willis Tower',
+          'Crazy Horse Memorial',
+          'Ocean City Boardwalk',
+          'Multnomah Falls',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Pine Tree State',
+          'The District',
+          'Sunflower State/Jayhawker State',
+          'Nutmeg State/Constitution State',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: ['Orange Blossom', 'Sagebrush', 'Black-eyed Susan'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            '______, the world’s most profitable company, is based in Bentonville, Arkansas.',
+          fillAnswer: 'Walmart',
+          fillAnswers: ['Amazon', 'Microsoft', 'Apple', 'Walmart'],
+        },
+        uniqueId: '5FZjlQdq',
+      },
     ],
     capital: 'Little Rock',
     flower: {
@@ -2114,14 +3131,14 @@ const whereTakenUSCurrent = [
     lat: 34.048928,
     long: -111.093731,
     cities: [
-      'Tucson',
       'Phoenix',
-      'Mesa',
-      'Flagstaff',
       'Scottsdale',
       'Sedona',
       'Yuma',
-      'Salem',
+      'Chandler',
+      'Gilbert',
+      'Tucson',
+      'Mesa',
     ],
     game: [
       {
@@ -2799,6 +3816,332 @@ const whereTakenUSCurrent = [
           'Virgin Islands National Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Vermilion Cliffs National Monument',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/mypubliclands/9404201721/in/photolist-fk1ZwZ-UtyjNj-ZQBDCf-yTeeXY-zjGiHw-N3DzsD-UPH9Co-LUjYfP-MRFrbp-zAeJNJ-PQmWgb-AkJTWg-zSMTBx-CPYR4B-Z5qvuC-217nB6b-iPuAEy-2dZLJgf-SXg5bi-TQ76Ti-GDeLMM-zjG4Bh-N12ab7-CQhDEv-XWJq7v-2iTHY2e-WR7HzL-JQHRrG-N3Dpc8-Cdb3Pq-MdwJdj-vkvU6T-R9jaZz-4UbEEp-Xoecqo-G3zQZs-EbMRwS-xspmpQ-LUxnB4-LUim6C-CQhZTM-ZewfTi-dqeKtB-v8GV7B-MNCUrG-N1mPKU-Crpkm4-MPC1UT-MJkLrM-MJrCRV',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Vermilion_Cliffs_National_Monument',
+        },
+        landmark: {
+          name: 'Montezuma Castle National Monument',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kinglear55/52038992013/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Montezuma_Castle_National_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Phoenix',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cedwardbrice/8049454559/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Phoenix,_Arizona',
+        },
+        landmarksRound: [
+          {
+            code: 'ME',
+            number: 1,
+          },
+          {
+            code: 'KY',
+            number: 9,
+          },
+          {
+            code: 'CT',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Maquoketa Caves',
+          'Aerial Lift Bridge',
+          'Mammoth Cave National Park',
+          'Vizcaya Museum and Gardens',
+          'Martin Luther King Jr. Memorial',
+          'Fargo Air Museum',
+          "Santa's Village",
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Beehive State',
+          'Green Mountain State',
+          'Silver State/Sagebrush State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: ['American Dogwood', 'Forget-me-not', 'Mountain Laurel'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'There are more than 100 wineries and 22 varietals of wine produced in Arizona',
+          falseFact: 'Arizona is the only state that produces iodine.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'P6PBMvjZ',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Painted Desert',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/visavis/28050969315/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Painted_Desert_(Arizona)',
+        },
+        landmark: {
+          name: 'London Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/beaurogers/50245497473/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/London_Bridge_(Lake_Havasu_City)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Tucson',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/bassbro/49845983251/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Tucson,_Arizona',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 1,
+          },
+          {
+            code: 'FL',
+            number: 9,
+          },
+          {
+            code: 'SC',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'The Breakers',
+          'Fort Frederick',
+          'Amelia Earhart Birthplace',
+          'National Mississippi River Museum & Aquarium',
+          'Napoleon House',
+          'Valley of Fire State Park',
+          'Pittock Mansion',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Hawkeye State/Corn State',
+          'Buckeye State',
+          'Ocean State',
+          'Treasure State/Big Sky Country',
+          'The District',
+        ],
+        flowerOptions: ['Iris', 'Red Clover', 'Mountain Laurel'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Arizona leads the nation in copper production.',
+          falseFact:
+            'Arizona is one of five states that doesn’t charge a sales tax',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'v7wnXRvx',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Coconino National Forest',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/coconinonationalforest/30958808733/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Coconino_National_Forest',
+        },
+        landmark: {
+          name: 'Taliesin West',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/romanboed/52822643181/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Taliesin_West',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Mesa',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thomashawk/10301405075/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mesa,_Arizona',
+        },
+        landmarksRound: [
+          {
+            code: 'TX',
+            number: 1,
+          },
+          {
+            code: 'ND',
+            number: 4,
+          },
+          {
+            code: 'DC',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Annaberg Sugar Plantation',
+          'Iolani Palace',
+          'Battleship North Carolina',
+          'Black Canyon of the Gunnison',
+          'Old Trail Town',
+          'Frederik Meijer Gardens & Sculpture Park',
+          'Lucy the Elephant',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Bay State/Old Colony State',
+          'Buckeye State',
+          'Peace State/Empire State of the South',
+          'Tar Heel State',
+          'Aloha State',
+        ],
+        flowerOptions: ['Red Clover', 'Indian Paintbrush', 'Bluebonnet'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Arizona leads the nation in copper production.',
+          falseFact:
+            'Residents of Arizona were found to be the biggest binger drinkers in the country.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '3yNGHPTh',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Cathedral Rock',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/moonjazz/26833418257/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cathedral_Rock',
+        },
+        landmark: {
+          name: 'Meteor Crater',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cappellacci/50432278271/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Meteor_Crater',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Chandler',
+          photographer: '',
+          imageLink: 'https://www.loc.gov/item/2018702317/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chandler,_Arizona',
+        },
+        landmarksRound: [
+          {
+            code: 'WI',
+            number: 4,
+          },
+          {
+            code: 'TN',
+            number: 4,
+          },
+          {
+            code: 'GA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Portland Museum of Art',
+          'The Parthenon',
+          "Santa's Village",
+          'Winterville site',
+          'Rock & Roll Hall of Fame',
+          'Dollywood',
+          'Shenandoah National Park',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Centennial State',
+          'Bluegrass State',
+          'The Mount Rushmore State',
+          'Volunteer State',
+          'Equality State',
+        ],
+        flowerOptions: ['Mountain Laurel', 'Cherokee Rose', 'Magnolia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Only about _____ percent of Arizona is privately owned.',
+          fillAnswer: '17',
+          fillAnswers: ['25', '44', '36', '17'],
+        },
+        uniqueId: 'XSYLWpXF',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Arizona',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cedwardbrice/45597780704/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Arizona',
+        },
+        landmark: {
+          name: 'Havasu Falls',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cedwardbrice/25020587772/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Havasu_Falls',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gilbert',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/brookward/25593068668/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gilbert,_Arizona',
+        },
+        landmarksRound: [
+          {
+            code: 'TX',
+            number: 3,
+          },
+          {
+            code: 'MT',
+            number: 3,
+          },
+          {
+            code: 'NH',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Chimney Rock National Historic Site',
+          'Nemours Estate',
+          'Winterville site',
+          'Myriad Botanical Gardens',
+          'San Jacinto Battleground',
+          'Rock and Roll Hall of Fame',
+          'Old State Capitol',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Beehive State',
+          'Green Mountain State',
+          'Silver State/Sagebrush State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: ['American Dogwood', 'Forget-me-not', 'Mountain Laurel'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'If you cut down _____ in Arizona, you could spend more than a year\nin prison.',
+          fillAnswer: 'cactus',
+          fillAnswers: ['hair', 'grass', 'cactus', 'bush'],
+        },
+        uniqueId: 'zqsvVrsw',
+      },
     ],
     capital: 'Phoenix',
     flower: {
@@ -2817,14 +4160,12 @@ const whereTakenUSCurrent = [
     lat: 36.778261,
     long: -119.417932,
     cities: [
-      'San Diego',
-      'Sacramento',
-      'San Fransisco',
       'Los Angeles',
-      'Oakland',
       'San Francisco',
       'San Jose',
-      'Portland',
+      'Long Beach',
+      'Irvine',
+      'Anaheim',
     ],
     game: [
       {
@@ -3496,6 +4837,330 @@ const whereTakenUSCurrent = [
           'United States Holocaust Memorial Museum',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Yosemite National Park',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/a_little_brighter/52762846415/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Yosemite_National_Park',
+        },
+        landmark: {
+          name: 'Lake Tahoe',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/trevorbexon/23885887504/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Tahoe',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Los Angeles',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thomashawk/16790212100/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Los_Angeles',
+        },
+        landmarksRound: [
+          {
+            code: 'MS',
+            number: 9,
+          },
+          {
+            code: 'MT',
+            number: 3,
+          },
+          {
+            code: 'AR',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Milwaukee Art Museum',
+          'Harding Icefield',
+          'Old State House',
+          'Carl Sandburg Home',
+          'Carlsbad Caverns',
+          'Walt Disney World',
+          'Washington Monument',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Beaver State',
+          'First State/Diamond State',
+          'Land of Enchantment',
+          'Centennial State',
+          'Sunflower State/Jayhawker State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Indian Paintbrush', 'Goldenrod'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Most of eastern California is desert',
+          falseFact: 'he official state gemstone of California is Turquoise.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'q5xqKppq',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Hearst San Simeon State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/tomsaint/48113457016/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Hearst_San_Simeon_State_Park',
+        },
+        landmark: {
+          name: 'Sequoia National Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/adamreeder/8231025855/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sequoia_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Long Beach',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jlbravin/5967090462/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Long_Beach,_California',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 1,
+          },
+          {
+            code: 'AR',
+            number: 5,
+          },
+          {
+            code: 'WY',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Coastal Maine Botanical Gardens',
+          'Shenandoah National Park',
+          'Harding Icefield',
+          'High Line',
+          'Birmingham Botanical Gardens, Alabama',
+          'Pike Place Market',
+          'Bennington Battle Monument',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'The Last Frontier',
+          'Volunteer State',
+          'Evergreen State/Chinhook State',
+          'Sooner State',
+          'Centennial State',
+        ],
+        flowerOptions: ['Rose', 'Purple Lilac', 'Scarlet Carnation'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'California is the most biologically diverse state in the United States',
+          falseFact: "California 's official flag was adopted in 1900",
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'J8RRlhGp',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Devils Postpile National Monument',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/docsark/48666426843/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Devils_Postpile_National_Monument',
+        },
+        landmark: {
+          name: 'Coit Tower',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/infospigot/7289587676/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Coit_Tower',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Irvine',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/107475456@N08/10652206923/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Irvine,_California',
+        },
+        landmarksRound: [
+          {
+            code: 'NM',
+            number: 3,
+          },
+          {
+            code: 'MT',
+            number: 8,
+          },
+          {
+            code: 'RI',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Magens Bay Beach',
+          'Basilica of the Sacred Heart',
+          'Lincoln Memorial',
+          'Little Rock Central High School',
+          'Amicalola Falls State Park',
+          'Smithsonian National Air and Space Museum',
+          'Parque de Bombas',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Hoosier State',
+          'Buckeye State',
+          'Centennial State',
+          'Cotton State/Yellowhammer State',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: ['Magnolia', 'Wood Violet', 'Sego Lily'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'California Is Home to the World’s Largest Tree',
+          falseFact:
+            'The California`s state flag has 25 stars, symbolizing it becoming the 25th state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'mHvw462s',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Mesquite Flat Sand Dunes',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/davetoussaint/7498713622/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Places_of_interest_in_the_Death_Valley_area#Mesquite_Flat_Sand_Dunes',
+        },
+        landmark: {
+          name: 'Palace of Fine Arts',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/simononly/22484717691/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Palace_of_Fine_Arts',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Anaheim',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dbax/5723741/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Anaheim,_California',
+        },
+        landmarksRound: [
+          {
+            code: 'DE',
+            number: 2,
+          },
+          {
+            code: 'NM',
+            number: 8,
+          },
+          {
+            code: 'DC',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Lucy the Elephant',
+          'Carhenge',
+          'The Breakers',
+          'Sleeping Bear Dunes',
+          'St George Utah Temple',
+          'Shelburne Farms',
+          'Centennial Land Run Monument',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Nutmeg State/Constitution State',
+          'Mountain State',
+          'Hawkeye State/Corn State',
+          'Grand Canyon State',
+        ],
+        flowerOptions: ['Colorado Blue Columbine', 'Sagebrush', 'Violet'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'California Has Over _____ Ghost Towns',
+          fillAnswer: '300',
+          fillAnswers: ['50', '150', '300', '10'],
+        },
+        uniqueId: 'TZp56xpY',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Rocky Creek Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/huskyte/8752570737/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Rocky_Creek_Bridge_(California)',
+        },
+        landmark: {
+          name: 'J. Paul Getty Museum',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/pnp/11438508106/',
+          wikiLink: 'https://en.wikipedia.org/wiki/J._Paul_Getty_Museum',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'San Francisco',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dorinser/41350356975/',
+          wikiLink: 'https://en.wikipedia.org/wiki/San_Francisco',
+        },
+        landmarksRound: [
+          {
+            code: 'WA',
+            number: 4,
+          },
+          {
+            code: 'NV',
+            number: 10,
+          },
+          {
+            code: 'VA',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Wright Brothers National Memorial',
+          'Parthenon',
+          'Abraham Lincoln Birthplace National Historical Park',
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Chihuly Garden and Glass',
+          'Natural Bridge Caverns',
+          'Milwaukee Art Museum',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Beaver State',
+          'First State/Diamond State',
+          'Land of Enchantment',
+          'Centennial State',
+          'Sunflower State/Jayhawker State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Indian Paintbrush', 'Goldenrod'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Over _____ Earthquakes Occur in California Each Year',
+          fillAnswer: '10,000',
+          fillAnswers: ['10,000', '40,000', '300,000', '400,000'],
+        },
+        uniqueId: 'p5qXkrXM',
+      },
     ],
     capital: 'Sacramento',
     flower: {
@@ -3514,12 +5179,13 @@ const whereTakenUSCurrent = [
     lat: 39.550051,
     long: -105.782067,
     cities: [
-      'Boulder',
       'Aurora',
-      'Denver',
       'Colorado Springs',
       'Aspen',
       'Fort Collins',
+      'Pueblo',
+      'Loveland',
+      'Denver',
     ],
     game: [
       {
@@ -4197,6 +5863,340 @@ const whereTakenUSCurrent = [
           'Penobscot Narrows Bridge and Observatory',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Colorado',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/scrubhiker/44024061721/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Colorado',
+        },
+        landmark: {
+          name: 'Cliff Palace',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/srikanth_jandy/8251808669/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cliff_Palace',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Aurora',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/Category:Radomes_at_Buckley_Space_Force_Base#/media/File:Pictorial_Radomes_(6866031).jpeg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Aurora,_Colorado',
+        },
+        landmarksRound: [
+          {
+            code: 'IA',
+            number: 1,
+          },
+          {
+            code: 'NC',
+            number: 8,
+          },
+          {
+            code: 'MA',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Holy Hill',
+          'Monument Rocks',
+          'Fort Christian',
+          'Arch Rock',
+          'Churchill Downs',
+          'Makoshika State Park',
+          "Santa's Village",
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Silver State/Sagebrush State',
+          'Magnolia State',
+          'Keystone State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: ['Scarlet Carnation', 'Peony', 'Camellia'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Coloradois classified as one of the Mountain states',
+          falseFact: 'About 6,500 types of plants thrive in Colorado.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'yFN8ZH4g',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Garden of the Gods',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ajschroetlin/22771095486/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Garden_of_the_Gods',
+        },
+        landmark: {
+          name: 'Hanging Lake',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/landerholm/4017568449/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hanging_Lake',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Pueblo',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:A_scene_from_the_Historic_Arkansas_Riverwalk,_a_32-acre_urban_waterfront_with_excursion_and_gondola_boat_rides,_food,_festivals,_and_entertainment_that_winds_through_downtown_Pueblo,_Colorado_LCCN2015632501.tif',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pueblo,_Colorado',
+        },
+        landmarksRound: [
+          {
+            code: 'KS',
+            number: 7,
+          },
+          {
+            code: 'NE',
+            number: 4,
+          },
+          {
+            code: 'NE',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Thunder Hole',
+          'Canyonlands National Park',
+          'Biggest ball of twine',
+          'Theodore Roosevelt National Park',
+          'Indiana Dunes National Park',
+          'Haystack Rock',
+          'USS Albacore',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Cotton State/Yellowhammer State',
+          'The Old Dominion/Mother of Presidents',
+          'Treasure State/Big Sky Country',
+          'America’s Paradise',
+          'Garden State',
+        ],
+        flowerOptions: [
+          'Wild Prairie Rose',
+          'Saguaro Cactus Blossom',
+          'Mayflower',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Colorado is bordered by Utah to the west.',
+          falseFact:
+            'Colorado was the last of the contiguous United States to be made a state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'kPfFwdR5',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Great Sand Dunes National Park and Preserve',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/satterwhiteb/15130888520/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Great_Sand_Dunes_National_Park_and_Preserve',
+        },
+        landmark: {
+          name: 'Crystal Mill',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:The_Crystal_Mill_2014.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Crystal_Mill',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Colorado Springs',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:USOPM-2023-01.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Colorado_Springs,_Colorado',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 1,
+          },
+          {
+            code: 'NY',
+            number: 7,
+          },
+          {
+            code: 'MN',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Delicate Arch',
+          'Haystack Rock',
+          'Oak Alley Plantation',
+          'Fort Christian',
+          'Windmill Island',
+          'City Market',
+          'The Parthenon',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Sooner State',
+          'Green Mountain State',
+          'Lone Star State',
+          'Wolverine State/Great Lake State',
+          'Ocean State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Flor De Maga',
+          'Rhododendron',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Colorado has the highest average elevation of any U.S. state. ',
+          falseFact:
+            'Three main Native American groups were traditionally located in the Colorado.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'WG8hZTfD',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Colorado',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/158652122@N02/29466637288/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Colorado',
+        },
+        landmark: {
+          name: 'Great Sand Dunes National Park and Preserve',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thelastminute/50064366668/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Great_Sand_Dunes_National_Park_and_Preserve',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Denver',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/142009399@N03/28897997385/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Denver',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 3,
+          },
+          {
+            code: 'NC',
+            number: 10,
+          },
+          {
+            code: 'IA',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Ocean City Boardwalk',
+          'Isle Royale',
+          'Old Idaho Penitentiary',
+          'Starved Rock State Park',
+          'Salvador Dalí Museum',
+          'Hanauma Bay',
+          'Temple Square',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Keystone State',
+          'Green Mountain State',
+          'Ocean State',
+          'Cotton State/Yellowhammer State',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Rose', 'Sego Lily', 'Iris'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: '“America the ______” was written about Pike’s Peak.',
+          fillAnswer: 'Beautiful',
+          fillAnswers: ['Beautiful', 'Great', 'Preaty', 'Biggest'],
+        },
+        uniqueId: 'rvSYpkky',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Fern Lake',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/scrubhiker/30732914277/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fern_Lake',
+        },
+        landmark: {
+          name: 'Chimney Rock',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ranok/50030310708/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chimney_Rock_(Colorado)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Loveland',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:The_Ginny_Lee,_Loveland_Ski_Area_2022-04-16.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Loveland,_Colorado',
+        },
+        landmarksRound: [
+          {
+            code: 'NM',
+            number: 2,
+          },
+          {
+            code: 'MT',
+            number: 1,
+          },
+          {
+            code: 'DE',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Cheaha Mountain',
+          'Thorncrown Chapel',
+          'Metropolitan Museum of Art',
+          'Amicalola Falls',
+          'Native Heritage Center',
+          'Hocking Hills State Park',
+          'Vermont State House',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Silver State/Sagebrush State',
+          'Magnolia State',
+          'Keystone State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: ['Scarlet Carnation', 'Peony', 'Camellia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Colorado holds ____% of the land area in the Continental U.S. ',
+          fillAnswer: '75',
+          fillAnswers: ['15', '75', '50', '85'],
+        },
+        uniqueId: 'PjsvLb8p',
+      },
     ],
     capital: 'Denver',
     flower: {
@@ -4215,12 +6215,12 @@ const whereTakenUSCurrent = [
     lat: 41.603221,
     long: -73.087749,
     cities: [
-      'New Haven',
-      'Hartford',
-      'Bridgeport',
       'Danbury',
-      'Stamford',
       'Norwalk',
+      'New Britain',
+      'Waterbury',
+      'Greenwich',
+      'New Haven',
     ],
     game: [
       {
@@ -4899,6 +6899,349 @@ const whereTakenUSCurrent = [
           'Rainbow Row',
           'Korean War Veterans Memorial',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Mansfield Hollow State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/142973818@N03/30165842303/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mansfield_Hollow_State_Park',
+        },
+        landmark: {
+          name: 'Glass House',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/diametrik/2933852728/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Glass_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Danbury',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/10542402@N06/49553819308/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Danbury,_Connecticut',
+        },
+        landmarksRound: [
+          {
+            code: 'ME',
+            number: 6,
+          },
+          {
+            code: 'SC',
+            number: 5,
+          },
+          {
+            code: 'GA',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Acadia National Park',
+          'The Keeper of the Plains',
+          'United States Holocaust Memorial Museum',
+          'Vulcan Statue',
+          'Red Rocks Amphitheatre',
+          'Cathedral Caverns State Park',
+          'Carlsbad Caverns National Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Beaver State',
+          'Beehive State',
+          'Hawkeye State/Corn State',
+          'The Last Frontier',
+          'Treasure State/Big Sky Country',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Saguaro Cactus Blossom',
+          'Peony',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The name Connecticut means “long tidal river.”',
+          falseFact:
+            'Connecticut’s Death Valley is North America’s hottest desert',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'p3gnCLJ6',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Connecticut',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/romanboed/36792466046/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Connecticut',
+        },
+        landmark: {
+          name: 'Chauncey Peak',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/romyspic/15509783315/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chauncey_Peak',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'New Britain',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/Category:Downtown_New_Britain#/media/File:Civil_War_memorial,_New_Britain,_Connecticut.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Britain,_Connecticut',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 1,
+          },
+          {
+            code: 'NH',
+            number: 3,
+          },
+          {
+            code: 'PA',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Cathedral Basilica',
+          'Elvis Presley Birthplace',
+          'Fort McHenry',
+          'Tryon Palace',
+          'Battleship Memorial Park',
+          'Santa Fe Plaza',
+          'National Corvette Museum',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'First State/Diamond State',
+          'Pine Tree State',
+          'Keystone State',
+          'Gem State',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: ['Peony', 'Cherokee Rose', 'Hawthorn'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The Connecticut region was populated long before the first Europeans arrived.',
+          falseFact:
+            'Connecticut is the home of wetsuits, barbie dolls, and fortune cookies',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'H9vMXQxH',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Connecticut',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/romanboed/36815048771/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Connecticut',
+        },
+        landmark: {
+          name: 'Colt Armory',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/184781347@N05/48841739717/in/photolist-2hpYFAD-ZsxS4C-s9cFfu-t6cHyP-zziuKw-rLNLRc-n5HzLi',
+          wikiLink: 'https://en.wikipedia.org/wiki/Colt_Armory',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Waterbury',
+          photographer: '',
+          imageLink: 'https://commons.wikimedia.org/wiki/File:Elton_Vase_3.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Waterbury,_Connecticut',
+        },
+        landmarksRound: [
+          {
+            code: 'TN',
+            number: 10,
+          },
+          {
+            code: 'WY',
+            number: 8,
+          },
+          {
+            code: 'NM',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Federal Hill Park',
+          'Sequoia National Park',
+          'Napoleon House',
+          'Garden of the Gods',
+          'Wynwood Walls',
+          'Castillo San Felipe Del Morro',
+          'Maquoketa Caves State Park',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'The Last Frontier',
+          'Ocean State',
+          'Keystone State',
+          'Granite State',
+          'Flickertail State/Sioux State',
+        ],
+        flowerOptions: [
+          'Scarlet Carnation',
+          'Colorado Blue Columbine',
+          'Hawaiian Hibiscus',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Connecticut created the very first written Constitution.',
+          falseFact:
+            'The mockingbird was adopted as the Connecticut state bird',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'fGClztdp',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Twin Brooks Park',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/julis_travel_log/15513796136/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Trumbull,_Connecticut',
+        },
+        landmark: {
+          name: 'Roseland Cottage',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/Category:Roseland_Cottage#/media/File:Roseland_Cottage,_Woodstock,_CT_2020.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Roseland_Cottage',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Greenwich',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/pasa/32016697583/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Greenwich,_Connecticut',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 11,
+          },
+          {
+            code: 'ID',
+            number: 7,
+          },
+          {
+            code: 'OR',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Little Rock Central High School',
+          'Kennedy Space Center',
+          'Pearl Harbor National Memorial',
+          'Old Cowtown Museum',
+          'Little Bighorn Battlefield',
+          'Great Platte River Road Archway Monument',
+          'St. Louis Cathedral',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Mountain State',
+          'Evergreen State/Chinhook State',
+          'The Mount Rushmore State',
+          "Badger State/America's Dairyland",
+          'Cornhusker State/Beef State',
+        ],
+        flowerOptions: [
+          'Forget-me-not',
+          'Wild Rose',
+          'Colorado Blue Columbine',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Connecticut is located in the _____ corner of the country.',
+          fillAnswer: 'Northeastern',
+          fillAnswers: ['Southern', 'Southeastern', 'Northeastern', 'Western'],
+        },
+        uniqueId: 'rfV25N55',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Connecticut',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/charles79/53730781720/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Connecticut',
+        },
+        landmark: {
+          name: 'Mystic Seaport Museum',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jaymac3/7415361542/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mystic_Seaport',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'New Haven',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/billy_wilson/52512886531/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Haven,_Connecticut',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 6,
+          },
+          {
+            code: 'MS',
+            number: 5,
+          },
+          {
+            code: 'NY',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          "Ben & Jerry's",
+          'Liberty Bell',
+          'High Line',
+          'Waterfront Park',
+          'Yellowstone National Park',
+          'Lake Tahoe',
+          'Grave Creek Mound',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Beaver State',
+          'Beehive State',
+          'Hawkeye State/Corn State',
+          'The Last Frontier',
+          'Treasure State/Big Sky Country',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Saguaro Cactus Blossom',
+          'Peony',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Prior to its settlement by Europeans, Connecticut was a _____ region.',
+          fillAnswer: 'forested',
+          fillAnswers: ['deserted', 'forested', 'mounained', 'farm-fieled'],
+        },
+        uniqueId: 'ZjTSKgf2',
       },
     ],
     capital: 'Hartford',
@@ -5611,6 +7954,340 @@ const whereTakenUSCurrent = [
           'Beckley Exhibition Coal Mine',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'National Mall',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-the-washington-monument-and-the-washington-monument-8ELAwY84WmI',
+          wikiLink: 'https://en.wikipedia.org/wiki/National_Mall',
+        },
+        landmark: {
+          name: 'Washington Monument',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-the-washington-monument-from-across-the-water-Cai3WQFHEGw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: '',
+          photographer: '',
+          imageLink: '',
+          wikiLink: '',
+        },
+        landmarksRound: [
+          {
+            code: 'RI',
+            number: 12,
+          },
+          {
+            code: 'UT',
+            number: 7,
+          },
+          {
+            code: 'RI',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Alcatraz Island',
+          'Monument Valley',
+          'Old Idaho State Penitentiary',
+          'Black Canyon of the Gunnison',
+          'Nebraska State Capitol',
+          'Copper King Mansion',
+          'Haystack Rock',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Buckeye State',
+          'Prairie State/Land of Lincoln',
+          'Keystone State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Sagebrush', 'Hawthorn', 'Bluebonnet'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Two American Presidents kept alligators at the White House.',
+          falseFact:
+            'An Washington D.C. cheese won the World’s Best Cheese Award',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'DlGgQRpL',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Washington D.C',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-skyline-under-blue-sky-during-daytime-JbrFSXjST7Q',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington,_D.C.',
+        },
+        landmark: {
+          name: 'United States Capitol',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-white-building-with-a-flag-on-top-of-it-HdPLii660I8',
+          wikiLink: 'https://en.wikipedia.org/wiki/United_States_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: '',
+          photographer: '',
+          imageLink: '',
+          wikiLink: '',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 11,
+          },
+          {
+            code: 'NE',
+            number: 1,
+          },
+          {
+            code: 'GA',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Mark Twain Boyhood Home',
+          'Little River Canyon National Preserve',
+          'Cape Krusenstern National Monument',
+          'Castillo de San Marcos',
+          'Chase County Courthouse',
+          'Texas State Capitol',
+          'Monument Valley',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Sunflower State/Jayhawker State',
+          'Lone Star State',
+          'North Star State/Gopher State',
+          'Centennial State',
+          'Equality State',
+        ],
+        flowerOptions: [
+          'Wood Violet',
+          "Pink And White Lady's Slipper",
+          'Oregon Grape',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Darth Vader adorns the National Cathedral.',
+          falseFact:
+            'Washington D.C. is the only state with a State Quilt: Pine Burr Quilt.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Pw7rzJ7g',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Chinatown',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-walking-on-sidewalk-near-brown-concrete-building-during-daytime-CH7W0beldfk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chinatown,_Washington,_D.C.',
+        },
+        landmark: {
+          name: 'Lincoln Memorial',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-statue-iLbhHfKzoSI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lincoln_Memorial',
+          hasLandmark: true,
+        },
+        city: {
+          name: '',
+          photographer: '',
+          imageLink: '',
+          wikiLink: '',
+        },
+        landmarksRound: [
+          {
+            code: 'SD',
+            number: 15,
+          },
+          {
+            code: 'NJ',
+            number: 15,
+          },
+          {
+            code: 'VI',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Haystack Rock',
+          'Carhenge',
+          'Cathedral Caverns',
+          'Glass House',
+          'Chimney Rock',
+          'Missouri Botanical Garden',
+          'Thunder Hole',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'America’s Paradise',
+          'The Last Frontier',
+          'Wolverine State/Great Lake State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: ['Flor De Maga', 'Goldenrod', 'Cherokee Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'All roads in the city lead to the Capitol Building.',
+          falseFact:
+            'Washington D.C has the lowest temperature recorded in the U.S.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'tdLjqxzJ',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Washington D.C',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-white-concrete-building-near-road-during-daytime-7jWQJ-tUUmI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington,_D.C.',
+        },
+        landmark: {
+          name: 'Washington National Cathedral',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/129001253@N04/24310198909/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Washington_National_Cathedral',
+          hasLandmark: true,
+        },
+        city: {
+          name: '',
+          photographer: '',
+          imageLink: '',
+          wikiLink: '',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 14,
+          },
+          {
+            code: 'NV',
+            number: 12,
+          },
+          {
+            code: 'TX',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Churchill Downs',
+          'Fort Smith National Historic Site',
+          'Split Rock Lighthouse',
+          'Rock City Gardens',
+          'The House on the Rock',
+          'Angel Oak',
+          'House of the Seven Gables',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Pine Tree State',
+          'Green Mountain State',
+          'Natural State',
+          'Centennial State',
+          'Magnolia State',
+        ],
+        flowerOptions: ['Rose', 'Wild Prairie Rose', 'Coast Rhododendron'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'There are  _____  bathrooms in the White House.',
+          fillAnswer: '35',
+          fillAnswers: ['35', '45', '15', '25'],
+        },
+        uniqueId: 'vDRYpkLv',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Washington D.C',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/us-capitol-hill-during-nighttime-L_U4jhwZ6hY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington,_D.C.',
+        },
+        landmark: {
+          name: 'Jefferson Memorial',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-concrete-building-near-body-of-water-BxFbRtZqenw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jefferson_Memorial',
+          hasLandmark: true,
+        },
+        city: {
+          name: '',
+          photographer: '',
+          imageLink: '',
+          wikiLink: '',
+        },
+        landmarksRound: [
+          {
+            code: 'WY',
+            number: 7,
+          },
+          {
+            code: 'FL',
+            number: 4,
+          },
+          {
+            code: 'SC',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Vulcan Park',
+          'Three Rivers',
+          'The Mammoth Site',
+          'The Alamo',
+          'Chaco Culture National Historical Park',
+          'Independence Hall',
+          'Klondike Gold Rush National Historic Park',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Buckeye State',
+          'Prairie State/Land of Lincoln',
+          'Keystone State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Sagebrush', 'Hawthorn', 'Bluebonnet'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The government ______ actually won’t be part of the state',
+          fillAnswer: 'buildings',
+          fillAnswers: ['buildings', 'lands', 'rivers', 'cars'],
+        },
+        uniqueId: '4WlCqL65',
+      },
     ],
     capital: 'None',
     flower: {
@@ -5629,14 +8306,13 @@ const whereTakenUSCurrent = [
     lat: 38.910832,
     long: -75.52767,
     cities: [
-      'Wilmington',
-      'Dover',
-      'Newark',
-      'Middletown',
       'Smyrna',
-      'Newport',
-      'Boston',
       'Owensboro',
+      'Lewes',
+      'Milford',
+      'New Castle',
+      'Dover',
+      'Wilmington',
     ],
     game: [
       {
@@ -6326,6 +9002,334 @@ const whereTakenUSCurrent = [
           'Thomas Edison National Historical Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Indian River Life-Saving Station',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/iip-photo-archive/50020170977/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Indian_River_Life-Saving_Station',
+        },
+        landmark: {
+          name: 'Fort Delaware State Park',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Pea_Patch_Island,_Sally_Port_Area.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Delaware_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Wilmington',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thartz00/10518153306/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wilmington,_Delaware',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 12,
+          },
+          {
+            code: 'AZ',
+            number: 8,
+          },
+          {
+            code: 'MI',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Old State House',
+          'Canyonlands National Park',
+          'Frederik Meijer Gardens & Sculpture Park',
+          'Lake Champlain',
+          'Biggest ball of twine',
+          'Biltmore',
+          'Louisville Water Tower',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Pine Tree State',
+          'Hawkeye State/Corn State',
+          'The Mount Rushmore State',
+          'Centennial State',
+          'Beehive State',
+        ],
+        flowerOptions: ['Hawthorn', 'Black-eyed Susan', 'Cherokee Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Delaware was the first state to ratify, or sign, the U.S.',
+          falseFact: 'Delaware generates solar and wind energy',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'y6DQRn9T',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Delaware',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/mmahaffie/14956705990/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Delaware',
+        },
+        landmark: {
+          name: 'Rehoboth Beach',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/taedc/31809368220/in/photolist-QsTjX7-QRAnPX-7sMiW9-HMeJRy-523vcW-ozt4tR-8TJ95Y-2nK6UQ6-Vkcs1P-ohYea2-R329eV-QNVfpN-2nKe5Rx-kT7mk-MtzXfQ-2jd5iJ2-GUBgrT-nVUEMj-GUB7pp-HpQNn7-5gGsvg-ae36wb-r97E7g-oBdugx-9qaee6-dAH5XP-6egc5T-2gr6vJH-6egcnz-vnFnNH-bWV52B-8TF4fM-2nKe5Gu-8TJ9iy-nVUXdJ-9qdg8A-6dURjs-9ZGtgQ-HVb6Xk-HQgTUk-JGH6Cg-6TvB9k-LKUTCX-6q6Dnp-GUrJXL-qCKbC9-nVV1RB-9qaekM-2ketF7Y-ohY76y',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rehoboth_Beach,_Delaware',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Lewes',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jjmusgrove/50424425897/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lewes,_Delaware',
+        },
+        landmarksRound: [
+          {
+            code: 'KS',
+            number: 7,
+          },
+          {
+            code: 'DC',
+            number: 4,
+          },
+          {
+            code: 'NH',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Luray Caverns',
+          'Mark Twain House',
+          'Carlsbad Caverns',
+          'Paw Paw Tunnel',
+          'Astoria Column',
+          'Cathedral Basilica',
+          'Cass Scenic Railroad State Park',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'Palmetto State',
+          'Sunshine State',
+          'The Last Frontier',
+          'Pelican State/Creole State/Sugar State',
+        ],
+        flowerOptions: [
+          'Sunflower',
+          'American Beauty Rose',
+          'Yellow Jessamine',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Delaware’s largest hospital is located in Newark',
+          falseFact:
+            'More movies have been filmed in Delaware than any other state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '3N6vBSxV',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Delaware',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dorseymw/30150789085/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Delaware',
+        },
+        landmark: {
+          name: 'Nemours Estate',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/chameleoninc/52246638159/in/photolist-2nARFhc-2mRtomw-2nzrAKr-2mRsaz5-2oTHoYe-2mRqtp1-2mf55G6-2mRtAz4-2p4MKNV-2pLRRRo-JLFtRM-2nUG8eS-JLFvkD-KxKe1q-2mRtxqi-2mRtzLa-2p4MjbM-TdVRv9-2p4MeQY-2p4NncM-2nzqvCd-2nzp9Lu-2mRp9v4-2p4KLZi-2mRqfXT-2mRqfdw-2mRq9nd-KAfeBz-2mRqh71-2kQsojA-2p4FgdJ-2mRqi9X-2mRsjfm-2mRsmzm-2nUJo4z-2mRshrg-apoQBR-2mRttCd-2mRjLrJ-2mRqaSN-2mRoZqk-2mRtt11-2mRp1wi-2p4Fg6Q-2mRjLYW-2mRsaNg-2mRoXvo-2mRp1os-2mRjRrJ-2mRq8CY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nemours_Estate',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dover',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/risingthermals/50170818748/in/photolist-2jrqyum-5vRNpc-2oeRGN7-2oeUYEW-2o2cXwt-2of3Zvh-2oeRk59-7gz42e-9Thnf3-nYBLpc-2khzJvE-R7mL98-J1Jc1b-nYvkAy-2j4ct87-2of2voe-2ki9tML-2ki9ZNd-nYvt7f-2oeZszo-SYQpWb-2khAdat-2khvY7T-2khzHWt-2khAd41-2khAdaU-eDexf8-82F9uL-2khvXWc-2khvXWN-dYjHUv-2khzJ1r-2khvXW2-2khzHCY-2khvYhs-eDeonk-2khvXS4-82BZzg-2khAcTr-2khzHJ9-9TezzP-2khvY8u-2khAcZ8-2jrtm1W-2khvXM4-2of2wPF-82BZvM-82BZEi-82F9yo-2khvXX4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dover,_Delaware',
+        },
+        landmarksRound: [
+          {
+            code: 'ND',
+            number: 7,
+          },
+          {
+            code: 'LA',
+            number: 1,
+          },
+          {
+            code: 'CO',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Chimney Rock',
+          'Mill City Museum',
+          'Church Street Marketplace',
+          'Grand Canyon National Park',
+          'Craters of the Moon',
+          'San Xavier del Bac Mission',
+          'Forsynth Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Nutmeg State/Constitution State',
+          'Peace State/Empire State of the South',
+          'Island of Enchantment',
+          'Silver State/Sagebrush State',
+          'Buckeye State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Red Clover', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Two major museums are located in the outskirts of Delaware.',
+          falseFact: 'The state has more people than Canada',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Gw4CyLQz',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Indian River Inlet Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/aparlette/52420505782/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indian_River_Inlet_Bridge',
+        },
+        landmark: {
+          name: 'Delaware Memorial Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kevinorfield/3038751765/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Delaware_Memorial_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Milford',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/eridony/52303843348/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Milford,_Delaware',
+        },
+        landmarksRound: [
+          {
+            code: 'DC',
+            number: 2,
+          },
+          {
+            code: 'CA',
+            number: 15,
+          },
+          {
+            code: 'PR',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Diamond Head',
+          'Trans-Allegheny Lunatic Asylum',
+          'Fort Smith National Historic Site',
+          'Glacier Bay National Park and Preserve',
+          'Blanchard Springs Cavern',
+          'Taliesin East',
+          'Mount Hood',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Beaver State',
+          'Grand Canyon State',
+          'Volunteer State',
+          'Gem State',
+          'Green Mountain State',
+        ],
+        flowerOptions: ['Magnolia', 'Bitterroot', 'Pasque Flower'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Over the years Delaware has been called the _____ capital',
+          fillAnswer: 'chemical',
+          fillAnswers: ['financial', 'actors', 'chemical', 'copper'],
+        },
+        uniqueId: 'f6CbVFj2',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Delaware',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/aparlette/53406236005/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Delaware',
+        },
+        landmark: {
+          name: 'Brandywine Creek State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/robslippey/23725599055/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Brandywine_Creek_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'New Castle',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/pmillera4/51981766172/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Castle,_Delaware',
+        },
+        landmarksRound: [
+          {
+            code: 'WI',
+            number: 8,
+          },
+          {
+            code: 'WV',
+            number: 7,
+          },
+          {
+            code: 'NC',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Milwaukee Art Museum',
+          'Taliesin West',
+          'Starved Rock State Park',
+          'Makoshika State Park',
+          'Mall of America',
+          'Strataca',
+          'Great Falls',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Pine Tree State',
+          'Hawkeye State/Corn State',
+          'The Mount Rushmore State',
+          'Centennial State',
+          'Beehive State',
+        ],
+        flowerOptions: ['Hawthorn', 'Black-eyed Susan', 'Cherokee Rose'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'The current constitution of Delaware, its _____',
+          fillAnswer: 'fourth',
+          fillAnswers: ['fourth', 'first', 'second', 'third'],
+        },
+        uniqueId: 'KJzxgmVW',
+      },
     ],
     capital: 'Dover',
     flower: {
@@ -6345,11 +9349,12 @@ const whereTakenUSCurrent = [
     long: -81.515754,
     cities: [
       'Tallahassee',
-      'Tampa',
+      'Jacksonville',
+      'St. Petersburg',
+      'Cape Coral',
+      'Naples',
       'Miami',
       'Orlando',
-      'Jacksonville',
-      'San Juan',
     ],
     game: [
       {
@@ -7031,6 +10036,331 @@ const whereTakenUSCurrent = [
           'Virgin Islands National Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Florida',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/fotograzio/39702300935/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Florida',
+        },
+        landmark: {
+          name: 'Bok Tower Gardens',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/justenoughfocus/43869831945/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bok_Tower_Gardens',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'St. Petersburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/visitflorida/16307397628/',
+          wikiLink: 'https://en.wikipedia.org/wiki/St._Petersburg,_Florida',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 6,
+          },
+          {
+            code: 'KY',
+            number: 1,
+          },
+          {
+            code: 'NY',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Museum of the Rockies',
+          'Pico El Yunque',
+          'Seven Magic Mountains',
+          'Molly Brown House',
+          'Golden Gate Bridge',
+          'James J. Hill House',
+          'Baltimore Basilica',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Wolverine State/Great Lake State',
+          'Aloha State',
+          'Prairie State/Land of Lincoln',
+          'Show Me State',
+        ],
+        flowerOptions: ['Coast Rhododendron', 'Oklahoma Rose', 'Magnolia'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Florida is widely known for its hot weather, sunny days and very mild winters.',
+          falseFact: 'Florida has more than 100 volcanoes and volcanic fields.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'PFQ7fPQX',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Big Cypress National Preserve',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/justenoughfocus/41108292740/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Big_Cypress_National_Preserve',
+        },
+        landmark: {
+          name: 'Bonnet House',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Bonnet_House_Museum_%26_Gardens_(Fort_Lauderdale,_Florida)_002.jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bonnet_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cape Coral',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/139148982@N02/51125332155/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cape_Coral,_Florida',
+        },
+        landmarksRound: [
+          {
+            code: 'TX',
+            number: 4,
+          },
+          {
+            code: 'AR',
+            number: 7,
+          },
+          {
+            code: 'NH',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Grand Staircase–Escalante National Monument',
+          'Fort Frederick',
+          'Taliesin West',
+          'Griffith Observatory',
+          'Theodore Roosevelt National Park',
+          'Rocky Statue',
+          'Buffalo Bill Ranch',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Show Me State',
+          'Land of Enchantment',
+          'Treasure State/Big Sky Country',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: ['Rose', 'Indian Paintbrush', 'Flor De Maga'],
+        facts: {
+          trueFalse: true,
+          trueFact: "Florida's nickname is The Sunshine State",
+          falseFact: 'Florida na leads the nation in copper production.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'FPsrD2D3',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Jungle Prada Site',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/29787167@N02/51209576533/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jungle_Prada_Site',
+        },
+        landmark: {
+          name: 'Seven Mile Bridge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/prayitnophotography/53386650261/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Seven_Mile_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Naples',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/132033298@N04/37899818341/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Naples,_Florida',
+        },
+        landmarksRound: [
+          {
+            code: 'NE',
+            number: 8,
+          },
+          {
+            code: 'OK',
+            number: 8,
+          },
+          {
+            code: 'LA',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'The Hermitage',
+          'Chimney Rock',
+          'Beckley Exhibition Coal Mine',
+          'Golden Driller',
+          'Independence National Historical Park',
+          'Cloud Gate',
+          'Museum of the Rockies',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Hawkeye State/Corn State',
+          'Equality State',
+          'Pine Tree State',
+          'Natural State',
+        ],
+        flowerOptions: ['Wood Violet', 'Peach Blossom', 'Rhododendron'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Stephen C. Foster, one of America\'s Best-loved musical storytellers, wrote "The Suwannee River (Old Folks at Home)" in 1851',
+          falseFact: 'Florida means “The Great Land”',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'hl2Qfy3y',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Florida',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jimpic/47952436303/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Florida',
+        },
+        landmark: {
+          name: 'Ichetucknee Springs State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/lukejolly/52440830090/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Ichetucknee_Springs_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Orlando',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/calmircd/7211873696/in/album-72157629761584544/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Orlando,_Florida',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 7,
+          },
+          {
+            code: 'SC',
+            number: 2,
+          },
+          {
+            code: 'NV',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'USS Cairo',
+          'International Tennis Hall of Fame',
+          'San Xavier del Bac Mission',
+          'Sandia Peak Tramway',
+          'Birmingham Botanical Gardens, Alabama',
+          'Philbrook Museum of Art',
+          'Pico El Yunque',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Cotton State/Yellowhammer State',
+          'Peace State/Empire State of the South',
+          'Nutmeg State/Constitution State',
+          'Sooner State',
+          'Natural State',
+        ],
+        flowerOptions: ['Wild Rose', 'American Beauty Rose', 'Magnolia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Approximately _____ people move to Florida each day',
+          fillAnswer: '1000',
+          fillAnswers: ['100', '1000', '500', '10000'],
+        },
+        uniqueId: 'Hb4szJvJ',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Florida',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/rosyfinch/26432960568/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Florida',
+        },
+        landmark: {
+          name: 'Fort Pickens',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/stuartonline/15382408414/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Pickens',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Miami',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/lospromillosontour/39559611855/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Miami',
+        },
+        landmarksRound: [
+          {
+            code: 'PR',
+            number: 6,
+          },
+          {
+            code: 'CT',
+            number: 2,
+          },
+          {
+            code: 'AZ',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Dover Motor Speedway',
+          'Forsynth Park',
+          'Rehoboth Beach',
+          'Petrified Forest',
+          'Pittock Mansion',
+          'Hearst Castle',
+          'Grave Creek Mound',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Wolverine State/Great Lake State',
+          'Aloha State',
+          'Prairie State/Land of Lincoln',
+          'Show Me State',
+        ],
+        flowerOptions: ['Coast Rhododendron', 'Oklahoma Rose', 'Magnolia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Florida’s official state flag, adopted in _____',
+          fillAnswer: '1900',
+          fillAnswers: ['1900', '1888', '1901', '1910'],
+        },
+        uniqueId: 'mqk9jBXt',
+      },
     ],
     capital: 'Tallahassee',
     flower: {
@@ -7048,7 +10378,14 @@ const whereTakenUSCurrent = [
     code: 'GA',
     lat: 32.157435,
     long: -82.907123,
-    cities: ['Savannah', 'Atlanta', 'Columbus', 'Augusta', 'Athens', 'Macon'],
+    cities: [
+      'Columbus',
+      'Athens',
+      'Sandy Springs',
+      'Roswell',
+      'Atlanta',
+      'Augusta',
+    ],
     game: [
       {
         number: 1,
@@ -7749,6 +11086,346 @@ const whereTakenUSCurrent = [
           'Hoover Dam',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Providence Canyon',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/129323311@N03/53670910112/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Providence_Canyon_State_Park',
+        },
+        landmark: {
+          name: 'Forsyth Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/off-the-road/52957771228/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Forsyth_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Columbus',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/vwcampin/43918945584/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Columbus,_Georgia',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 2,
+          },
+          {
+            code: 'WY',
+            number: 3,
+          },
+          {
+            code: 'OR',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Havasu Falls',
+          'Battleship Memorial Park',
+          'Cathedral Caverns State Park',
+          'Craters of the Moon',
+          'Flume Gorge',
+          'USS Albacore',
+          'North Dakota Heritage Center',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Garden State',
+          'Tar Heel State',
+          'Keystone State',
+          'Wolverine State/Great Lake State',
+        ],
+        flowerOptions: [
+          'Hawthorn',
+          'American Beauty Rose',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Georgians love to host a guest',
+          falseFact:
+            'Waves that reach over 50 feet high attract surfers to the state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'fz2jYZLp',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Okefenokee Swamp Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/tjc/13893601665/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Okefenokee_Swamp_Park',
+        },
+        landmark: {
+          name: 'Georgia Guidestones',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/chrisloon/4121229204/in/photolist-7hbnRW-41xuGd-b2Tbpt-6kytX5-9JwLjj-8oEGHV-5bqWWm-5TweY-5bqJ1w-5bmjgv-5bqGpY-5bqTB9-5TwdR-5bqBXC-Gu1V3K-62uTvL-6ZHE1j-6ZDH38-6ZDzFD-6ZDERp-6ZDHH4-6ZDFn6-5Twbf-6ZDGua-6ZHzh3-6ZHBgU-6ZDJKM-6ZHJRC-6ZDEjH-6ZHzSQ-6ZHGts-6ZDBvz-6ZHDr7-5Tw5R-7WDkZ9-2iDgFEq-8dZa4V-8e3pXy-8dZ9XV-8dZa68-8e3q3S-8dZa5H-8dZ9Zx-8e3q1u-8e3pYq-8dZa8H-8e3pZQ-8e3q9f-8dZaae-8e3qdo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Georgia_Guidestones',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sandy Springs',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/atlnature/26756139259/in/photolist-FpDsAi-2noEV2J-23GG5D4-Z6wZsq-Y63vUb-Y9zm24-Y63vyw-7ggoTv-Y9zmiM-2noNM2x-Gu8Hjv-7gkm6b-Z7XMBb-2noMqZj-Gu8JL8-24dj9Jb-Y9D7DV-ZaMcpp-Y9zm9t-7ggpEc-YLSXCG-Z6tbGs-4bhKxJ-2noMrkE-GokDNn-23GFsvn-24FiuR6-23GFuen-21E7fpj-avUhXA-21BZgD3-GW1qy3-ZBEMbJ-21GVoti-8jASUS-FpCZyH-24ZYsDG-23Z1ny3-TGgALR-GW1KUY-22iNhXS-GokEZR-8jAXsw-8jAVcA-254L7Xr-8jxHWB-8jxEUa-GLmggM-8jxJk2-GLmd2R',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sandy_Springs,_Georgia',
+        },
+        landmarksRound: [
+          {
+            code: 'TN',
+            number: 7,
+          },
+          {
+            code: 'CO',
+            number: 3,
+          },
+          {
+            code: 'HI',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Griswold',
+          'Oolah Valley',
+          'Space Needle',
+          'Charles E. Conrad Mansion Museum',
+          'Molly Brown House',
+          'Bunker Hill Monument',
+          'North Dakota Heritage Center',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Lone Star State',
+          'Green Mountain State',
+          'The District',
+          'Keystone State',
+          'Volunteer State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Scarlet Carnation',
+          'Mountain Laurel',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'There are 12 different climate zones in Georgia',
+          falseFact:
+            'Georgia’s natural landscape ranges from the flat grass-covered eastern plains—the High Plains of the Great Plains',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'c9mWVgM4',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Toccoa River',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ugardener/2991575160/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Toccoa/Ocoee_River',
+        },
+        landmark: {
+          name: 'Radium Springs',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ellejayedee/22447165731/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Radium_Springs,_Georgia',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Roswell',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/sypsyn/32305676774/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Roswell,_Georgia',
+        },
+        landmarksRound: [
+          {
+            code: 'DC',
+            number: 2,
+          },
+          {
+            code: 'AR',
+            number: 7,
+          },
+          {
+            code: 'VI',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Indianapolis Catacombs',
+          'Fort Delaware',
+          'Clinton Presidential Center',
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Vulcan Statue',
+          'Scheels Arena',
+          'Lincoln Boyhood National Memorial',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Pelican State/Creole State/Sugar State',
+          'Aloha State',
+          'Magnolia State',
+          'The Last Frontier',
+          'Mountain State',
+        ],
+        flowerOptions: ['Rose', 'Sego Lily', 'Goldenrod'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Georgia has its own unique language',
+          falseFact:
+            'The Georgia`s Capitol building’s roof is made up of enough copper to make 4.8 million pennies.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'MQqYnZt2',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Chattooga River',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jeffgmoore/6949191126/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chattooga_River',
+        },
+        landmark: {
+          name: 'Tallulah Gorge State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/rain0975/22814713938/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Tallulah_Gorge_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Atlanta',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/javajoba/37571661761/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Atlanta',
+        },
+        landmarksRound: [
+          {
+            code: 'HI',
+            number: 5,
+          },
+          {
+            code: 'OH',
+            number: 3,
+          },
+          {
+            code: 'PA',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Annaberg Sugar Plantation',
+          'Abraham Lincoln Birthplace National Historical Park',
+          'Vulcan Statue',
+          'Gateway Arch',
+          'Washington National Cathedral',
+          'Charging Bull',
+          'Ichetucknee Springs State Park',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Bay State/Old Colony State',
+          'North Star State/Gopher State',
+          'Buckeye State',
+          'Prairie State/Land of Lincoln',
+          'Pine Tree State',
+        ],
+        flowerOptions: [
+          'Indian Paintbrush',
+          'Hawaiian Hibiscus',
+          'Flowering Dogwood',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Georgia is a _____ U.S.',
+          fillAnswer: 'southeastern',
+          fillAnswers: ['eastern', 'southern', 'southeastern', 'northern'],
+        },
+        uniqueId: 'F5LCTQLD',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Georgia',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/billy_wilson/52542412769/in/album-72177720304188353/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Georgia_(U.S._state)',
+        },
+        landmark: {
+          name: 'Watson Mill Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/robertlz/14329473781/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Watson_Mill_Bridge_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Augusta',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/sirmildredpierce/60857352/in/photolist-6nULG-MiZnr8-2mrpWkX-5W5TCq-fgz8Mp-cmbeMj-si3A3a-r6hfXr-rYHw72-rYHv2B-5W8Lim-shTtty-28j4kVN-5VY23H-sfKqAm-2ngVxFP-shZMkH-2j1k6Zc-rmePsx-s1tizh-cmbfFy-5W3kJu-shTvjs-amkpZ9-2jsHYSK-2jsLLbe-2jsHYMQ-5rR2oc-s1sdNo-2jsHYLc-5rR22M-cmbhum-s1sdT3-sfKqyY-cmbdMC-2m3fWTa-4WxNyL-5rVnWy-shTu39-sfKoNU-shZMuR-5cYTmH-28j4maL-rYHwz6-amkpvE-s1tis3-5yQPqg-rKvrUj-5rR28n-s1ticy',
+          wikiLink: 'https://en.wikipedia.org/wiki/Augusta,_Georgia',
+        },
+        landmarksRound: [
+          {
+            code: 'WA',
+            number: 9,
+          },
+          {
+            code: 'WV',
+            number: 6,
+          },
+          {
+            code: 'OH',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Cape Henlopen State Park',
+          'Magnolia Plantation and Gardens',
+          'Avalanche Lake',
+          'Missouri Botanical Garden',
+          'Myriad Botanical Gardens',
+          'Hagley Museum and Library',
+          'Fenwick Island Lighthouse',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Garden State',
+          'Tar Heel State',
+          'Keystone State',
+          'Wolverine State/Great Lake State',
+        ],
+        flowerOptions: [
+          'Hawthorn',
+          'American Beauty Rose',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Georgia was home to the first _____',
+          fillAnswer: 'Europeans',
+          fillAnswers: ['Americans', 'Afro-Americans', 'Europeans', 'Asians'],
+        },
+        uniqueId: 'MFNJqmNP',
+      },
     ],
     capital: 'Atlanta',
     flower: {
@@ -7766,14 +11443,13 @@ const whereTakenUSCurrent = [
     lat: 19.898682,
     long: -155.665857,
     cities: [
-      'Hilo',
-      'Hawi',
       'Honolulu',
-      'Kahului',
-      'Lahaina',
       'Kailua',
       'Kaneohe',
       'Waipahu',
+      'Kihei',
+      'Wailuku',
+      'Hilo',
     ],
     game: [
       {
@@ -8437,6 +12113,341 @@ const whereTakenUSCurrent = [
           'Jamestown, Virginia',
           'National Corvette Museum',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Punchbowl Crater',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/warrenlemay/52144644791/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Punchbowl_Crater',
+        },
+        landmark: {
+          name: 'Dole Plantation',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/gocardusa/3753439312/',
+          wikiLink:
+            "https://en.wikipedia.org/wiki/Waipahu,_Hawaii#Hawaii's_Plantation_Village",
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Honolulu',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/warrenlemay/52099672096/in/photolist-2nnSroy-2ntxUe9-244hTo5-2nrwonr-2nqzkv4-EjHsPq-2ntsDCB-2nytK6Z-2nzpncg-2nyPENo-2nhv1J1-2nzrFUu-fuswpv-2nzqyRs-2nB2qvE-2nA8JXS-2nA8R4p-2chZc5q-2nunZn5-2nyMgxn-2nqzdxK-2oc4ULA-2pmSr5x-2nrwotU-2nrwdYz-2nzph3S-2ntsQNn-vRifos-2q4YyK1-26xTexu-2ntxUkZ-2ouHpSE-2ntz7DA-jK1a6E-2nuuuYK-pWxxGP-2nCMHdc-2nDcwfe-zcTifT-2nzph4F-pPmfrX-pnczuF-2nrxrA4-2mTwP8j-2nuuwME-2nAYTpb-2nLpvXb-2nCFiqn-2nyNyf4-2p1NBnY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Honolulu',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 4,
+          },
+          {
+            code: 'MD',
+            number: 8,
+          },
+          {
+            code: 'WI',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Timberline Lodge',
+          'Devils Tower',
+          'Walters Art Museum',
+          'Mississippi Petrified Forest',
+          "Devil's Tower National Monument",
+          'Mendenhall Glacier',
+          'Astoria Column',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Sunflower State/Jayhawker State',
+          'Ocean State',
+          'Natural State',
+          'Lone Star State',
+          'Hoosier State',
+        ],
+        flowerOptions: ['Rhododendron', 'Wild Prairie Rose', 'Yellow Elder'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'About 1,500 years ago a group of canoes came ashore to some of the islands now known as Hawaii.',
+          falseFact:
+            'In Hawaii’s early days, there was a great amount of political freedom and independence.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'S6QNJwgf',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Hawaii',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/145872631@N04/31243951766/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hawaii',
+        },
+        landmark: {
+          name: 'National Memorial Cemetery of the Pacific',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/usabmc/51951734766/in/album-72177720297505877/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/National_Memorial_Cemetery_of_the_Pacific',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Hilo',
+          photographer: '',
+          imageLink:
+            'https://commons.wikimedia.org/wiki/File:Christmas_at_Lili%CA%BBuokalani_Gardens_(Christmas-in-the-Park-at-Lili-uokalani-Gardens).jpg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hilo,_Hawaii',
+        },
+        landmarksRound: [
+          {
+            code: 'NE',
+            number: 1,
+          },
+          {
+            code: 'AR',
+            number: 9,
+          },
+          {
+            code: 'CA',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Petrified Forest',
+          'Acadia National Park',
+          'Red River Gorge',
+          'Bourbon Street',
+          'Georgia Aquarium',
+          'Myrtle Beach',
+          'Mount Vernon',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Granite State',
+          'Pelican State/Creole State/Sugar State',
+          'Grand Canyon State',
+          'Centennial State',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Yellow Jessamine',
+          'Yellow Elder',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Hawaii may have been named for Hawai’i Loa',
+          falseFact:
+            'here’s a good chance that piece of fruit you’re eating was grown in Hawaii .',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'vxhqYZDh',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Hawaii',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/adamreeder/48791707782/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hawaii',
+        },
+        landmark: {
+          name: 'Haleakalā National Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thomashawk/51975793911/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Haleakal%C4%81_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Kihei',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/al_bowler/13329576764/in/photostream/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kihei,_Hawaii',
+        },
+        landmarksRound: [
+          {
+            code: 'KS',
+            number: 2,
+          },
+          {
+            code: 'AR',
+            number: 6,
+          },
+          {
+            code: 'UT',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          "Ford's Theatre",
+          'Carlsbad Caverns',
+          'Dover Motor Speedway',
+          'Old Mississippi State Capitol',
+          'Hot Springs National Park',
+          'Oriole Park',
+          'Chimney Rock',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Cornhusker State/Beef State',
+          'North Star State/Gopher State',
+          'Centennial State',
+          'Sunshine State',
+          'Hoosier State',
+        ],
+        flowerOptions: ['Mock Orange', 'Wood Violet', 'Saguaro Cactus Blossom'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Though Hawaii has thousands of plants and animals',
+          falseFact:
+            'The immigration of the Irish, beginning in the 1840s, and of French Canadians after the American Civil War, continued throughout the 19th century in Hawii.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '4fQwNsKp',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Hawaii',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/60199688@N08/39841900711/in/album-72157691780158574/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hawaii',
+        },
+        landmark: {
+          name: 'Waimea Canyon State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/djmccrady/52560396744/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Waimea_Canyon_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Kailua',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/gageskidmore/51873237655/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kailua,_Hawaii',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 2,
+          },
+          {
+            code: 'MS',
+            number: 9,
+          },
+          {
+            code: 'NY',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Union Trading Post',
+          'Salvador Dalí Museum',
+          'Minneapolis Sculpture Garden',
+          'Little Rock Central High School',
+          'Cloud Gate',
+          'Great Platte River Road Archway Monument',
+          'Christiansted National Historic Site',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Granite State',
+          'Nutmeg State/Constitution State',
+          'Palmetto State',
+          'The Old Dominion/Mother of Presidents',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Mock Orange', 'Oklahoma Rose', 'Sego Lily'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            '_____ is the largest city and state capital of Hawaii.',
+          fillAnswer: 'Honolulu',
+          fillAnswers: ['Honolulu', 'Hilo', 'Kailua', 'Las Vegas'],
+        },
+        uniqueId: 'P3cPLJSj',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Hawaii',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/usgeologicalsurvey/14082973813/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hawaii',
+        },
+        landmark: {
+          name: 'Seven Sacred Pools',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cluefree/2447760196/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pools_of_%CA%BBOhe%CA%BBo',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Wailuku',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jimpic/39389674875/in/photolist-21C6TuU-EHUGrV-21C6PS3-24o2Kue-2mUAisq-24j4dhA-24j4bBS-23ib6s5-23ib6YA-24j4cYQ-23ibf29-EHUBhM-asVbcA-21C6Tkf-EHUBHr-EHUFNF-24j4br1-231Jo2r-2kzVrTS-2mUtxFc-28Pyw91-2btin83-2kAyWLx-2kAyWUD-2kBqmwa-bz2bnX-bm7gmb-23ib81q-Gfaeh7-GfajCh-21C6JVj-23ib5mN-GfahLS-21C6Kzf-EHUC8K-EHUAsF-GfadYS-GfamQU-Gfaig9-2mUtyou-E75ywR-bm7mX5-oDVATS-fDe29v-u3ifCZ-bz2f2v-bz2dEp-bz2cNR-4h7rwk-bm7kAh/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wailuku,_Hawaii',
+        },
+        landmarksRound: [
+          {
+            code: 'MD',
+            number: 6,
+          },
+          {
+            code: 'AR',
+            number: 11,
+          },
+          {
+            code: 'WV',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Delaware State Park',
+          'Manitou Cliff Dwellings',
+          'Rockwood Museum and Park',
+          "Santa's Village",
+          'Minneapolis Institute of Art',
+          'Elvis Presley Birthplace',
+          'Blanchard Springs Caverns',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Sunflower State/Jayhawker State',
+          'Ocean State',
+          'Natural State',
+          'Lone Star State',
+          'Hoosier State',
+        ],
+        flowerOptions: ['Rhododendron', 'Wild Prairie Rose', 'Yellow Elder'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Hawaii designated surfing as the official state individual sport in _____',
+          fillAnswer: '1998',
+          fillAnswers: ['1998', '1997', '1956', '1984'],
+        },
+        uniqueId: 'KV6dV6Kq',
       },
     ],
     capital: 'Honolulu',
@@ -9141,6 +13152,342 @@ const whereTakenUSCurrent = [
           'Craters of the Moon National Monument and Preserve',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Iowa',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-gray-building-on-brown-sand-mb6ebLm2GH4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa',
+        },
+        landmark: {
+          name: 'Roseman Covered Bridge',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-red-boat-sitting-on-top-of-a-snow-covered-field-luC8PB_egPg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Roseman_Covered_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Des Moines',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-city-at-sunset-AhiI9Cu3c-M',
+          wikiLink: 'https://en.wikipedia.org/wiki/Des_Moines,_Iowa',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 4,
+          },
+          {
+            code: 'OK',
+            number: 5,
+          },
+          {
+            code: 'TN',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Diamond Head',
+          'Franconia Notch State Park',
+          'Clinton Presidential Center',
+          'Little River Canyon National Preserve',
+          'Ravenel Bridge',
+          'Battleship North Carolina',
+          'Red Rock Canyon National Conservation Area',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Prairie State/Land of Lincoln',
+          'Treasure State/Big Sky Country',
+          'Granite State',
+          'Ocean State',
+          'Aloha State',
+        ],
+        flowerOptions: ['Rose', 'American Dogwood', 'Magnolia'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The word "Iowa" comes form the American Indian tribe of the same name. \n        ',
+          falseFact: "Iowa's sales tax rate is 50%.",
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'hHGR5gQZ',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Iowa',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-field-under-white-clouds-during-daytime-6lBO0Y6276Y',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa',
+        },
+        landmark: {
+          name: 'Brucemore',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/nathan_alderman/4962193366/in/photolist-8yuxd3-enShN-7UfMRi-6tNApa-6zLgxt-57JMCP-7DmKHu-5uYm7h-7Zs35u-8zrHV5-7CMRZc-8yuycC-6Y3YpC-8q8Bqj-614pyc-acFYV8-7UTkr5-ark8y1-6YSJgQ-56cFPh-5qhqDM-81UZrp-9L11Q3-2o3LAb-78WxTT-6pbSXt-d5sH3S-8DdMbi-5uyaPj-7aPmxw-6x5S4N-58Bf18-8BjuEK-7Zs4gN-75cy9R-9JZ1Nm-5uvGu1-8Bxcs3-9XWZLe-6ws4vY-pkQg1t-85GPqp-79Fz8u-4pE6m-cuKpY7-a3wi5W-5rV6XY-747Um1-d5sGHN-8Ux7rS',
+          wikiLink: 'https://en.wikipedia.org/wiki/Brucemore',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dubuque',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/concrete-mixer-truck-on-road-beside-building--UGWA7ETrSY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dubuque,_Iowa',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 7,
+          },
+          {
+            code: 'RI',
+            number: 3,
+          },
+          {
+            code: 'GA',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Chimney Rock',
+          'Watson Mill Bridge',
+          'City Market',
+          'Cass Scenic Railroad State Park',
+          'Gillette Castle',
+          'Sixth Floor Museum at Dealey Plaza',
+          'Old Trail Town',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Sooner State',
+          'Granite State',
+          'Pelican State/Creole State/Sugar State',
+          'Beaver State',
+          'Centennial State',
+        ],
+        flowerOptions: [
+          'Mayflower',
+          'Pasque Flower',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The capital of Iowa is Des Moines.',
+          falseFact: 'Iowa ranks 5th in population area.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'X3cCMVc3',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Iowa',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-group-of-buildings-with-a-clock-tower-in-the-background-gKN0Ds5JTDg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa',
+        },
+        landmark: {
+          name: 'Salisbury House',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jdhunt/9102883489/in/photolist-eSoE84-BFfm5-78UEwU-cGSCpo-cGSDcW-5aZTDo-2peuJHb-cGSCZb-d9YiAJ-d7qgqu-d9P6V7-d9wme9-aaTAzi-d4jQ6U-qN4nRX-d9wga1-d9Yg3D-7iMZ8h-qMUct6-bBD7YU-ou5hJq-oeBAHm-ow7ctP-bBD7kj-8JMGrh-8JN5kS-bQxQR2-8JMDDQ-8JMPsJ-8JNdWm-8JMMvq-8JPFaP-jVXKAD-5C7iAG-8JPPX8-bQxR5r-24odRJ-8JLXn7-8JMQNS-bBD9Jq-bBD5Mw-8JJZzT-bQxNwz-bBD9j3-8JSJuE-2pevkqi-bBD79u-8JN82h-8JSPYh-2pep4Me',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Salisbury_House_(Des_Moines,_Iowa)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Davenport',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/soo6000/52875224544/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Davenport,_Iowa',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 9,
+          },
+          {
+            code: 'VI',
+            number: 7,
+          },
+          {
+            code: 'PR',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Arlington National Cemetery',
+          'Multnomah Falls',
+          'Cathedral of St. Paul',
+          'Great Smoky Mountains National Park',
+          'Perrine Bridge',
+          "The World's Only Corn Palace",
+          "Jennette's Pier",
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Nutmeg State/Constitution State',
+          "Badger State/America's Dairyland",
+          'Aloha State',
+          'Show Me State',
+          'Free State/Old Line State',
+        ],
+        flowerOptions: ['Forget-me-not', 'Mountain Laurel', 'Sagebrush'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Iowa ranks first in beef, pork, corn, soybean and grain production.',
+          falseFact:
+            'The largest source of personal income for Iowans is farming. \n        ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'h9lmxbhj',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Iowa',
+          photographer: '',
+          imageLink: 'https://unsplash.com/photos/brown-barn-house-vLPiJPBmqLc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa',
+        },
+        landmark: {
+          name: 'Iowa Old Capitol Building',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/teachandlearn/3740547946/in/photolist-6GxhzY-2kTtahv-6B6zNQ-N9CM5Q-NTdBHZ-2gsDGyn-9dy9Wj-6GxsyL-27Uc4Ac-9XdXWA-2kTrxrh-29NwzLy-6B2n48-oBnLZX-BZ99BY-6GxUku-6GtgyR-2kTtYYg-bkA9EM-foPXGc-2gLFQjq-2mx8taW-8o9fwz-2mx7feW-2kTtYWT-2mxaXHp-6B2iCz-2okXpBd-6B6ph5-b4XuEH-2oiXiSV-jo13va-6B6zxd-LTHb9U-2okUWe4-iCLZin-6B6KQb-d9GaEk-CbZZ74-6MprXW-4yEyC-6B2hXa-2i3qytV-M1JYgZ-2okX5Ny-2okSgnM-bsQxkB-NozySu-2kTtadC-WSq4pW',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa_Old_Capitol_Building',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Iowa City',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/147715252@N04/50889603217/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa_City,_Iowa',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 2,
+          },
+          {
+            code: 'SD',
+            number: 7,
+          },
+          {
+            code: 'OK',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Castle Craig',
+          'John Dickinson Plantation',
+          'Golden Gate Bridge',
+          'Philadelphia Museum of Art',
+          'Hocking Hills State Park',
+          'Seven Sacred Pools',
+          'Little Rock Central High School',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Silver State/Sagebrush State',
+          'America’s Paradise',
+          'Show Me State',
+          'Free State/Old Line State',
+          'Garden State',
+        ],
+        flowerOptions: ['Coast Rhododendron', 'Cherokee Rose', 'Sagebrush'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Iowa became the 29th state on December 28, _____. \n        ',
+          fillAnswer: '1846',
+          fillAnswers: ['1846', '1845', '1835', '1800'],
+        },
+        uniqueId: 'ND5s6y2p',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Iowa',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/9599892/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Iowa',
+        },
+        landmark: {
+          name: 'Herbert Hoover Presidential Library and Museum',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/zaruka/8258406962/in/photolist-dzLuEW-fyowxb-dzETBz-dzEWde-dzEWCB-nxwxXE-dzLsHG-dzEUJK-nzhcjM-nzzffr-nzzeEZ-nzzcwR-nxwuxJ-2m9eGAK-WMdgiS-WMdbVU-WYso5C-WQoaet-VKQddU-VKQ4dQ-2oF6DFr-WMdfdA-WYskG1-X3btF4-WMdfuC-VKQdGj-WYsnt7-WQo8wv-X3btVH-X3bu7p-WYsoHb-X3burn-VKQdyU-VKQaus-WYsnQ9-X3buHK-WrzBmy-WMdgob-WMdgbY-X3bukk-WrzBXd-X3buc4-WrzBBd-WrzBc5-WrzBvw-Lj8Kxq-VKQ3vh-X3buCp-VKQ39q-WrzC2G',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Herbert_Hoover_Presidential_Library_and_Museum',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sioux City',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/95007796@N06/50079918316/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sioux_City,_Iowa',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 7,
+          },
+          {
+            code: 'RI',
+            number: 10,
+          },
+          {
+            code: 'AZ',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Monument Valley',
+          'Taftsville Covered Bridge',
+          'Liberty Bell',
+          'Hawaiʻi Volcanoes National Park',
+          'National Cowboy & Western Heritage Museum',
+          "Jennette's Pier",
+          'Timberline Lodge',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Prairie State/Land of Lincoln',
+          'Treasure State/Big Sky Country',
+          'Granite State',
+          'Ocean State',
+          'Aloha State',
+        ],
+        flowerOptions: ['Rose', 'American Dogwood', 'Magnolia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'One Iowa family farm grows enough food and fiber to feed _____ people.',
+          fillAnswer: '279',
+          fillAnswers: ['100', '279', '10', '87'],
+        },
+        uniqueId: 'qMMSqh28',
+      },
     ],
     capital: 'Des Moines',
     flower: {
@@ -9159,14 +13506,12 @@ const whereTakenUSCurrent = [
     lat: 44.068202,
     long: -114.742041,
     cities: [
-      "Coeur d'Alene",
       'Idaho Falls',
       'Boise',
-      'Nampa',
-      'Moscow',
       'Meridian',
       'Pocatello',
-      'Oregon City',
+      'Ashton',
+      'Sandpoint',
     ],
     game: [
       {
@@ -9839,6 +14184,341 @@ const whereTakenUSCurrent = [
           'World Museum of Mining',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Idaho',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-lake-surrounded-by-trees-KvOLN_6cg-E',
+          wikiLink: 'https://en.wikipedia.org/wiki/Idaho',
+        },
+        landmark: {
+          name: 'Idaho State Capitol',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/3924906/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Idaho_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Boise',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-blue-and-black-concrete-city-buildings-cBx1EygM3BM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Boise,_Idaho',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 9,
+          },
+          {
+            code: 'KY',
+            number: 4,
+          },
+          {
+            code: 'NM',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Vizcaya Museum and Gardens',
+          'Fort Christian',
+          'Rock & Roll Hall of Fame',
+          'Fort Mandan State Historic Site',
+          'Monument Valley',
+          'Old Trail Town',
+          "Ford's Theatre",
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Granite State',
+          'Beehive State',
+          'Natural State',
+          'The Mount Rushmore State',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: ['Bluebonnet', 'Coast Rhododendron', 'Sego Lily'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Archaeologists recently made a huge discovery in Idaho',
+          falseFact: 'Cherokee Indians grew peaches in Idaho',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'tkWpNfDG',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Island Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-wooden-bridge-over-a-river-surrounded-by-trees-lBMRDFrobkw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Island_Park,_Idaho',
+        },
+        landmark: {
+          name: 'Teton Dam',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/photo-of-concrete-dam-in-lake-near-mountains-during-daytime-D0YnsPVIFKU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Teton_Dam',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Idaho Falls',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-white-concrete-building-TH7TkrdPbXs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Idaho_Falls,_Idaho',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 3,
+          },
+          {
+            code: 'CO',
+            number: 8,
+          },
+          {
+            code: 'PR',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Klondike Gold Rush National Historic Park',
+          'Empire State Building',
+          'Blanchard Springs Caverns',
+          'Sloss Furnaces',
+          'Rehoboth Beach',
+          'Wynwood Walls',
+          'SkyWheel Myrtle Beach',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Prairie State/Land of Lincoln',
+          'Equality State',
+          'Hawkeye State/Corn State',
+          'Volunteer State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Black-eyed Susan',
+          'Peach Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Idaho is bordered byMontana and Wyoming in the east',
+          falseFact: 'Only about 17 percent of Idaho is privately owned.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'JJNJFjKq',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Idaho',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-house-that-has-been-destroyed-CYAT_KvlAHc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Idaho',
+        },
+        landmark: {
+          name: 'Shoshone Falls',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photography-of-waterfalls-3pOLNVp1ZUA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Shoshone_Falls',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Pocatello',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/three-white-pillars-in-front-of-a-blue-sky-4B3AkOV7Wd4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pocatello,_Idaho',
+        },
+        landmarksRound: [
+          {
+            code: 'MA',
+            number: 5,
+          },
+          {
+            code: 'AK',
+            number: 9,
+          },
+          {
+            code: 'AK',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Amana Colonies',
+          'Myriad Botanical Gardens',
+          'Martin Luther King Jr. Childhood Home',
+          'Lucy the Elephant',
+          'Chicago Riverwalk',
+          'Three Rivers',
+          'Cass Scenic Railroad State Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Granite State',
+          'Evergreen State/Chinhook State',
+          'The Old Dominion/Mother of Presidents',
+          'Mountain State',
+          'Keystone State',
+        ],
+        flowerOptions: ['Pasque Flower', 'Yucca Flower', 'American Dogwood'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Idaho has the largest stand of western white pines in North America',
+          falseFact: 'Most regions in Idaho are not clearly defined',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'KbVBn3zM',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Idaho',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/photography-of-mountain-range-during-daytime-xYyH4mqCclc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Idaho',
+        },
+        landmark: {
+          name: 'Old Idaho State Penitentiary',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/arbron/28264193127/in/photolist-K4BnUB-2ngt7H9-2ngnL13-QjUUK1-2b4Zyzi-2b4ZzBt-2pYPAYp-2bmGxAW-QjUWy1-2b4ZB3z-25XwR3J-2b4ZAcM-7hnNQi-MMy8oZ-2pYGziB-2b4Zza6-W2VF8B-2kmdaTq-Wb2AmY-28HzBMF-W2VD6v-2bmGwVC-2kmdc34-2b4ZAB4-2bmGvZu-WeqxVa-MMy6QD-LVqTXz-QjUMdN-9WT6Yu-2bhRo2j-2kmdagZ-7hrJZC-28HzD2e-2kmdb4A-2kmgYva-2kmhz94-2kmhzd2-2kmdb7G-UZZhHF-akiLGD-akiJot-akiChF-akiJF2-akiGbM-akmunY-26XYL9E-27Z72zj-6MaW36-5fsaNF',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Old_Idaho_State_Penitentiary',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Ashton',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-traffic-light-on-a-city-street-k0miaQQCfDY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ashton,_Idaho',
+        },
+        landmarksRound: [
+          {
+            code: 'NM',
+            number: 4,
+          },
+          {
+            code: 'KY',
+            number: 3,
+          },
+          {
+            code: 'MT',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Field of Dreams',
+          'Crazy Horse Memorial',
+          'Chimney Rock',
+          'Paine Art Center and Gardens',
+          'Arch Rock',
+          'Little Bighorn Battlefield',
+          'Black Canyon of the Gunnison National Park',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Aloha State',
+          'First State/Diamond State',
+          'Cornhusker State/Beef State',
+          'Bay State/Old Colony State',
+          "Badger State/America's Dairyland",
+        ],
+        flowerOptions: ['Purple Lilac', 'Sunflower', 'Peach Blossom'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Idaho produces ______ types of gemstones',
+          fillAnswer: '72',
+          fillAnswers: ['72', '48', '36', '25'],
+        },
+        uniqueId: 'dQH7mGHD',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Ann Morrison Park',
+          photographer: '',
+          imageLink: 'https://unsplash.com/photos/hot-air-balloon-dSPS-2dAbdc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ann_Morrison_Park',
+        },
+        landmark: {
+          name: 'Old Mission State Park',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/larrymyhre/51611848135/in/photolist-2mCLdjB-2hrQMfC-2nD4UuM-2nz872r-peMqMq-2nyTRNS-2nyGc5Z-2nyy5GA-2nxKFcA-pfDySo-pfDz5Y-2nySZU9-rhVPHH-aJXZEZ-2nyLdAM-2nxTkmF-2nyRm2Y-TaqeQy-2ecJ4hY-2ecJ1Bs-HubEgZ-JzD6R3-2nyxTUo-2nyAw9v-2nyTRR2-2nxqsDx-2ecJ5ku-2dUK9Yi-2dUK9ct-2dUK7xX-2fdWFm1-2fdWEMA-2fdWF59-2fdWERo-2fdWEij-2fdWEb5-2fdWEtj-2fdWE1L-2nySK4A-RxgKBP-2nz86W6-2fdWF11-2fdWEEb-2fdWE5U-2fdWDSj-2fdWDGQ-2fdWDuf-2ecHVqL-RxgM1R-RxgLW2',
+          wikiLink: 'https://en.wikipedia.org/wiki/Old_Mission_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sandpoint',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-beside-body-of-water-during-daytime--yVlg2VWKTs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sandpoint,_Idaho',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 10,
+          },
+          {
+            code: 'CA',
+            number: 14,
+          },
+          {
+            code: 'WA',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Tryon Palace',
+          'House of the Seven Gables',
+          'SkyWheel Myrtle Beach',
+          'Temple Square',
+          'Pike Place Market',
+          'Crazy Horse Memorial',
+          'Castillo San Felipe Del Morro',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Granite State',
+          'Beehive State',
+          'Natural State',
+          'The Mount Rushmore State',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: ['Bluebonnet', 'Coast Rhododendron', 'Sego Lily'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The name, Idaho, was created by George Willing in the _____s',
+          fillAnswer: '1800',
+          fillAnswers: ['1900', '1850', '1800', '1840'],
+        },
+        uniqueId: '8QYt59gk',
+      },
     ],
     capital: 'Boise',
     flower: {
@@ -9859,10 +14539,10 @@ const whereTakenUSCurrent = [
     cities: [
       'Springfield',
       'Chicago',
-      'Peoria',
       'Rockford',
       'Champaign',
       'Knoxville',
+      'Galena',
     ],
     game: [
       {
@@ -10535,6 +15215,335 @@ const whereTakenUSCurrent = [
           'Old Trail Town',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Illinois',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/13346526/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Illinois',
+        },
+        landmark: {
+          name: 'Navy Pier',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-large-industrial-port-nM347caKZQA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Navy_Pier',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Springfield',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/cars-parked-in-front-of-brown-building-during-daytime-4ph0cAMlr1U',
+          wikiLink: 'https://en.m.wikipedia.org/wiki/Springfield,_Illinois',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 15,
+          },
+          {
+            code: 'PA',
+            number: 1,
+          },
+          {
+            code: 'IA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Yellowstone National Park',
+          'Grand Teton',
+          'Statue of Liberty',
+          'Castillo San Cristobal',
+          "Devil's Tower National Monument",
+          'Vulcan Statue',
+          'Griffith Observatory',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Centennial State',
+          'Wolverine State/Great Lake State',
+          'Show Me State',
+          'Palmetto State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Mayflower', 'Oregon Grape', 'Peony'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Illinois’ slogan is the Land of Lincoln because Abraham Lincoln lived there for 31 years. ',
+          falseFact:
+            'Illinois’s small towns represent a territorial concept that is equivalent to a township in other parts of the country.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '38ZYgzfK',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Illinois',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/2727955/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Illinois',
+        },
+        landmark: {
+          name: 'Lincoln park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-walking-on-pathway-near-body-of-water-during-daytime-baKzRXOuP4M',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lincoln_Park,_Chicago',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Chicago',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/car-running-on-road-wLngilIjfiM',
+          wikiLink: 'https://en.m.wikipedia.org/wiki/Chicago',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 15,
+          },
+          {
+            code: 'HI',
+            number: 12,
+          },
+          {
+            code: 'SC',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Baltimore Museum of Art',
+          'Cliff Palace',
+          'Chimney Rock',
+          'Fort Laramie',
+          'Grand Canyon National Park',
+          'International Tennis Hall of Fame',
+          'Fremont Troll',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Show Me State',
+          'Sooner State',
+          'America’s Paradise',
+          'Equality State',
+        ],
+        flowerOptions: ['California Poppy', 'Mayflower', 'Goldenrod'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The state’s official snack food is popcorn',
+          falseFact:
+            'There are currently 22 sovereign American Indian communities in Illinois.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'CtznHj6V',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Chicago River',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-river-with-chicago-river-and-boats-ff6MPtScTQM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chicago_River',
+        },
+        landmark: {
+          name: 'Cloud Gate',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/15646607/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cloud_Gate',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Rockford',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/92158122@N02/52763590879/',
+          wikiLink: 'https://en.m.wikipedia.org/wiki/Rockford,_Illinois',
+        },
+        landmarksRound: [
+          {
+            code: 'CO',
+            number: 2,
+          },
+          {
+            code: 'NE',
+            number: 7,
+          },
+          {
+            code: 'AL',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Beckley Exhibition Coal Mine',
+          'Myrtle Beach',
+          'Colonial Williamsburg',
+          'Indiana Caverns',
+          'Idaho Botanical Garden',
+          'Rockwood Museum and Park',
+          'Amicalola Falls',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'The District',
+          'Empire State',
+          'Cornhusker State/Beef State',
+          'Gem State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: ['Goldenrod', 'Hawthorn', 'Magnolia'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The Gulf Coastal Plain is a hilly area at the state’s southern tip.',
+          falseFact: 'One in four Illinoisians were born overseas',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '4hssYGNg',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Illinois',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/16156451/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Illinois',
+        },
+        landmark: {
+          name: 'Chicago Harbor Lighth',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/19652052/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chicago_Harbor_Light',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Galena',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-man-walking-past-a-store-front-on-a-city-street-6eEwUpLghHU',
+          wikiLink: 'https://en.m.wikipedia.org/wiki/Galena,_Illinois',
+        },
+        landmarksRound: [
+          {
+            code: 'VT',
+            number: 1,
+          },
+          {
+            code: 'ND',
+            number: 10,
+          },
+          {
+            code: 'NJ',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Creek Street',
+          'Scheels Arena',
+          'Rock City Gardens',
+          'Annaberg Sugar Plantation',
+          'Fort Mandan State Historic Site',
+          'Battleship North Carolina',
+          'Independence Rock',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Equality State',
+          'The District',
+          'The Old Dominion/Mother of Presidents',
+          'Natural State',
+          'Beehive State',
+        ],
+        flowerOptions: ['Bitterroot', 'Rhododendron', 'Hawthorn'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Illinois is bordered by _____ in the north',
+          fillAnswer: 'Wisconsin ',
+          fillAnswers: ['Utah', 'Idaho', 'Wisconsin ', 'Alaska'],
+        },
+        uniqueId: '9zZ6r6MV',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Illinois',
+          photographer: '',
+          imageLink: 'https://unsplash.com/photos/white-church-UNrGSjHPQF0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Illinois',
+        },
+        landmark: {
+          name: 'Museum of Science and Industry',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/pstaniland/15364200706/in/photolist-ppFxAb-xE375L-nvBKnd-2naBQ5w-jMLj1T-y2dHhp-gGWT7r-2p6Rnox-7hwZ51-7hx1gG-q65KCs-jMLicP-kPFdR-896vcy-95XEJ-pTaJmc-gGWCjQ-2okezYq-jMNA1d-j2upwQ-21Cq9Tt-nvzWyB-gGXEzi-93KxKS-5DUjoR-5Z1va3-dVkSEF-dVkQii-23Whqz9-TSr641-dVkQvH-kPFjj-kPFfp-2p7287G-nqYGRS-BvMhAz-a8vRxR-kPFgR-kPFhT-7MaJUk-DTNT-kPFcp-22XVmWx-5pteis-LtGVmr-22VktQ3-5R1stw-8Vw1DA-mf7fuE-22VkqKq',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Museum_of_Science_and_Industry_(Chicago)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Champaign',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-with-snow-on-the-ground-emIvtI1YMMs',
+          wikiLink: 'https://en.m.wikipedia.org/wiki/Champaign,_Illinois',
+        },
+        landmarksRound: [
+          {
+            code: 'VA',
+            number: 5,
+          },
+          {
+            code: 'MT',
+            number: 6,
+          },
+          {
+            code: 'AK',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Alcatraz Island',
+          'Dignity of Earth and Sky',
+          'Mount Washington',
+          'High Museum of Art',
+          'Reed Gold Mine',
+          'Chaco Culture National Historical Park',
+          'Drayton Hall',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Centennial State',
+          'Wolverine State/Great Lake State',
+          'Show Me State',
+          'Palmetto State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Mayflower', 'Oregon Grape', 'Peony'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'One of Illinois’ best known natural resources is its _____',
+          fillAnswer: 'fertile soil.',
+          fillAnswers: ['copper', 'fertile soil.', 'magnesium', 'gold'],
+        },
+        uniqueId: 'xkbzwcJ4',
+      },
     ],
     capital: 'Springfield',
     flower: {
@@ -10553,14 +15562,13 @@ const whereTakenUSCurrent = [
     lat: 40.551217,
     long: -85.602364,
     cities: [
-      'Indianapolis',
-      'Fort Wayne',
       'Hammond',
       'Carmel',
       'Bloomington',
       'Evansville',
       'South Bend',
-      'Tallahassee',
+      'Avon',
+      'Indianapolis',
     ],
     game: [
       {
@@ -11236,6 +16244,345 @@ const whereTakenUSCurrent = [
           'Cass Scenic Railroad State Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Indiana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-clock-tower-in-a-city-S6F8AHBXn34',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indiana',
+        },
+        landmark: {
+          name: 'Indiana Statehouse',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-blue-concrete-building-bJxCJw5TIp8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indiana_Statehouse',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Evansville',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-street-with-a-clock-on-the-top-of-it-wfHkvXJc358',
+          wikiLink: 'https://en.wikipedia.org/wiki/Evansville,_Indiana',
+        },
+        landmarksRound: [
+          {
+            code: 'MA',
+            number: 1,
+          },
+          {
+            code: 'TX',
+            number: 1,
+          },
+          {
+            code: 'HI',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Timberline Lodge',
+          'Arlington National Cemetery',
+          'Magens Bay Beach',
+          'Philadelphia Museum of Art',
+          'Franklin Park Conservatory',
+          'Mount Washington Cog Railway',
+          'Carhenge',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Bay State/Old Colony State',
+          'Cotton State/Yellowhammer State',
+          'Sunflower State/Jayhawker State',
+          'Evergreen State/Chinhook State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: ['Cherokee Rose', 'Apple Blossom', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Indiana was named after the American Indian tribes who lived there when Europeans arrived.',
+          falseFact:
+            'Lack of water is the dominant characteristic of Indiana’s eastern plains region.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'bqxXb6Gs',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Indiana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-old-barn-on-the-side-of-a-country-road-LBk-0LKVDdM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indiana',
+        },
+        landmark: {
+          name: 'Scottish Rite Cathedral',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-white-building-with-a-tower-Lp2Fyv2pcVQ',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Scottish_Rite_Cathedral_(Indianapolis)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Indianapolis',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/birds-eye-view-photography-of-lighted-city-PaahVcW9WAs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indianapolis',
+        },
+        landmarksRound: [
+          {
+            code: 'CO',
+            number: 11,
+          },
+          {
+            code: 'AK',
+            number: 14,
+          },
+          {
+            code: 'OH',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Akaka Falls',
+          'Edmund Pettus Bridge',
+          'Franklin Park Conservatory',
+          'Parthenon',
+          'Meteor Crater',
+          'Coral Castle',
+          'Haystack Rock',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Cornhusker State/Beef State',
+          'Palmetto State',
+          'Land of Enchantment',
+          'The Last Frontier',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Goldenrod', 'Pasque Flower', 'Yucca Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'This midwestern state is bordered by Michigan and Lake Michigan in the north, Ohio and Kentucky in the east, Kentucky in the south, and Illinois in the west.',
+          falseFact: 'The state capital of Indiana is Boise.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'DBQXpBzN',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Indiana',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/marvinmast/52708282267/in/photolist-2jWuhjn-7gGQzo-2oiDHZn-8j2zi9-2add9e-2mdaUvm-4afDkk-AFymaX-2k2ST17-hgyXNq-2oHtdpV-duwZW9-2oboRiv-2nphU4j-2kJwRME-fxrZ6u-2m2V9k3-5cSgbF-pwcsFG-2krUDxH-2prwMH1-5zL1D7-AxAP33-AyPkZX-AwvfqQ-AxBW3J-5MaPvn-zBLx5h-Ahd8Yd-AyNJT4-Ahd3hJ-zBLFZG-GqxJdq-2nCM8mw-5pU4ih-pA9LY5-hdin9e-azaW9W-pzWaYZ-2mMSoNb-pzUSta-piHaGL-piHTGB-piHFjv-xU19U2-5wd4Rm-5GJHMA-864BJ5-5Fu2bf-2oEFKT4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indiana',
+        },
+        landmark: {
+          name: 'University of Notre Dame',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-building-with-a-dome-and-trees-in-front-of-it-DIPNj8wfaQo',
+          wikiLink: 'https://en.wikipedia.org/wiki/University_of_Notre_Dame',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Avon',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/95007796@N06/53204040084/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Avon,_Indiana',
+        },
+        landmarksRound: [
+          {
+            code: 'VA',
+            number: 6,
+          },
+          {
+            code: 'LA',
+            number: 5,
+          },
+          {
+            code: 'OR',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'James J. Hill House',
+          'Penobscot Narrows Bridge and Observatory',
+          'Empire State Building',
+          'West Virginia Penitentiary',
+          'Bonnet House',
+          'Martin Luther King Jr. Memorial',
+          'Fallingwater',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Beaver State',
+          'Equality State',
+          "Badger State/America's Dairyland",
+          'North Star State/Gopher State',
+          'Bluegrass State',
+        ],
+        flowerOptions: ['Camellia', 'Wild Prairie Rose', 'California Poppy'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The Southern Plains and Lowlands region covers southern Indiana',
+          falseFact: 'Indiana’s slogan is the Land of Lincoln',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'N9zQJp8J',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Indiana',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jonnybratwurst/32388228537/in/photolist-Rm38Xp-nV46kP-3bn9Ht-bxHANV-fA77Ce-9jwDzN-ohtuNs-nsbwr6-avRLDM-oheokz-bqM7MV-pJkApg-5zxQMV-6yRB39-oJDVV5-o12y5T-5zC7w3-oGDS3S-WkSZw-2n9fa66-Ptofz-5U8KMc-bnkYNR-i9v4xL-q1U7NW-8ETjoa-o12xjy-zLBiW-L3Uf1D-p4YAqJ-5zC79q-9KVvQ6-bSSCf-q1L8qg-5zxPLe-q1AsKV-taUDFF-DAjiM4-pJkyTv-ohvVMK-8ETgSe-8mAh15-p52rdD-4BVR7Y-byRNEY-5zC7ZN-6YiHqY-9R8DsY-2PukgP-5zC7Du',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indiana',
+        },
+        landmark: {
+          name: 'West Union Covered Bridge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/kansasexplorer/32257604892/in/photolist-R9uE6A-RNrvNC-wegxbW-2mwNnfo-2nxysmh-c1mjoy-2nByWmd-2nxMSgN-2nyqpEn-Lb6W8K-2nxLsFA-c1TPyG-2nWqDNQ-2nADTFM-2nBHu1t-2nxG6wP-2nA9bcw-2nVmLK4-2os5NKG-2nxLsBc-2nVPe2C-2nBz66c-EYwVSg-2nDceAp-2nW39sd-2nBFZyr-2nx5KTT-2nxY8jK-BGaity-2nBzXge-2hMw3CV-29VkJSb-2ovonis-2dRNVad-RT9bBJ-c1TM8w-2mwPnoU-2nyjVba-2nEfLnf-2nBJNSq-2nBA3hN-2nWPgv5-2kLNE5P-2nySZU9-2nDpCM1-2ovQzu3-8Mp6bc-2os9jDn-2nWbhnJ-2kviyE7',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/West_Union_Covered_Bridge_(Indiana)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bloomington',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/blkandwht/12620498964/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bloomington,_Indiana',
+        },
+        landmarksRound: [
+          {
+            code: 'AK',
+            number: 2,
+          },
+          {
+            code: 'VA',
+            number: 5,
+          },
+          {
+            code: 'LA',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Disney World',
+          'Carlsbad Caverns',
+          'Isle Royale',
+          'Temple Square',
+          'Teton Dam',
+          'Cliff Palace',
+          'Fallingwater',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Equality State',
+          'Pelican State/Creole State/Sugar State',
+          'Aloha State',
+          'North Star State/Gopher State',
+          'Green Mountain State',
+        ],
+        flowerOptions: [
+          'Wild Rose',
+          'Flowering Dogwood',
+          'American Beauty Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'At least _____ years ago, people lived in the area now called Indiana.',
+          fillAnswer: '10000',
+          fillAnswers: ['1000', '10000', '1500', '700'],
+        },
+        uniqueId: '9q9Yf5gv',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Indiana',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/drew_clayton/1074359272/in/photolist-2CWnzJ-SQzZHK-eF4atM-2kdjNVF-TugHTJ-qd9VUH-25n2WPD-8KVbB1-2mPMZH1-2oVGfAK-FDmeFY-8FTAga-zAuLLS-2pJ3SUy-bFQWcc-5WKqA3-2ognAUu-e5q2zP-aueqjU-FXizGP-2ezFPuk-L9b24W-TQkxNN-87dhAX-o2ScJJ-nKto2V-GusWBQ-bsW8th-76jLj8-2oDLjN6-7yJ6L5-8KS85e-f7n61-2msmP26-dMpT9z-2hwYxw1-2n766mL-2nkApUK-ZmbEhR-4smfJa-87hkL5-2jzdNzW-2PWpjA-2myGBBw-9uTcou-9ah51J-5dM39R-9AAMW4-2mjehdL-4sqhZG',
+          wikiLink: 'https://en.wikipedia.org/wiki/Indiana',
+        },
+        landmark: {
+          name: 'North Christian Church',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/41710899@N08/23988011598/in/photolist-CxJQ7S-2nt8Tqe-e1kAP6-e1kAMt-oG7m36-qJptu-oG84Q2-oG7Tuy-oG82nB-8Vi4GU-oG7xdy-oYB9K8-7Qafjs-e1r9gq-7Q6V6M-7T6M81-25hY1eo-8cmNmP-Zg4skd-2jCease-8Ld1Tc-8cmNFX-8cmNLD-8oGeBR-2pPJpFg-8oKmKC-8thenW-ex6wfr-7Q6UYr-L1w1Bx-2jLJ7Pd-283TXhF-L1w2ZT-cSZGc7-7Q6VqT-8cqagL-2ibr7Uo-LXv8Jx-8oGfBT-8bohVc-2hwa1a6-8oGej8-e1sono-8they7-733KaG-4D2ATW-28yAYkR-faY8xK-8oGe1H-aseYd8',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Christian_Church',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Evansville',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/152217943@N02/34220657303/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Evansville,_Indiana',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 11,
+          },
+          {
+            code: 'MA',
+            number: 5,
+          },
+          {
+            code: 'RI',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Korean War Veterans Memorial',
+          'Lake Champlain',
+          'Hanging Lake',
+          'Mystic Seaport Museum',
+          'Maymont',
+          'Red Rocks Amphitheatre',
+          'Disney World',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Bay State/Old Colony State',
+          'Cotton State/Yellowhammer State',
+          'Sunflower State/Jayhawker State',
+          'Evergreen State/Chinhook State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: ['Cherokee Rose', 'Apple Blossom', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'At the end of the American Revolution, in _____, Britain ceded Indiana to the United States',
+          fillAnswer: '1783',
+          fillAnswers: ['1780', '1783', '1790', '1763'],
+        },
+        uniqueId: '6JF937HL',
+      },
     ],
     capital: 'Indianapolis',
     flower: {
@@ -11255,11 +16602,12 @@ const whereTakenUSCurrent = [
     long: -98.484246,
     cities: [
       'Wichita',
-      'Topeka',
       'Lawrence',
       'Kansas City',
       'Overland Park',
       'Olathe',
+      'Manhattan',
+      'Topeka',
     ],
     game: [
       {
@@ -11937,6 +17285,342 @@ const whereTakenUSCurrent = [
           'El Rancho de las Golondrinas',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Kansas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/herd-of-black-cattle-5Dkb-7_dVxA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kansas',
+        },
+        landmark: {
+          name: 'Kansas State Capitol',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/benasmith71/14829679153/in/photolist-oArYXk-2oizWWz-NAudRN-5bmn4H-LGZeLn-LEjDzW-LEqZWA-LLUKou-22cBA4V-7i7LgV-LouYZm-LGUVGz-KT8D74-LQ4pxF-KT8rsc-ic5CBR-KT7u5D-KSSfxs-LH1gMe-LM1259-KSJU3d-LEqjrd-22cBBcr-22cBzWR-LQ3uMR-LEs7H9-LowgK3-KT3fpR-LomAtW-kQuEz-KT51oa-22cBBBp-ZRewkP-LoumvQ-ZRetwn-2nDFU8C-wYBNRN-bYgCth-229UsnN-uqBBZf-2no5w4T-2guC4Mh-5qZRvi-2nPZpzV-opkaDn-5r5aXG-2he5hzJ-5dvdRG-23K3MiY-PhrfBU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kansas_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Wichita',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-green-traffic-light-on-a-city-street-LyhYqisDnMI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wichita,_Kansas',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 10,
+          },
+          {
+            code: 'SC',
+            number: 2,
+          },
+          {
+            code: 'CA',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Smith Rock State Park',
+          'Salvador Dalí Museum',
+          'Basilica of the Sacred Heart',
+          'Cadillac Ranch',
+          'Molly Brown House',
+          'Mount Hood',
+          'Bellagio Fountain',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Land of Enchantment',
+          'Empire State',
+          'Volunteer State',
+          'Cornhusker State/Beef State',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Mock Orange', 'Hawthorn', 'Scarlet Carnation'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The first people settled in what’s now Kansas at least 12,200 years ago.',
+          falseFact: 'Kansas is bounded by Nebraska to the south',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'MHMpyhhf',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Kansas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-bridge-between-bare-trees-lkwHJWkWNv8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kansas',
+        },
+        landmark: {
+          name: 'Chase County Courthouse',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/11847117/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Chase_County_Courthouse_(Kansas)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Topeka',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/53019927@N05/52144618063/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Topeka,_Kansas',
+        },
+        landmarksRound: [
+          {
+            code: 'ID',
+            number: 12,
+          },
+          {
+            code: 'MD',
+            number: 6,
+          },
+          {
+            code: 'WA',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'National Cowboy & Western Heritage Museum',
+          'The Mammoth Site',
+          'Christ of the Ozarks',
+          'Fort McHenry',
+          'Brucemore',
+          'Old Idaho Penitentiary',
+          'Brown University',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Sunshine State',
+          'Sooner State',
+          'Centennial State',
+          'Mountain State',
+          'Bluegrass State',
+        ],
+        flowerOptions: ['Red Clover', 'Wood Violet', 'Forget-me-not'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The first European to reach the area was Spanish explorer Francisco Vasquez de Coronado',
+          falseFact:
+            'Under irrigation, southwestern Kansas has come to produce airplains',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'GZhl67Rz',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Kansas',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/12786589/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kansas',
+        },
+        landmark: {
+          name: 'Abilene and Smoky Valley Railroad',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/flinthills/14590475010/in/photolist-8N8FPj-k1T1Mb-ovM94Y-bEgCuA-Qih2hH-oeiZTY-omftU6-QfxUUE-omfuiT-oejdrT-bTbnj4-bTbnrr-otM22N-oek6Uk-MmGi3C-LA1WBe-PWhnzw-JqGxGE-PWhoDW-bZfB1f-yV3Qik-oek6En-ovwHB8-9Ros9E-nBs92q-RL4Pw8-2oNPPa8-2pq3hGR-2nomsbu-2maEpEt-2np6Tnh-2ppYw4f-2kXJwpT-2oNS6Zh-2pq3sJ5-2m3c9Vb-2fwqaPs-2mW3pYS-2pq3GKg-2noWnkY-CrfxHw-55nLN5-2j5hu5e-2ppVG9T-8NA58F-2p8QNSe-6rBgNp-2p61LPn-oeiZnC',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Abilene_and_Smoky_Valley_Railroad',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Manhattan',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/27286403@N03/4394685967/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Manhattan,_Kansas',
+        },
+        landmarksRound: [
+          {
+            code: 'AK',
+            number: 15,
+          },
+          {
+            code: 'ME',
+            number: 1,
+          },
+          {
+            code: 'DE',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Grand Staircase',
+          'Church Street Marketplace',
+          'Castillo San Felipe del Morro',
+          'Crystal Bridges Museum of American Art',
+          'Victoria Mansion',
+          "The World's Only Corn Palace",
+          'Little Rock Central High School',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'The Old Dominion/Mother of Presidents',
+          'Evergreen State/Chinhook State',
+          'Silver State/Sagebrush State',
+          'Beaver State',
+          'Lone Star State',
+        ],
+        flowerOptions: ['Rose', 'Sagebrush', 'Coast Rhododendron'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Kansas’ name comes from the Kansa Native American tribe, which means "People of the South Wind."',
+          falseFact: 'Kansas has a temperate but equatorial climate',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'wFRdV5HQ',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Kansas',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/12929014/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kansas',
+        },
+        landmark: {
+          name: 'Amelia Earhart Birthplace',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/photolibrarian/32421467248/in/photolist-RoYuEC-UDeN6g-8FQqpB-VhtZFN-d7r3k-Ly8Eg8-e53njo-ebgfer-e53nqh-e53nxj-oHYhXx-ebgfHg-ZGVovG-6cPbZ9-6cPbvo-6cK3SV-ajVegq-sdpAZi-6cPcso-51SvGo-saGuBC-spYPiW-2cqRyXU-ssgTpK-2NXmKV-6cK4MF-2krVL1k-51SvGm-2krVT23-2krWwWH-2krSiBq-2krSg6t-ssgSRv-2krW3RJ-2krRvZ8-84J3EP-5GDXZp-2krWwGj-2krW3y9-2krVZzD-2krW3H2-2krSfSn-2krVKWH-K3Ntm-2krSceR-2krRvGj-2krRuwJ-2krVKeL-2ks8dSf',
+          wikiLink: 'https://en.wikipedia.org/wiki/Amelia_Earhart_Birthplace',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Lawrence',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-empty-street-with-a-traffic-light-on-a-clear-day-km1g55FNesw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lawrence,_Kansas',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 13,
+          },
+          {
+            code: 'DE',
+            number: 9,
+          },
+          {
+            code: 'WA',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Shenandoah National Park',
+          'Old Trail Town',
+          'West Union Covered Bridge',
+          'Cape Krusenstern National Monument',
+          'The Mammoth Site',
+          'Vulcan Statue',
+          'Old State House',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Grand Canyon State',
+          'Flickertail State/Sioux State',
+          'Magnolia State',
+          'Buckeye State',
+          'Centennial State',
+        ],
+        flowerOptions: [
+          'Cherokee Rose',
+          'American Beauty Rose',
+          'Hawaiian Hibiscus',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: "Kansas' western half is covered by the _____",
+          fillAnswer: 'Great Plains',
+          fillAnswers: ['Mountains', 'Hills', 'Great Plains', 'Lakes'],
+        },
+        uniqueId: 'dmzG8ZNd',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Konza Prairie Biological Station',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-under-white-clouds-during-daytime-DS5kYa3PmZo',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Konza_Prairie_Biological_Station',
+        },
+        landmark: {
+          name: 'Biggest ball of twine',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/rowlandweb/51345344368/in/photolist-2medj35-2me81NZ-2medftD-2mebQSw-5oxu18-2mefYnd-NTBMR-8N5TpL-2medjnZ-2medjBM-cCjPnC-5gtKQP-2mebQT8-ytM3Lg-2me81Hd-5gtLyH-2mehmSC-2j5L5D-f26hQn-2kjyKi1-f26jqt-2ohHvK8-cCkemu-2j5L7D-6RfV6W-5zRYz-hgASLP-2jCKU4H-tLwg2C-omBH6k-9wf9np-uHM3Xz-oCQqy2-2me4miE-2me4mhN-fas5dd-5n3BWN-fMwEw4-oZuajU-81maLU-dR8gPB-2medj3k-5mYn2Z-5dWYW6-cDbre1-26Dj2x-cicizf-2me4mdp-aqJb1i-gyHhR',
+          wikiLink: 'https://en.wikipedia.org/wiki/Biggest_ball_of_twine',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Overland Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-couple-of-tall-buildings-sitting-next-to-a-lake-Y5q0kJfpS28',
+          wikiLink: 'https://en.wikipedia.org/wiki/Overland_Park,_Kansas',
+        },
+        landmarksRound: [
+          {
+            code: 'MT',
+            number: 8,
+          },
+          {
+            code: 'OR',
+            number: 3,
+          },
+          {
+            code: 'DE',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Philbrook Museum of Art',
+          'Battleship North Carolina',
+          'James J. Hill House',
+          'San Xavier del Bac',
+          'Knife River Indian Villages',
+          'Field Museum of Natural History',
+          'Mount Rainier National Park',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Land of Enchantment',
+          'Empire State',
+          'Volunteer State',
+          'Cornhusker State/Beef State',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Mock Orange', 'Hawthorn', 'Scarlet Carnation'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Kansas has few natural _____',
+          fillAnswer: 'lakes',
+          fillAnswers: ['mountains', 'rivers', 'lakes', 'rocks'],
+        },
+        uniqueId: 'DvxRrN6P',
+      },
     ],
     capital: 'Topeka',
     flower: {
@@ -11955,12 +17639,13 @@ const whereTakenUSCurrent = [
     lat: 37.839333,
     long: -84.270018,
     cities: [
-      'Louisville',
-      'Lexington',
-      'Frankfort',
       'Owensboro',
       'Bowling Green',
       'Covington',
+      'Alexandria',
+      'Ashland',
+      'Barbourville',
+      'Albany',
     ],
     game: [
       {
@@ -12658,6 +18343,350 @@ const whereTakenUSCurrent = [
           'Milwaukee Riverwalk District',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Kentucky',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/19809667/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kentucky',
+        },
+        landmark: {
+          name: 'Cumberland Falls',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-waterfall-with-a-waterfall-in-the-middle-of-it-CwREqXw2U8Q',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cumberland_Falls',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Albany',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/courthouselover/30337399316/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Albany,_Kentucky',
+        },
+        landmarksRound: [
+          {
+            code: 'PA',
+            number: 9,
+          },
+          {
+            code: 'MS',
+            number: 7,
+          },
+          {
+            code: 'LA',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Old State House',
+          'Cadillac Ranch',
+          'Baltimore Museum of Art',
+          'Oolah Valley',
+          'Wynwood Walls',
+          'Mystic Seaport Museum',
+          'Space Needle',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Pelican State/Creole State/Sugar State',
+          'Lone Star State',
+          'North Star State/Gopher State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: [
+          'Mock Orange',
+          'Pasque Flower',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Most experts think that the name Kentucky comes from a Native American language',
+          falseFact: 'Kentucky is teeming with native birds like the pueo',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'qpPpbyWR',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Kentucky',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/2042161/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kentucky',
+        },
+        landmark: {
+          name: 'Louisville Slugger Field',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/wills_pics/1244852457/in/photolist-2U1cgp-2eHFadj-Lu64Ub-25RTrVW-SEbpbj-Lu65H5-feNHW9-Lu66FY-2eHFaC7-21B6HQk-24bQmKg-2eHF9SE-24bQjp4-26e96PN-ZfFtBa-21AYUMK-21w7TfA-28ZdhDB-27TCvJU-24bQjb8-Lj6qwo-ZfFa48-SEbpm9-21B6JxT-24bQkKv-2eHFafU-2eHFaSA-ZfFtsH-21ydkPw-LGMFbY-21B6Jvt-2ai9huK-26egAsW-Kkayw4-21w7xud-2eHF9G9-2eNhYFF-SEbsB7-2eHFbjs-SEbpnw-MEei9v-21AYVs2-28nx4V9-2eNhYJ6-28Zdiix-DteszN-ptSFGb-24bQkXp-28rURVt-2eHFaRd',
+          wikiLink: 'https://en.wikipedia.org/wiki/Louisville_Slugger_Field',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Alexandria',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/warrenlemay/50227057701/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Alexandria,_Kentucky',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 10,
+          },
+          {
+            code: 'IN',
+            number: 12,
+          },
+          {
+            code: 'MN',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Willis Tower',
+          'Baltimore Museum of Art',
+          'Museum of Pop Culture',
+          'White Sands National Park',
+          'Indianapolis Catacombs',
+          "Ford's Theatre",
+          'Charles E. Conrad Mansion Museum',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Treasure State/Big Sky Country',
+          'Evergreen State/Chinhook State',
+          'Golden State',
+          'Volunteer State',
+          'Pelican State/Creole State/Sugar State',
+        ],
+        flowerOptions: [
+          'Colorado Blue Columbine',
+          'Red Clover',
+          'Apple Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'With almost half the state covered in forests',
+          falseFact: 'Eastern Kentucky is home to so many actors',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'vKKyYpXf',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Kentucky',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/51948213@N00/3333909022/in/photolist-65Ba13-p5VBd-pEJy9Z-p5VQp-p5VmZ-p5Vjy-neNmL6-p5VSN-p5Vpa-p5Vsh-p5WoS-p5VMy-p5VYF-neN5wT-p5VP6-29ifrin-p5VKW-bBtP7b-3GJdoZ-5jy6S-5PsHG3-PCDBy-21ktvh-PCDC9-3GNyZj-6zf6rD-5Popuv-5PooWv-bzz13j-aoYp6J-SWzbN-bzz11W-3GJgoa-iGgPCy-jbQ5cy-5Poriz-5PsHBJ-2ppXEiR-5PsFiq-aEfTCV-5PsGVh-neNjx6-WVVpUn-5PoqjD-21g9MX-3GNBNC-4AVUrx-5PsF9J-PDobv-5PosBc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kentucky',
+        },
+        landmark: {
+          name: 'Mary Todd Lincoln House',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/kevystew/7022497165/in/photolist-bGy8Kk-7SQvGs-i7jsVk-6qcHNd-4kmLkU-o53WLC-9q32Tc-61fAhW-662Zq5-66343f-itG2ge-9TbzWg-XWSn5s-tyeTE4-XE4MeZ-CjQYxZ-9Tepwf-7DTHnw-662WdQ-2a1Qa4Q-KQaMxr-BxUDQx-dtSuTp-V3etT8-9XngJ-65XHMM-4gGZFx-omkxzo-bmMzLM-dL8xRJ-dcaSNg-M3rfWG-5jvreu-KQaEUr-CMyNC-Jijfdt-86d1tz-JNMLSd-ag4AF5-jY9E9x-K7MK4M-ag4ACf-vhvQQR-XPvkCi-CkMuRw-2oqmtTr-2mUw7GM-2j4R1bq-2mAPkos-2puJi7C',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mary_Todd_Lincoln_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Ashland',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/formulanone/27722089712/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ashland,_Kentucky',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 2,
+          },
+          {
+            code: 'NE',
+            number: 8,
+          },
+          {
+            code: 'OK',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Wadsworth Falls State Park',
+          'Minneapolis Sculpture Garden',
+          'Biggest ball of twine',
+          'Rockwood Museum and Park',
+          "Ford's Theatre",
+          'Brookside Gardens',
+          'Mark Twain Boyhood Home',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Show Me State',
+          'Centennial State',
+          'Pine Tree State',
+          'Gem State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Orange Blossom',
+          'Wild Rose',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Lots of famous people come from Kentucky, including President Abraham Lincoln',
+          falseFact:
+            'The geographic center of Kentucky is 55 miles (89 kilometers) southeast of Prescott.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'S22RYTGt',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Kentucky',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-building-during-daytime-0azRGQ-fzSU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kentucky',
+        },
+        landmark: {
+          name: 'Big Four Bridge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/david_l_black/23563402156/in/photolist-23cdgqz-BUdAwq-f7ExGd-25dTvrF-frrJJX-f7qm8k-psHBHG-f7ript-GLUpWg-Pfdk8F-5SjwA9-JbWWnS-2nRhH7x-QH2BmC-xV9mKK-4z5AY2-4z9NjU-yU8yHb-4z9LTQ-9a6SHd-4z9LEf-KKHM17-2nTJxcF-2n7mUSQ-2oK86M5-2j6m3Ty-4HWYo6-pTTBvT-qai51P-23r78F9-Es9Hia-2q2uQ2J-G3G5pL-pZF9jo-u8h4zn-dTFKJi-2kh3YRb-yPBFYw-MmKvoF-NTyJzT-Ea5AiA-9j8qQv-Ys1vGx-dT4oCp-f7FuK7-t3ZZbm-JsLFnf-YbPn6N-25dSSZT-2ksrMWz',
+          wikiLink: 'https://en.wikipedia.org/wiki/Big_Four_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Barbourville',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/120051008@N03/30117838548/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Barbourville,_Kentucky',
+        },
+        landmarksRound: [
+          {
+            code: 'MT',
+            number: 7,
+          },
+          {
+            code: 'DC',
+            number: 4,
+          },
+          {
+            code: 'SD',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Fremont Troll',
+          'Theodore Roosevelt National Park',
+          "Ford's Theatre",
+          'Mount Washington',
+          'Old Faithful',
+          'Herbert Hoover Presidential Library and Museum',
+          'Drayton Hall',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Beaver State',
+          'Bay State/Old Colony State',
+          'Pine Tree State',
+          'Grand Canyon State',
+          'Golden State',
+        ],
+        flowerOptions: ['Rose', 'Camellia', 'Red Clover'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: '______ are common Kentucky mammals.',
+          fillAnswer: 'Black bears',
+          fillAnswers: ['Owls', 'Grizzly', 'Black bears', 'Wolves'],
+        },
+        uniqueId: 'Sqc52NkX',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Kentucky',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-fenced-in-field-with-a-wooden-gate-and-a-house-in-the-distance-2TVL1lHp_2U',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kentucky',
+        },
+        landmark: {
+          name: 'Ashland (Henry Clay estate)',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/vynsane/21081790378/in/photolist-y7VFNs-X6E88c-X6E2yg-X3CafG-W2EtJN-Ne6GAi-W2Eb3q-2jY8E7Q-W2EW77-X6E67Z-6AN3xe-W5bCvc-Ne6Hv4-URFz8h-W2Erg1-W2Efp1-URFxM1-X6E49v-Ximh3K-W2E8Jh-6KV1mg-X3Bwj7-URFyvf-cwYXN3-XimfBt-cD37xy-XimEGT-cwZonC-Ne6GkZ-XeHo5h-fg1kxD-qjL3zP-7yuHCQ-89ZyVj-s5oniH-2pmvPom-5yHKw2-28YB549-nNazdw-nNaLPL-W5baPM-W5b9gr-CR1Mp-7GQbad-vZdodR-URFwkd-awFLCC-v2VViT-Ne6HV2-awD3eV',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ashland_(Henry_Clay_estate)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bowling Green',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/davidwilson1949/11720404053/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bowling_Green,_Kentucky',
+        },
+        landmarksRound: [
+          {
+            code: 'WY',
+            number: 1,
+          },
+          {
+            code: 'DE',
+            number: 8,
+          },
+          {
+            code: 'IL',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          '9/11 Memorial & Museum',
+          'Montezuma Castle National Monument',
+          'Point State Park',
+          'Statue of Liberty',
+          'Elvis Presley Birthplace',
+          'The Venetian',
+          'Cathedral of St. Paul',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Pelican State/Creole State/Sugar State',
+          'Lone Star State',
+          'North Star State/Gopher State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: [
+          'Mock Orange',
+          'Pasque Flower',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Kentucky is bordered by Indiana and Ohio in the _____',
+          fillAnswer: 'north',
+          fillAnswers: ['north', 'east', 'west', 'south-east'],
+        },
+        uniqueId: 'J7lMfGw6',
+      },
     ],
     capital: 'Frankfort',
     flower: {
@@ -12675,14 +18704,13 @@ const whereTakenUSCurrent = [
     lat: 31.244823,
     long: -92.145024,
     cities: [
-      'Baton Rouge',
-      'Bossier City',
-      'Metairie',
-      'Lafayette',
       'New Orleans',
       'Shreveport',
       'Lake Charles',
-      'Paradise',
+      'Covington',
+      'DeRidder',
+      'Gretna',
+      'Houma',
     ],
     game: [
       {
@@ -13355,6 +19383,350 @@ const whereTakenUSCurrent = [
           'Biltmore Estate',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Louisiana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-brown-painted-wall-house-4zrdmGkrGtE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Louisiana',
+        },
+        landmark: {
+          name: 'St. Louis Cathedral (New Orleans',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/boolkah/43683973765/in/photolist-29ycMtt-6bQh47-2eJm48e-qrdjDL-QjCnzv-68MaEq-dGCYva-25xoboE-8ESF7B-AV3wjh-ecaRcB-qQWiXf-DEi7we-24TXWqJ-a5dYfT-NfWwan-DgFqwX-273WZWo-pCLbcX-fdEiuN-qe1eKb-axw3ce-M3X4ud-divqsk-wAbHc-neQsNH-dGCZq6-87fzLb-qWSkSG-e5z3sw-4KUk7n-MNWrZX-f9BdTP-wjg38F-5gaDFq-dm3Jxo-St6rCj-bs9C6C-a1so52-im97-qNfTZC-a5gPHj-ay2vBH-6dBR7w-pgSVj2-k5yrvd-5uAK29-QogYfa-8So3t9-957uA3',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/St._Louis_Cathedral_(New_Orleans)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'New Orleans',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/18462327/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Orleans',
+        },
+        landmarksRound: [
+          {
+            code: 'DC',
+            number: 5,
+          },
+          {
+            code: 'KY',
+            number: 7,
+          },
+          {
+            code: 'NJ',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Walt Disney World',
+          'Rock City Gardens',
+          'Kansas State Capitol',
+          'Fort Abraham Lincoln State Park',
+          'Biltmore',
+          'Fallingwater',
+          'George Washington Bridge',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'The Last Frontier',
+          'The Mount Rushmore State',
+          'The District',
+          'Show Me State',
+          'Island of Enchantment',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Rose',
+          'California Poppy',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Louisiana has the most vivid history and diverse culture of any state in the country.',
+          falseFact:
+            'Louisiana’s Museum of Science and Industry contains the world’s largest pinball machine and a miniature castle.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'H6y2NCXx',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Louisiana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-covered-in-spanish-moss-ef9VCs8Yox4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Louisiana',
+        },
+        landmark: {
+          name: 'Laura Plantation',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/maulleigh/3827513510/in/photolist-bdzPMt-6Qe1qf-62KDFo-au49me-mysDEv-9Zx8ai-2LvnC-eiG8gX-6EGqMC-au6Yzm-bdB3p6-bdASct-bdzRBg-dbpUCb-dbpTp2-bGUwba-9Zx8Z4-dbpVN9-9ZA2CY-515G5z-wNVbr-wNV51-9GtjKu-9GtjzQ-515FDg-9Zx9bV-9Zx9Jr-6KFhch-6KFh13-wNV53-wNUP5-wNUP9-9HMZp5-6KB9uc-wNV4S-wNV4W-wNUPb-wNV4N-wNUP1-wNUNX-86w5GH-wNUP6-pimXFN-Bz1C9m-72jWVa-9i2u1X-2jdaUY-9i2rTR-vLNFrj-72jXcD/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Laura_Plantation',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Covington',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/infrogmation/35374671675/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Covington,_Louisiana',
+        },
+        landmarksRound: [
+          {
+            code: 'VI',
+            number: 2,
+          },
+          {
+            code: 'KS',
+            number: 9,
+          },
+          {
+            code: 'NC',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Hot Springs National Park',
+          'The Elms',
+          'Lincoln park',
+          'West Virginia Penitentiary',
+          'Portland Head Light',
+          'The Henry Ford',
+          'Meteor Crater',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Empire State',
+          'Centennial State',
+          'Keystone State',
+          'Prairie State/Land of Lincoln',
+        ],
+        flowerOptions: ['Bitterroot', 'Yucca Flower', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'French explorer Robert de LaSalle named Louisiana in honor of King Louis XIV.',
+          falseFact:
+            'From 1790 to 1840 the state’s population growth rate hovered between 4 and 8 percent per decade.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'mRBtBl8w',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Louisiana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-with-trees-Qph-SVkcL4k',
+          wikiLink: 'https://en.wikipedia.org/wiki/Louisiana',
+        },
+        landmark: {
+          name: "Lafitte's Blacksmith Shop",
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/129943466@N08/31919749443/in/photolist-QCD4rD-2nwtpQJ-2pk8jqy-FMEpr1-2gJuzJU-2oUG38i-TUVrA7-v9oxee-JPQa3x-iQ14x2-daddQn-G3FfDR-26NmVcn-W3oBxD-euzjBi-2hu7wCD-2mHyTjx-DR6hvL-fsssUo-pbbDDP-y7MF7Y-Dd3pq5-4DzfYB-9Mjywn-5VABsp-kodAqD-8kZhaP-2aUC8Be-jgC4Kd-278M5nz-9PXooY-7ZBYuq-2o5fRmV-9Z7jZV-e4w7xt-ytbgwC-3QY7tM-bsKEjW-GQxd7G-a8SKHP-9y1wxH-78rvHX-f6SdX6-93gZMN-prdBKQ-DktWZE-A43rpB-pFwbSE-2cMjyND-2oukQAa',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lafitte%27s_Blacksmith_Shop',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'DeRidder',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/auvet/2295307898/',
+          wikiLink: 'https://en.wikipedia.org/wiki/DeRidder,_Louisiana',
+        },
+        landmarksRound: [
+          {
+            code: 'WV',
+            number: 5,
+          },
+          {
+            code: 'AR',
+            number: 2,
+          },
+          {
+            code: 'OH',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'The Elms',
+          'Canyonlands National Park',
+          'Charles E. Conrad Mansion Museum',
+          'Great Falls',
+          'Grand Teton',
+          'Sleeping Bear Dunes',
+          'National Cowboy & Western Heritage Museum',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Golden State',
+          'Grand Canyon State',
+          'Palmetto State',
+          'Sooner State',
+          'Mountain State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Red Clover',
+          'Apple Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Louisiana has more than 4,000 miles of navigable waterways',
+          falseFact:
+            'Louisiana was the last of the contiguous United States to be made a state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'lpx7gmnd',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Lake Martin',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-coconut-trees-near-body-of-water-during-daytime-nTk0RJXA0iw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Martin,_Louisiana',
+        },
+        landmark: {
+          name: 'Oak Alley Plantation',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/robmcc/12482372135/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oak_Alley_Plantation',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gretna',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/infrogmation/29759528267/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gretna,_Louisiana',
+        },
+        landmarksRound: [
+          {
+            code: 'NY',
+            number: 4,
+          },
+          {
+            code: 'DE',
+            number: 6,
+          },
+          {
+            code: 'NV',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Big Four Bridge',
+          'Brucemore',
+          'Canyonlands National Park',
+          'Cathedral Caverns State Park',
+          'Gateway Arch',
+          'U.S. Space & Rocket Center',
+          'Fort Worth Water Gardens',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Beaver State',
+          'Peace State/Empire State of the South',
+          'America’s Paradise',
+          'Free State/Old Line State',
+          'Volunteer State',
+        ],
+        flowerOptions: ['Camellia', 'American Beauty Rose', 'Bluebonnet'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Louisiana has _____ parishes.',
+          fillAnswer: '64',
+          fillAnswers: ['50', '64', '54', '30'],
+        },
+        uniqueId: 'lGWW95fn',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Louisiana',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/retreats/6340169723/in/photolist-aEg2z6-QVuTrz-9xdr1h-6hr8k9-6hmXBP-Sz8LXY-2oQ8XQZ-Sz8LUb-5njSyk-8znJU-ntu1dh-QGoS6A-5njT8D-QK3XxP-23N6MSf-Qmk6fN-avic4A-6hmXgg-MxpT6-LJUfar-2oiu4Rr-nKWcib-QS3UYU-26xN7m6-LGp2Ru-mMuFS-9JQZys-GU1zkH-5517uH-555jRd-mMYQ5E-5517nv-pGehL5-wfSNr2-pYoKZF-Qmk7Zu-p2Rhmc-5517rF-pYHCR5-9JR1XL-9JNeRX-6dfMqZ-JqhW3q-2n2co3V-p5pKnP-5JX8Yv-avic5d-pWt1t9-JqhW5u-p2MGoQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Louisiana',
+        },
+        landmark: {
+          name: 'Old Louisiana State Capitol',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/pontla/49427272007/in/photolist-2iiHFWX-2iu3p6q-ANywRD-2o8xxTU-7YAeFo-CbMSYs-su4GjB-7P1eJ5-7NWeee-9fJwLE-6ZSLGP-7NWerB-JG1rah-2hqgVie-dxANmj-V5YFxk-2nB9PDu-28DJaXm-2iTuZUd-8DB2qK-2C94HX-AvZgQH-4ybPGU-9TAFoV-svVVGh-2o18tcc-8gw6Xj-77WFtm-eoMcio-2n4PCwf-68e5B1-2nBHQw9-25rtmXn-2o1aVqK-2nfosQG-cT9ooy-e7xDAX-2kGyvXL-2iyiuQH-2hPWqxw-djSMm5-6rEWxA-2iTuPCb-8xqupL-5Ez7Cc-8n1PB9-5CjXEQ-7Ty7QL-7TuRtM-2eh4Nsd',
+          wikiLink: 'https://en.wikipedia.org/wiki/Old_Louisiana_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Houma',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/197491155@N08/53667853759/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Houma,_Louisiana',
+        },
+        landmarksRound: [
+          {
+            code: 'ND',
+            number: 9,
+          },
+          {
+            code: 'VI',
+            number: 9,
+          },
+          {
+            code: 'OR',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Aerial Lift Bridge',
+          'Three Rivers',
+          'The House on the Rock',
+          'Caguana Ceremonial Ball Courts Site',
+          'Virgin Islands National Park',
+          'Myriad Botanical Gardens',
+          'Chimney Rock National Historic Site',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'The Last Frontier',
+          'The Mount Rushmore State',
+          'The District',
+          'Show Me State',
+          'Island of Enchantment',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Rose',
+          'California Poppy',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Louisiana is the American state to enter the Union _____',
+          fillAnswer: '1812',
+          fillAnswers: ['1812', '1800', '1799', '1813'],
+        },
+        uniqueId: 'm7kK6YTZ',
+      },
     ],
     capital: 'Baton Rouge',
     flower: {
@@ -13373,12 +19745,12 @@ const whereTakenUSCurrent = [
     lat: 42.407211,
     long: -71.382437,
     cities: [
-      'Salem',
       'Cambridge',
       'Springfield',
       'Boston',
       'Worcester',
       'Lowell',
+      'Lawrence',
     ],
     game: [
       {
@@ -14053,6 +20425,345 @@ const whereTakenUSCurrent = [
           'Nelson-Atkins Museum of Art',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Massachusetts',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-group-of-tall-buildings-sitting-next-to-each-other-NCxcShnhFAU',
+          wikiLink: 'https://ro.wikipedia.org/wiki/Massachusetts',
+        },
+        landmark: {
+          name: 'Faneuil Hall',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/hong-xiao/49950223626/in/photolist-2j6VXfb-5m7p6-LNirY-9VSky-yYsJyP-AzAWgD-6b7Lpc-4ovyHk-4oYMsE-47RbWq-4ovyBz-5XMu3i-eoefbd-28BLcK-5iyCE3-yic8Wq-dpsmo-yiezjq-yXH6Yz-zedPp5-GZtyH2-af6VH5-ct6Pu-bDQoGm-RfvMjR-4TGERk-54VKgb-8E1BNX-yXKwjp-8E1BXr-Ssacks-4GMybp-64BJS6-ebn2B-cezVms-d8XVgN-4wdVqe-5vSEQW-a6Nk8L-kVef4-N6L7B1-WXnWBX-6eR9Tn-2nHTSpn-qH49dk-qEW4ws-qEW4tm-9me6yd-2nUEq22-eD3q9',
+          wikiLink: 'https://en.wikipedia.org/wiki/Faneuil_Hall',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Boston',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-walking-on-park-during-daytime-eSQNlt0QmXI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Boston',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 6,
+          },
+          {
+            code: 'AK',
+            number: 4,
+          },
+          {
+            code: 'IA',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Myriad Botanical Gardens',
+          'Idaho Potato Museum',
+          'Soldiers & Sailors Monument',
+          'Pearl Harbor National Memorial',
+          'Charging Bull',
+          'Chickasaw National Recreation Area',
+          'Stonington Harbour Light',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Prairie State/Land of Lincoln',
+          'Cotton State/Yellowhammer State',
+          'America’s Paradise',
+          'Beehive State',
+        ],
+        flowerOptions: ['Peony', 'Hawaiian Hibiscus', 'Apple Blossom'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The Commonwealth of Massachusetts is named after a local indigenous tribe.',
+          falseFact:
+            'Massachusetts has 25 school districts supporting 263 public high schools.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'lkmQljWw',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Massachusetts',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-farm-with-mountains-in-the-background-LFwVHwHdJRo',
+          wikiLink: 'https://ro.wikipedia.org/wiki/Massachusetts',
+        },
+        landmark: {
+          name: 'Hammond Castle',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/mcscub/14716962097/in/photolist-oquh6P-UCQ4Uf-ZVxbcb-YSu41N-dyGKPu-VWRtJ4-5ftGBm-2pVvUWG-YSxBXU-2mxAspR-MmZbc7-a2dQxS-EL43hS-eMzZU-eMA1m-eMA1G-pCbQ3K-eMA2v-eMA1c-eMA1X-pkXMPN-jftHY-iYDMX-jftJ2-iYDNH-jftHU-jftHV-iYuaY-iYDLD-iYuag-iYDPg-iYu78-jftHT-pCqWT1-iYu33-iYtZq-jftHW-iYu8A-iYu8Z-dyBgXx-dyGKy1-dyBhy6-dyGKod-dyGKMy-dyGKqQ-dyBhvi-dyBh9T-dyGKTh-dyBhtR-dyGKwA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hammond_Castle',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Lawrence',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-brick-building-next-to-a-body-of-water-xOkmY8dnc0Q',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lawrence,_Massachusetts',
+        },
+        landmarksRound: [
+          {
+            code: 'PA',
+            number: 4,
+          },
+          {
+            code: 'NV',
+            number: 9,
+          },
+          {
+            code: 'WA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Gillette Castle',
+          'George Washington Bridge',
+          'Fort Union Trading Post',
+          'Independence National Historical Park',
+          'Yale University',
+          "Soldiers' and Sailors' Monument",
+          'Ichetucknee Springs State Park',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Beehive State',
+          'Ocean State',
+          'Empire State',
+          'Free State/Old Line State',
+          'Natural State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          "Pink And White Lady's Slipper",
+          'Yellow Elder',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'In the 17th century, 19 “witches” were taken to trial and hung in the town of Salem, Massachusetts.',
+          falseFact: 'The Massachusetts flower is the Black-Eyed Susan.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'HcVc2g9X',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Massachusetts',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/20393247/',
+          wikiLink: 'https://ro.wikipedia.org/wiki/Massachusetts',
+        },
+        landmark: {
+          name: 'Museum of Fine Arts',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-building-with-a-large-entrance-ItZcnFna3rg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Museum_of_Fine_Arts,_Boston',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Worcester',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/photo-of-red-and-white-painted-building-house-BqZjGQVTAtA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Worcester,_Massachusetts',
+        },
+        landmarksRound: [
+          {
+            code: 'KY',
+            number: 6,
+          },
+          {
+            code: 'DE',
+            number: 7,
+          },
+          {
+            code: 'NM',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Hearst Castle',
+          'Golden Driller Statue',
+          'Church Street Marketplace',
+          'Georgia Aquarium',
+          'Coastal Maine Botanical Gardens',
+          'Paw Paw Tunnel',
+          'National Corvette Museum',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'The Last Frontier',
+          'America’s Paradise',
+          'Flickertail State/Sioux State',
+          'Green Mountain State',
+        ],
+        flowerOptions: ['Black-eyed Susan', 'Rose', 'Red Clover'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Massachusetts was at the heart of the American Revolution.',
+          falseFact:
+            'Massachusetts is a New England state and one of the original 20 colonies.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'yYScrWKh',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: "Martha's Vineyard",
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-boat-traveling-down-a-river-next-to-houses-hFd9eW-6L0I',
+          wikiLink: 'https://en.wikipedia.org/wiki/Martha%27s_Vineyard',
+        },
+        landmark: {
+          name: 'The Mount ',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jimrob/30704194768/in/photolist-M9Riuk-2aXakTe-NMe2oq-NQW8Qy-Mc98Z2-288hGCQ-NQVZfN-29MFPMG-29MG3PJ-2p2xUFX-2hV9yDc-2aQw3zs-2nHCtY5-2nNpkAt-NPsk1G-2cJya8g-uCBEFJ-LpriZe-298ivSf-pPaZBs-gcah43-s4hjLb-W2tHAJ-2aGsryE-ek5GC5-bBTRn1-2p2vbY4-SKFiyE-2ko2Kw7-2axLCEK-24juKJV-7N34F1-2dSHdh7-2hL16qq-oZE7Zh-pha1ha-KKfGQZ-pgSYn6-B8KtqA-284zX1s-MdLH4v-2aePU8d-ejQ1BV-JMieW7-W2tHrW-T7ztWm-gZ9zj3-2eU3VcE-gZ9Ja7',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/The_Mount_(Lenox,_Massachusetts)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Springfield',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/formulanone/36127793123/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Springfield,_Massachusetts',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 5,
+          },
+          {
+            code: 'OR',
+            number: 8,
+          },
+          {
+            code: 'MT',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Charging Bull',
+          'Ave Maria Grotto',
+          'Roseland Cottage',
+          'Grand Staircase',
+          'Monument Rocks',
+          'Goldfield Ghost Town',
+          'Radium Springs',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Magnolia State',
+          'Flickertail State/Sioux State',
+          'Wolverine State/Great Lake State',
+          'Sooner State',
+          'Mountain State',
+        ],
+        flowerOptions: ['Orange Blossom', 'Goldenrod', 'Hawaiian Hibiscus'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'The capital of Massachusetts is _____',
+          fillAnswer: 'Boston',
+          fillAnswers: ['New-York', 'Los Angeles', 'Boston', 'San-Francisco'],
+        },
+        uniqueId: '3RmHPCz6',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Massachusetts',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/iip-photo-archive/29555399367/',
+          wikiLink: 'https://ro.wikipedia.org/wiki/Massachusetts',
+        },
+        landmark: {
+          name: 'Old North Church',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/army_arch/19409077286/in/photolist-vz7Aty-H2jejm-qYsX6p-aUXXjV-vZzgL7-q5MgKi-s1dkch-E72Qnb-r1o7w-pGH1CV-axpjQ1-aHfBWD-aHg3Ev-23nkyEr-8DwPp9-26jg1r-aXU8dT-RBndt1-6kccVx-9Ar5Su-2kyksG-HVK4LT-ydHH5L-8XruGz-xyjbdy-ACkxN-gLU6ib-dbgx8-M9sXin-2orotVk-2bbGRYf-2nN21fj-2oqXkNX-yVmMZW-2pdR9TS-2nGU72N-2mPQMSL-2pfsj3D-2kDTfRk-2pMQDBN-2pnju1B-2oFuzXs-2pr3ocL-2kVZBv3-2p1DGWf-2pq3dNy-2oFsZQx-2oZBM8M-2ptpG5J-THwx9f',
+          wikiLink: 'https://en.wikipedia.org/wiki/Old_North_Church',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cambridge',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/yacht-on-port-near-city-buildings-qe4cJxjIo8Q',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cambridge,_Massachusetts',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 9,
+          },
+          {
+            code: 'AZ',
+            number: 4,
+          },
+          {
+            code: 'GA',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort McHenry',
+          "Bowen's Wharf",
+          'The Greenbrier',
+          'Timberline Lodge',
+          'Flume Gorge',
+          'Dinosaur National Monument',
+          'Fort Adams State Park',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Prairie State/Land of Lincoln',
+          'Cotton State/Yellowhammer State',
+          'America’s Paradise',
+          'Beehive State',
+        ],
+        flowerOptions: ['Peony', 'Hawaiian Hibiscus', 'Apple Blossom'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Massachusetts was the _____ state to join the United States of America',
+          fillAnswer: '6th',
+          fillAnswers: ['12th', '6th', '17th', '1st'],
+        },
+        uniqueId: 'SsFWZT8M',
+      },
     ],
     capital: 'Boston',
     flower: {
@@ -14072,11 +20783,11 @@ const whereTakenUSCurrent = [
     long: -76.641271,
     cities: [
       'Baltimore',
-      'Annapolis',
       'Frederick',
-      'Columbia',
       'Silver Spring',
       'Germantown',
+      'Ocean City',
+      'Gaithersburg',
     ],
     game: [
       {
@@ -14760,6 +21471,337 @@ const whereTakenUSCurrent = [
           'Walt Disney World',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Maryland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-row-of-apartment-buildings-next-to-a-body-of-water-HU6uYbDnDSM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maryland',
+        },
+        landmark: {
+          name: 'Fort McHenry',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/my_trips/6860908804/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_McHenry',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Baltimore',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-concrete-building-near-body-of-water-during-daytime-UZM12HFlnJs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Baltimore',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 10,
+          },
+          {
+            code: 'DE',
+            number: 1,
+          },
+          {
+            code: 'ME',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Thorncrown Chapel',
+          'Milwaukee Art Museum',
+          'Helen Keller Birthplace',
+          'Dignity of Earth and Sky',
+          'Hoover Dam',
+          'Fenwick Island Lighthouse',
+          'Acadia National Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Magnolia State',
+          'Cotton State/Yellowhammer State',
+          'Sooner State',
+          'Volunteer State',
+          'Prairie State/Land of Lincoln',
+        ],
+        flowerOptions: ['Peony', 'Scarlet Carnation', 'Flowering Dogwood'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'It is one of the original thirteen colonies (the seventh state) and ratified the U.S. Constitution in 1788.',
+          falseFact: 'Maryland is seismically active.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'SGwvmwDn',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Maryland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-bridge-over-a-river-tM6bKNWL1A0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maryland',
+        },
+        landmark: {
+          name: 'United States Naval Academy',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/pensivelaw/14202790175/in/photolist-nD41GF-bYUUZE-QV45UG-2615s6s-2mbFg2S-2dM3pzW-2mQA1ex-Qbcepj-bCSnrW-bYNnw5-9L86jU-2mbwgYS-2mbDN1U-HKGL5k-MwWob1-2mbA6dK-2mbDQAP-2mbFdyF-2mbB87z-7btKjX-2mbwgZy-2mbA6eX-2mbBaCg-2mbBaJJ-2mbA6fD-5m6zUc-og4RKP-22sfWMU-2mbB81x-2o8gJEE-9L872y-og4RLa-2mbDRaK-2mbA3se-2mbFdp7-2nZLBz2-2nUWhup-2mbFdr6-2mbBbhs-2nvjty3-9JYdNf-xDKS9d-2mbA6Mk-2mbA6Ly-2mYBhAK-2kSw5RV-2kLdqy2-2nCuzfp-dk712R-2nZP8sJ',
+          wikiLink: 'https://en.wikipedia.org/wiki/United_States_Naval_Academy',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Frederick',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/145298335@N06/41171234370/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Frederick,_Maryland',
+        },
+        landmarksRound: [
+          {
+            code: 'IL',
+            number: 9,
+          },
+          {
+            code: 'NV',
+            number: 6,
+          },
+          {
+            code: 'IA',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Christian',
+          'Hoover Dam',
+          'Welcome to Fabulous Las Vegas sign',
+          'Bennington Battle Monument',
+          'Minidoka National Historic Site',
+          'USS Albacore',
+          'Kenai Fjords National Park, Seward',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Sooner State',
+          'Ocean State',
+          'The Mount Rushmore State',
+          'Centennial State',
+          'Sunshine State',
+        ],
+        flowerOptions: ['Colorado Blue Columbine', 'Peony', 'Magnolia'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Annapolis is the capital of Maryland.',
+          falseFact: 'Maryland is the 23rd state',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'd525WXxX',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Maryland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-wooden-bridge-over-a-town--NZUMBp4bUw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maryland',
+        },
+        landmark: {
+          name: 'Federal Hill Park',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/hong-xiao/52749418967/in/photolist-2onhyuP-Szhzkc-ebUkk-2n1cCjA-eCjT7y-ebUzX-2jgXntm-2pZ9nsF-2pZgnmn-zLbv7R-2odD9f1-9HJ2Vo-2oiCJGP-2oThuso-2nr9SUx-2n5yVTS-2mbkJtb-eoiCa6-bwwcL3-27MzQGm-52yLzm-2mZe64V-2mqNuBa-3LNet4-9cJLva-qzcgrF-2onnNSx-dKQqk7-Txgo1w-24NUBuj-2omPsVY-aw2Why-2nK7is1-9DHEyZ-2ocUW9C-2j1zp4s-2kbwyEX-2njX5yS-G3yKo4-KrsSha-2jMDLX5-2gbBgxq-2dCc52V-8suJwx-2gV8QCN-2hm2qeK-2mpDHjh-NLPsSD-2ccePQr-owLfTJ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Federal_Hill_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Ocean City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-beach-with-buildings-along-it-ZgXDUR7n_yM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ocean_City,_Maryland',
+        },
+        landmarksRound: [
+          {
+            code: 'NV',
+            number: 1,
+          },
+          {
+            code: 'NC',
+            number: 1,
+          },
+          {
+            code: 'NE',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Alcatraz Island',
+          'National Memorial Cemetery of the Pacific',
+          'Warner Theatre',
+          'Gathering Place',
+          'Arch Rock',
+          'Mount Washington Cog Railway',
+          'Sleeping Bear Dunes',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Tar Heel State',
+          "Badger State/America's Dairyland",
+          'Ocean State',
+          'Granite State',
+        ],
+        flowerOptions: ["Pink And White Lady's Slipper", 'Iris', 'Mock Orange'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Maryland’s most populous city is Baltimore, with a population of 576,498.',
+          falseFact:
+            'Maryland is also known for extreme weather events, including tornadoes, flash floods, high winds, lightning, and hail storms.  ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '4k44TQ2j',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Maryland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-road-with-a-mountain-in-the-background-8O0cJso1RZE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maryland',
+        },
+        landmark: {
+          name: 'Antietam National Battlefield',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/23642789@N04/8919619235/in/photolist-eAco3x-2pHDwMt-axtZg5-qC79g7-axrkF4-axtWYq-axrkSx-axrdPX-axu64b-axtLDU-axr4FD-9DjcPJ-axu4C7-dkZaES-axrfwc-cCei4S-2kfVdLd-axtWuU-Hta7Me-axrhSM-9Dgjik-9Dgjjx-axtWe1-5VKRuF-axu3XG-axtVp5-axr6Sx-axtZ9s-axrcRZ-9DjcV1-axrdM2-cCeeY5-9DgiDr-axtTrJ-axrgxz-axu2yj-axtLbW-axtLSj-axtUfj-9Dgjor-cCec4j-qsFp7q-axrkqB-7YtsJJ-axtYf1-axrjTX-YPfeXJ-axu1Yj-axrj1n-9DgitV',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Antietam_National_Battlefield',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gaithersburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/6479978321/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gaithersburg,_Maryland',
+        },
+        landmarksRound: [
+          {
+            code: 'NV',
+            number: 10,
+          },
+          {
+            code: 'MN',
+            number: 5,
+          },
+          {
+            code: 'AZ',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Idaho Falls Idaho Temple',
+          'Red Rock Canyon National Conservation Area',
+          'Penobscot Narrows Bridge and Observatory',
+          'Seven Mile Bridge',
+          'Seven Magic Mountains',
+          'Philbrook Museum of Art',
+          'Mississippi Petrified Forest',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Silver State/Sagebrush State',
+          'Granite State',
+          'Pine Tree State',
+          'The Old Dominion/Mother of Presidents',
+          'First State/Diamond State',
+        ],
+        flowerOptions: ['Sagebrush', 'Iris', 'Sego Lily'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The first umbrella factory was established in Baltimore, Maryland in ______.',
+          fillAnswer: '1828',
+          fillAnswers: ['1800', '1799', '1785', '1828'],
+        },
+        uniqueId: 'GjsH6JGL',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Maryland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/body-of-water-across-houses-Fct4NXOMyVc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maryland',
+        },
+        landmark: {
+          name: 'Paca House and Garden',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/50532466@N06/5043776831/in/photolist-8FGF8v-8FiqWG-8FGE3p-8FGEgF-8FKRLj-8Fitxs-8FiqFU-8Firuj-8FKSyd-8FKShA-8Ffijr-8FGEAP-8Fffka-8Fis2j-8FKS4f-8FKRYo-8FGDSx-8FGExa-8Ffeyx-8Fipvh-8Fff3B-8FffzR-8FGDMk-8FfeSr-8FipRs-8FipZd-8Ffir6-8Ffiox-8Fisad-ZNREHY-8Ffikt-ZNREBf-YNT6eW-8Fffd6-ZQSNoj-YNT6sb-zMa9wH-ZTxEwM-YNT48b-8FfhMZ-9rFDPj-8FfhJc-8FitvY-8FisHh-8Ffhwp-8FffoK-8FirTE-8Fir9j-8FirsS-8FGFyz',
+          wikiLink: 'https://en.wikipedia.org/wiki/Paca_House_and_Garden',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gaithersburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/elipousson/6086865998/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gaithersburg,_Maryland',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 3,
+          },
+          {
+            code: 'NJ',
+            number: 6,
+          },
+          {
+            code: 'ND',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Waimea Canyon State Park',
+          'Split Rock Lighthouse',
+          'Gillette Castle State Park',
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Wright Brothers National Memorial',
+          'La Fortaleza',
+          'Puerta de San Juan',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Magnolia State',
+          'Cotton State/Yellowhammer State',
+          'Sooner State',
+          'Volunteer State',
+          'Prairie State/Land of Lincoln',
+        ],
+        flowerOptions: ['Peony', 'Scarlet Carnation', 'Flowering Dogwood'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Maryland has more than _____ miles of shoreline.',
+          fillAnswer: '2000',
+          fillAnswers: ['2000', '1500', '100', '7000'],
+        },
+        uniqueId: 'pCjLN9bx',
+      },
     ],
     capital: 'Annapolis',
     flower: {
@@ -14778,14 +21820,12 @@ const whereTakenUSCurrent = [
     lat: 45.253783,
     long: -69.445469,
     cities: [
-      'Bangor',
       'Portland',
-      'Augusta',
       'Lewiston',
-      'Biddeford',
       'Auburn',
       'South Portland',
-      'Raleigh',
+      'Bangor',
+      'Biddeford, Maine',
     ],
     game: [
       {
@@ -15464,6 +22504,341 @@ const whereTakenUSCurrent = [
           "The World's Only Corn Palace",
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Maine',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-brown-lighthouse-on-brown-rocky-mountain-during-daytime-rhItUAQPwHk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maine',
+        },
+        landmark: {
+          name: 'Acadia National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-rocky-cliff-overlooks-a-body-of-water-2cI-s7g3yy4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Acadia_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Portland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-next-to-tall-buildings--mPRU36AD4E',
+          wikiLink: 'https://en.wikipedia.org/wiki/Portland,_Maine',
+        },
+        landmarksRound: [
+          {
+            code: 'CO',
+            number: 4,
+          },
+          {
+            code: 'PA',
+            number: 4,
+          },
+          {
+            code: 'PA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Sandia Peak Tramway',
+          'Fenwick Island Lighthouse',
+          'Fort Adams State Park',
+          'Big Four Bridge',
+          'The Mammoth Site',
+          'St. Louis Cathedral',
+          'St George Utah Temple',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Show Me State',
+          'Prairie State/Land of Lincoln',
+          'Palmetto State',
+          'Peace State/Empire State of the South',
+          'Beehive State',
+        ],
+        flowerOptions: ['Black-eyed Susan', 'Iris', 'Coast Rhododendron'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Some historians think Maine’s name came from the nautical term “mainland”',
+          falseFact:
+            'Allegheny woodrats are among Maine’s most common mammals.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'lPJMP8VL',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Maine',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/purple-and-white-flowers-in-front-of-a-body-of-water-c7dxCSUZ8to',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maine',
+        },
+        landmark: {
+          name: 'Coastal Maine Botanical Gardens',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/photostoartbymike/53257559170/in/photolist-2p9bUSN-cG2R35-2oBSyGG-2o7w6Dg-2maGuwY-2o5EEHJ-2oKHHFM-HPShJw-ppMib8-2p9SBLg-XU4FcT-a7Db2z-2oKLzzh-fvuFCk-2maLgbu-2cz5oXE-2oBR1GH-2m1vJF9-a7PDR6-ev5wpD-ev9DEA-2maCQbg-ev9uTU-ev5tTB-ev9tEq-ev8SJC-ev6jV6-ev8NsN-ev9xtQ-ev5z5B-ev9B5N-ev9RkN-QQTgzw-ev5UKF-ev6v9Z-ev5AeF-27CJ754-23GLmcD-2auV9Hc-pCfjpo-22Kzfb3-dcHEbz-oTsePb-pnxxZQ-ev8XBw-2g8D6tm-faBrur-2maCFQo-fECBJ5-pnMpvM',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Coastal_Maine_Botanical_Gardens',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Lewiston',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/pavdw/52340047215/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lewiston,_Maine',
+        },
+        landmarksRound: [
+          {
+            code: 'ID',
+            number: 9,
+          },
+          {
+            code: 'NC',
+            number: 7,
+          },
+          {
+            code: 'MO',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'American Visionary Art Museum',
+          "St. Patrick's Cathedral",
+          'Cape Krusenstern National Monument',
+          'Monument Valley',
+          'Bok Tower Gardens',
+          'Chapel of the Holy Cross',
+          'Meteor Crater',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'The District',
+          'Centennial State',
+          'The Mount Rushmore State',
+          'Land of Enchantment',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: [
+          'Goldenrod',
+          'American Beauty Rose',
+          'Flowering Dogwood',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Maine has over 32,000 miles of rivers and streams',
+          falseFact: 'here are 39 species of crawfish in Maine.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '92bNXYc5',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Maine',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-concrete-building-near-green-grass-field-during-daytime-OM79Qz00BWQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maine',
+        },
+        landmark: {
+          name: 'Owls Head Light',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/larrymyhre/32953164178/in/photolist-KFoZtH-ScXzD5-5TV3r6-MJjiTs-Pe4xxf-c4CN4Q-c4CMsy-c4CN1h-c4CMME-zcfEky-5w34Cs-fe6sh4-c4CM2u-c4CM83-c4CLY5-c4CLMU-c4CLw3-c4CLK7-c4CLHj-asM4N2-L3kkLt-c4CMaQ-c4CLL9-2hNcodQ-c4CLW3-2i4Usvw-c4CM61-2kAUsUE-9XFR1E-2hbEQ68-5TZrnw-2i4WRBv-c4CMDN-XCvPnH-5TV5GD-c4CML7-c4CN9A-5TZpbQ-c4CN2w-c4CMZj-6u3xvo-c4CMBh-c4CMnw-c4CMxq-oXc3dW-c4CMGC-qwKTXt-5i8BYH-zigANS-c4CN87',
+          wikiLink: 'https://en.wikipedia.org/wiki/Owls_Head_Light',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bangor',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/78962249@N07/20858480533/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bangor,_Maine',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 4,
+          },
+          {
+            code: 'AK',
+            number: 12,
+          },
+          {
+            code: 'UT',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Missouri Botanical Garden',
+          'Mall of America',
+          'Idaho Falls Idaho Temple',
+          'Hoover Dam',
+          'Knife River Indian Villages',
+          'Castillo San Felipe del Morro',
+          'Timberline Lodge',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Sooner State',
+          'Centennial State',
+          'Beehive State',
+          'Mountain State',
+          'Nutmeg State/Constitution State',
+        ],
+        flowerOptions: ['Peony', 'American Beauty Rose', 'Orange Blossom'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'There are over 4,000 islands off of the coast of Maine',
+          falseFact: 'The state bird of Maine is the willow ptarmigan.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'WCR5MVxH',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Maine',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-road-in-the-middle-of-a-wooded-area-Kpk6sE0MBfk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maine',
+        },
+        landmark: {
+          name: 'Penobscot Narrows Bridge and Observatory',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/21307765@N02/52509555705/in/photolist-2nypsfV-oT28L5-2o16cvk-2oKt8vC-S1frY5-2oVEVfW-rtrbxx-2nDiWkY-2phEfw3-2kZWoZR-2nAtb4H-CtNWeX-Arjn1H-2pdkWNT-VpH8qT-2hiP9Hb-2pxZ7Vc-zf5LyJ-n2QG5o-LM6zyB-2nypsfE-yYekap-8pxQ8U-PJ9upL-8pxQtm-2pscxrj-29EhuhU-2jMFH3i-oAeppS-2hiRUdh-qcRDtk-oUR97F-2cpUN6V-2c3Ygzd-8Z9oXG-2mnESch-7gTAaW-LXpX9d-WktoRS-2nSFD9p-R1v2pt-QQ3Esg-2nSEJNg-caxmYQ-Aj62ej-zTbLJL-6SGeUZ-Y2pfaB',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Penobscot_Narrows_Bridge_and_Observatory',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Auburn',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/8165265950/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Auburn,_Maine',
+        },
+        landmarksRound: [
+          {
+            code: 'NE',
+            number: 3,
+          },
+          {
+            code: 'KS',
+            number: 6,
+          },
+          {
+            code: 'IA',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Glass House',
+          'Cathedral Caverns',
+          'Idaho Potato Museum',
+          'Navy Pier',
+          'Point Udall',
+          'Lucy the Elephant',
+          'Chicago Harbor Lighth',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Garden State',
+          'First State/Diamond State',
+          'Evergreen State/Chinhook State',
+          'Cotton State/Yellowhammer State',
+          'Wolverine State/Great Lake State',
+        ],
+        flowerOptions: ['Rose', 'Scarlet Carnation', 'Mock Orange'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Maine is most famous for its _____.',
+          fillAnswer: 'lobster',
+          fillAnswers: ['lobster', 'bear', 'frog', 'birds'],
+        },
+        uniqueId: 'nFHjKN2f',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Maine',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-wooden-bridge-over-a-body-of-water-OJ18kdB-5WE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maine',
+        },
+        landmark: {
+          name: 'Wadsworth-Longfellow House',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/106770728@N06/15660332184/in/photolist-pRRiaj-heYGzd-24QKWY-g1kP8o-8uVxMM-29Kx6TR-6ZJ8cT-EdVCEv-eeHvSe-q2Psdb-mVdiZ9-fzMtX-J4dGTZ-gHhvNT-jZmMtn-6ZJ7qa-haUPMJ-Ju7eZm-2hYCnq-k2CZDw-yAKyN9-XPy95-KginmG-Ju7oHJ-fKqMHz-265miXX-fKrggi-J4fRxD-EZfyeu-4EfeaC-i9tGdy-dXzUF7-dK3X4P-CEBP53-nKMmXa-6ZJ8u6-6ZJ61K-vCZHwa-9GW9jd-nKuWWc-252Q3Qd-252Q3Vo-ZJ25DF-ntpyQb-nHKuMA-BZdvNx-TF61RF-6ZN5NS-wphPP-pQCVo2',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wadsworth-Longfellow_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Biddeford, Maine',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jdalton/14101266124/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Biddeford,_Maine',
+        },
+        landmarksRound: [
+          {
+            code: 'WY',
+            number: 10,
+          },
+          {
+            code: 'VI',
+            number: 4,
+          },
+          {
+            code: 'KS',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Reed Gold Mine',
+          'Dole Plantation',
+          'Chihuly Garden and Glass',
+          'Multnomah Falls',
+          'Waterfront Park',
+          'Southernmost point buoy',
+          'Alcatraz Island',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Show Me State',
+          'Prairie State/Land of Lincoln',
+          'Palmetto State',
+          'Peace State/Empire State of the South',
+          'Beehive State',
+        ],
+        flowerOptions: ['Black-eyed Susan', 'Iris', 'Coast Rhododendron'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The first naval battle of the Revolutionary War was fought off Machias Maine in _____.',
+          fillAnswer: '1775',
+          fillAnswers: ['1800', '1775', '1770', '1766'],
+        },
+        uniqueId: 'DJ6jVjHb',
+      },
     ],
     capital: 'Augusta',
     flower: {
@@ -15482,12 +22857,12 @@ const whereTakenUSCurrent = [
     lat: 44.314844,
     long: -85.602364,
     cities: [
-      'Lansing',
       'Detroit',
       'Grand Rapids',
-      'Ann Arbor',
       'Flint',
-      'Charleston',
+      'Sterling Heights',
+      'Clinton',
+      'Dearborn',
     ],
     game: [
       {
@@ -16169,6 +23544,345 @@ const whereTakenUSCurrent = [
           'Parque de Bombas',
           'Rockefeller Center',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Michigan',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-white-house-sitting-on-the-side-of-a-road-VzJU9OVpRz8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Michigan',
+        },
+        landmark: {
+          name: 'Windmill Island',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/photoswithnikon/17481353676/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Windmill_Island',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Detroit',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/high-angle-view-of-high-rise-buildings-6Yp99zMrsAI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Detroit',
+        },
+        landmarksRound: [
+          {
+            code: 'HI',
+            number: 6,
+          },
+          {
+            code: 'LA',
+            number: 3,
+          },
+          {
+            code: 'HI',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Delaware Memorial Bridge',
+          'High Line',
+          'Gateway Arch',
+          'Paul Revere House',
+          'Idaho State Capitol',
+          'Trans-Allegheny Lunatic Asylum',
+          'Milwaukee Art Museum',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Golden State',
+          'Evergreen State/Chinhook State',
+          'Beaver State',
+          'Treasure State/Big Sky Country',
+          'Empire State',
+        ],
+        flowerOptions: ['Sunflower', 'Red Clover', 'Hawaiian Hibiscus'],
+        facts: {
+          trueFalse: true,
+          trueFact: "Michigan's actual birthday is Jan. 26, 1837.",
+          falseFact: 'Michigan has more than 2,000 miles of shoreline.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'SvQv98Sp',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Michigan',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/high-angle-view-of-high-rise-buildings-6Yp99zMrsAI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Michigan',
+        },
+        landmark: {
+          name: 'Mission Point Light',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/selectorjonathonphotography/23434711612/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mission_Point_Light',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Grand Rapids',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/olesund/3527576432/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grand_Rapids,_Michigan',
+        },
+        landmarksRound: [
+          {
+            code: 'MN',
+            number: 2,
+          },
+          {
+            code: 'OK',
+            number: 5,
+          },
+          {
+            code: 'AR',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Little Rock Central High School',
+          'Little River Canyon National Preserve',
+          'National Memorial Cemetery of the Pacific',
+          'Cape Krusenstern National Monument',
+          'Dignity Statue',
+          'Paul Revere House',
+          'Black Canyon of the Gunnison National Park',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'Empire State',
+          'Centennial State',
+          'America’s Paradise',
+          'Flickertail State/Sioux State',
+        ],
+        flowerOptions: ['Forget-me-not', 'American Dogwood', 'Bitterroot'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Michigan is home to the largest limestone quarry on Earth.',
+          falseFact:
+            'The Michigan State Capitol is the tallest state capitol in the U.S. at 450 feet in height.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'QJXXlCLD',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Michigan',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/piper/37632971520/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Michigan',
+        },
+        landmark: {
+          name: 'Quincy Mine',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/89227744@N07/50556312708/in/photolist-2k2ujpW-2eg3oVZ-2k26pqD-H6w1BS-2k2y5tu-2pFgSEK-2k2aQVC-2n7rC5C-Vt2aep-2k6A8Hz-Kcby3Q-2oz8aj5-2pRBTnG-RTTD8n-QaWaiC-2nAXUL5-2k2yJKa-KiALjc-KnFkMu-rY8NK-DWCWXp-2hHixVh-2h8zwBy-2m34Uf7-5vEJfx-5ahoGs-2nBCMjA-Up9Kgy-2nPWRa6-oLKhYR-StiFcm-2pFhtAs-2k3cbjv-JSBki3-2o1CJtX-2mtN31L-2pRCnnW-RGZFvv-2nBLg9C-2pRCnkS-K9kTS9-2hg9Hik-2h8wK9V-Sx4r21-2nBHFbc-vw5EnL-2gfkEwV-2pFADve-T2jS4J-2hRTQkH',
+          wikiLink: 'https://en.wikipedia.org/wiki/Quincy_Mine',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sterling Heights',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/will-jensen-2020/50145910831/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sterling_Heights,_Michigan',
+        },
+        landmarksRound: [
+          {
+            code: 'MS',
+            number: 1,
+          },
+          {
+            code: 'WV',
+            number: 7,
+          },
+          {
+            code: 'MO',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Pico El Yunque',
+          'Colt Armory',
+          'Luray Caverns',
+          'House of the Seven Gables',
+          'Lincoln Boyhood National Memorial',
+          'Chickasaw National Recreation Area',
+          'The Witch House at Salem',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'The Old Dominion/Mother of Presidents',
+          'Mountain State',
+          'Bluegrass State',
+          'Aloha State',
+          'Flickertail State/Sioux State',
+        ],
+        flowerOptions: [
+          'Mock Orange',
+          'Hawaiian Hibiscus',
+          'Saguaro Cactus Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            "Michigan's Great Seal was designed by Lewis Cass, Michigan's second (non acting) territorial governor.",
+          falseFact: 'About 3% of Michigan is covered by glaciers.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '45Cnkr7B',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Michigan',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/elil/3857175725/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Michigan',
+        },
+        landmark: {
+          name: 'Meyer May House',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/norjam8/543253090/in/photolist-22f5Sas-no98TW-5azSkJ-22we2Zd-5avBoM-Q1KZB-Q1jdA-Rieo5-6Jir1A-adskvX-acpquP-nqMbD8-6DGeML-F7Qpsm-abExDb-6FgQje-bNEdYp-qsiqC-qsiqy-4hLBAy-qsiqz-oZnKQ-9V1vLZ-8phjeE-egN1xx-6FgQoX-piiBLb-abEoDu-L5UQBe-pikzVg-6FkXBy-x3gauy-p1RrzT-pcYuaQ-o4uds-8VNbLm-bDk8B5-8fuQ2n-87Po9s-87LczM-8fy7vU-87Lbun-bDk7xG-87Ppfm-8fy8aU-5ttWtf-p1RqP4-7epK7e-4UmaAf',
+          wikiLink: 'https://en.wikipedia.org/wiki/Meyer_May_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Clinton',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cseeman/5927929685/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Clinton_Township,_Macomb_County,_Michigan',
+        },
+        landmarksRound: [
+          {
+            code: 'VI',
+            number: 8,
+          },
+          {
+            code: 'IA',
+            number: 9,
+          },
+          {
+            code: 'NV',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Radium Springs',
+          'Maquoketa Caves State Park',
+          'The Mammoth Site',
+          'San Jacinto Battleground',
+          'Space Needle',
+          'Herbert Hoover Presidential Library and Museum',
+          'Annaberg Sugar Plantation',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Pine Tree State',
+          'Sunflower State/Jayhawker State',
+          'Prairie State/Land of Lincoln',
+          'Garden State',
+          'Silver State/Sagebrush State',
+        ],
+        flowerOptions: [
+          'Black-eyed Susan',
+          'Mountain Laurel',
+          'Colorado Blue Columbine',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The Michigan Coat of Arms was adopted at the Constitutional Convention of _____.',
+          fillAnswer: '1835',
+          fillAnswers: ['1835', '1800', '1824', '1830'],
+        },
+        uniqueId: 'bZVWMX3j',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Michigan',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/high-angle-photography-of-trees-beside-river-blPTIZuBhD8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Michigan',
+        },
+        landmark: {
+          name: 'Guardian Building',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/michaelgsmith/9369615125/in/photolist-fgXJ9n-oKdRXd-zRZZiE-NaDzKY-cpa59d-9hVs3L-5zYFBt-9Vc5rG-9ZfGEt-iX7iJp-xkfWk-7F6wXa-y22bFB-7jLA3D-9UYFGS-9UVNNr-FE4tJH-9EKJEm-FE61Yp-obVees-2fzVtum-7evxCM-7n317s-4nLone-xwBuL5-BRHXAJ-9APKiQ-9qSgP-5w1zHX-PY1crt-Bs7eaJ-HK9f95-c9RifE-AJJnuo-PRfKxk-7ZxMjZ-FHCShE-cTKMA-FKVAzR-6Jb45A-Tpwk5A-cTR62-EQ2taQ-ESjgbH-BmNUGh-5w5UZU-x7T3LQ-9LsfD4-AZp7uL-fCJcrM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Guardian_Building',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dearborn',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/58308204@N02/50506204777/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dearborn,_Michigan',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 6,
+          },
+          {
+            code: 'MS',
+            number: 4,
+          },
+          {
+            code: 'ME',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'State Capitol',
+          'Garvan Woodland Gardens',
+          'El Yunque National Forest',
+          'Big Four Bridge',
+          'Mystic Seaport Museum',
+          'Fort Griswold',
+          'Haystack Rock',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Golden State',
+          'Evergreen State/Chinhook State',
+          'Beaver State',
+          'Treasure State/Big Sky Country',
+          'Empire State',
+        ],
+        flowerOptions: ['Sunflower', 'Red Clover', 'Hawaiian Hibiscus'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Michigan is the best state in America for craft beer lovers, with more than ______ operating breweries in the state.',
+          fillAnswer: '400',
+          fillAnswers: ['15', '200', '400', '56'],
+        },
+        uniqueId: 'ZcfDyzjs',
       },
     ],
     capital: 'Lansing',
@@ -16863,6 +24577,341 @@ const whereTakenUSCurrent = [
           'Chaco Culture National Historical Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Minnesota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-body-of-water-surrounded-by-trees-bEAjYh825rQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minnesota',
+        },
+        landmark: {
+          name: 'Split Rock Lighthouse',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/189362624@N02/53066125665/in/photolist-2jYaYDv-2oRgLn8-2opM6Ka-2n3Swe6-UHagfR-2myJjBx-2mb7hHn-2maKxT2-2hwHt4r-2jLeWYL-2jLbnE9-2ngZPxu-2hwjvY6-2kyXRVf-xb8k9o-2mE7Cm3-2oJABMS-2jUjKxh-2hh5wWX-2m4kksP-2mvCiAA-2n8YbqK-6zXo6W-2nAco9b-2maPkXV-2jUiZt9-2gMc5m5-2hzyZD9-2nB4qb7-2jKX6jj-2iRbr4j-2gK3EhT-xRK4sP-2omfJVw-25xuavW-2ofEpN9-2n1miRu-y6Tvt9-2mX63jw-2iQuCJU-MQJ23H-2jL2zWq-2jTtath-2jKX663-2n6Vbw5-2pohUER-2mJRK16-2jcz7ad-2iQRpTN-JWYxZR',
+          wikiLink: 'https://en.wikipedia.org/wiki/Split_Rock_Lighthouse',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Minneapolis',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-overhead-view-of-a-city-intersection-with-a-car-ojkom1zKNQ0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minneapolis',
+        },
+        landmarksRound: [
+          {
+            code: 'ID',
+            number: 9,
+          },
+          {
+            code: 'DE',
+            number: 6,
+          },
+          {
+            code: 'SD',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Houmas House',
+          'Tupelo National Battlefield',
+          'The Keeper of the Plains',
+          'Cedar Point',
+          'Portland Head Light',
+          'Myrtle Beach',
+          "Ben & Jerry's",
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Show Me State',
+          'Aloha State',
+          'Prairie State/Land of Lincoln',
+          'Pelican State/Creole State/Sugar State',
+        ],
+        flowerOptions: ['Yucca Flower', 'Sunflower', 'Hawthorn'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The name "Minnesota" comes from Dakota Indian words meaning "sky-tinted waters" or "sky-blue waters."',
+          falseFact:
+            'Minnesota has a high concentration of research institutions, including \nJohns Hopkins University and the National Institutes of Health.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'LBsHz8ZX',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Minnesota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-small-white-house-with-a-green-roof-yQyPpCGss2M',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minnesota',
+        },
+        landmark: {
+          name: 'Aerial Lift Bridge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/samwagnerphotography/50752445597/in/photolist-2kjPxTt-XFo1xE-UB9WL2-SN88cs-4VnLLn-2nG8eSA-2oDWowH-QdT9br-2biQnQq-2paY8Jf-2pcCtnL-2oajrN5-2mePb1t-2pAAk4k-ZHQW8h-Keu2us-nSeVJR-P4sWGJ-skBWUv-2pSBWaB-2iYyVRt-2p4rheb-Pdt9r9-nLPbDL-q4DJHi-2nPBRLQ-C4J98r-2nHaPiY-Cxr9Jr-2o4v1uL-2pPCRLh-5m9Rjf-DXu4uv-2q3xTEy-2msD5gA-yb1uqv-2i386MM-6KEV3H-2e3ERhr-2hiU8rM-J1Cauk-GTB86U-4kQptD-2eeBNNp-2p1QHy7-2jkhhi4-2g75c9d-2mMqrwZ-8ti8eo-ps155n',
+          wikiLink: 'https://en.wikipedia.org/wiki/Aerial_Lift_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Saint Paul',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photography-of-high-rise-building-9CPAjGVB378',
+          wikiLink: 'https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota',
+        },
+        landmarksRound: [
+          {
+            code: 'PR',
+            number: 2,
+          },
+          {
+            code: 'ND',
+            number: 10,
+          },
+          {
+            code: 'VA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Pictograph Cave State Park',
+          'Goldbelt Tram',
+          'Disney World',
+          'Lincoln Boyhood National Memorial',
+          'Amelia Earhart Birthplace',
+          'Chimney Rock',
+          'Guardian Building',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Treasure State/Big Sky Country',
+          'Pelican State/Creole State/Sugar State',
+          'The Last Frontier',
+          'Wolverine State/Great Lake State',
+          'Equality State',
+        ],
+        flowerOptions: ['Wood Violet', 'Sagebrush', 'American Dogwood'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Minnesota is a midwestern state that’s a neighbor to Canada and Lake Superior, the largest of the great lakes. ',
+          falseFact: 'Minnesota is known for its deserts and sands',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9MRxXwXc',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Minnesota',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/zamburak/11766422544/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minnesota',
+        },
+        landmark: {
+          name: 'Cathedral of Saint Paul ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/warrenlemay/51707021896/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cathedral_of_Saint_Paul_(Minnesota)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Rochester',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/johnkipp/6867698163/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rochester,_Minnesota',
+        },
+        landmarksRound: [
+          {
+            code: 'IL',
+            number: 5,
+          },
+          {
+            code: 'ME',
+            number: 8,
+          },
+          {
+            code: 'CO',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Little Bighorn Battlefield',
+          'Perrine Bridge',
+          'Balboa Park',
+          'Fort Union Trading Post',
+          'Mystic Seaport Museum',
+          'Blanchard Springs Cavern',
+          'Milwaukee Art Museum',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Peace State/Empire State of the South',
+          'Magnolia State',
+          'America’s Paradise',
+          'Tar Heel State',
+          'Garden State',
+        ],
+        flowerOptions: ['Wood Violet', 'Flor De Maga', 'Hawthorn'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The name Minnesota means “cloudy water” or “sky-tinted water.”',
+          falseFact:
+            'The state dinosaur, Astrodon johnstoni, was discovered in Minnesota in the 19th century.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'JdGqhFxC',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Minnesota',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/3832521/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minnesota',
+        },
+        landmark: {
+          name: 'James J. Hill House',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/onefootinthegrave/3040671968/',
+          wikiLink: 'https://en.wikipedia.org/wiki/James_J._Hill_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Duluth',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/snow-covered-lighthouse-ydrp-zMoMsg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Duluth,_Minnesota',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 5,
+          },
+          {
+            code: 'HI',
+            number: 2,
+          },
+          {
+            code: 'FL',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Nemours Estate',
+          'Cuyahoga Valley National Park',
+          'Fort Worden',
+          'Antietam National Battlefield',
+          'Cloud Gate',
+          'Fort Delaware State Park',
+          'Taftsville Covered Bridge',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Volunteer State',
+          'The Mount Rushmore State',
+          'Palmetto State',
+          'Bluegrass State',
+          'Magnolia State',
+        ],
+        flowerOptions: [
+          'Flowering Dogwood',
+          'Mountain Laurel',
+          'Coast Rhododendron',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Minnesota hosted the first intercollegiate basketball game on February 9, _____.',
+          fillAnswer: '1895',
+          fillAnswers: ['1899', '1895', '1890', '1900'],
+        },
+        uniqueId: 'SLXBpxfP',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Minnesota',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/15576825/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minnesota',
+        },
+        landmark: {
+          name: 'Fort Snelling',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/98623843@N05/51320007967/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Snelling',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bloomington',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/samwagnerphotography/30076155637/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bloomington,_Minnesota',
+        },
+        landmarksRound: [
+          {
+            code: 'TN',
+            number: 7,
+          },
+          {
+            code: 'WY',
+            number: 5,
+          },
+          {
+            code: 'TN',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Starved Rock State Park',
+          'National Corvette Museum',
+          '99 Steps',
+          'Amicalola Falls State Park',
+          'Garvan Woodland Gardens',
+          'The House on the Rock',
+          'Wynwood Walls',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Show Me State',
+          'Aloha State',
+          'Prairie State/Land of Lincoln',
+          'Pelican State/Creole State/Sugar State',
+        ],
+        flowerOptions: ['Yucca Flower', 'Sunflower', 'Hawthorn'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Minnesota has close to _____ lakes. ',
+          fillAnswer: '15000',
+          fillAnswers: ['10000', '15000', '2000', '100'],
+        },
+        uniqueId: 'NZhfkLxL',
+      },
     ],
     capital: 'Saint Paul',
     flower: {
@@ -16880,14 +24929,12 @@ const whereTakenUSCurrent = [
     lat: 37.964253,
     long: -91.831833,
     cities: [
-      'Kansas City',
-      'Jefferson City',
-      'St Louis',
       'Springfield',
       'Columbia',
-      'Saint Louis',
       'Independence',
-      'Dallas',
+      'St. Louis',
+      'Missouri',
+      'Kansas City',
     ],
     game: [
       {
@@ -17043,7 +25090,7 @@ const whereTakenUSCurrent = [
           hasLandmark: true,
         },
         city: {
-          name: 'St Louis',
+          name: 'St. Louis',
           photographer: 'Goodfreephotos_com',
           imageLink:
             'https://pixabay.com/photos/missouri-st-louis-usa-town-347387/',
@@ -17330,7 +25377,7 @@ const whereTakenUSCurrent = [
           hasLandmark: true,
         },
         city: {
-          name: 'Saint Louis',
+          name: 'St. Louis',
           photographer: '',
           imageLink: 'https://en.wikipedia.org/wiki/St._Louis',
           wikiLink: 'https://en.wikipedia.org/wiki/St._Louis',
@@ -17585,6 +25632,349 @@ const whereTakenUSCurrent = [
           'Mark Twain House',
           'Idaho Falls Idaho Temple',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Downtown Kansas City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-city-with-a-train-on-the-tracks-SE8wRqx-6u0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Downtown_Kansas_City',
+        },
+        landmark: {
+          name: 'National World War I Museum and Memorial',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-tall-monument-in-a-park-with-liberty-memorial-in-the-background-xYVYmbl3w0Q',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/National_World_War_I_Museum_and_Memorial',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'St. Louis',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-the-st-louis-skyline-from-across-the-st-louis-river-JSBFK4DR7qU',
+          wikiLink: 'https://en.wikipedia.org/wiki/St._Louis',
+        },
+        landmarksRound: [
+          {
+            code: 'SC',
+            number: 1,
+          },
+          {
+            code: 'WI',
+            number: 4,
+          },
+          {
+            code: 'CT',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Molly Brown House',
+          'Helen Keller Birthplace',
+          'Biggest ball of twine',
+          'Museum of the Rockies',
+          'Vicksburg National Military Park',
+          'Sandia Peak Tramway',
+          'Brown University',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Gem State',
+          'Tar Heel State',
+          'Aloha State',
+          'Nutmeg State/Constitution State',
+          'First State/Diamond State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Yellow Jessamine',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The capital of Missouri is Jefferson City',
+          falseFact: 'The Missouri state’s official team sport is jousting.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'btr5tYSM',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Missouri',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/1643702/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missouri',
+        },
+        landmark: {
+          name: 'Gateway Arch',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-walking-on-park-during-daytime-Gt6D-s4M-04',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gateway_Arch',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Kansas City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-dinosaur-skeleton-in-front-of-a-tall-building-iscLpQgWYZ4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kansas_City,_Missouri',
+        },
+        landmarksRound: [
+          {
+            code: 'VA',
+            number: 4,
+          },
+          {
+            code: 'NM',
+            number: 8,
+          },
+          {
+            code: 'MA',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Ashland (Henry Clay estate)',
+          'Denail National Park',
+          'Mission Point Light',
+          'Cheyenne Depot Museum',
+          'Delicate Arch',
+          'Pittock Mansion',
+          'Acadia National Park',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Natural State',
+          'Centennial State',
+          'Cotton State/Yellowhammer State',
+          'Pelican State/Creole State/Sugar State',
+          "Badger State/America's Dairyland",
+        ],
+        flowerOptions: ['Sego Lily', 'Peach Blossom', 'Mock Orange'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            "The Ozark National Scenic Riverways, in southeast Missouri, was the nation's first\nfederally designated scenic riverways system.",
+          falseFact: 'The first modern armored cars were built in Missouri.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'J8X3xVKf',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Missouri',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/11577259/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missouri',
+        },
+        landmark: {
+          name: 'Missouri State Capitol',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/dmclean2009/26065544591/in/photolist-CBbShx-eemod6-ce2ef3-8zs3Uy-FHjJie-pty9wj-2a9XEvW-JnNnfS-FN7xXT-234LrFi-FyajqZ-8oEX76-8euRVG-7LFCAd-9Ca8EN-G4oALG-5mHu5M-Acbhm-Fy3HDN-u8K9-7LBEUD-2ytdna-b1URX-u8Kb-6141XP-RTK4iw-5JVpp5-CZharf-GHD7AG-FMG6Ug-6NbjEz-wexb4-6NbjDZ-a6UY8T-9fAbMn-9C7dL8-a5CKfn-9fAbVv-9C7dnp-GkgZJA-5rj55K-8oJ921-FQvcxK-9EWKgk-8nETth-8fXofz-9EWHXi-dszZ4z-heF9z4-3b9cae',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missouri_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Springfield',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/cars-parked-in-front-of-brown-building-during-daytime-4ph0cAMlr1U',
+          wikiLink: 'https://en.wikipedia.org/wiki/Springfield,_Missouri',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 3,
+          },
+          {
+            code: 'CT',
+            number: 15,
+          },
+          {
+            code: 'AR',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'Bennington Battle Monument',
+          'The Keeper of the Plains',
+          'Avalanche Lake',
+          'The Mount ',
+          'Lincoln Boyhood National Memorial',
+          'John Dickinson Plantation',
+          'High Museum of Art',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Pelican State/Creole State/Sugar State',
+          'Island of Enchantment',
+          'Flickertail State/Sioux State',
+          'Evergreen State/Chinhook State',
+          'The District',
+        ],
+        flowerOptions: ['Flowering Dogwood', 'Bluebonnet', 'Black-eyed Susan'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Saint Louis University, chartered in 1832, is the oldest University west of the\nMississippi River',
+          falseFact:
+            'Early French explorers named Missouri in the 17th century. ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'vFj9NZDM',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Missouri',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-farm-with-a-barn-and-a-red-roof-exvqm7zeDg4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missouri',
+        },
+        landmark: {
+          name: 'Cathedral Basilica of Saint Louis',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/joncutrer/49281764291/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cathedral_Basilica_of_Saint_Louis_(St._Louis)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Columbia',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/chris-yunker/5194706789/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Columbia,_Missouri',
+        },
+        landmarksRound: [
+          {
+            code: 'NM',
+            number: 6,
+          },
+          {
+            code: 'MN',
+            number: 4,
+          },
+          {
+            code: 'WI',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Space Needle',
+          'Kenai Fjords',
+          'Museum of Fine Arts, Boston',
+          'Amana Colonies',
+          'Carl Sandburg Home',
+          'Hanauma Bay',
+          'United States Naval Academy',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Land of Enchantment',
+          'Magnolia State',
+          'Flickertail State/Sioux State',
+          'Golden State',
+          'Lone Star State',
+        ],
+        flowerOptions: [
+          'Coast Rhododendron',
+          'Yucca Flower',
+          'Wild Prairie Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The Lake of the Ozarks has more miles of shoreline _____ than the coast of\nCalifornia.',
+          fillAnswer: '1150',
+          fillAnswers: ['1500', '1000', '1150', '200'],
+        },
+        uniqueId: 'MtYwzSKv',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Missouri',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-building-with-a-pool-in-front-of-it-with-union-station-in-the-background--OOkAJ6Am_4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missouri',
+        },
+        landmark: {
+          name: 'Missouri Botanical Garden',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/tlkativ/5776893172/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missouri_Botanical_Garden',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Independence',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/uncleboatshoes/219946576/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Independence,_Missouri',
+        },
+        landmarksRound: [
+          {
+            code: 'ME',
+            number: 1,
+          },
+          {
+            code: 'SC',
+            number: 6,
+          },
+          {
+            code: 'IN',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'Great Sand Dunes National Park and Preserve',
+          'Fort McHenry',
+          'Mount Washington Cog',
+          'Colonial Williamsburg',
+          'Indian Cave State Park',
+          'Ashland (Henry Clay estate)',
+          'Watson Mill Bridge',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Gem State',
+          'Tar Heel State',
+          'Aloha State',
+          'Nutmeg State/Constitution State',
+          'First State/Diamond State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Yellow Jessamine',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In the _____, Missouri’s Norton grape vines virtually saved the French wine industry.',
+          fillAnswer: '1870s',
+          fillAnswers: ['1870s', '1880s', '1890s', '1860s'],
+        },
+        uniqueId: '9t85RzkD',
       },
     ],
     capital: 'Jefferson City',
@@ -18288,6 +26678,337 @@ const whereTakenUSCurrent = [
           'Great Platte River Road Archway Monument',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Mississippi',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-river-and-a-bridge-BNajGnlgoGM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mississippi',
+        },
+        landmark: {
+          name: 'Mississippi State Capitol',
+          photographer: '',
+          imageLink: 'https://unsplash.com/photos/tree-near-mosque-NafRX_hGvEU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mississippi_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Jackson',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/landscape-photography-of-white-and-brown-concrete-buildings-under-cloudy-sky-Ne-3p1ZC45g',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jackson,_Mississippi',
+        },
+        landmarksRound: [
+          {
+            code: 'NM',
+            number: 9,
+          },
+          {
+            code: 'NJ',
+            number: 7,
+          },
+          {
+            code: 'RI',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Crazy Horse Memorial',
+          'James J. Hill House',
+          'Blue Whale of Catoosa',
+          'Biggest ball of twine',
+          'Nemours Estate',
+          'Thomas Edison National Historical Park',
+          'Herbert Hoover National Historic Site',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'Aloha State',
+          'Sooner State',
+          'Keystone State',
+          'Pelican State/Creole State/Sugar State',
+        ],
+        flowerOptions: ['Hawaiian Hibiscus', 'Violet', 'Pasque Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The official song of the state of Mississippi is called ‘Go Mis-sis-sip-pi’',
+          falseFact:
+            'Most of Mississippi has more than 350 active bald eagles nests.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'xB4by3g3',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Mississippi',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-wooden-bridge-in-the-middle-of-green-trees-anh5gMfrIY0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mississippi',
+        },
+        landmark: {
+          name: 'Rowan Oak',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ugardener/2398256050/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rowan_Oak',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gulfport',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/29228121@N07/2849135789/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gulfport,_Mississippi',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 7,
+          },
+          {
+            code: 'WA',
+            number: 10,
+          },
+          {
+            code: 'VT',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Thorncrown Chapel',
+          'Goldfield Ghost Town',
+          'Franconia Notch State Park',
+          'Milwaukee Riverwalk District',
+          'Indian Cave State Park',
+          'Dignity Statue',
+          'University of Notre Dame',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Free State/Old Line State',
+          'Peace State/Empire State of the South',
+          'Treasure State/Big Sky Country',
+          'Natural State',
+        ],
+        flowerOptions: ['California Poppy', 'Oregon Grape', 'Red Clover'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The official state flower of Mississippi is Magnolia',
+          falseFact:
+            'Mississippi inventions include water skis, \nWheaties cereal, rollerblades, and \nSnickers.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'wFpkZyfT',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Mississippi',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-lake-surrounded-by-lush-green-trees-under-a-purple-sky-G42kwj5T0No',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mississippi',
+        },
+        landmark: {
+          name: 'Biloxi Lighthouse',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jpellgen/26774728568/in/photolist-7HBMTN-bGJZSH-etBpAE-GMZtZb-g8kp9a-ddBACM-bqMUfk-6G8MTp-o528PB-cW8KLu-6uae8Q-6Zjg9L-EXVbvj-fDajY-8zDrvC-7EWPfJ-4qiDB1-5JpYTH-bGsdye-7ncKgL-a5ubRN-bJieKn-4qiDFf-21LdbW-7UyJuA-e7gYtS-6SBtkk-cW8Leq-3g2Zcy-9sh8nt-87ud9W-8Dn2SF-eYuewR-KZSNQ1-7fUkmz-yR9jZ1-6vqg8u-oJLrfx-LSaBnX-6nHQTu-yR9iDL-PtLyuw-8Dq9HS-8NmH3p-zKSacm-qm3cNx-r4PMgf-a5ueZE-5tMvut-oZf4oo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Biloxi_Lighthouse',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Southaven',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/l_dawg2000/52029089107/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Southaven,_Mississippi',
+        },
+        landmarksRound: [
+          {
+            code: 'AR',
+            number: 3,
+          },
+          {
+            code: 'NV',
+            number: 5,
+          },
+          {
+            code: 'OK',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Chimney Rock',
+          'Christiansted National Historic Site',
+          'Maymont',
+          'Perrine Bridge',
+          'Golden Driller',
+          'Bourbon Street',
+          'Hagley Museum and Library',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'The Mount Rushmore State',
+          'Pelican State/Creole State/Sugar State',
+          'Lone Star State',
+          'Cotton State/Yellowhammer State',
+          'Palmetto State',
+        ],
+        flowerOptions: ['Purple Lilac', 'Wood Violet', 'Mayflower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Mississippi is the birthplace of the Order of the Eastern Star.',
+          falseFact: 'The “Skipjack” is the state boat of Mississippi .',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'FjKtFDsr',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Mississippi',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-beside-paved-road-8nDNuXJXxhs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mississippi',
+        },
+        landmark: {
+          name: 'Windsor Ruins',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/capcase/30378799098/in/photolist-NhthAf-292Nzf6-LE35WX-vpEnry-XfGqFw-Akpgrx-XfGqyC-AhhxUq-zJDovK-co8ass-pTZR4j-voG6Sh-pBxDom-pBtEF7-zbTaWd-c1XWZm-AhqcJi-oX6Hj1-u5995b-Ahhyqf-7A3SEa-pVKaGH-Bfkbcc-pDnZdM-pBtn54-25tx2FC-AkufPk-pVTdD5-pBvX1j-pDmYHS-LfKzB8-oZ1RqP-oZZE99-pDnYkz-EszNcD-9u4rG7-ozXzQu-taC3ZJ-nPDTLy-LnznLM-pTDzjh-fjUZMH-Bfk9yH-oepaak-9u4rSq-heZqrR-Ezpwdb-voG5Ty-4TJR54-MRmf5U',
+          wikiLink: 'https://en.wikipedia.org/wiki/Windsor_Ruins',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Biloxi',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/167355468@N03/49577640672/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Biloxi,_Mississippi',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 2,
+          },
+          {
+            code: 'LA',
+            number: 15,
+          },
+          {
+            code: 'VT',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Garvan Woodland Gardens',
+          'Delaware Memorial Bridge',
+          'Carhenge',
+          'Golden Gate Bridge',
+          'The Witch House at Salem',
+          'Grave Creek Mound',
+          'Old Louisiana State Capitol',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Nutmeg State/Constitution State',
+          'Beehive State',
+          'Buckeye State',
+          'Golden State',
+          'Natural State',
+        ],
+        flowerOptions: ['Iris', 'Wild Rose', 'Wood Violet'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Elvis Presley was born in Tupelo, on January 8, _____.',
+          fillAnswer: '1935',
+          fillAnswers: ['1945', '1935', '1930', '1933'],
+        },
+        uniqueId: 's3MDkkB7',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Mississippi',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-bridge-over-a-body-of-water-on-a-foggy-day-lb5LZ5BLZn8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mississippi',
+        },
+        landmark: {
+          name: 'Vicksburg National Military Park',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/kenlund/3932828275/in/photolist-6ZwLQ4-6ZEo1s-JieHt9-6ZwMri-6ZwMhH-6ZAH6s-6ZANGE-6ZANkd-6ZAkZr-6ZAZHd-UQsCD6-6ZB2H7-J2ydLW-aisYbE-HAKtVw-5A1vWx-6ZwZRH-JfTpbU-6ZBd6m-6ZB15j-2hpXAoA-izYQpx-6ZwYu2-JYR7W5-2hDq8Hq-izYF89-21imUEZ-6ZwFk6-6ZwGoi-6ZAQ37-6ZB61y-izYCbp-izYM8A-2mPY4f7-aisZG3-JNLu1v-ait3cC-2kXrCJ2-Jw3w3t-2oLNf7D-K2n2Fu-5wr2LY-HTtqZY-6ZB9xQ-D16Qyp-2oogb4T-2ngRs8t-2oLGNdv-6ZAKKq-6ZAL59',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Vicksburg_National_Military_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Hattiesburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/auvet/52716604845/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hattiesburg,_Mississippi',
+        },
+        landmarksRound: [
+          {
+            code: 'ND',
+            number: 1,
+          },
+          {
+            code: 'TN',
+            number: 8,
+          },
+          {
+            code: 'KY',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Goldfield Ghost Town',
+          'Guardian Building',
+          'Fremont Troll',
+          'USS Kidd',
+          'Space Needle',
+          'Cass Scenic Railroad State Park',
+          'Puerta de San Juan',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'Aloha State',
+          'Sooner State',
+          'Keystone State',
+          'Pelican State/Creole State/Sugar State',
+        ],
+        flowerOptions: ['Hawaiian Hibiscus', 'Violet', 'Pasque Flower'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In _____ the University of Mississippi Medical Center accomplished the world’s first human lung transplant',
+          fillAnswer: '1963',
+          fillAnswers: ['1984', '1933', '1963', '1920'],
+        },
+        uniqueId: 'yRGFmbpg',
+      },
     ],
     capital: 'Jackson',
     flower: {
@@ -18305,12 +27026,12 @@ const whereTakenUSCurrent = [
     lat: 46.879682,
     long: -110.362566,
     cities: [
-      'Bozeman',
-      'Helena',
       'Billings',
       'Missoula',
       'Great Falls',
-      'Danbury',
+      'Butte',
+      'Bozeman',
+      'Helena',
     ],
     game: [
       {
@@ -18994,6 +27715,343 @@ const whereTakenUSCurrent = [
           'Baltimore Museum of Art',
           'White Sands National Park',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Montana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-under-white-clouds-during-daytime-KQSCcRim-s8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Montana',
+        },
+        landmark: {
+          name: 'Glacier National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-itXEfgjRaLw',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Glacier_National_Park_(U.S.)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Billings',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dinotrnjanin/51563244079/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Billings,_Montana',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 7,
+          },
+          {
+            code: 'DE',
+            number: 9,
+          },
+          {
+            code: 'FL',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'World of Coca Cola',
+          'Castle Craig',
+          'Fort Snelling',
+          'Red Rocks Amphitheatre',
+          'Fort Frederick',
+          'Crystal Bridges Museum of American Art',
+          'Red Rocks Ampitheatre',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Garden State',
+          'Aloha State',
+          'Sooner State',
+          'Prairie State/Land of Lincoln',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          'Cherokee Rose',
+          'Yellow Jessamine',
+          'Coast Rhododendron',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Montana was a state to join the United States of America on November 8, 1889',
+          falseFact: 'Montana was claimed by the Spanish initially.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 's45656PQ',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Montana',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/534394/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Montana',
+        },
+        landmark: {
+          name: ' National Bison Range',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/124449053@N02/30432415196/in/photolist-Nnd5MJ-2jzYJAu-2kJTgWB-2mwXDEs-22dt8UV-LVqf1v-2iqJrat-2jzBYB3-2iMhGgH-2jACZBa-2mCQDtY-2kFipeC-2iQ6iiA-2mE1jzW-2g6tciG-2kRAURc-2iriTAY-2iCPhR3-2ggh51k-2n89Foy-2jCFB5o-2ooZ9uY-2mEkNyK-2mC2mRg-2pFnsDu-2iumYVD-S35qCN-2q3o9gn-2hPgPk8-SyYDyE-2mPG1bi-2kJSMGz-2pADV4T-2p7Q7Ei-2pC7PTp-2pDRCrZ-2pAgw97-RdxL6Y-2prUTLG-7B5qxJ-2mMTdEP-H3UseE-LWs23Q-2pi3f6t-2mQEzSy-2gghfkK-2pJ3zMM-2hjV1GT-2kC342D-UcAJmZ',
+          wikiLink: 'https://en.wikipedia.org/wiki/CSKT_Bison_Range',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Missoula',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ap0013/51631984722/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Missoula,_Montana',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 10,
+          },
+          {
+            code: 'VA',
+            number: 2,
+          },
+          {
+            code: 'MO',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Chimney Rock',
+          'Bennington Battle Monument',
+          'Clinton Presidential Center',
+          'Rock & Roll Hall of Fame',
+          'Colt Armory',
+          'Mount Washington',
+          'City Market',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Hoosier State',
+          'Volunteer State',
+          'Evergreen State/Chinhook State',
+          'Silver State/Sagebrush State',
+          'Aloha State',
+        ],
+        flowerOptions: ['Yucca Flower', 'Yellow Elder', 'Sunflower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The capital of Montana is called Helena and is situated in the west of the state.',
+          falseFact:
+            'Montana has more coastline than the combined states of California, Florida, and Hawaii.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'XLFLxryS',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Montana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-and-trees-under-white-clouds-and-blue-sky-during-daytime-xlNsMmkEN-s',
+          wikiLink: 'https://en.wikipedia.org/wiki/Montana',
+        },
+        landmark: {
+          name: 'Little Bighorn Battlefield National Monument',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ysnp/46671985335/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Little_Bighorn_Battlefield_National_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Butte',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-filled-with-lots-of-tall-buildings-gJDQDuMrIFQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Butte,_Montana',
+        },
+        landmarksRound: [
+          {
+            code: 'AK',
+            number: 14,
+          },
+          {
+            code: 'CA',
+            number: 6,
+          },
+          {
+            code: 'MD',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'Welcome to Fabulous Las Vegas sign',
+          'Aerial Lift Bridge',
+          'Vizcaya Museum and Gardens',
+          'Timberline Lodge',
+          'Chihuly Garden and Glass',
+          'Indiana Caverns',
+          'Badlands National Park',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Show Me State',
+          'Beaver State',
+          'Beehive State',
+          'Bay State/Old Colony State',
+          'The Mount Rushmore State',
+        ],
+        flowerOptions: ['California Poppy', 'Rhododendron', 'Oregon Grape'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'It took a gold rush for Montana Territory to be founded.',
+          falseFact: 'The smallest snowflake ever recorded landed in Montana.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'bp4BDklG',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Montana',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/blue-body-of-water-near-mountain-under-blue-sky-during-daytime-GB1JI9CLzHs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Montana',
+        },
+        landmark: {
+          name: 'Moss Mansion',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/onasill/4813467641/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Moss_Mansion',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bozeman',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/melissadelzio/53738310493/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bozeman,_Montana',
+        },
+        landmarksRound: [
+          {
+            code: 'TX',
+            number: 7,
+          },
+          {
+            code: 'NV',
+            number: 7,
+          },
+          {
+            code: 'WV',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Penobscot Narrows Bridge and Observatory',
+          'Space Needle',
+          'Old State House',
+          'Coastal Maine Botanical Gardens',
+          'Castle Craig',
+          'George Washington Bridge',
+          'Split Rock Lighthouse',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Evergreen State/Chinhook State',
+          'Tar Heel State',
+          'Empire State',
+          'Buckeye State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: ['Indian Paintbrush', 'Peach Blossom', 'Apple Blossom'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Montana has a _____ name.',
+          fillAnswer: 'Spanish',
+          fillAnswers: ['French', 'Spanish', 'English', 'Indian'],
+        },
+        uniqueId: 'nbdNmzr8',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Montana',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/18822623@N08/20590035309/in/photolist-4TtnMF-aftWdc-4zNRHZ-5edk6g-2aADau8-hLLyA-3KhSUy-a8REc7-21Baaw-5ehHbo-6bztqi-3JZoMf-bkSUJ-5J8Rjs-2ohSLc-82T4tE-9H4tmL-aNww48-xntj9M-3HG93-5Akex2-9H4tvh-3KhSDG-47PyjJ-7qEFxA-4zT6Ty-982ozi-5cubRS-ak4XjG-7XMpdd-AJrbq-9H4tFf-a8REkC-6qELUQ-6xmQzG-3fDGL5-faYpUJ-21Bb93-aNwoEg-9aSW4Y-52v5Ni-5431M-9H4tAN-fFdxed-82PTxt-287wddr-2p5zsre-2k9VCDU-5cwwFS-8s6siK',
+          wikiLink: 'https://en.wikipedia.org/wiki/Montana',
+        },
+        landmark: {
+          name: 'Copper King Mansion',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/44843088@N08/4113704999/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Copper_King_Mansion',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Helena',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-g5oLV8F68TQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Helena,_Montana',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 3,
+          },
+          {
+            code: 'VA',
+            number: 8,
+          },
+          {
+            code: 'MA',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Shrine of the Grotto of the Redemption',
+          'Three Rivers',
+          'Indianapolis Motor Speedway Museum',
+          'Point Judith Light',
+          'Akaka Falls',
+          'J. Paul Getty Museum',
+          'Great Platte River Road Archway Monument',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Garden State',
+          'Aloha State',
+          'Sooner State',
+          'Prairie State/Land of Lincoln',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          'Cherokee Rose',
+          'Yellow Jessamine',
+          'Coast Rhododendron',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Montana was the ______ state to join the United States of America',
+          fillAnswer: '41st',
+          fillAnswers: ['39th', '24th', '3rd', '41st'],
+        },
+        uniqueId: 'xXplrNCM',
       },
     ],
     capital: 'Helena',
@@ -19694,6 +28752,347 @@ const whereTakenUSCurrent = [
           'Crazy Horse Memorial',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'North Carolina',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-beside-road-during-daytime-Gu6fPAC0Nvg',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Carolina',
+        },
+        landmark: {
+          name: 'Biltmore Estate',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dustinphillips/2187264428/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grandfather_Mountain',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Charlotte',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-3k6TF3bIEYc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Charlotte,_North_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'MT',
+            number: 15,
+          },
+          {
+            code: 'RI',
+            number: 1,
+          },
+          {
+            code: 'IA',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Garfield Park Conservatory',
+          'Coastal Maine Botanical Gardens',
+          'Gateway Arch',
+          'Louisville Slugger Field',
+          'Seven Sacred Pools',
+          "Elfreth's Alley",
+          'Seven Magic Mountains',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Lone Star State',
+          'The Old Dominion/Mother of Presidents',
+          'Ocean State',
+          'Treasure State/Big Sky Country',
+          'Keystone State',
+        ],
+        flowerOptions: [
+          'Wild Prairie Rose',
+          "Pink And White Lady's Slipper",
+          'Cherokee Rose',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'North Carolina’s unofficial State Slogan is “First in Flight; First in Freedom.” ',
+          falseFact: '63% of North Carolina is public land.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '7FPdCKFB',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Hatteras Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-blue-boats-on-dock-during-daytime-VpzKe-zmCEI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hatteras_Island',
+        },
+        landmark: {
+          name: 'Bellamy Mansion',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/photosbysherm/26067928416/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bellamy_Mansion',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Raleigh',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/thomasandersen/21058728349/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Raleigh,_North_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 7,
+          },
+          {
+            code: 'WI',
+            number: 5,
+          },
+          {
+            code: 'KY',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Soldiers & Sailors Monument',
+          'Hammond Castle',
+          'Mendenhall Glacier',
+          'Fort Frederick',
+          'Harbour Town Light',
+          'Abilene and Smoky Valley Railroad',
+          'Portland Museum of Art',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Grand Canyon State',
+          'Show Me State',
+          'Sooner State',
+          'Magnolia State',
+          'America’s Paradise',
+        ],
+        flowerOptions: ['California Poppy', 'Bitterroot', 'Peach Blossom'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'North Carolina is typically broken down into three sections from west to east: the Mountains, the Piedmont, and the Coastal Plain. ',
+          falseFact: 'The state of North Carolina’s official drink is milk.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '36wyJq6y',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'North Carolina',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-beach-during-daytime-8bI4yPvh_ao',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Carolina',
+        },
+        landmark: {
+          name: 'North Carolina State Capitol\n',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/fotos_de_cosas/52389895953/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/North_Carolina_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Durham',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/sam0hsong/25218358633/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Durham,_North_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'ME',
+            number: 13,
+          },
+          {
+            code: 'VI',
+            number: 1,
+          },
+          {
+            code: 'CT',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Great Platte River Road Archway Monument',
+          'Windsor Ruins',
+          'Pearl Harbor National Memorial',
+          'Beale Street',
+          'International Tennis Hall of Fame',
+          'Brooklyn Bridge',
+          'Mount Hood',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Ocean State',
+          'Empire State',
+          'Granite State',
+          'Natural State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Sego Lily', 'Bitterroot'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Western North Carolina is home to the highest mountains in the Eastern US. ',
+          falseFact:
+            'North Carolinagets its name from the Spanish for "snow-covered"',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'GMpgCrrf',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Grandfather Mountain',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-hillside-with-trees-and-bushes-llv6cNvsAqc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grandfather_Mountain',
+        },
+        landmark: {
+          name: 'Old Salem Museums & Gardens',
+          photographer: '',
+          imageLink: 'https://unsplash.com/photos/brown-building-uQ9iMcHKtiM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Old_Salem',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Winston-Salem',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-lPIU1KtwxVk',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Winston-Salem,_North_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'DC',
+            number: 8,
+          },
+          {
+            code: 'IN',
+            number: 13,
+          },
+          {
+            code: 'VT',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Badlands National Park',
+          'Myriad Botanical Gardens',
+          'National Mississippi River Museum & Aquarium',
+          'Fort McHenry',
+          'Glacier Bay National Park and Preserve',
+          'Roosevelt Arch',
+          'SkyWheel Myrtle Beach',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Nutmeg State/Constitution State',
+          'Bluegrass State',
+          'Magnolia State',
+          'First State/Diamond State',
+          'Lone Star State',
+        ],
+        flowerOptions: ['Cherokee Rose', 'American Dogwood', 'Wild Rose'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'North Carolina is the _______ largest state in the US.',
+          fillAnswer: '28th',
+          fillAnswers: ['2nd', '28th', '8th', '22nd'],
+        },
+        uniqueId: 'JZthQtsJ',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Hatteras Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-wind-turbines-on-green-grass-field-under-blue-sky-during-daytime-ocMpasr_hro',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hatteras_Island',
+        },
+        landmark: {
+          name: 'Bodie Island Lighthouse',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/129609706@N02/37631147772/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bodie_Island_Lighthouse',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Greensboro',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-statue-of-a-man-standing-in-the-middle-of-a-street-ucNUXaIjNQI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Greensboro,_North_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'VA',
+            number: 10,
+          },
+          {
+            code: 'WY',
+            number: 8,
+          },
+          {
+            code: 'OK',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Willis Tower',
+          'Aerial Lift Bridge',
+          'Timberline Lodge',
+          'Cape Henlopen State Park',
+          'Mount Washington Cog Railway',
+          'Taliesin West',
+          'Glass House',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Lone Star State',
+          'The Old Dominion/Mother of Presidents',
+          'Ocean State',
+          'Treasure State/Big Sky Country',
+          'Keystone State',
+        ],
+        flowerOptions: [
+          'Wild Prairie Rose',
+          "Pink And White Lady's Slipper",
+          'Cherokee Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'As of 2020, the population of North Carolina is ______ million.',
+          fillAnswer: '10.4',
+          fillAnswers: ['10.4', '5.4', '7.8', '5.9'],
+        },
+        uniqueId: 'FTHmGJhp',
+      },
     ],
     capital: 'Raleigh',
     flower: {
@@ -19712,11 +29111,11 @@ const whereTakenUSCurrent = [
     long: -101.002012,
     cities: [
       'Fargo',
-      'Bismarck',
       'Minot',
       'Grand Forks',
       'Williston',
       'West Fargo',
+      'Dickinson',
     ],
     game: [
       {
@@ -20400,6 +29799,350 @@ const whereTakenUSCurrent = [
           'Chicago Riverwalk',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'North Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-snowy-field-with-a-body-of-water-in-the-background-CJYkwXVtBY0',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Dakota',
+        },
+        landmark: {
+          name: 'Theodore Roosevelt National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-under-cloudy-sky-during-daytime-2MIPToQmVY4',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Theodore_Roosevelt_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fargo',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-during-winter-and-day-KFrs-T563uc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fargo,_North_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 10,
+          },
+          {
+            code: 'NC',
+            number: 8,
+          },
+          {
+            code: 'MN',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Blair Bridge',
+          'Shenandoah National Park',
+          'Old Trail Town',
+          'Badlands National Park',
+          'Mississippi State Capitol',
+          'Churchill Downs',
+          'Nemours Estate',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Centennial State',
+          'Pine Tree State',
+          'Equality State',
+          'Ocean State',
+          'The District',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Mayflower',
+          'Bluebonnet',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The first European to set foot in North Dakota was a French Canadian.',
+          falseFact: 'North Dakota was reached by outsiders in 1741.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'pwKYLTRv',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'North Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/the-sun-shines-through-the-clouds-over-a-valley-0yBU16_3yXI',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Dakota',
+        },
+        landmark: {
+          name: 'Fort Union Trading Post National Historic Site',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/mytravelphotos/21481374672/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Fort_Union_Trading_Post_National_Historic_Site',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bismarck',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ap0013/31858085896/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bismarck,_North_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'WY',
+            number: 9,
+          },
+          {
+            code: 'TX',
+            number: 1,
+          },
+          {
+            code: 'NJ',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'The Breakers',
+          'Olbrich Botanical Gardens',
+          'Southernmost point buoy',
+          'Mark Twain Boyhood Home',
+          'Birmingham Botanical Gardens, Alabama',
+          'The Mark Twain House',
+          'Little Bighorn Battlefield',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Hoosier State',
+          'The District',
+          'Beaver State',
+          'Centennial State',
+          'Sooner State',
+        ],
+        flowerOptions: ['Bluebonnet', 'Cherokee Rose', 'Oregon Grape'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'North Dakota is so far inland that European Americans didn’t settle in until railroads started to carve their way through the midwest.',
+          falseFact:
+            'North Dakota and South Carolina were both one colony (Carolina)',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'SvGSL2dn',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'North Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-herd-of-cattle-walking-across-a-lush-green-field-j-EDkppFdGI',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Dakota',
+        },
+        landmark: {
+          name: 'Fargo Theatre',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/fargomoorheadcvb/3528448739/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fargo_Theatre',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dickinson',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/afiler/2570995482/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dickinson,_North_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 10,
+          },
+          {
+            code: 'WV',
+            number: 1,
+          },
+          {
+            code: 'NC',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Millennium Park',
+          'Chaco Culture National Historical Park',
+          'Badlands National Park',
+          'Antietam National Battlefield',
+          'Windmill Island',
+          'Fort Frederick',
+          'Old Faithful',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Treasure State/Big Sky Country',
+          'Silver State/Sagebrush State',
+          'Buckeye State',
+          'Hoosier State',
+        ],
+        flowerOptions: ['Wood Violet', 'Mock Orange', 'Indian Paintbrush'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'European immigrants primarily settled in North Dakota.',
+          falseFact: 'North Dakotais home to a unique spot.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'SPfJNv49',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'North Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-river-running-through-a-lush-green-valley-ePAx4p20TUw',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Dakota',
+        },
+        landmark: {
+          name: 'Fort Abraham Lincoln',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/124651729@N04/34947347924/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Abraham_Lincoln',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Minot',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/afiler/2660089899/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Minot,_North_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'FL',
+            number: 6,
+          },
+          {
+            code: 'NH',
+            number: 5,
+          },
+          {
+            code: 'MI',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Herbert Hoover Presidential Library and Museum',
+          'Willis Tower',
+          'Pike Place Market',
+          'Sixth Floor Museum at Dealey Plaza',
+          'Caguana Ceremonial Ball Courts Site',
+          'Blanchard Springs Caverns',
+          "World's Largest Ball of Twine",
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Natural State',
+          "Badger State/America's Dairyland",
+          'Aloha State',
+          'Mountain State',
+          'Equality State',
+        ],
+        flowerOptions: [
+          'Indian Paintbrush',
+          'Peach Blossom',
+          'Colorado Blue Columbine',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'North Dakota was almost empty of European Americans until the _____ century',
+          fillAnswer: '19th',
+          fillAnswers: ['20th', '17th', '18th', '19th'],
+        },
+        uniqueId: 'zGmtgQVq',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'North Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-road-in-the-mountains-covered-in-snow-kNK-pEgAMh0',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Dakota',
+        },
+        landmark: {
+          name: 'North Dakota State Capitol',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/43619751@N06/4075548697/',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Dakota_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Grand Forks',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-white-concrete-building-under-white-sky-during-daytime-DW4cIAPGYzQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grand_Forks,_North_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'CT',
+            number: 12,
+          },
+          {
+            code: 'NY',
+            number: 11,
+          },
+          {
+            code: 'LA',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Mill City Museum',
+          'The Parthenon',
+          'Federal Hill Park',
+          'Red River Gorge',
+          "St. Patrick's Cathedral",
+          'National Mississippi River Museum & Aquarium',
+          'The Mark Twain House',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Centennial State',
+          'Pine Tree State',
+          'Equality State',
+          'Ocean State',
+          'The District',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Mayflower',
+          'Bluebonnet',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'North Dakota was the 39th state to join the United States of America on November 2, _____.',
+          fillAnswer: '1889',
+          fillAnswers: ['1887', '1899', '1889', '1890'],
+        },
+        uniqueId: '8dTTKPZH',
+      },
     ],
     capital: 'Bismarck',
     flower: {
@@ -20417,14 +30160,12 @@ const whereTakenUSCurrent = [
     lat: 41.492537,
     long: -99.901813,
     cities: [
-      'Lincoln',
       'Omaha',
       'Bellevue',
       'Fremont',
       'Nebraska City',
       'Grand Island',
       'Kearney',
-      'Carolina',
     ],
     game: [
       {
@@ -21112,6 +30853,347 @@ const whereTakenUSCurrent = [
           'Crazy Horse Memorial',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Nebraska',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-city-near-body-of-water-during-daytime-2Vx1Z2VHj0s',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nebraska',
+        },
+        landmark: {
+          name: 'Nebraska State Capitol',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-concrete-building-0218pyFjv3U',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nebraska_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Omaha',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photo-of-trees-oAL9V3_KnpA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Omaha,_Nebraska',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 12,
+          },
+          {
+            code: 'MN',
+            number: 3,
+          },
+          {
+            code: 'AR',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Millennium Park',
+          'Beckley Exhibition Coal Mine',
+          'Sixth Floor Museum at Dealey Plaza',
+          'Willis Tower',
+          'Annaberg Sugar Plantation',
+          'Cheyenne Depot Museum',
+          'Idaho State Capitol',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Equality State',
+          'Magnolia State',
+          'Wolverine State/Great Lake State',
+          'Gem State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Flor De Maga',
+          'American Dogwood',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The name “Nebraska” originated with the Otoe Indians.',
+          falseFact:
+            'Residents of Nebraska were found to be the biggest binger drinkers in the country.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9dW6w5pN',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Nebraska',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-van-parked-in-front-of-a-garage-DhbtrxXcRA8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nebraska',
+        },
+        landmark: {
+          name: 'Carhenge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/79666107@N00/4057526268/in/photolist-24JvCK8-7bxTcs-7bxVbq-2mbgt2a-7bxVtS-2h9JzmU-2maYrab-fk8Wjo-o8fr9y-2mExyBf-dBrBy9-23DAG9S-JUExs4-2jH2B1g-2k9iXPR-29U9PD-2hFUT1J-bhHRqr-2yxY8T-q9yPig-29U9Gr-4YYWjk-2yxY8B-3B1jN-34RiCQ-Uyxhv8-4Z4ccs-29U8KR-2mz3pMY-29UajR-5eiPgJ-29YvWf-3buQjG-29U8QZ-29UacH-2b2H41m-29YvEo-obUFm5-XtWxWk-jNB73-xBvQcy-29Yx2J-fgsNRq-2vuTs-8mZ1qJ-2mEpQZS-kSau1-2vuEi-YwvehM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Carhenge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Lincoln',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/14437346361/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lincoln,_Nebraska',
+        },
+        landmarksRound: [
+          {
+            code: 'HI',
+            number: 3,
+          },
+          {
+            code: 'ME',
+            number: 1,
+          },
+          {
+            code: 'TX',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Salvador Dalí Museum',
+          'Fort Worden',
+          'Museum of Pop Culture',
+          'Iowa Old Capitol Building',
+          'Blanchard Springs Caverns',
+          'Harpers Ferry National Historical Park',
+          'Cathedral Caverns',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Centennial State',
+          'Pine Tree State',
+          'Natural State',
+          'Equality State',
+          'Aloha State',
+        ],
+        flowerOptions: ['Oregon Grape', 'American Dogwood', 'Sunflower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Omaha, Nebraska, is home to one of the most famous billionaires in the world, Warren Buffett.',
+          falseFact:
+            'The first free public library in Nebraska was founded by Judah Touro in New Orleans in 1824.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9cN72L57',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Nebraska',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-circular-building-surrounded-by-trees-d99xaDJDBKc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nebraska',
+        },
+        landmark: {
+          name: 'Bob Kerrey Pedestrian Bridge',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/thomashawk/52855168107/in/photolist-KBz1Fz-2oJyToY-2owCy2R-2jY6KFV-22hZ33L-UWBwVR-bHUaDp-2oqpB3m-2ohGbN4-2ooDRYc-DoGp7f-2mLJjch-2o2DX57-2naXAUe-2nRte9c-2nUmkLn-2n5DA1h-2ndzFL6-2ocKmto-2nx8EL9-2nq876o-M33aXz-2nECvB3-2n5k5fe-2ncpm6h-efRciC-7ghugn-2iJkBiX-2p2nZQq-2gZmH6n-Hkfohj-2pMH3pg-6NQjtP-2p5W7Ev-6NQmtP-6NQhaK-2oWyq3H-DF9zFA-ySDSDC-2nNyEk9-2mQtFWj-2nEhtT8-2nm9GGT-dV5jKJ-2o8NTFM-ny2Rje-Pot4th-a7P8er-6R7hmq',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Bob_Kerrey_Pedestrian_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bellevue',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/thebouncingczech/14115360025/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bellevue,_Nebraska',
+        },
+        landmarksRound: [
+          {
+            code: 'VI',
+            number: 4,
+          },
+          {
+            code: 'WV',
+            number: 10,
+          },
+          {
+            code: 'IN',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Aerial Lift Bridge',
+          'Tupelo National Battlefield',
+          'Mary Todd Lincoln House',
+          'Oolah Valley',
+          'SkyWheel Myrtle Beach',
+          'Quincy Mine',
+          'Rock and Roll Hall of Fame',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Magnolia State',
+          'Land of Enchantment',
+          'Pelican State/Creole State/Sugar State',
+          'The Old Dominion/Mother of Presidents',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: ['Apple Blossom', 'Oregon Grape', 'Bitterroot'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Nebraska is home to “Runza,”',
+          falseFact: 'Nebraska Natives make up 18% of the state’s population.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'JD5rZsg4',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Nebraska',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-gray-tent-on-brown-field-during-daytime-H9FcULRIYsg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nebraska',
+        },
+        landmark: {
+          name: 'Buffalo Bill Ranch',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/126250149@N08/48773600556/in/photolist-2a8ET38-2837zHb-VcuAao-gsE2ZK-62cyko-2hiXscw-2au4zqY-2m4HGaE-2mUnGTA-dACuht-2mAmEdM-2mTkMdN-2mTryND-2b9ywmQ-pzDqiF-9DftFW-gsEtow-gsEod1-63dzxC-61LVEe-9Dczn4-61R6NA-61M5MT-2hpoL7S-5Mpas9-oCZSTE-2iPLSEz-5dkiHS-Kcma2v-oGeuhw-KGo1as-2mTYgip-RG2X4Y-2hiXqAW-2jLkS5m-HjmyYd-LL6nxE-ngBaMu-PBxDud-2nxWKpd-oFEGoR-NpvfG6-5kXNMx-LnwEpN-fAQaTk-5kXNwP-2jLfSiy-9cst9k',
+          wikiLink: 'https://en.wikipedia.org/wiki/Buffalo_Bill_Ranch',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Kearney',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/mytravelphotos/49184176012/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kearney,_Nebraska',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 9,
+          },
+          {
+            code: 'CA',
+            number: 3,
+          },
+          {
+            code: 'MT',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'West Union Covered Bridge',
+          'Winterville site',
+          'High Roller',
+          'Meteor Crater',
+          'Maquoketa Caves',
+          'Martin Luther King Jr. National Historical Park',
+          'Castillo San Cristobal',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Empire State',
+          'The Last Frontier',
+          'Beehive State',
+          'Green Mountain State',
+          'Ocean State',
+        ],
+        flowerOptions: ['Sunflower', 'Mayflower', 'Sagebrush'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In the late  ________, a law created in Lehigh, Nebraska forbid merchants from selling donut holes.',
+          fillAnswer: '1800s',
+          fillAnswers: ['1810s', '1820s', '1790s', '1800s'],
+        },
+        uniqueId: 'ryjfkmCs',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Nebraska',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/776614/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nebraska',
+        },
+        landmark: {
+          name: 'Holy Family Shrine',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/131672082@N03/16695574823/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Holy_Family_Shrine',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fremont',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/davidwilson1949/38058284214/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fremont,_Nebraska',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 10,
+          },
+          {
+            code: 'CO',
+            number: 4,
+          },
+          {
+            code: 'CT',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Museum of Science and Industry',
+          'Old Sturbridge Village',
+          'Space Needle',
+          'Theodore Roosevelt National Park',
+          'Fort Adams State Park',
+          'Field of Dreams',
+          'Pikes Peak State Park',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Equality State',
+          'Magnolia State',
+          'Wolverine State/Great Lake State',
+          'Gem State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Flor De Maga',
+          'American Dogwood',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Nebraska is located in the bottom _____ of the country’s most populated states. ',
+          fillAnswer: 'third',
+          fillAnswers: ['first', 'second', 'third', 'fourth'],
+        },
+        uniqueId: 'SSqbrZ27',
+      },
     ],
     capital: 'Lincoln',
     flower: {
@@ -21129,16 +31211,7 @@ const whereTakenUSCurrent = [
     code: 'NH',
     lat: 43.193852,
     long: -71.572395,
-    cities: [
-      'Concord',
-      'Portsmouth',
-      'Manchester',
-      'Nashua',
-      'Derry',
-      'Berlin',
-      'Dover',
-      'Tuscaloosa',
-    ],
+    cities: ['Manchester', 'Nashua', 'Derry', 'Berlin', 'Dover', 'Concord'],
     game: [
       {
         number: 1,
@@ -21824,6 +31897,349 @@ const whereTakenUSCurrent = [
           "The World's Only Corn Palace",
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'New Hampshire',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-white-house-near-body-of-water-sDG_ZEiDA3Y',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Hampshire',
+        },
+        landmark: {
+          name: 'Blair Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/archer10/52593607228/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Blair_Bridge_(New_Hampshire)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Manchester',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/144953185@N07/28062733801/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Manchester,_New_Hampshire',
+        },
+        landmarksRound: [
+          {
+            code: 'MA',
+            number: 6,
+          },
+          {
+            code: 'AR',
+            number: 14,
+          },
+          {
+            code: 'DE',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Minidoka National Historic Site',
+          'Wrigley Field',
+          'Taos Pueblo',
+          'Brooklyn Bridge',
+          'Little Rock Central High School',
+          'Goldbelt Tram',
+          'Battleship North Carolina',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Keystone State',
+          'Peace State/Empire State of the South',
+          'Wolverine State/Great Lake State',
+          'Beaver State',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Colorado Blue Columbine',
+          'Yellow Elder',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Most of the Native Americans from New Hampshire now live in Canada.',
+          falseFact: "New Hampshire's state bird is the Mountain Bluebird",
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'LyFgfDW7',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'New Hampshire',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-group-of-people-standing-next-to-a-train-bfYkfZ3jfd8',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Hampshire',
+        },
+        landmark: {
+          name: 'USS Albacore ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/39678047@N02/3672746409/',
+          wikiLink: 'https://en.wikipedia.org/wiki/USS_Albacore_(AGSS-569)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Nashua',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/reweston-sat/30660114980/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nashua,_New_Hampshire',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 13,
+          },
+          {
+            code: 'AZ',
+            number: 10,
+          },
+          {
+            code: 'IL',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort McHenry',
+          'Castle Craig',
+          'Hoover Dam',
+          'Vulcan Park',
+          'Washington Monument',
+          'Colt Armory',
+          'Great Platte River Road Archway Monument',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Sunshine State',
+          'Wolverine State/Great Lake State',
+          'Gem State',
+          'Pelican State/Creole State/Sugar State',
+          'America’s Paradise',
+        ],
+        flowerOptions: ['Yucca Flower', 'Rhododendron', 'Oregon Grape'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'England first learned of the region we now call New Hampshire in 1614 from Captain John Smith',
+          falseFact:
+            'Almost one-third of New Hampshire’s land is in the Arctic Circle.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'V59YChlD',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'New Hampshire',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/train-tracks-going-through-a-mountainous-region-6AKmwlgzfTY',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Hampshire',
+        },
+        landmark: {
+          name: 'Mount Washington Hotel',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/jimnix/51256759539/in/photolist-z9EeHw-S9ZdD2-yJbPTP-T5h93C-J1nT6r-DPXApm-2m6ohRr-y3mad4-znK6Ms-2o8vLaP-2n6MFWc-NxcXp7-CvJ7aS-29TMg21-awzvKB-xQaFTK-2oYgvH7-2gWDGhN-zENyjM-qYJfMB-2b73n2a-xD5Fvk-4M98W7-K6qg7X-6kxiNU-28RpirU-Hh5mHB-mCA3gT-YxibSp-9Gv9DW-2bwXhU2-JmyH2v-8xoMn4-uGfQNf-2o8vJ9V-nUm2ik-ncqUHq-2o8eAMc-fsVF1X-QfkzPQ-KmbSc3-4C9rD6-opBXLG-srWEtj-XkNmHT-fKHYDb-qjoMkA-r7D9bw-fKro9v-2jW7SXD',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mount_Washington_Hotel',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Concord',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/125295130@N05/39670691200/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Concord,_New_Hampshire',
+        },
+        landmarksRound: [
+          {
+            code: 'NE',
+            number: 6,
+          },
+          {
+            code: 'MD',
+            number: 2,
+          },
+          {
+            code: 'LA',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Cape Krusenstern National Monument',
+          'Field Museum of Natural History',
+          'Monument Valley',
+          'Rock City Gardens',
+          'Sawtooth National Forest',
+          'Minneapolis Sculpture Garden',
+          'World Museum of Mining',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'First State/Diamond State',
+          'Cornhusker State/Beef State',
+          'The Mount Rushmore State',
+          'Buckeye State',
+          'Centennial State',
+        ],
+        flowerOptions: [
+          'Black-eyed Susan',
+          'Oregon Grape',
+          'Flowering Dogwood',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'New Hampshire was originally called North Virginia.',
+          falseFact:
+            'New Hampshire has one national park: Hot Springs National Park.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'FyPy9vhg',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'New Hampshire',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/djrocks/53262296131/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Hampshire',
+        },
+        landmark: {
+          name: 'New Hampshire State House',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/mariano-mantel/53353161470/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Hampshire_State_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Derry',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cadillac_v16/15514304878/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Derry,_New_Hampshire',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 14,
+          },
+          {
+            code: 'SC',
+            number: 4,
+          },
+          {
+            code: 'AZ',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'Mill City Museum',
+          'Carlsbad Caverns National Park',
+          'Chicago Riverwalk',
+          'The Alamo',
+          'Museum of the Rockies',
+          'Fort Larned',
+          'Lake Tahoe',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Keystone State',
+          'Centennial State',
+          'Flickertail State/Sioux State',
+          'Hawkeye State/Corn State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Iris',
+          'Hawaiian Hibiscus',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'New Hampshire has been populated for at least ____ years',
+          fillAnswer: '11000',
+          fillAnswers: ['1000', '3000', '300', '11000'],
+        },
+        uniqueId: 'PMlzmnZq',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'New Hampshire',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/83315034@N07/51223799420/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Hampshire',
+        },
+        landmark: {
+          name: 'Castle in the Clouds',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/wjt-photos/52964964769/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Castle_in_the_Clouds',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dover',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/5954184722/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dover,_New_Hampshire',
+        },
+        landmarksRound: [
+          {
+            code: 'RI',
+            number: 3,
+          },
+          {
+            code: 'ID',
+            number: 7,
+          },
+          {
+            code: 'WV',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Makoshika State Park',
+          'Carhenge',
+          'Ashland (Henry Clay estate)',
+          'Balboa Park',
+          'Dollywood',
+          'Fort Christian',
+          'Virgin Islands National Park',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Keystone State',
+          'Peace State/Empire State of the South',
+          'Wolverine State/Great Lake State',
+          'Beaver State',
+          'North Star State/Gopher State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Colorado Blue Columbine',
+          'Yellow Elder',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'ew Hampshire was the _____state to join the United States of America on June 21, 1788.',
+          fillAnswer: '9th',
+          fillAnswers: ['4th', '3rd', '15th', '9th'],
+        },
+        uniqueId: 'j5fXs6nf',
+      },
     ],
     capital: 'Concord',
     flower: {
@@ -21841,14 +32257,12 @@ const whereTakenUSCurrent = [
     lat: 40.058324,
     long: -74.405661,
     cities: [
-      'Newark',
       'Jersey City',
       'Atlantic City',
       'Trenton',
       'Princeton',
       'Paterson',
       'Elizabeth',
-      'Bridgeport',
     ],
     game: [
       {
@@ -22532,6 +32946,340 @@ const whereTakenUSCurrent = [
           'Missouri Botanical Garden',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Elizabeth',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-an-airport-with-a-body-of-water-in-the-background-tZHRrMdnaQE',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Jersey',
+        },
+        landmark: {
+          name: 'Central Railroad of New Jersey',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/temple-under-blue-sky-h3q7Av8tX-c',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Central_Railroad_of_New_Jersey',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Newark',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-xtuxA26R0pA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Newark,_New_Jersey',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 3,
+          },
+          {
+            code: 'VT',
+            number: 10,
+          },
+          {
+            code: 'IA',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Moss Mansion',
+          'Magnolia Plantation and Gardens',
+          'Franconia Notch State Park',
+          'Georgia Aquarium',
+          "Soldiers' and Sailors' Monument",
+          'Churchill Downs',
+          'Minidoka National Historic Site',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Grand Canyon State',
+          'Keystone State',
+          'Green Mountain State',
+          "Badger State/America's Dairyland",
+          'Natural State',
+        ],
+        flowerOptions: ['Mayflower', 'Mountain Laurel', 'Hawthorn'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'New Jersey has the highest density population of any state in the U.S.',
+          falseFact: 'New Jersey is home to less diners than any other state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'hMLVbv79',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'New Jersey',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-grassy-area-with-a-building-and-a-body-of-water-in-the-background-C1WrUw53kW0',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Jersey',
+        },
+        landmark: {
+          name: 'Thomas Edison National Historical Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/9674922@N04/17973482301/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Thomas_Edison_National_Historical_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Jersey City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-sailboat-in-a-body-of-water-in-front-of-a-large-city-U7WiU4b9XeA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey',
+        },
+        landmarksRound: [
+          {
+            code: 'AR',
+            number: 8,
+          },
+          {
+            code: 'PR',
+            number: 1,
+          },
+          {
+            code: 'CT',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Magnolia Plantation and Gardens',
+          'Napoleon House',
+          'Taftsville Covered Bridge',
+          'Chimney Rock National Historic Site',
+          'Blanchard Springs Caverns',
+          'National Corvette Museum',
+          'Tupelo National Battlefield',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Sooner State',
+          'The District',
+          'Beaver State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'Indian Paintbrush',
+          'Yellow Jessamine',
+          'Yellow Elder',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'New Jersey has a state seashell. It is the knobbed whelk and is known to be used in the Italian dish scungilli.',
+          falseFact: 'The New Jersey state flower is the rose.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '5WnDq4Kn',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'New Jersey',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-boat-in-the-water-with-a-city-in-the-background-6Cf76HtDQrw',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Jersey',
+        },
+        landmark: {
+          name: 'Duke Farms',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/dimaruss34/50814607318/in/photolist-2kqj9ph-2kxcGFn-TNsNXC-2kvXZ1r-2kvnXMX-HXxbsk-2k1bB1P-2kwkPwF-2oXTSZy-2kwTShb-2ktsgAc-2kw2ANW-2kvnsjn-2kwhaQb-2oXD7hL-2ihqMQj-2idBxSm-2idBxSG-2kuKmX3-oJkrtZ-2kxR6nQ-2kriWp9-Sw2TTb-KLnjAW-2kz1DtK-23LVPfB-29U7PYZ-2kxRGvw-2idBuLw-2idz8FG-2idCCMq-23dREe7-2jXbswF-SuBTcy-2kuqKXV-22taJiQ-2kwBRKw-2idBxQh-26KyAj9-2idBxQn-2idzbLu-2idBuLr-2idBtbs-2idz8FM-2idCybr-2kAAbQf-2idCCML-2kxxs15-2kuZ33H-25JJMGQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Duke_Farms',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Paterson',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/8454843091/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Paterson,_New_Jersey',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 10,
+          },
+          {
+            code: 'MN',
+            number: 11,
+          },
+          {
+            code: 'VT',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Scottish Rite Cathedral',
+          'Sandia Peak Tramway',
+          'The House on the Rock',
+          'Fort Abraham Lincoln State Park',
+          'Diamond Head',
+          'Lincoln Boyhood National Memorial',
+          'St. Louis Cathedral',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Beaver State',
+          'Magnolia State',
+          'Granite State',
+          'Nutmeg State/Constitution State',
+          'Treasure State/Big Sky Country',
+        ],
+        flowerOptions: ['Peach Blossom', 'Rose', 'Goldenrod'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The first-ever baseball game was played in Hoboken.',
+          falseFact: 'New Jersey has pleasant summers.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'tcPwbjyy',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Long Beach Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-house-on-a-dock-04dalJZJLV8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Long_Beach_Island',
+        },
+        landmark: {
+          name: 'Absecon Lighthouse',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/91478481@N00/35944597695/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Absecon_Lighthouse',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Elizabeth',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/16060427542/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Elizabeth,_New_Jersey',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 6,
+          },
+          {
+            code: 'IL',
+            number: 11,
+          },
+          {
+            code: 'MS',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Temple Square',
+          'A Christmas Story House',
+          'Roseman Covered Bridge',
+          'Cloud Gate',
+          'Idaho Botanical Garden',
+          'Garden of the Gods',
+          'Manitou Cliff Dwellings',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'America’s Paradise',
+          'Island of Enchantment',
+          'Sunflower State/Jayhawker State',
+          'Lone Star State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: ['Wood Violet', 'Camellia', 'Magnolia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'New Jersey has a spoon museum containing over _____ spoons.',
+          fillAnswer: '5400',
+          fillAnswers: ['5400', '5000', '1500', '3700'],
+        },
+        uniqueId: 'RqBm8tfg',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'New Jersey',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-near-body-of-water-during-daytime-g4TZBo-IHeg',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_Jersey',
+        },
+        landmark: {
+          name: 'Battleship New Jersey',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/130074073@N06/50716452796/',
+          wikiLink: 'https://en.wikipedia.org/wiki/USS_New_Jersey_(BB-62)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Trenton',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/98495557@N06/9236471554/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Trenton,_New_Jersey',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 10,
+          },
+          {
+            code: 'IN',
+            number: 12,
+          },
+          {
+            code: 'GA',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'Ryman Auditorium',
+          'Buffalo Bill Ranch',
+          'Valley of Fire State Park',
+          'Museum of Pop Culture',
+          "John Brown's Fort",
+          'Kenai Fjords National Park, Seward',
+          'San Xavier del Bac',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Grand Canyon State',
+          'Keystone State',
+          'Green Mountain State',
+          "Badger State/America's Dairyland",
+          'Natural State',
+        ],
+        flowerOptions: ['Mayflower', 'Mountain Laurel', 'Hawthorn'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            '_____% of all people who live in New Jersey live in what is considered an urban area.',
+          fillAnswer: '90',
+          fillAnswers: ['15', '30', '60', '90'],
+        },
+        uniqueId: 's9xsLH5G',
+      },
     ],
     capital: 'Trenton',
     flower: {
@@ -22552,10 +33300,10 @@ const whereTakenUSCurrent = [
     cities: [
       'Santa Fe',
       'Roswell',
-      'Las Cruces',
       'Albuquerque',
-      'Rio Rancho',
       'Lawrence',
+      'Clovis',
+      'Alamogordo',
     ],
     game: [
       {
@@ -23231,6 +33979,349 @@ const whereTakenUSCurrent = [
           'Hawaiʻi Volcanoes National Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Sandia Crest',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-rocky-mountain-under-blue-sky-during-daytime-VO0v6VzJA6o',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sandia_Crest',
+        },
+        landmark: {
+          name: 'Tent Rocks',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-rock-formations-51rMs4zdMnk',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Kasha-Katuwe_Tent_Rocks_National_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Albuquerque',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kkt0365/28393164014/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico',
+        },
+        landmarksRound: [
+          {
+            code: 'HI',
+            number: 10,
+          },
+          {
+            code: 'CO',
+            number: 5,
+          },
+          {
+            code: 'ME',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Navy Pier',
+          'Canyonlands National Park',
+          'Sawtooth National Forest',
+          'Eiteljorg Museum of American Indians and Western Art',
+          "John Brown's Fort",
+          'James J. Hill House',
+          'Crazy Horse Memorial',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Tar Heel State',
+          'Free State/Old Line State',
+          'Green Mountain State',
+          'Pelican State/Creole State/Sugar State',
+          'Gem State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Mountain Laurel',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The people of New Mexico lived in complex advanced societies long before Europeans arrived in North America.',
+          falseFact: 'New Mexico is home to more diners than any other state.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'FKWJdhD4',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'White Sands National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-mountain-range-in-the-distance-nHyFxTsTlak',
+          wikiLink: 'https://en.wikipedia.org/wiki/White_Sands_National_Park',
+        },
+        landmark: {
+          name: 'Cathedral Basilica of St. Francis of Assisi',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/68809364@N07/22661362651/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cathedral_Basilica_of_St._Francis_of_Assisi_(Santa_Fe)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Santa Fe',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/mmm-yoso/53135913739/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico',
+        },
+        landmarksRound: [
+          {
+            code: 'KY',
+            number: 2,
+          },
+          {
+            code: 'VI',
+            number: 1,
+          },
+          {
+            code: 'MA',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Portland Head Light',
+          'National Cowboy & Western Heritage Museum',
+          'Wynwood Walls',
+          'Space Needle',
+          'North Carolina Museum of Art',
+          "John Brown's Fort",
+          'Washington National Cathedral',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Mountain State',
+          'Equality State',
+          'Treasure State/Big Sky Country',
+          'Ocean State',
+          'The Old Dominion/Mother of Presidents',
+        ],
+        flowerOptions: [
+          'Rose',
+          'White Pine Cone And Tassel',
+          'Yellow Jessamine',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The capital of New Mexico is Santa Fe, situated centrally in the state’s northern regions.',
+          falseFact:
+            'New Mexico was the very first state to sign the Bill of Rights.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '6rRdVf8x',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Heron Lake',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-rock-formation-beside-body-of-water-under-blue-sky-during-daytime-KV7Mtt-br2o',
+          wikiLink: 'https://en.wikipedia.org/wiki/Heron_Lake_(New_Mexico)',
+        },
+        landmark: {
+          name: 'Aztec Ruins National Monument',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/rwolf/42923803430/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Aztec_Ruins_National_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Las Cruces',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-house-in-the-middle-of-a-desert-with-mountains-in-the-background-p4qN0iu8S0M',
+          wikiLink: 'https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 4,
+          },
+          {
+            code: 'SC',
+            number: 2,
+          },
+          {
+            code: 'AR',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Cathedral Basilica',
+          'Colonial Williamsburg',
+          'Yosemite National Park',
+          'Roseman Covered Bridge',
+          'Edmund Pettus Bridge',
+          'Navy Pier',
+          'Castillo de San Marcos',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Gem State',
+          'Peace State/Empire State of the South',
+          'Ocean State',
+          'America’s Paradise',
+        ],
+        flowerOptions: ['Sagebrush', 'California Poppy', 'Mock Orange'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The first Europeans to reach New Mexico were the Spanish',
+          falseFact:
+            'New Mexico has the highest median household income among U.S. states.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'BsN8y4Hp',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Sandia Mountains',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-with-trees-under-blue-sky-and-white-clouds-during-daytime-YAZVEq0v6bo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sandia_Mountains',
+        },
+        landmark: {
+          name: 'Carlsbad Caverns National Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/139148982@N02/32494482147/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Carlsbad_Caverns_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Clovis',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/25642592@N08/29643468191/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Clovis,_New_Mexico',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 13,
+          },
+          {
+            code: 'TX',
+            number: 9,
+          },
+          {
+            code: 'DC',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Roark Bluff',
+          'George Washington Bridge',
+          'Vessel',
+          'United States Naval Academy',
+          'Alcatraz Island',
+          'Vulcan Statue',
+          'Split Rock Lighthouse',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'The Mount Rushmore State',
+          'Beaver State',
+          'Equality State',
+          "Badger State/America's Dairyland",
+          'The District',
+        ],
+        flowerOptions: ['Yellow Jessamine', 'Forget-me-not', 'Wild Rose'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'The capital of New Mexico is _____',
+          fillAnswer: 'Santa Fe',
+          fillAnswers: ['Los Angeles', 'Santa Fe', 'San Francisco', 'Seattle'],
+        },
+        uniqueId: 'dcJPNLsD',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Lincoln National Forest',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-man-standing-on-top-of-a-large-rock-next-to-a-forest-fnytHLt1Jh4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lincoln_National_Forest',
+        },
+        landmark: {
+          name: 'Bandelier National Monument',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/96551302@N00/52470767681/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bandelier_National_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Alamogordo',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/reweston-sat/5057921933/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Alamogordo,_New_Mexico',
+        },
+        landmarksRound: [
+          {
+            code: 'FL',
+            number: 14,
+          },
+          {
+            code: 'IA',
+            number: 5,
+          },
+          {
+            code: 'NC',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Old Idaho State Penitentiary',
+          'Gateway Arch',
+          'Denail National Park',
+          'Garden of the Gods',
+          'Clinton Presidential Center',
+          'Delaware Memorial Bridge',
+          'Bourbon Street',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Tar Heel State',
+          'Free State/Old Line State',
+          'Green Mountain State',
+          'Pelican State/Creole State/Sugar State',
+          'Gem State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Mountain Laurel',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'New Mexico was the 47th state to join the United States of America on January 6, _______.',
+          fillAnswer: '1912',
+          fillAnswers: ['1912', '1900', '1902', '1915'],
+        },
+        uniqueId: 'NgRw2pbN',
+      },
     ],
     capital: 'Santa Fe',
     flower: {
@@ -23249,14 +34340,12 @@ const whereTakenUSCurrent = [
     lat: 38.80261,
     long: -116.419389,
     cities: [
-      'Reno',
       'Las Vegas',
-      'Spring Valley',
-      'Henderson',
-      'Paradise',
       'Carson City',
       'Sparks',
-      'Kansas City',
+      'Ely',
+      'Fallon',
+      'Winnemucca',
     ],
     game: [
       {
@@ -23927,6 +35016,328 @@ const whereTakenUSCurrent = [
           'Dignity of Earth and Sky',
           'Milwaukee Riverwalk District',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Nevada',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/844167/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nevada',
+        },
+        landmark: {
+          name: 'Hoover Dam',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-large-dam-in-the-mountains-FxzKUZgv85I',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hoover_Dam',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Las Vegas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-FKcQuNyusjA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Las_Vegas',
+        },
+        landmarksRound: [
+          {
+            code: 'ID',
+            number: 1,
+          },
+          {
+            code: 'VT',
+            number: 7,
+          },
+          {
+            code: 'MD',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Adams State Park',
+          'The Elms',
+          'Busch Stadium',
+          'Philbrook Museum of Art',
+          'Sandy Hook Lighthouse',
+          'Kennedy Space Center',
+          'Carhenge',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Centennial State',
+          'Show Me State',
+          'Garden State',
+          'Sooner State',
+          'Natural State',
+        ],
+        flowerOptions: ['Bluebonnet', 'Wood Violet', 'Mountain Laurel'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Nevada is home to Lake Tahoe, which is the largest alpine lake in North America and the second deepest lake in the U.S. ',
+          falseFact: 'There’s no official way to pronounce Nevada.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '8PCcC3zP',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Nevada',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/490466/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nevada',
+        },
+        landmark: {
+          name: 'Fountains of Bellagio',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/fmf0/14239550882/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fountains_of_Bellagio',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Ely',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-blue-airplane-on-gray-asphalt-road-during-daytime-KDbpvwFl9BQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ely,_Nevada',
+        },
+        landmarksRound: [
+          {
+            code: 'IL',
+            number: 2,
+          },
+          {
+            code: 'FL',
+            number: 9,
+          },
+          {
+            code: 'DE',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Ravenel Bridge',
+          'Field Museum of Natural History',
+          'Cave of the Mounds',
+          'Shoshone Falls',
+          'United States Holocaust Memorial Museum',
+          'Garden of the Gods',
+          'Arlington National Cemetery',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Aloha State',
+          'Sunflower State/Jayhawker State',
+          'Ocean State',
+          'Volunteer State',
+        ],
+        flowerOptions: ['Yellow Elder', 'Hawaiian Hibiscus', 'Wood Violet'],
+        facts: {
+          trueFalse: true,
+          trueFact: "Nevada is one of the world's leading producers of gold. ",
+          falseFact: 'The state bird of Nevada is the Common Loon. ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'cMq5LrtD',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Las Vegas',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/11052956/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Las_Vegas',
+        },
+        landmark: {
+          name: 'Seven Magic Mountains',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ajkphoto/41646322372/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Seven_Magic_Mountains',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Henderson',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ap0013/17150113728/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Henderson,_Nevada',
+        },
+        landmarksRound: [
+          {
+            code: 'IL',
+            number: 15,
+          },
+          {
+            code: 'AZ',
+            number: 12,
+          },
+          {
+            code: 'PR',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Field of Dreams',
+          'Great Falls',
+          'Gathering Place',
+          'Minneapolis Sculpture Garden',
+          'Rehoboth Beach',
+          'Holy Family Shrine',
+          'Shoshone Falls',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Natural State',
+          'Garden State',
+          'Granite State',
+          'Lone Star State',
+          'Empire State',
+        ],
+        flowerOptions: ['Oregon Grape', 'Hawaiian Hibiscus', 'Bitterroot'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            "Nevada is home to the majority of the country's wild horse population. ",
+          falseFact: 'Nevada is the 13th largest state in the USA.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Q3NXVSPV',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Nevada',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/16218924/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nevada',
+        },
+        landmark: {
+          name: 'Red Rock Canyon National Conservation Area\n',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/nathanlimbach/10590810195/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Red_Rock_Canyon_National_Conservation_Area',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fallon',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/reweston-sat/14229576053/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fallon,_Nevada',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 7,
+          },
+          {
+            code: 'NM',
+            number: 6,
+          },
+          {
+            code: 'MA',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Puerta de San Juan',
+          'Fort Pickens',
+          'Idaho Botanical Garden',
+          'Petrified Forest',
+          'Carlsbad Caverns National Park',
+          'Parthenon',
+          'Statue of Liberty',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Granite State',
+          'Nutmeg State/Constitution State',
+          'Centennial State',
+          'Ocean State',
+          'First State/Diamond State',
+        ],
+        flowerOptions: ['Hawthorn', 'Coast Rhododendron', 'Magnolia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Las Vegas is home to over _____ hotel rooms',
+          fillAnswer: '150000',
+          fillAnswers: ['150000', '200000', '50000', '10000'],
+        },
+        uniqueId: 'XWdT5Ysk',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Nevada',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/6563903/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nevada',
+        },
+        landmark: {
+          name: 'Valley of Fire State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/48523798@N07/7312695830/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Valley_of_Fire_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Winnemucca',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/whsieh78/37314334006/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Winnemucca,_Nevada',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 8,
+          },
+          {
+            code: 'MO',
+            number: 6,
+          },
+          {
+            code: 'MD',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Iowa State Capitol',
+          'Denail National Park',
+          'U.S. Space & Rocket Center',
+          'Isle Royale',
+          'Victoria Mansion',
+          'Amicalola Falls State Park',
+          'Civil Rights Museum',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Centennial State',
+          'Show Me State',
+          'Garden State',
+          'Sooner State',
+          'Natural State',
+        ],
+        flowerOptions: ['Bluebonnet', 'Wood Violet', 'Mountain Laurel'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Nevada gets its name from the _____ for "snow-covered"',
+          fillAnswer: 'Spanish',
+          fillAnswers: ['Spanish', 'French', 'Native-Indians', 'Greek'],
+        },
+        uniqueId: 'QLqhzgtK',
       },
     ],
     capital: 'Carson City',
@@ -24622,6 +36033,347 @@ const whereTakenUSCurrent = [
           'Mount Hood',
           'Point State Park',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'New York',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/286076/',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_York_(state)',
+        },
+        landmark: {
+          name: "St. Patrick's Cathedral",
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-stone-building-with-towers-with-sagrada-familia-in-the-background-TjtC7hs3Pgc',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral_(Midtown_Manhattan)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Albany',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-couple-of-tall-buildings-sitting-next-to-each-other-i4IcOi17TcA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Albany,_New_York',
+        },
+        landmarksRound: [
+          {
+            code: 'OR',
+            number: 10,
+          },
+          {
+            code: 'MN',
+            number: 15,
+          },
+          {
+            code: 'WA',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Thomas Edison National Historical Park',
+          'Hoover Dam',
+          'Chimney Rock',
+          'The Elms',
+          'Dollywood',
+          'Cape Henlopen State Park',
+          'Perrine Bridge',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Volunteer State',
+          'Nutmeg State/Constitution State',
+          'Golden State',
+          'Mountain State',
+          'Pine Tree State',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Black-eyed Susan',
+          'Colorado Blue Columbine',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact: 'New York has over 70,000 miles of rivers and streams.',
+          falseFact:
+            'The first people arrived in New York around 100 years ago',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '3q2CyrRk',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Battery Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/view-photography-of-sailboat-on-sea-jSNpCFK2t-4',
+          wikiLink: 'https://en.wikipedia.org/wiki/The_Battery_(Manhattan)',
+        },
+        landmark: {
+          name: 'Metropolitan Museum of Art',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/83833206@N00/6868862250/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'New York City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/eagle-eyes-view-of-continental-hotel-UFI06Q0PN60',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_York_City',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 9,
+          },
+          {
+            code: 'CA',
+            number: 15,
+          },
+          {
+            code: 'MS',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Lincoln Memorial',
+          'Cathedral Basilica',
+          'Louisville Slugger Museum & Factory',
+          'Pictograph Cave State Park',
+          'The Mount ',
+          'Carhenge',
+          'Biltmore',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Prairie State/Land of Lincoln',
+          'Bay State/Old Colony State',
+          'Centennial State',
+          'Cornhusker State/Beef State',
+          'The District',
+        ],
+        flowerOptions: ['Mountain Laurel', 'Mayflower', 'California Poppy'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'New York State has had four constitutions.',
+          falseFact:
+            'New York became our 36th state on October 31, 1864 in the midst of the Civil War. ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'WgTjHD9P',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Niagara Falls',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/waterfalls-during-daytime-dGCHAo7mb2Q',
+          wikiLink: 'https://en.wikipedia.org/wiki/Niagara_Falls,_New_York',
+        },
+        landmark: {
+          name: 'Brooklyn Bridge',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/two-men-taking-picture-in-front-of-brooklyn-bridge-BMzNt5MQHPE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Brooklyn_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Buffalo',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-20YcoWSS6kw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Buffalo,_New_York',
+        },
+        landmarksRound: [
+          {
+            code: 'AK',
+            number: 4,
+          },
+          {
+            code: 'MD',
+            number: 13,
+          },
+          {
+            code: 'NV',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'USS Albacore ',
+          'Bunker Hill Monument',
+          "The World's Only Corn Palace",
+          'The Mammoth Site',
+          'Sandy Hook Lighthouse',
+          'Rock City Gardens',
+          'Everglades',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Natural State',
+          'Equality State',
+          'Pelican State/Creole State/Sugar State',
+          'Sunshine State',
+        ],
+        flowerOptions: ['Magnolia', 'Iris', 'Mayflower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'On April 30, 1789, George Washington  sworn in as the president of the United States at Federal Hall in New York City, New York.',
+          falseFact:
+            'New York is the only state that borders both the Atlantic Ocean and the Great Lakes.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'WPqMzLn4',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'New York',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/bridge-over-water-near-city-buildings-during-night-time-LI_5WCBe7zI',
+          wikiLink: 'https://en.wikipedia.org/wiki/New_York_(state)',
+        },
+        landmark: {
+          name: 'Rockefeller Center',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/28402310@N06/16239067675/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rockefeller_Center',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Yonkers',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/davidwilson1949/5005628300/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Yonkers,_New_York',
+        },
+        landmarksRound: [
+          {
+            code: 'OR',
+            number: 9,
+          },
+          {
+            code: 'AL',
+            number: 10,
+          },
+          {
+            code: 'MN',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Old Cowtown Museum',
+          'Balboa Park',
+          'Gillette Castle',
+          'Theodore Roosevelt National Park',
+          'Dover Motor Speedway',
+          'Nemours Estate',
+          'Hearthstone Historic House Museum',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Beehive State',
+          'Keystone State',
+          'Equality State',
+          'Evergreen State/Chinhook State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: ['Wild Rose', 'Orange Blossom', 'California Poppy'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'New York State has _____ counties',
+          fillAnswer: '62',
+          fillAnswers: ['62', '31', '12', '25'],
+        },
+        uniqueId: 'QjMxMcLz',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Central Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-beside-river-near-buildings-WRygjt-uCpw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Central_Park',
+        },
+        landmark: {
+          name: 'High Line',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-street-with-cars-and-buildings-JD9TcXov2rk',
+          wikiLink: 'https://en.wikipedia.org/wiki/High_Line',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Rochester',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-white-concrete-building-near-green-trees-under-white-clouds-and-blue-sky-during-daytime-Rk_lymW6Fms',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rochester,_New_York',
+        },
+        landmarksRound: [
+          {
+            code: 'MT',
+            number: 3,
+          },
+          {
+            code: 'WA',
+            number: 4,
+          },
+          {
+            code: 'MD',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Museum of Fine Arts, Boston',
+          'United States Holocaust Memorial Museum',
+          'The Henry Ford',
+          'Lake Tahoe',
+          'Vulcan Park',
+          'The Greenbrier',
+          'Perrine Bridge',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Volunteer State',
+          'Nutmeg State/Constitution State',
+          'Golden State',
+          'Mountain State',
+          'Pine Tree State',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Black-eyed Susan',
+          'Colorado Blue Columbine',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The Hudson River is the state’s longest river at _____ miles',
+          fillAnswer: '306',
+          fillAnswers: ['205', '104', '557', '306'],
+        },
+        uniqueId: 't4hDXS5R',
       },
     ],
     capital: 'Albany',
@@ -25340,6 +37092,336 @@ const whereTakenUSCurrent = [
           'Great Platte River Road Archway Monument',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Central Business District',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-blue-concrete-bridge-duJ17CwclKw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Central_business_district',
+        },
+        landmark: {
+          name: 'Cedar Point',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/94100125@N07/23250882574/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cedar_Point',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Columbus',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/view-of-bridge-and-high-rise-buildings-at-daytime-EOAy-v9Njbs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Columbus,_Ohio',
+        },
+        landmarksRound: [
+          {
+            code: 'CT',
+            number: 4,
+          },
+          {
+            code: 'PA',
+            number: 1,
+          },
+          {
+            code: 'GA',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Beckley Exhibition Coal Mine',
+          'Lincoln Memorial',
+          'Baltimore Basilica',
+          'Victoria Mansion',
+          'Falls Park on the Reedy',
+          'Basilica of the Sacred Heart',
+          'Mill City Museum',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Centennial State',
+          'Natural State',
+          'The District',
+          'The Mount Rushmore State',
+        ],
+        flowerOptions: ['American Dogwood', 'Wild Rose', 'Sego Lily'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Founded in 1788, Marietta was the first permanent settlement in the Northwest Territory',
+          falseFact:
+            'Ohio grew in population and attracted more and more settlers. ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'YDqSCL8X',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Caesar Creek Lake',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-bridge-over-river-during-daytime-S9TFpYtQ8pQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Caesar_Creek_State_Park',
+        },
+        landmark: {
+          name: 'Carillon Historical Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jimg1948/6386364409/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Carillon_Historical_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cleveland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-street-filled-with-lots-of-tall-buildings-kSJ-eyf5L48',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cleveland',
+        },
+        landmarksRound: [
+          {
+            code: 'ND',
+            number: 15,
+          },
+          {
+            code: 'AK',
+            number: 7,
+          },
+          {
+            code: 'LA',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Alcatraz Island',
+          'Fremont Troll',
+          'Grand Teton',
+          'Meyer May House',
+          'Cape Krusenstern National Monument',
+          'Fenwick Island Lighthouse',
+          'Mississippi State Capitol',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Evergreen State/Chinhook State',
+          'Equality State',
+          'North Star State/Gopher State',
+          'Magnolia State',
+          'Pine Tree State',
+        ],
+        flowerOptions: ['Purple Lilac', 'Wild Prairie Rose', 'Iris'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            '"Ohio" is derived from the Iroquois word "oyo," which means "great river."',
+          falseFact:
+            'As one of our country’s 13 original states, Ohio  was the 12th to ratify the constitution.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'FHdmxWzm',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Caesar Creek Lake',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-and-yellow-trees-near-body-of-water-during-daytime-C8flDkJgneU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Caesar_Creek_State_Park',
+        },
+        landmark: {
+          name: 'Chateau Laroche',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/aloha75/4919142362/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chateau_Laroche',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cincinnati',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/cars-parked-on-side-of-the-road-during-daytime-Ng9l4V03WTE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cincinnati',
+        },
+        landmarksRound: [
+          {
+            code: 'TX',
+            number: 7,
+          },
+          {
+            code: 'KY',
+            number: 8,
+          },
+          {
+            code: 'VT',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Idaho Potato Museum',
+          "The World's Only Corn Palace",
+          'Vulcan Park',
+          'Garfield Park Conservatory',
+          'Elvis Presley Birthplace',
+          'Great Sand Dunes National Park and Preserve',
+          'El Rancho de las Golondrinas',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Cotton State/Yellowhammer State',
+          'Golden State',
+          'Magnolia State',
+          'Empire State',
+          'Silver State/Sagebrush State',
+        ],
+        flowerOptions: ['Peach Blossom', 'Rhododendron', 'Oregon Grape'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            "Vinton is Ohio's smallest county by population with about 13,000 residents.",
+          falseFact: 'The largest salmon ever caught was at the Ohio.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '6ysRnQBR',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Ohio',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-farm-with-a-barn-and-silo-in-the-background-WBxrtKQb0Qk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ohio',
+        },
+        landmark: {
+          name: 'Marblehead Light ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/danpedraza/8745931331/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Marblehead_Light_(Ohio)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Akron',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cak757/52126962602/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Akron,_Ohio',
+        },
+        landmarksRound: [
+          {
+            code: 'MN',
+            number: 7,
+          },
+          {
+            code: 'MI',
+            number: 4,
+          },
+          {
+            code: 'WI',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Pittock Mansion',
+          'Kenai Fjords',
+          'San Xavier del Bac Mission',
+          'Holy Hill',
+          'Red Rock Canyon National Conservation Area',
+          'Chimney Rock',
+          'San Jacinto Battleground',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Sunflower State/Jayhawker State',
+          'Lone Star State',
+          'Sooner State',
+          'Grand Canyon State',
+          'Sunshine State',
+        ],
+        flowerOptions: ['Hawaiian Hibiscus', 'Red Clover', 'Oklahoma Rose'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            "Columbus didn't become the state capital until ______.",
+          fillAnswer: '1816',
+          fillAnswers: ['1820', '1800', '1798', '1816'],
+        },
+        uniqueId: 'hrtJWhqM',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Ohio',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-field-full-of-trees-with-a-house-in-the-background-55FP7zCgzI4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ohio',
+        },
+        landmark: {
+          name: 'Stan Hywet Hall and Gardens',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/78348039@N03/39445387742/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Stan_Hywet_Hall_and_Gardens',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dayton',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-near-city-buildings-during-daytime-01kP2jek5cM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dayton,_Ohio',
+        },
+        landmarksRound: [
+          {
+            code: 'PR',
+            number: 1,
+          },
+          {
+            code: 'DC',
+            number: 2,
+          },
+          {
+            code: 'MN',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Worden',
+          'Roseland Cottage',
+          'The Alamo',
+          'Badlands National Park',
+          'Indianapolis Motor Speedway Museum',
+          'Colonial Williamsburg',
+          'Grand Teton',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Centennial State',
+          'Natural State',
+          'The District',
+          'The Mount Rushmore State',
+        ],
+        flowerOptions: ['American Dogwood', 'Wild Rose', 'Sego Lily'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Columbus is the ______ largest city in the U.S.',
+          fillAnswer: '15th',
+          fillAnswers: ['13th', '10th', '15th', '29th'],
+        },
+        uniqueId: 'vnGhVk78',
+      },
     ],
     capital: 'Columbus',
     flower: {
@@ -25363,7 +37445,7 @@ const whereTakenUSCurrent = [
       'Oklahoma City',
       'Lawton',
       'Broken Arrow',
-      'Columbus',
+      'Midtown',
     ],
     game: [
       {
@@ -26041,6 +38123,343 @@ const whereTakenUSCurrent = [
           'Nelson-Atkins Museum of Art',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Oklahoma City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photography-of-gray-concrete-road-near-trees-during-daytime-pVtpi6czths',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oklahoma_City',
+        },
+        landmark: {
+          name: 'University of Oklahoma',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-walking-near-brown-concrete-building-during-daytime-5PCxfj3L8uM',
+          wikiLink: 'https://en.wikipedia.org/wiki/University_of_Oklahoma',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Midtown',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/high-angle-photo-of-cityscape-ku1woEy_PT8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Midtown_Oklahoma_City',
+        },
+        landmarksRound: [
+          {
+            code: 'RI',
+            number: 1,
+          },
+          {
+            code: 'CT',
+            number: 1,
+          },
+          {
+            code: 'MA',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Churchill Downs',
+          'Cedar Point',
+          'Falls Park on the Reedy',
+          'High Line',
+          'Windsor Ruins',
+          'Oak Alley Plantation',
+          'The Parthenon',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'The District',
+          'Wolverine State/Great Lake State',
+          'Evergreen State/Chinhook State',
+          'Flickertail State/Sioux State',
+          'Ocean State',
+        ],
+        flowerOptions: ['Yellow Elder', 'Mountain Laurel', 'California Poppy'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The lowest point in Oklahoma is Little River in McCurtain County, at 289 feet.',
+          falseFact: 'Oklahoma does not have a state sales tax.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'fPNkcP8Q',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Oklahoma City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/eagle-eye-view-time-lapse-city-and-streets-OSNZjXCF5VE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oklahoma_City',
+        },
+        landmark: {
+          name: 'Oklahoma City National Memorial',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/high-rise-building-near-body-of-water-during-night-time-yYwjSUF46rU',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Oklahoma_City_National_Memorial',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Oklahoma City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-buildings-during-daytime-WpQBXuqyVlo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oklahoma_City',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 12,
+          },
+          {
+            code: 'HI',
+            number: 7,
+          },
+          {
+            code: 'VT',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Canyonlands National Park',
+          'Gateway Arch',
+          'New Orleans Museum of Art',
+          'The Keeper of the Plains',
+          'Oriole Park',
+          'Falls Park on the Reedy',
+          'Monument Rocks',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Pine Tree State',
+          'The Mount Rushmore State',
+          'Island of Enchantment',
+          'Mountain State',
+          'Lone Star State',
+        ],
+        flowerOptions: ['California Poppy', 'Mock Orange', 'Wild Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Oklahoma has 11,611 miles of shoreline, more than the combined non-tidal coasts of the Atlantic and the Gulf of Mexico.',
+          falseFact: 'Seaplanes are popular in Oklahoma .',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'njhmBlKl',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Wichita Mountains',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-and-blue-lake-xMh0ue4mztI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wichita_Mountains',
+        },
+        landmark: {
+          name: 'Oklahoma State Capitol',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/clintonb/15380181850/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oklahoma_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Tulsa',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-city-from-across-a-river-p0XXVZ1JiAQQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Tulsa,_Oklahoma',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 10,
+          },
+          {
+            code: 'MO',
+            number: 12,
+          },
+          {
+            code: 'NY',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Caguana Ceremonial Ball Courts Site',
+          'Blair Bridge',
+          'Maquoketa Caves State Park',
+          'Minneapolis Institute of Art',
+          'Abraham Lincoln Birthplace National Historical Park',
+          'Teton Dam',
+          'Sloss Furnaces',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Buckeye State',
+          'Silver State/Sagebrush State',
+          'Sunshine State',
+          'Treasure State/Big Sky Country',
+          'Garden State',
+        ],
+        flowerOptions: [
+          'Sagebrush',
+          'Cherokee Rose',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The Poteau River is the only river in Oklahoma that flows north.',
+          falseFact: 'Ohio has 18 electoral votes in the 2016 election.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'ccPVnhnw',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Oklahoma',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-river-running-through-a-forest-filled-with-lots-of-trees-iIm5hLG6vZo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oklahoma_City',
+        },
+        landmark: {
+          name: 'Philbrook Museum of Art',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/73806732@N04/24573339217/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Philbrook_Museum_of_Art',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Broken Arrow',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-neighborhood-at-sunset-Q6r_dcGqRtg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Broken_Arrow,_Oklahoma',
+        },
+        landmarksRound: [
+          {
+            code: 'GA',
+            number: 14,
+          },
+          {
+            code: 'TN',
+            number: 3,
+          },
+          {
+            code: 'WI',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Mission Point Light',
+          'Pikes Peak State Park',
+          'Metropolitan Museum of Art',
+          'Dignity Statue',
+          "The World's Only Corn Palace",
+          'Magnolia Plantation and Gardens',
+          'Spring Mill State Park',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'The Last Frontier',
+          'Hawkeye State/Corn State',
+          'Bluegrass State',
+          'Wolverine State/Great Lake State',
+          'Centennial State',
+        ],
+        flowerOptions: ['Orange Blossom', 'Mock Orange', 'Flor De Maga'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'The Oklahoma state has _____ major reservoirs.',
+          fillAnswer: '34',
+          fillAnswers: ['34', '28', '67', '44'],
+        },
+        uniqueId: 'Dlx9ZnFp',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Oklahoma',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-green-field-with-a-few-clouds-in-the-sky-qS9gta1wuNs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oklahoma_City',
+        },
+        landmark: {
+          name: 'Centennial Land Run Monument',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/125761169@N06/49804995958/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Centennial_Land_Run_Monument',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Norman',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-college-campus-with-a-clock-tower-in-the-background-6Q4PdOoOlYQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Norman,_Oklahoma',
+        },
+        landmarksRound: [
+          {
+            code: 'IA',
+            number: 5,
+          },
+          {
+            code: 'LA',
+            number: 11,
+          },
+          {
+            code: 'KY',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Magens Bay Beach',
+          'Southernmost point buoy',
+          'Helen Keller Birthplace',
+          'Castle Craig',
+          'Cedar Point',
+          'Amelia Earhart Birthplace',
+          'Mystic Seaport Museum',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'The District',
+          'Wolverine State/Great Lake State',
+          'Evergreen State/Chinhook State',
+          'Flickertail State/Sioux State',
+          'Ocean State',
+        ],
+        flowerOptions: ['Yellow Elder', 'Mountain Laurel', 'California Poppy'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'About ______ percent of surface water in Oklahoma is used for drinking water.',
+          fillAnswer: '60',
+          fillAnswers: ['60', '61', '27', '30'],
+        },
+        uniqueId: '6RBtDKB7',
+      },
     ],
     capital: 'Oklahoma City',
     flower: {
@@ -26057,14 +38476,12 @@ const whereTakenUSCurrent = [
     lat: 43.804133,
     long: -120.554201,
     cities: [
-      'Portland',
-      'Bend',
       'Eugene',
       'Salem',
       'Oregon City',
       'Gresham',
       'Hillsboro',
-      'Metairie',
+      'Junction City',
     ],
     game: [
       {
@@ -26742,6 +39159,350 @@ const whereTakenUSCurrent = [
           "Ford's Theatre",
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Oregon',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-road-in-the-middle-of-a-forest-BRsp2emSfGk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oregon',
+        },
+        landmark: {
+          name: 'Mount Hood',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-near-lake-under-blue-sky-during-daytime-8WOXpBfbT70',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mount_Hood',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Junction City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-red-traffic-light-hanging-over-a-road-I-zjwNu6ZH4',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Junction_City,_Oregon#2020_census',
+        },
+        landmarksRound: [
+          {
+            code: 'MD',
+            number: 12,
+          },
+          {
+            code: 'MT',
+            number: 6,
+          },
+          {
+            code: 'PA',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Hagley Museum and Library',
+          'Brooklyn Bridge',
+          'Roark Bluff',
+          'West Side Market',
+          'Milwaukee Riverwalk District',
+          'Glacier National Park',
+          'Biltmore Estate',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Bay State/Old Colony State',
+          'Centennial State',
+          'Granite State',
+          'Show Me State',
+        ],
+        flowerOptions: [
+          'Pasque Flower',
+          'Black-eyed Susan',
+          'Hawaiian Hibiscus',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Reaching an impressive height of 11,250 feet, Mt. Hood is the \ntallest volcano in Oregon and the fourth tallest in the Cascade Range.',
+          falseFact:
+            'Oregon State University is the third largest university in the country',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '76jJT8xv',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Oregon',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/falls-during-daytime-PO_m7Srxz9w',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oregon',
+        },
+        landmark: {
+          name: 'Pittock Mansion',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/andrewschaefer/8340695750/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pittock_Mansion',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Portland',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-with-high-rise-buildings-near-mountain-during-sunset-Ff4BbI31Czg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Portland,_Oregon',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 10,
+          },
+          {
+            code: 'DC',
+            number: 4,
+          },
+          {
+            code: 'MA',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Laramie',
+          'Split Rock Lighthouse',
+          'Parthenon',
+          'Iolani Palace',
+          'Penobscot Narrows Bridge and Observatory',
+          'Fremont Troll',
+          'Thomas Edison National Historical Park',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Buckeye State',
+          'Evergreen State/Chinhook State',
+          'Ocean State',
+          'Hoosier State',
+          'Flickertail State/Sioux State',
+        ],
+        flowerOptions: ['Iris', 'Sego Lily', 'Red Clover'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Oregon is home to the largest organism on earth',
+          falseFact: 'Oregon’s beaches can be privatized ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'yjTbsbFk',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Oregon',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-steel-bridge-93c6xbgYULQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oregon',
+        },
+        landmark: {
+          name: 'Vista House',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/mariaechaniz/48953958063/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vista_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Eugene',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/building-beside-road-and-grass-with-trees-during-day-zp74hFM4qaE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Eugene,_Oregon',
+        },
+        landmarksRound: [
+          {
+            code: 'MS',
+            number: 9,
+          },
+          {
+            code: 'MA',
+            number: 2,
+          },
+          {
+            code: 'IL',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Beckley Exhibition Coal Mine',
+          'Fort Christian',
+          'Oklahoma State Capitol',
+          "St. Patrick's Cathedral",
+          'USS Albacore',
+          'The Breakers',
+          'Hoover Dam',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Lone Star State',
+          'Sunflower State/Jayhawker State',
+          'Empire State',
+          'Magnolia State',
+          'Centennial State',
+        ],
+        flowerOptions: ['Scarlet Carnation', 'Hawthorn', 'Mock Orange'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Oregon is home to the deepest canyon in North America',
+          falseFact:
+            'The 1994 film "The Shawshank Redemption" was filmed at the Oregon State ',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9St4SCms',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Hosmer Lake',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-reflection-of-a-mountain-in-a-lake-UHhYeKcI4Wo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hosmer_Lake',
+        },
+        landmark: {
+          name: 'Samuel H. Boardman State Scenic Corridor',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/158034657@N08/52130131267/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Samuel_H._Boardman_State_Scenic_Corridor',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Salem',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/lihue70/27460397818/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Salem,_Oregon',
+        },
+        landmarksRound: [
+          {
+            code: 'MT',
+            number: 10,
+          },
+          {
+            code: 'TX',
+            number: 5,
+          },
+          {
+            code: 'OK',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Trans-Allegheny Lunatic Asylum',
+          'Franconia Notch State Park',
+          'Taos Pueblo',
+          'Mackinaw Island',
+          'Rocky Statue',
+          'The Greenbrier',
+          'Yale University',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Tar Heel State',
+          'Nutmeg State/Constitution State',
+          'Bay State/Old Colony State',
+          'The District',
+          'Beehive State',
+        ],
+        flowerOptions: [
+          'California Poppy',
+          'Purple Lilac',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Oregon is the _____th-most wine producing state in the country',
+          fillAnswer: '4',
+          fillAnswers: ['5', '7', '4', '9'],
+        },
+        uniqueId: 'Qx95qsSN',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Oregon',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/red-and-white-boat-on-river-during-daytime-DKn68XMg8hE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Oregon',
+        },
+        landmark: {
+          name: 'Heceta Head Light',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/lost_in_oregon/15972659710/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Heceta_Head_Light',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gresham',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/fotobyfred/47188083402/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hillsboro,_Oregon',
+        },
+        landmarksRound: [
+          {
+            code: 'ID',
+            number: 10,
+          },
+          {
+            code: 'WV',
+            number: 2,
+          },
+          {
+            code: 'CA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Yellowstone National Park',
+          'Aerial Lift Bridge',
+          'The Mammoth Site',
+          'Carillon Historical Park',
+          'Duke Farms',
+          'Arlington National Cemetery',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Bay State/Old Colony State',
+          'Centennial State',
+          'Granite State',
+          'Show Me State',
+        ],
+        flowerOptions: [
+          'Pasque Flower',
+          'Black-eyed Susan',
+          'Hawaiian Hibiscus',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Oregon grows ______% of the country’s commercial crop of hazelnuts',
+          fillAnswer: '99',
+          fillAnswers: ['54', '90', '67', '99'],
+        },
+        uniqueId: 'tYQZnr6r',
+      },
     ],
     capital: 'Salem',
     flower: {
@@ -26759,14 +39520,12 @@ const whereTakenUSCurrent = [
     lat: 41.203322,
     long: -77.194525,
     cities: [
-      'Pittsburgh',
-      'Harrisburg',
       'Philadelphia',
       'Allentown',
-      'Scranton',
       'Erie',
       'West Reading',
-      'Houston',
+      'Pittsburgh',
+      'Reading',
     ],
     game: [
       {
@@ -27450,6 +40209,349 @@ const whereTakenUSCurrent = [
           'Minneapolis Sculpture Garden',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Pennsylvania',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-q-N9eM2opIg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pennsylvania',
+        },
+        landmark: {
+          name: 'Philadelphia Museum of Art',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/98671313@N05/51981821368/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Allentown',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/7822978/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Allentown,_Pennsylvania',
+        },
+        landmarksRound: [
+          {
+            code: 'ND',
+            number: 6,
+          },
+          {
+            code: 'OH',
+            number: 15,
+          },
+          {
+            code: 'SC',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Taftsville Covered Bridge',
+          'Dignity of Earth and Sky',
+          'Point Judith Light',
+          'Roosevelt Arch',
+          'Natural Bridge Caverns',
+          'Flume Gorge',
+          'Navy Pier',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Beehive State',
+          'Lone Star State',
+          'Aloha State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Hawaiian Hibiscus',
+          'American Dogwood',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Pennsylvania is known for handmade pretzels, which were originally brought by German settlers',
+          falseFact:
+            '45,091 Pennsylvania voted the Socialist ticket in 1916 presidential elections.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'FxRChKq2',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Pennsylvania',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-valley-with-trees-in-the-foreground-m-yaQsVEPH8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pennsylvania',
+        },
+        landmark: {
+          name: 'Independence Hall',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/danielmennerich/21113599264/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Independence_Hall',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Philadelphia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/grey-and-orange-building-d7qtPAh9dhg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Philadelphia',
+        },
+        landmarksRound: [
+          {
+            code: 'OR',
+            number: 8,
+          },
+          {
+            code: 'IA',
+            number: 2,
+          },
+          {
+            code: 'WI',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Scheels Arena',
+          'Bennington Battle Monument',
+          'Ellis Island',
+          'Duke Farms',
+          'Klondike Gold Rush National Historic Park',
+          'Golden Gate Bridge',
+          'Indianapolis Motor Speedway Museum',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Beaver State',
+          'The Mount Rushmore State',
+          'Equality State',
+          'Hawkeye State/Corn State',
+          'Mountain State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Yellow Jessamine',
+          'Hawthorn',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Pennsylvania is one of the top states for coal mining. It also has the largest reserve anthracite coal in the nation.',
+          falseFact: 'Tater tots were invented in Pennsylvania',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'lZPT2bHM',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Pennsylvania',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-city-from-a-tall-building-XnIA70ivlxM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pennsylvania',
+        },
+        landmark: {
+          name: 'Steamtown National Historic Site',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kevystew/6327809360/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Steamtown_National_Historic_Site',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Pittsburgh',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photo-of-bridge-and-buildings-under-blue-sky-9HGqJq3vglc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pittsburgh',
+        },
+        landmarksRound: [
+          {
+            code: 'NY',
+            number: 4,
+          },
+          {
+            code: 'DE',
+            number: 12,
+          },
+          {
+            code: 'MA',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Perrine Bridge',
+          'Old Salem Museums & Gardens',
+          'Haystack Rock',
+          'Battleship North Carolina',
+          'Moss Mansion',
+          'Harding Icefield',
+          'Jamestown, Virginia',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Nutmeg State/Constitution State',
+          'First State/Diamond State',
+          'Sunshine State',
+          'Green Mountain State',
+          'Natural State',
+        ],
+        flowerOptions: ['Saguaro Cactus Blossom', 'Orange Blossom', 'Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Pennsylvania is famous for its Amish population. In fact, it has the highest Amish population in the world.',
+          falseFact:
+            'The official Pennsylvania wildflower is Indian Blanket, adopted in 1910.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'xFT7Drml',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Pennsylvania',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-Voynp7kiVeY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pennsylvania',
+        },
+        landmark: {
+          name: 'Valley Forge National Historical Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kenlund/40566859483/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Valley_Forge_National_Historical_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Reading',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/137595561@N06/52470673288/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Reading,_Pennsylvania',
+        },
+        landmarksRound: [
+          {
+            code: 'NY',
+            number: 15,
+          },
+          {
+            code: 'HI',
+            number: 1,
+          },
+          {
+            code: 'MT',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Goldfield Ghost Town',
+          'Museum of Science and Industry',
+          'Centennial Land Run Monument',
+          'Charging Bull',
+          'Nemours Estate',
+          'Vermont State House',
+          'Fort Abraham Lincoln',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Flickertail State/Sioux State',
+          'Cornhusker State/Beef State',
+          'Pine Tree State',
+          'Empire State',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Wild Rose', 'Sunflower', 'California Poppy'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'There is a fire that has been burning in Pennsylvania since 1962. It’s estimated to keep burning for over ______ years.',
+          fillAnswer: '250',
+          fillAnswers: ['250', '500', '147', '25'],
+        },
+        uniqueId: 'DF2NFD9t',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Delaware Water Gap',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/17810032/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Delaware_Water_Gap',
+        },
+        landmark: {
+          name: 'Liberty Bell',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/28951090@N02/2955260097/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Liberty_Bell',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Erie',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/90257252@N07/34916568594//',
+          wikiLink: 'https://en.wikipedia.org/wiki/Erie,_Pennsylvania',
+        },
+        landmarksRound: [
+          {
+            code: 'TX',
+            number: 9,
+          },
+          {
+            code: 'IL',
+            number: 10,
+          },
+          {
+            code: 'NH',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Brandywine Creek State Park',
+          'Fort McHenry',
+          'Olbrich Botanical Gardens',
+          'Fargo Theatre',
+          'Chimney Rock',
+          'Willis Tower',
+          'University of Notre Dame',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Free State/Old Line State',
+          'Beehive State',
+          'Lone Star State',
+          'Aloha State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Hawaiian Hibiscus',
+          'American Dogwood',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The Constitution was first signed in Philadelphia in _____. ',
+          fillAnswer: '1787',
+          fillAnswers: ['1788', '1787', '1802', '1793'],
+        },
+        uniqueId: 'zysctC2N',
+      },
     ],
     capital: 'Harrisburg',
     flower: {
@@ -27467,16 +40569,7 @@ const whereTakenUSCurrent = [
     code: 'PR',
     lat: 18.220833,
     long: -66.590149,
-    cities: [
-      'Bayamon',
-      'San Juan',
-      'Ponce',
-      'Carolina',
-      'Caguas',
-      'Mayagüez',
-      'Bayamón',
-      'Las Cruces',
-    ],
+    cities: ['San Juan', 'Ponce', 'Carolina', 'Caguas', 'Mayagüez', 'Bayamón'],
     game: [
       {
         number: 1,
@@ -28160,6 +41253,353 @@ const whereTakenUSCurrent = [
           'Wadsworth Falls State Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Puerto Rico',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/red-bicycle-parked-beside-green-tree-during-daytime-Wi-dnjfkE_0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Puerto_Rico',
+        },
+        landmark: {
+          name: 'Santa María Magdalena de Pazzis Cemetery',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-building-with-a-red-dome-on-top-of-it-JH1t5SOgCag',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_Magdalena_de_Pazzis_Cemetery',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'San Juan',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-couple-of-birds-walking-down-a-street-next-to-a-palm-tree-7wBRyl0X_N8',
+          wikiLink: 'https://en.wikipedia.org/wiki/San_Juan,_Puerto_Rico',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 5,
+          },
+          {
+            code: 'HI',
+            number: 7,
+          },
+          {
+            code: 'CA',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'North Dakota Heritage Center',
+          'Chauncey Peak',
+          'Balboa Park',
+          'Craters of the Moon National Monument and Preserve',
+          'Pictograph Cave State Park',
+          'Everglades',
+          'Cuyahoga Valley National Park',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Volunteer State',
+          'Mountain State',
+          'Pelican State/Creole State/Sugar State',
+          'Free State/Old Line State',
+          'Palmetto State',
+        ],
+        flowerOptions: [
+          'Flowering Dogwood',
+          'Black-eyed Susan',
+          'Indian Paintbrush',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'San Juan is the oldest continuously inhabited city in a U.S. territory.',
+          falseFact: 'Puerto Rico colors are green and white.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'p49v9QZS',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Puerto Rico',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-black-concrete-buildings-under-blue-sky-at-daytime-FMvJBRevQng',
+          wikiLink: 'https://en.wikipedia.org/wiki/Puerto_Rico',
+        },
+        landmark: {
+          name: 'Capitol of Puerto Rico',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/zug55/10670854013/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Capitol_of_Puerto_Rico',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bayamón',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/10671510@N00/368080305/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bayam%C3%B3n,_Puerto_Rico',
+        },
+        landmarksRound: [
+          {
+            code: 'AR',
+            number: 4,
+          },
+          {
+            code: 'WV',
+            number: 6,
+          },
+          {
+            code: 'NH',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Crazy Horse Memorial',
+          'Cedar Point',
+          'Coral Castle',
+          'Copper King Mansion',
+          'Chickasaw National Recreation Area',
+          'The Alamo',
+          'Faneuil Hall',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Wolverine State/Great Lake State',
+          'Sooner State',
+          'Grand Canyon State',
+          'First State/Diamond State',
+          'Cornhusker State/Beef State',
+        ],
+        flowerOptions: [
+          'Colorado Blue Columbine',
+          'Saguaro Cactus Blossom',
+          'Purple Lilac',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'More people of Puerto Rican origin (an estimated 5.6 million) live in the mainland United States than in Puerto Rico.',
+          falseFact: 'The Puerto Rico Rose, adopted as state flower in 2004',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'DTmKqmMF',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Puerto Rico',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/blue-sea-under-white-clouds-at-daytime-UzlkIYRM8EE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Puerto_Rico',
+        },
+        landmark: {
+          name: 'Cathedral of San Juan',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/southbound228/4719636510/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cathedral_of_San_Juan,_Puerto_Rico',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Carolina',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/robertonievesphotography/27243604506/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Carolina,_Puerto_Rico',
+        },
+        landmarksRound: [
+          {
+            code: 'ME',
+            number: 2,
+          },
+          {
+            code: 'NJ',
+            number: 6,
+          },
+          {
+            code: 'TN',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Nemours Estate',
+          'Scheels Arena',
+          'Chateau Laroche',
+          'Goldfield Ghost Town',
+          "John Brown's Fort",
+          'Bob Kerrey Pedestrian Bridge',
+          'The Keeper of the Plains',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'America’s Paradise',
+          'The Mount Rushmore State',
+          'North Star State/Gopher State',
+          'Golden State',
+          'Buckeye State',
+        ],
+        flowerOptions: ['Magnolia', 'Yellow Elder', 'Yellow Jessamine'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Puerto Rico has three bioluminescent bays',
+          falseFact:
+            'Puerto Rico where Concordia University Texas is located, is known as the "live music" capital of the world.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Gp477mNy',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Old San Juan',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/photo-of-blue-and-pink-painted-high-rise-building-XV5Osh0TOuc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Old_San_Juan',
+        },
+        landmark: {
+          name: 'Parque de Bombas',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/fallrod/4755267751/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Parque_de_Bombas',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Ponce',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/73215818@N00/256825898/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ponce,_Puerto_Rico',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 5,
+          },
+          {
+            code: 'IN',
+            number: 9,
+          },
+          {
+            code: 'DE',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Milwaukee Riverwalk District',
+          'Missouri Botanical Garden',
+          'Great Smoky Mountains National Park',
+          'Vizcaya Museum and Gardens',
+          'Fenwick Island Lighthouse',
+          'Seven Sacred Pools',
+          'Olbrich Botanical Gardens',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Show Me State',
+          'Lone Star State',
+          'Mountain State',
+          'Nutmeg State/Constitution State',
+          'Green Mountain State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Forget-me-not',
+          'Wood Violet',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'La Fortaleza, a fort in Old San Juan, was built in the _____ to protect the island from foreign invaders such as English and Dutch explorers.',
+          fillAnswer: '1500s',
+          fillAnswers: ['1800s', '1600s', '1500s', '1700s'],
+        },
+        uniqueId: 'kzsND5Dx',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Puerto Rico',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-white-tower-near-a-beach-pAedPNz6xV4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Puerto_Rico',
+        },
+        landmark: {
+          name: 'Castillo San Cristóbal ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/107892449@N03/52865624955/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Castillo_San_Crist%C3%B3bal_(San_Juan)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Caguas',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/robertrex365/4936568469/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Caguas,_Puerto_Rico',
+        },
+        landmarksRound: [
+          {
+            code: 'KS',
+            number: 2,
+          },
+          {
+            code: 'IA',
+            number: 7,
+          },
+          {
+            code: 'CO',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Amelia Earhart Birthplace',
+          'Martin Luther King Jr. Childhood Home',
+          'Devils Tower',
+          'Trans-Allegheny Lunatic Asylum',
+          'Seven Sacred Pools',
+          'Museum of Science and Industry',
+          'Cuyahoga Valley National Park',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Volunteer State',
+          'Mountain State',
+          'Pelican State/Creole State/Sugar State',
+          'Free State/Old Line State',
+          'Palmetto State',
+        ],
+        flowerOptions: [
+          'Flowering Dogwood',
+          'Black-eyed Susan',
+          'Indian Paintbrush',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Approximately ______ million visitors flock to Puerto Rico each year to explore the island’s history, landscapes, and beaches.',
+          fillAnswer: '5',
+          fillAnswers: ['2', '3', '4', '5'],
+        },
+        uniqueId: 'rCWwgRZV',
+      },
     ],
     capital: 'San Juan',
     flower: {
@@ -28177,12 +41617,12 @@ const whereTakenUSCurrent = [
     lat: 41.580095,
     long: -71.477429,
     cities: [
-      'Newport',
       'Providence',
       'Warwick',
-      'Cranston',
       'Pawtucket',
       'East Providence',
+      'Woonsocket',
+      'Cumberland',
     ],
     game: [
       {
@@ -28868,6 +42308,344 @@ const whereTakenUSCurrent = [
           'Harbour Town Light',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Rhode Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-wooden-bench-sitting-on-the-side-of-a-cement-wall-IeOyMyGuSf4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rhode_Island',
+        },
+        landmark: {
+          name: 'The Breakers',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/sulitskiy/49117086991/',
+          wikiLink: 'https://en.wikipedia.org/wiki/The_Breakers',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Providence',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-with-tall-buildings-and-a-clock-tower-SY87pH3ijcE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Providence,_Rhode_Island',
+        },
+        landmarksRound: [
+          {
+            code: 'CT',
+            number: 3,
+          },
+          {
+            code: 'NV',
+            number: 8,
+          },
+          {
+            code: 'ID',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Great Smoky Mountains National Park',
+          'Roseland Cottage',
+          'Harding Icefield',
+          'Holy Family Shrine',
+          'Fort Pickens',
+          'Dover Motor Speedway',
+          'Civil Rights Museum',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'First State/Diamond State',
+          'Grand Canyon State',
+          'Flickertail State/Sioux State',
+          'Gem State',
+        ],
+        flowerOptions: ['Bitterroot', 'Orange Blossom', 'Yucca Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Rhode Island is the smallest state in the United States—only 1,034 square miles.',
+          falseFact:
+            'In 1836 Rhode Island became the first state in the United States to declare Christmas a legal holiday.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'BDbPhcTS',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Rhode Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-flock-of-birds-sitting-on-top-of-a-rocky-shore-3Th4jiYG3dc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rhode_Island',
+        },
+        landmark: {
+          name: 'Marble House',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jimrob/51022795706/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Marble_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Warwick',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/35412296@N06/25322537979/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Warwick,_Rhode_Island',
+        },
+        landmarksRound: [
+          {
+            code: 'NJ',
+            number: 4,
+          },
+          {
+            code: 'PR',
+            number: 1,
+          },
+          {
+            code: 'GA',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Mount Washington Cog Railway',
+          'Golden Driller Statue',
+          'Klondike Gold Rush National Historic Park',
+          'Delicate Arch',
+          'Devils Tower',
+          'Split Rock Lighthouse',
+          'Cuyahoga Valley',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Tar Heel State',
+          'Show Me State',
+          'America’s Paradise',
+          'Empire State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'Flowering Dogwood',
+          'California Poppy',
+          'Black-eyed Susan',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The first of the Thirteen Colonies to ban slavery was Rhode Island.',
+          falseFact:
+            'On February 16, 1968, the first 911 call in the United States was made in Rhode Island',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Vspq9sTq',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Rhode Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-vehicle-on-road-under-white-sky-MnQQ3vA_dBo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rhode_Island',
+        },
+        landmark: {
+          name: 'Rhode Island',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thomashawk/51133950691/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rough_Point',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Pawtucket',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/moonjazz/52212586588/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pawtucket,_Rhode_Island',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 10,
+          },
+          {
+            code: 'MA',
+            number: 13,
+          },
+          {
+            code: 'LA',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'Smith Rock State Park',
+          'Franklin Park Conservatory',
+          'Myriad Botanical Gardens',
+          'Botanica, The Wichita Gardens',
+          'Mount Hood',
+          'Point Udall',
+          'Paw Paw Tunnel',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Beehive State',
+          'Sooner State',
+          'Volunteer State',
+          'Hawkeye State/Corn State',
+          'Show Me State',
+        ],
+        flowerOptions: [
+          'Forget-me-not',
+          'White Pine Cone And Tassel',
+          'Bitterroot',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Rhode Island is home to the oldest topiary garden in the US.',
+          falseFact:
+            "Cookie Dough is Rhode Islands' favorite flavor of ice cream, according to Twitter.",
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'rtmfYGbJ',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Rhode Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/people-lying-and-sitting-on-sand-beside-gray-chain-link-fence-during-daytime-x2zyAOmVNtM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rhode_Island',
+        },
+        landmark: {
+          name: 'Slater Mill',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jjbers/51311601536/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Slater_Mill',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Woonsocket',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jjbers/51941276999/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Woonsocket,_Rhode_Island',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 13,
+          },
+          {
+            code: 'KY',
+            number: 7,
+          },
+          {
+            code: 'MO',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Faneuil Hall',
+          'Ocean City Boardwalk',
+          'House of the Seven Gables',
+          'USS Kidd',
+          'Philadelphia Museum of Art',
+          'Centennial Land Run Monument',
+          'Absecon Lighthouse',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Garden State',
+          'Aloha State',
+          'The District',
+          'Golden State',
+          'Sunflower State/Jayhawker State',
+        ],
+        flowerOptions: ['Wild Rose', 'Sagebrush', 'Forget-me-not'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The first European to visit Rhode Island was from ______.',
+          fillAnswer: 'Florence',
+          fillAnswers: ['Venice', 'Rome', 'Florence', 'Naples'],
+        },
+        uniqueId: 'rdXZRpVR',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Rhode Island',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-boat-in-a-body-of-water-in-front-of-a-castle-ggTmniTxh1Y',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rhode_Island',
+        },
+        landmark: {
+          name: 'The Towers ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ajay_suresh/53845170485/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/The_Towers_(Narragansett,_Rhode_Island)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cumberland',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/151111185@N04/53057202758/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cumberland,_Rhode_Island',
+        },
+        landmarksRound: [
+          {
+            code: 'MS',
+            number: 9,
+          },
+          {
+            code: 'DE',
+            number: 10,
+          },
+          {
+            code: 'OR',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Carlsbad Caverns',
+          'Red Rock Canyon National Conservation Area\n',
+          'New Orleans Museum of Art',
+          'Millennium Park',
+          'Lucy the Elephant',
+          'Harding Icefield',
+          'The Alamo',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          "Badger State/America's Dairyland",
+          'First State/Diamond State',
+          'Grand Canyon State',
+          'Flickertail State/Sioux State',
+          'Gem State',
+        ],
+        flowerOptions: ['Bitterroot', 'Orange Blossom', 'Yucca Flower'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The US’ oldest carousel sits beachside in Watch Hill. It opened in ______.',
+          fillAnswer: '1876',
+          fillAnswers: ['1877', '1876', '1896', '1895'],
+        },
+        uniqueId: 'PlF8nydV',
+      },
     ],
     capital: 'Providence',
     flower: {
@@ -28886,8 +42664,6 @@ const whereTakenUSCurrent = [
     lat: 33.836081,
     long: -81.163725,
     cities: [
-      'Charleston',
-      'Columbia',
       'Greenville',
       'Myrtle Beach',
       'Clemson',
@@ -29573,6 +43349,345 @@ const whereTakenUSCurrent = [
           'Parque de Bombas',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'South Carolina',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-black-bench-on-gray-concrete-floor-vSZHjlSABmM',
+          wikiLink: 'https://en.wikipedia.org/wiki/South_Carolina',
+        },
+        landmark: {
+          name: 'Angel Oak',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/roadtrip2008/15633335685/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Angel_Oak',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Greenville',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/water-falls-near-green-bridge-during-daytime-CjivT9kkuV4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Greenville,_South_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'WV',
+            number: 5,
+          },
+          {
+            code: 'KY',
+            number: 2,
+          },
+          {
+            code: 'WV',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Charging Bull',
+          'Windsor Ruins',
+          'Myriad Botanical Gardens',
+          'University of Michigan',
+          'Biltmore Estate',
+          'Church Street Marketplace',
+          'North Dakota Heritage Center',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'The District',
+          'The Last Frontier',
+          'Aloha State',
+          "Badger State/America's Dairyland",
+          'Golden State',
+        ],
+        flowerOptions: ['Peony', 'Scarlet Carnation', 'California Poppy'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'The Carolinas were named after King Charles I of England.',
+          falseFact:
+            'On January 30, 1900, South Carolina Governor William Goebel was assassinated in downtown Frankfort',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'LsvrKcK6',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'South Carolina',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-cross-on-a-hill-XSfVlIcTVm8',
+          wikiLink: 'https://en.wikipedia.org/wiki/South_Carolina',
+        },
+        landmark: {
+          name: 'Pineapple Fountain',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/47417143@N08/15357219557/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Waterfront_Park_(Charleston)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Charleston',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/billy_wilson/52800499156/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Charleston,_South_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 1,
+          },
+          {
+            code: 'VT',
+            number: 9,
+          },
+          {
+            code: 'IN',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'The Greenbrier',
+          'United States Holocaust Memorial Museum',
+          'Little Bighorn Battlefield National Monument',
+          'Ave Maria Grotto',
+          'Old Faithful',
+          'Split Rock Lighthouse',
+          'Chase County Courthouse',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Bluegrass State',
+          'Cornhusker State/Beef State',
+          'Keystone State',
+          'Lone Star State',
+          'Pine Tree State',
+        ],
+        flowerOptions: ['Sego Lily', 'American Beauty Rose', 'Pasque Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'he state tree of South Carolina, the Palmetto Tree, was used to build the walls for a fort on Sullivan Island. The rubbery trees were a great defense as cannon balls bounced right off them!',
+          falseFact:
+            'South Carolina is the only U.S. state to have a continuous border of rivers \nrunning along three of its sides-the Mississippi River to the west',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Rc5ptKVD',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Lake Keowee',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-with-trees-on-the-side--iN533B2mx0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Keowee',
+        },
+        landmark: {
+          name: 'Rainbow Row\n',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/sniegowski/51270400707/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rainbow_Row',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Columbia',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/96902679@N00/8437371009/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Columbia,_South_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'ME',
+            number: 11,
+          },
+          {
+            code: 'LA',
+            number: 8,
+          },
+          {
+            code: 'VT',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Lincoln Boyhood National Memorial',
+          'Marble House',
+          'Ellis Island',
+          'Cuyahoga Valley',
+          'Durham Museum',
+          'Eiteljorg Museum of American Indians and Western Art',
+          'The Witch House at Salem',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Buckeye State',
+          'Keystone State',
+          'Lone Star State',
+          'Land of Enchantment',
+          'Pine Tree State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Saguaro Cactus Blossom', 'Sagebrush'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'There are rumors that a water monster lurks in the depths of Lake Murray.',
+          falseFact:
+            'Cumberland Falls in South Carolina is only place in Western Hemisphere',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '3bktFWnR',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Lake Blalock',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-next-to-a-body-of-water-LkvDxSwJmSw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Blalock',
+        },
+        landmark: {
+          name: 'Magnolia Plantation and Gardens ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/82134796@N03/8976170416/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Magnolia_Plantation_and_Gardens_(Charleston,_South_Carolina)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Rock Hill',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/schauerheads/5886851064/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rock_Hill,_South_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 2,
+          },
+          {
+            code: 'TN',
+            number: 4,
+          },
+          {
+            code: 'MD',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Black Canyon of the Gunnison National Park',
+          'Everglades',
+          'Spring Mill State Park',
+          'Lucy the Elephant',
+          'Dover Motor Speedway',
+          'The Witch House at Salem',
+          'Oolah Valley',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Bluegrass State',
+          'Island of Enchantment',
+          'Bay State/Old Colony State',
+          'Lone Star State',
+          'America’s Paradise',
+        ],
+        flowerOptions: [
+          'Pasque Flower',
+          'Wild Prairie Rose',
+          'Colorado Blue Columbine',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: '_____ Was Born in South Carolina',
+          fillAnswer: 'Barbecue',
+          fillAnswers: [
+            'Barbecue',
+            'Cold Grill',
+            'Ramen Soup',
+            'Grilled Shrimps',
+          ],
+        },
+        uniqueId: 'cllTNM4P',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'South Carolina',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-concrete-building-with-black-sedan-parked-in-front-Wwww-8hftg8',
+          wikiLink: 'https://en.wikipedia.org/wiki/South_Carolina',
+        },
+        landmark: {
+          name: 'Fort Sumter',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ride0583/10689393804/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Sumter',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Mount Pleasant',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/rock_creek/24005813683/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Mount_Pleasant,_South_Carolina',
+        },
+        landmarksRound: [
+          {
+            code: 'CA',
+            number: 8,
+          },
+          {
+            code: 'WI',
+            number: 10,
+          },
+          {
+            code: 'IA',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Carhenge',
+          'Mount Vernon',
+          'Indiana Dunes National Park',
+          'Mall of America',
+          'Cathedral Basilica of Saint Louis',
+          'Museum of the Rockies',
+          'Yellowstone National Park',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'The District',
+          'The Last Frontier',
+          'Aloha State',
+          "Badger State/America's Dairyland",
+          'Golden State',
+        ],
+        flowerOptions: ['Peony', 'Scarlet Carnation', 'California Poppy'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The first attempt by Spanish explorer Lucas Vazquez de Ayllon in ______.',
+          fillAnswer: '1526',
+          fillAnswers: ['1602', '1499', '1502', '1526'],
+        },
+        uniqueId: 'fwZfgjvt',
+      },
     ],
     capital: 'Columbia',
     flower: {
@@ -29591,14 +43706,12 @@ const whereTakenUSCurrent = [
     lat: 43.969515,
     long: -99.901813,
     cities: [
-      'Sioux Falls',
-      'Pierre',
       'Rapid City',
       'Watertown',
       'Mitchell',
       'Aberdeen',
       'Brookings',
-      'St Louis',
+      'Yankton',
     ],
     game: [
       {
@@ -30276,6 +44389,350 @@ const whereTakenUSCurrent = [
           'University of Michigan',
           'Yosemite National Park',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'South Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-asphalt-road-under-gray-sky-XlpmTg4bGFg',
+          wikiLink: 'https://en.wikipedia.org/wiki/South_Dakota',
+        },
+        landmark: {
+          name: 'Badlands National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-grassy-field-with-a-group-of-large-pyramids-in-the-background-iIxKOhj-vg0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Badlands_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sioux Falls',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/flood-of-water-photography-CVO3TozRVp8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sioux_Falls,_South_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'NY',
+            number: 9,
+          },
+          {
+            code: 'MA',
+            number: 5,
+          },
+          {
+            code: 'ME',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Churchill Downs',
+          'Seven Mile Bridge',
+          'Cloud Gate',
+          'The Breakers',
+          'High Roller',
+          "Grant's Farm",
+          'Ward Charcoal Ovens State Historic Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Natural State',
+          'Cotton State/Yellowhammer State',
+          'Bluegrass State',
+          'Granite State',
+          'Gem State',
+        ],
+        flowerOptions: [
+          'Hawaiian Hibiscus',
+          'Indian Paintbrush',
+          'Wild Prairie Rose',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Inside the Peace Chapel at the International Peace Garden, you can walk from the United States to Canada and back',
+          falseFact:
+            'South Dakota ranks 27th among the 50 states in population.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'xq5FblQ7',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Badlands National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-cow-on-green-grass-field-during-daytime-Xr1iJEC9v-E',
+          wikiLink: 'https://en.wikipedia.org/wiki/Badlands_National_Park',
+        },
+        landmark: {
+          name: 'Crazy Horse Memorial',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-rock-formation-surrounded-by-trees-9SD_-wTBa10',
+          wikiLink: 'https://en.wikipedia.org/wiki/Crazy_Horse_Memorial',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Rapid City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-building-with-a-steeple-and-a-snowy-landscape-VeYDM-0G8iE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Rapid_City,_South_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'KS',
+            number: 13,
+          },
+          {
+            code: 'NJ',
+            number: 1,
+          },
+          {
+            code: 'TX',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Old Salem Museums & Gardens',
+          'Vulcan Park',
+          'Napoleon House',
+          'Biggest ball of twine',
+          'Southernmost point buoy',
+          'Fargo Air Museum',
+          'Big Four Bridge',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Ocean State',
+          'Pelican State/Creole State/Sugar State',
+          'First State/Diamond State',
+          'Green Mountain State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: ['Wild Prairie Rose', 'Hawaiian Hibiscus', 'Camellia'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Lake Sakakawea has more shoreline than the California Pacific Coast.',
+          falseFact:
+            'South Dakota sports teams have won 17 major pro sports championships',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'KCXRrT5B',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Badlands National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-mountain-range-in-the-desert--BsaiKBwHYQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Badlands_National_Park',
+        },
+        landmark: {
+          name: 'Corn Palace',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dianne146/52251348524/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Corn_Palace',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Watertown',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/reweston-sat/15575078850/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Watertown,_South_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 5,
+          },
+          {
+            code: 'NY',
+            number: 2,
+          },
+          {
+            code: 'FL',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Diamond Head',
+          'Houmas House',
+          'Idaho State Capitol',
+          'Great Falls',
+          'High Line',
+          'Idaho Potato Museum',
+          'Fort Worth Water Gardens',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Ocean State',
+          'Mountain State',
+          'Evergreen State/Chinhook State',
+          'Show Me State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Rose', 'Red Clover'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            "World's Largest Buffalo monument stands tall on the hill in Jamestown.",
+          falseFact:
+            'South Dakota is home to one of the largest roosts of Vaux’s Swifts in the world',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '5Ghwv2rS',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'South Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-landscape-with-trees-and-rocks-r7PdHm7Adbk',
+          wikiLink: 'https://en.wikipedia.org/wiki/South_Dakota',
+        },
+        landmark: {
+          name: 'Mount Rushmore',
+          photographer: '',
+          imageLink: 'https://unsplash.com/photos/mount-ruhsmore-9_onxRgAmRA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mount_Rushmore',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Brookings',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/tourismguy/9534865152/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Brookings,_South_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'NE',
+            number: 15,
+          },
+          {
+            code: 'IN',
+            number: 11,
+          },
+          {
+            code: 'TN',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Guardian Building',
+          'Yosemite National Park',
+          'Castillo San Cristóbal ',
+          'Sequoia National Park',
+          'Grotto of the Redemption',
+          'Louisville Slugger Field',
+          'North Christian Church',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Grand Canyon State',
+          'Palmetto State',
+          'Land of Enchantment',
+          'Golden State',
+          'Garden State',
+        ],
+        flowerOptions: [
+          'California Poppy',
+          'Indian Paintbrush',
+          'Wild Prairie Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Nearly _____  million people visit Mount Rushmore each year',
+          fillAnswer: '3',
+          fillAnswers: ['2', '3', '1', '4'],
+        },
+        uniqueId: 'kTJG6BT7',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'South Dakota',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/red-and-white-house-near-trees-during-daytime-SUlhJBfvsNQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/South_Dakota',
+        },
+        landmark: {
+          name: 'Custer State Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-animal-on-green-grass-field-during-daytime-E6dcS2JW0t4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Custer_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Yankton',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/thomashawk/52540426101/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Yankton,_South_Dakota',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 5,
+          },
+          {
+            code: 'ME',
+            number: 3,
+          },
+          {
+            code: 'WI',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Pineapple Fountain',
+          'Mill City Museum',
+          'Taos Pueblo',
+          'Golden Driller',
+          'Ichetucknee Springs State Park',
+          'Everglades',
+          'International Peace Garden',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Natural State',
+          'Cotton State/Yellowhammer State',
+          'Bluegrass State',
+          'Granite State',
+          'Gem State',
+        ],
+        flowerOptions: [
+          'Hawaiian Hibiscus',
+          'Indian Paintbrush',
+          'Wild Prairie Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'South Dakota was once covered by _____',
+          fillAnswer: 'sea',
+          fillAnswers: ['forests', 'sea', 'farm-fields', 'railway'],
+        },
+        uniqueId: 'GkNZ5mcS',
       },
     ],
     capital: 'Pierre',
@@ -30963,6 +45420,337 @@ const whereTakenUSCurrent = [
           'United States Holocaust Memorial Museum',
           'Martin Luther King Jr. National Historical Park',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Pikeville',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/9649728/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pikeville,_Tennessee',
+        },
+        landmark: {
+          name: 'Tennessee',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/whsieh78/5816230603/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Belle_Meade_Plantation',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Chattanooga',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/2350459/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chattanooga,_Tennessee',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 1,
+          },
+          {
+            code: 'KS',
+            number: 12,
+          },
+          {
+            code: 'MA',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort McHenry',
+          'Minneapolis Institute of Art',
+          'Monument Rocks',
+          'Dole Plantation',
+          'Old Sturbridge Village',
+          'Fort Worden',
+          'Point Udall',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Evergreen State/Chinhook State',
+          'Beaver State',
+          'Palmetto State',
+          'Keystone State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: ['Hawthorn', 'Wood Violet', 'Camellia'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Machine-made Cotton Candy (fairy floss) was invented in Tennessee by a dentist and a candy maker in 1897.',
+          falseFact:
+            'Tennessee was the first state to ban non-reusable bottles',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'zn7lvmTr',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Chattanooga',
+          photographer: '',
+          imageLink: 'https://www.pexels.com/ru-ru/photo/11947772/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chattanooga,_Tennessee',
+        },
+        landmark: {
+          name: 'The Hermitage ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cseeman/14807579904/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/The_Hermitage_(Nashville,_Tennessee)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Nashville',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-black-bridge-near-high-rise-building-at-nighttime-4BPMhBgvIuI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Nashville,_Tennessee',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 13,
+          },
+          {
+            code: 'PR',
+            number: 9,
+          },
+          {
+            code: 'MT',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Mark Twain Boyhood Home',
+          'The Breakers',
+          'Haystack Rock',
+          'Moss Mansion',
+          "Grant's Farm",
+          'Nemours Estate',
+          'Oak Alley Plantation',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Pelican State/Creole State/Sugar State',
+          'Prairie State/Land of Lincoln',
+          'Evergreen State/Chinhook State',
+          'America’s Paradise',
+          'Peace State/Empire State of the South',
+        ],
+        flowerOptions: ['Mayflower', 'Goldenrod', 'Flor De Maga'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Tennessee has the world’s largest and only Salt and Pepper Collection: 20,000 pairs!',
+          falseFact:
+            'Tennessee was the first state to legalize assisted suicide',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'hDhqLmrb',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Fall Creek Falls',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-waterfall-over-a-body-of-water-wHn0fOqmQQ0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fall_Creek_Falls',
+        },
+        landmark: {
+          name: 'Parthenon ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/powellizer/605384420/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Parthenon_(Nashville)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Memphis',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/cityscape-photography-during-daytime-tqTgHpTB3Lk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Memphis,_Tennessee',
+        },
+        landmarksRound: [
+          {
+            code: 'IL',
+            number: 15,
+          },
+          {
+            code: 'VT',
+            number: 3,
+          },
+          {
+            code: 'LA',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Cass Scenic Railroad State Park',
+          'Oklahoma City National Memorial',
+          'Ravenel Bridge',
+          'Vermont State House',
+          'Hawaiʻi Volcanoes National Park',
+          "St. Patrick's Cathedral",
+          'Indiana Dunes National Park',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Aloha State',
+          'Mountain State',
+          'Palmetto State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: ['Mayflower', 'Hawaiian Hibiscus', 'Wood Violet'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Tennessee has more caves than any other state. There are over 9,200 caves and caverns throughout the state.',
+          falseFact: 'Port Silt Loam is the Tennessee soil.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'rkrqXyqX',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Reelfoot Lake',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-on-snow-covered-ground-0Zvq6znRgcE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Reelfoot_Lake',
+        },
+        landmark: {
+          name: 'Great Smoky Mountains National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-on-mountain-under-blue-sky-during-daytime-_rnxvg9xniI',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Great_Smoky_Mountains_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Knoxville',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-skyline-during-night-time-92ORW-y9lKA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Knoxville,_Tennessee',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 9,
+          },
+          {
+            code: 'ND',
+            number: 1,
+          },
+          {
+            code: 'VI',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Akaka Falls',
+          'Hocking Hills State Park',
+          'Metropolitan Museum of Art',
+          'Cathedral Caverns State Park',
+          'High Roller',
+          'Split Rock Lighthouse',
+          'Fort Smith National Historic Site',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'The Old Dominion/Mother of Presidents',
+          'Aloha State',
+          'Empire State',
+          'Peace State/Empire State of the South',
+          "Badger State/America's Dairyland",
+        ],
+        flowerOptions: ['Oregon Grape', 'Wild Rose', 'Hawthorn'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Across the state, there are _____ caves and caverns',
+          fillAnswer: '100000',
+          fillAnswers: ['100000', '150000', '200000', '20000'],
+        },
+        uniqueId: 'rrmKwJzp',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Tennessee',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-and-brown-mountain-under-white-clouds-during-daytime-8xuGO5q0Bg4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Tennessee',
+        },
+        landmark: {
+          name: 'Ryman Auditorium',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/125761169@N06/16523342064/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Ryman_Auditorium',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Chattanooga',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-large-brick-building-with-a-statue-on-top-KPT2I4wF_L4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chattanooga,_Tennessee',
+        },
+        landmarksRound: [
+          {
+            code: 'ID',
+            number: 2,
+          },
+          {
+            code: 'MI',
+            number: 11,
+          },
+          {
+            code: 'HI',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Brandywine Creek State Park',
+          'Point Udall',
+          'Portland Head Light',
+          'Colonial Williamsburg',
+          'Fort Smith National Historic Site',
+          'Martin Luther King Jr. Memorial',
+          'Charles E. Conrad Mansion Museum',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Evergreen State/Chinhook State',
+          'Beaver State',
+          'Palmetto State',
+          'Keystone State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: ['Hawthorn', 'Wood Violet', 'Camellia'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In _____, the Tennessee state had hundreds of registered distilleries',
+          fillAnswer: '1908',
+          fillAnswers: ['1920', '1922', '1908', '1918'],
+        },
+        uniqueId: 'qHQcMKH9',
       },
     ],
     capital: 'Nashville',
@@ -31664,6 +46452,341 @@ const whereTakenUSCurrent = [
           'Kenai Fjords National Park, Seward',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Chisos Mountains',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-and-brown-mountain-under-blue-sky-during-daytime-ZH73KUJq8jo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Chisos_Mountains',
+        },
+        landmark: {
+          name: 'San Antonio Japanese Tea Garden\n',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-concrete-house-_9u3dBa0UZs',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/San_Antonio_Japanese_Tea_Garden',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Houston',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-near-city-buildings-during-daytime-umrcu9RA5BY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Houston',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 15,
+          },
+          {
+            code: 'IN',
+            number: 4,
+          },
+          {
+            code: 'OH',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'The Venetian',
+          'Blanchard Springs Caverns',
+          'Pittock Mansion',
+          "The World's Only Corn Palace",
+          'Bennington Battle Monument',
+          'Strataca',
+          'Thorncrown Chapel',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Gem State',
+          'Aloha State',
+          'Island of Enchantment',
+          'Centennial State',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Oklahoma Rose', 'Violet', 'Black-eyed Susan'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Because it’s so close to Mexico, Texans have developed a cuisine that’s a mix of Mexican food and American cooking called Tex-Mex.',
+          falseFact: '24 percent of Texas citizens are younger than 18.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'DhvcYHh5',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Lake Travis',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-lake-and-power-lines-JsKETUA_2eo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Travis',
+        },
+        landmark: {
+          name: 'Texas State Capitol',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/wallyg/8075874322/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Texas_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'San Antonio',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/trees-beside-bridge-and-calm-body-of-water-h_5CHhJnB3M',
+          wikiLink: 'https://en.wikipedia.org/wiki/San_Antonio',
+        },
+        landmarksRound: [
+          {
+            code: 'OH',
+            number: 11,
+          },
+          {
+            code: 'IA',
+            number: 9,
+          },
+          {
+            code: 'OH',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Space Needle',
+          'Hoover Dam',
+          "Devil's Tower National Monument",
+          'Beckley Exhibition Coal Mine',
+          'Graceland',
+          'Fort Larned',
+          'Idaho Botanical Garden',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Treasure State/Big Sky Country',
+          'Granite State',
+          'America’s Paradise',
+          'Aloha State',
+          'Sooner State',
+        ],
+        flowerOptions: [
+          "Pink And White Lady's Slipper",
+          'Pasque Flower',
+          'Purple Lilac',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The largest known bat colony in North America is located in Texas',
+          falseFact:
+            'Texas is the only state to have an alcoholic beverage as its official drink.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'NJDl9T26',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Terlingua',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-desert-landscape-from-a-distance-_wBCGM4qHPU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Terlingua,_Texas',
+        },
+        landmark: {
+          name: 'The Alamo',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/129235588@N05/32691442998/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Battle_of_the_Alamo',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Dallas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photography-of-city-with-high-rise-buildings-during-night-time-FQGirkg--hk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Dallas',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 9,
+          },
+          {
+            code: 'NY',
+            number: 6,
+          },
+          {
+            code: 'RI',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Copper King Mansion',
+          'Sandy Hook Lighthouse',
+          'Oriole Park',
+          'Puerta de San Juan',
+          'Chase County Courthouse',
+          'Louisville Water Tower',
+          'Delicate Arch',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Show Me State',
+          'The Mount Rushmore State',
+          'Cotton State/Yellowhammer State',
+          'First State/Diamond State',
+          'Island of Enchantment',
+        ],
+        flowerOptions: ['Red Clover', 'Rhododendron', 'Wild Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact: 'Texas is larger than any country in Europe',
+          falseFact: 'Russia sold Texas to the U.S. for $7.2 million.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'NvcpGLJd',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Guadalupe Mountains',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-mountain-with-a-cloud-in-the-sky-BuNkDG2InJ8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Guadalupe_Mountains',
+        },
+        landmark: {
+          name: 'San Antonio Missions National Historical Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/98623843@N05/51909446048/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/San_Antonio_Missions_National_Historical_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Austin',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-concrete-building-near-bridge-during-daytime-jBghupTmaNQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Austin,_Texas',
+        },
+        landmarksRound: [
+          {
+            code: 'OK',
+            number: 10,
+          },
+          {
+            code: 'RI',
+            number: 9,
+          },
+          {
+            code: 'NC',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'A Christmas Story House',
+          'Central Railroad of New Jersey',
+          'Saint-Gaudens National Historic Park',
+          'Martin Luther King Jr. Memorial',
+          'Cathedral of San Juan',
+          'Indian Cave State Park',
+          'Fort Pickens',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Sooner State',
+          'First State/Diamond State',
+          'Hoosier State',
+          'Evergreen State/Chinhook State',
+          'Empire State',
+        ],
+        flowerOptions: ['Black-eyed Susan', 'Goldenrod', 'Pasque Flower'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'The most populous city in Texas is ______',
+          fillAnswer: 'Houston',
+          fillAnswers: ['Austin', 'Houston', 'New-York', 'Boston'],
+        },
+        uniqueId: 'tWKNBMhP',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Lake Bob Sandlin',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-with-buildings-along-it-5BaI2aGzpV8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lake_Bob_Sandlin_State_Park',
+        },
+        landmark: {
+          name: 'Fort Worth Botanic Garden',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/txspiked/847572086/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Worth_Botanic_Garden',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Fort Worth',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-street-with-cars-parked-on-the-side-of-it-l9L3KNB5cr4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Worth,_Texas',
+        },
+        landmarksRound: [
+          {
+            code: 'MA',
+            number: 13,
+          },
+          {
+            code: 'ND',
+            number: 5,
+          },
+          {
+            code: 'MT',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'Christiansted National Historic Site',
+          "Santa's Village",
+          'Mount Vernon',
+          'Lucy the Elephant',
+          'Wadsworth-Longfellow House',
+          'Grand Staircase–Escalante National Monument',
+          'Delicate Arch',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Gem State',
+          'Aloha State',
+          'Island of Enchantment',
+          'Centennial State',
+          'Tar Heel State',
+        ],
+        flowerOptions: ['Oklahoma Rose', 'Violet', 'Black-eyed Susan'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'El Paso is Closer to ________ than to Dallas',
+          fillAnswer: 'California',
+          fillAnswers: ['Florida', 'Moon', 'California', 'Alabama'],
+        },
+        uniqueId: 'NjXXWX2D',
+      },
     ],
     capital: 'Austin',
     flower: {
@@ -31682,14 +46805,12 @@ const whereTakenUSCurrent = [
     lat: 39.32098,
     long: -111.093731,
     cities: [
-      'Park City',
-      'Ogden',
       'Salt Lake City',
-      'St. George',
       'Provo',
       'West Valley City',
       'Orem',
-      'Fayetteville',
+      'Sandy',
+      'Lehi',
     ],
     game: [
       {
@@ -32366,6 +47487,350 @@ const whereTakenUSCurrent = [
           'Salvador Dalí Museum',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Utah',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-mountain-range-with-trees-in-the-foreground-and-a-blue-sky-in-the-background-zGcgSnZVeMU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Utah',
+        },
+        landmark: {
+          name: 'Delicate Arch',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-rock-formation-1NnW4hAwOuQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Delicate_Arch',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Salt Lake City',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-skyline-under-blue-sky-during-daytime-KDm_2W2KZOA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Salt_Lake_City',
+        },
+        landmarksRound: [
+          {
+            code: 'KY',
+            number: 3,
+          },
+          {
+            code: 'OH',
+            number: 1,
+          },
+          {
+            code: 'MT',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'San Xavier del Bac Mission',
+          "Ben & Jerry's",
+          'Colt Armory',
+          'Palace of Fine Arts',
+          'Minneapolis Sculpture Garden',
+          'Great Smoky Mountains National Park',
+          'Gateway Arch',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Sunshine State',
+          'Prairie State/Land of Lincoln',
+          'Cornhusker State/Beef State',
+          'Keystone State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: ['Rose', 'Indian Paintbrush', 'Peach Blossom'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Utah has 11,000 miles of fishing streams and 147,000 acres of lakes and reservoirs.',
+          falseFact:
+            'Utah claims three spots in the ten most populated cities in the U.S.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Q5CGGDTX',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Monument Valley ',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-rock-formation-uffQnKuJ-hc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Monument_Valley',
+        },
+        landmark: {
+          name: 'Temple Square',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photography-of-gray-temple-square-vbV2C18bghY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Temple_Square',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Provo',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-gray-concrete-building-near-mountain-under-blue-sky-during-daytime-z6FAAJZRrXs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Provo,_Utah',
+        },
+        landmarksRound: [
+          {
+            code: 'CO',
+            number: 3,
+          },
+          {
+            code: 'NJ',
+            number: 8,
+          },
+          {
+            code: 'MO',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Idaho State Capitol',
+          'Red Rocks Ampitheatre',
+          'Fort Union Trading Post National Historic Site',
+          "World's Largest Ball of Twine",
+          'Golden Gate Bridge',
+          'Mystic Seaport Museum',
+          'The Alamo',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Prairie State/Land of Lincoln',
+          'Free State/Old Line State',
+          'The Mount Rushmore State',
+          'Equality State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: ['Yellow Elder', 'Red Clover', 'Pasque Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Utah is the site of the nations first department store. Zions Co-operative Mercantile Institution was established in the late 1800’s. It is still in operation today as ZCMI.',
+          falseFact:
+            'The official Utah`s wildflower is Indian Blanket, adopted in 1910.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Q5Mdzf68',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Utah',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-desert-uPa475Wf9wg',
+          wikiLink: 'https://en.wikipedia.org/wiki/Utah',
+        },
+        landmark: {
+          name: 'Utah State Capitol',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/135049943@N02/19382167584/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Utah_State_Capitol',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Orem',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-building-with-a-pond-in-front-of-it-and-mountains-in-the-background-Ae3gpXWyQwU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Orem,_Utah',
+        },
+        landmarksRound: [
+          {
+            code: 'HI',
+            number: 5,
+          },
+          {
+            code: 'NE',
+            number: 9,
+          },
+          {
+            code: 'MA',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'The House on the Rock',
+          'Glacier Bay National Park and Preserve',
+          'Louisville Slugger Museum & Factory',
+          'Haystack Rock',
+          'Metropolitan Museum of Art',
+          'USS Kidd',
+          'Wright Brothers National Memorial',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Tar Heel State',
+          'Hawkeye State/Corn State',
+          'Cotton State/Yellowhammer State',
+          'The District',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: [
+          'Colorado Blue Columbine',
+          'Peach Blossom',
+          'Saguaro Cactus Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Utah was acquired by the United States in 1848 in the treaty ending the Mexico War.',
+          falseFact: 'Utah became an official state February 14, 1859.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'sns5lS2l',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Zion National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-river-running-through-a-lush-green-valley-OssRdzgySoo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Zion_National_Park',
+        },
+        landmark: {
+          name: 'Salt Lake Temple',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jphvidsten/5884150401/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Salt_Lake_Temple',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sandy',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-grass-field-near-mountain-under-white-clouds-and-blue-sky-during-daytime-AjHNsjb8J4c',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sandy,_Utah',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 14,
+          },
+          {
+            code: 'NE',
+            number: 10,
+          },
+          {
+            code: 'MN',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Cheyenne Depot Museum',
+          'The Mammoth Site',
+          'Sleeping Bear Dunes',
+          'Museum of Pop Culture',
+          'Millennium Park',
+          'Smith Rock State Park',
+          'Annaberg Sugar Plantation',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Lone Star State',
+          'Sunflower State/Jayhawker State',
+          'The Mount Rushmore State',
+          'Show Me State',
+          'Green Mountain State',
+        ],
+        flowerOptions: ['Wild Rose', 'Cherokee Rose', 'Purple Lilac'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Rock hounds can visit Utah for its semi-precious stones including rare ______',
+          fillAnswer: 'red beryl',
+          fillAnswers: ['amethyst', 'garnet', 'kyanite', 'red beryl'],
+        },
+        uniqueId: 'bgYhzdGw',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Monument Valley',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-asphalt-road-between-green-grass-field-during-daytime-EsyIO4hYJA0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Monument_Valley',
+        },
+        landmark: {
+          name: 'Bryce Canyon National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-scenic-view-of-a-canyon-with-a-mountain-in-the-background-9r6DTV-wAqA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Lehi',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/scottweissbeck/45426796565/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Lehi,_Utah',
+        },
+        landmarksRound: [
+          {
+            code: 'CT',
+            number: 14,
+          },
+          {
+            code: 'GA',
+            number: 12,
+          },
+          {
+            code: 'RI',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Old Louisiana State Capitol',
+          'Fort Griswold',
+          'Hoover Dam',
+          'Red Rocks Ampitheatre',
+          'Herbert Hoover Presidential Library and Museum',
+          'Shelburne Farms',
+          'Guardian Building',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Sunshine State',
+          'Prairie State/Land of Lincoln',
+          'Cornhusker State/Beef State',
+          'Keystone State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: ['Rose', 'Indian Paintbrush', 'Peach Blossom'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Utah’s license plate claims the state has the “greatest snow on Earth” because the snow falls ______ on the mountains.',
+          fillAnswer: 'light and dry',
+          fillAnswers: [
+            'moderately',
+            'continiously',
+            'light and dry',
+            'temporary',
+          ],
+        },
+        uniqueId: 'PsGJg7wW',
+      },
     ],
     capital: 'Salt Lake City',
     flower: {
@@ -32383,14 +47848,13 @@ const whereTakenUSCurrent = [
     lat: 37.431573,
     long: -78.656894,
     cities: [
-      'Norfolk',
-      'Richmond',
-      'Arlington',
-      'Alexandria',
       'Virginia Beach',
       'Chesapeake',
       'Newport News',
-      'Colorado Springs',
+      'Leesburg',
+      'Blacksburg',
+      'Herndon',
+      'Culpeper',
     ],
     game: [
       {
@@ -33084,6 +48548,348 @@ const whereTakenUSCurrent = [
           'World Museum of Mining',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-group-of-cars-driving-down-a-road-next-to-a-forest-nxCQ_KghSoM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virginia',
+        },
+        landmark: {
+          name: 'Arlington National Cemetery',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-wooden-fence-near-green-trees-during-daytime-dqM7yR811N8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Arlington_National_Cemetery',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Leesburg',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-with-a-tower-in-the-background-347maZFjzw0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Leesburg,_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'IA',
+            number: 8,
+          },
+          {
+            code: 'MT',
+            number: 8,
+          },
+          {
+            code: 'NH',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Tent Rocks',
+          'Christiansted National Historic Site',
+          'Amicalola Falls',
+          'Fort McHenry',
+          'Georgia Aquarium',
+          'Baltimore Museum of Art',
+          'The Mammoth Site',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Mountain State',
+          'Bay State/Old Colony State',
+          'First State/Diamond State',
+          'Golden State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Sunflower',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'One of Virginia’s top natural resources is its forests, which cover 62 percent of the state.',
+          falseFact:
+            'Virginia has three of the top 10 most populous cities in the US',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '7BvDgb6V',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-bridge-over-a-river-oNYxce2Wa2c',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virginia',
+        },
+        landmark: {
+          name: 'Maymont',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/6thcity/4933850809/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Maymont',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Blacksburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/setatum/44686940500/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Blacksburg,_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'GA',
+            number: 2,
+          },
+          {
+            code: 'NJ',
+            number: 1,
+          },
+          {
+            code: 'NM',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Everglades',
+          'Louisville Slugger Museum & Factory',
+          'High Line',
+          'Hanauma Bay',
+          'Polynesian Cultural Center',
+          'Fort McHenry',
+          'Mount Washington Hotel',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Lone Star State',
+          'Peace State/Empire State of the South',
+          'Volunteer State',
+          'Prairie State/Land of Lincoln',
+          'Golden State',
+        ],
+        flowerOptions: ['California Poppy', 'Forget-me-not', 'Peony'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Over 1/2 the battles fought in the civil war were fought in Virginia. Over 2,200 of the 4,000 battles.',
+          falseFact:
+            'The highest temperature ever recorded in Virginia was 120 degrees',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'BH6LJBPg',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-fog-uA2IbCjvuk8',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virginia',
+        },
+        landmark: {
+          name: 'Monticello',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/suewei/4918400227/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Monticello',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Herndon',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/afeather/3387588173/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Herndon,_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'ND',
+            number: 12,
+          },
+          {
+            code: 'OK',
+            number: 8,
+          },
+          {
+            code: 'IL',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Disney World',
+          'Lucy the Elephant',
+          'Blue Whale of Catoosa',
+          'Antietam National Battlefield',
+          'Tennessee',
+          'Point Judith Light',
+          'Seven Magic Mountains',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Buckeye State',
+          'Prairie State/Land of Lincoln',
+          'Sunflower State/Jayhawker State',
+          'Hoosier State',
+          "Badger State/America's Dairyland",
+        ],
+        flowerOptions: ['Camellia', 'Flor De Maga', 'Yucca Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'The major cash crop of Virginia is tobacco and many of the people who live there earn their living from the tobacco industry.',
+          falseFact: 'The honey bee is the Virginia state insect.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'ycXnb3C4',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-rocks-on-river-during-daytime-5a3gboOg9qc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virginia',
+        },
+        landmark: {
+          name: 'Mount Vernon',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/38928609@N02/5212614180/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mount_Vernon',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Culpeper',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dracisk/2402416676/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Culpeper,_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 10,
+          },
+          {
+            code: 'UT',
+            number: 2,
+          },
+          {
+            code: 'SD',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Eastern State Penitentiary',
+          'Corn Palace',
+          'Seven Magic Mountains',
+          'Biltmore Estate',
+          'Ryman Auditorium',
+          'Carhenge',
+          'Dignity Statue',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Buckeye State',
+          'Empire State',
+          'Treasure State/Big Sky Country',
+          'Wolverine State/Great Lake State',
+          'Cotton State/Yellowhammer State',
+        ],
+        flowerOptions: [
+          'Sunflower',
+          'Oregon Grape',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'One of the most popular sodas in the United States, _____ , was formulated in the mountains of Southwest Virginia.',
+          fillAnswer: 'Mountain Dew',
+          fillAnswers: ['Coca-Cola', 'Mountain Dew', '7-up', 'Dr. Peper'],
+        },
+        uniqueId: 'GsJWBc7W',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-wooden-house-on-brown-field-under-white-clouds-and-blue-sky-during-daytime-fOnWa8zanxs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virginia',
+        },
+        landmark: {
+          name: 'Colonial Williamsburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/125216865@N04/51130542966/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Colonial_Williamsburg',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Alexandria',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/red-and-brown-concrete-building-beside-body-of-water-during-daytime-T2wAe8qXy4w',
+          wikiLink: 'https://en.wikipedia.org/wiki/Alexandria,_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 14,
+          },
+          {
+            code: 'MT',
+            number: 13,
+          },
+          {
+            code: 'MI',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Oklahoma State Capitol',
+          'Tent Rocks',
+          'St. Louis Cathedral (New Orleans',
+          'Marble House',
+          'Fort Worden',
+          'Cathedral Basilica',
+          'Delicate Arch',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Mountain State',
+          'Bay State/Old Colony State',
+          'First State/Diamond State',
+          'Golden State',
+          'Land of Enchantment',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Sunflower',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            "Virginia's capital, ______ , was also the capital of the Confederacy during the Civil War.",
+          fillAnswer: 'Richmond',
+          fillAnswers: ['Richmond', 'Boston', 'Santa Fe', 'Los Angeles'],
+        },
+        uniqueId: 'fclmB39n',
+      },
     ],
     capital: 'Richmond',
     flower: {
@@ -33104,10 +48910,10 @@ const whereTakenUSCurrent = [
     cities: [
       'Charlotte Amalie',
       'Frederiksted',
-      'Christiansted',
       'Cruz Bay',
       'Red Hook',
       'Sitka',
+      'Frenchtown',
     ],
     game: [
       {
@@ -33807,6 +49613,356 @@ const whereTakenUSCurrent = [
           'Balboa Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'U.S. Virgin Islands',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-sandy-beach-and-blue-water-nVOFg37Jtks',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virgin_Islands',
+        },
+        landmark: {
+          name: 'Annaberg, Saint John',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/bobindrums/11460481705/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Annaberg,_Saint_John,_U.S._Virgin_Islands',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Charlotte Amalie',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-city-with-a-mountain-in-the-background-uxUMQL69YS0',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Charlotte_Amalie,_U.S._Virgin_Islands',
+        },
+        landmarksRound: [
+          {
+            code: 'MD',
+            number: 12,
+          },
+          {
+            code: 'MS',
+            number: 3,
+          },
+          {
+            code: 'KS',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Paine Art Center and Gardens',
+          'Boston Tea Party Museum',
+          'Vicksburg National Military Park',
+          'Birmingham Botanical Gardens, Alabama',
+          'Salisbury House',
+          'Fort Sumter',
+          'Coral Castle',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'The Last Frontier',
+          'Golden State',
+          'First State/Diamond State',
+          'Centennial State',
+          'Garden State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Peach Blossom',
+          'Wild Prairie Rose',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'A small island near St. John was the setting for the novel Treasure Island by Robert Louis Stevenson.',
+          falseFact:
+            'In 1836 U.S. Virgin Islands became the first state in the United States to declare Christmas a legal holiday.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9ZLHM95f',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'St Thomas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-beach-with-a-boat-in-the-water-3GChTfD4Pgs',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Saint_Thomas,_U.S._Virgin_Islands',
+        },
+        landmark: {
+          name: 'Point Udall ',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/41710899@N08/51797828988/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Point_Udall_(U.S._Virgin_Islands)',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cruz Bay',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/markfetzer1026/26340939732/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cruz_Bay,_U.S._Virgin_Islands',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 14,
+          },
+          {
+            code: 'NV',
+            number: 6,
+          },
+          {
+            code: 'IN',
+            number: 10,
+          },
+        ],
+        landmarkPlaces: [
+          'Old State Capitol',
+          'Vulcan Statue',
+          'Liberty Bell',
+          'Reed Gold Mine',
+          'Oriole Park',
+          'Pike Place Market',
+          'Goldfield Ghost Town',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Hoosier State',
+          'Green Mountain State',
+          'Sooner State',
+          'Palmetto State',
+          'Natural State',
+        ],
+        flowerOptions: ['Rhododendron', 'Mayflower', 'Magnolia'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Pirates, including Captain Kidd and Black Sam Bellamy, raided the islands in the 16th and 17th centuries.',
+          falseFact:
+            'The Unclaimed Baggage Center is located in U.S. Virgin Islands. The inventory of this store are the lost luggages from airlines.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '8xYPrJYl',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'U.S. Virgin Islands',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-bay-through-a-stone-archway-pDUKpDTHokQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virgin_Islands',
+        },
+        landmark: {
+          name: 'Fort Christian',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/alveart/15440395155/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Christian',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Frederiksted',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/146831227@N03/32685409826/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Frederiksted,_U.S._Virgin_Islands',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 6,
+          },
+          {
+            code: 'MI',
+            number: 8,
+          },
+          {
+            code: 'TN',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Havasu Falls',
+          'Petrified Forest National Park',
+          'Rock & Roll Hall of Fame',
+          'Ashland (Henry Clay estate)',
+          'Iolani Palace',
+          'Coastal Maine Botanical Gardens',
+          'Oak Alley Plantation',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'The District',
+          'The Mount Rushmore State',
+          'The Old Dominion/Mother of Presidents',
+          'Empire State',
+          'Hoosier State',
+        ],
+        flowerOptions: ['Apple Blossom', 'Wood Violet', 'Flowering Dogwood'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'There is no fresh water source on the island of St. John. All water used is collected from the rain or boated and trucked in at very high prices.',
+          falseFact:
+            "The world's oldest concrete street is located in U.S. Virgin Islands",
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'nznbTNkc',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'St Thomas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-near-blue-body-of-water-during-daytime-K5Kev_Y50hw',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Saint_Thomas,_U.S._Virgin_Islands',
+        },
+        landmark: {
+          name: 'Fort Christiansvaern',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/124651729@N04/52095091879/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Christiansted_National_Historic_Site',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Christiansted',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/whsieh78/17110002797/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Christiansted,_U.S._Virgin_Islands',
+        },
+        landmarksRound: [
+          {
+            code: 'MS',
+            number: 11,
+          },
+          {
+            code: 'MI',
+            number: 1,
+          },
+          {
+            code: 'WI',
+            number: 3,
+          },
+        ],
+        landmarkPlaces: [
+          'Ocean City Boardwalk',
+          'Antietam National Battlefield',
+          'Chauncey Peak',
+          'Crazy Horse Memorial',
+          'Minneapolis Institute of Art',
+          'Baltimore Basilica',
+          'Badlands National Park',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Empire State',
+          'Bay State/Old Colony State',
+          'Flickertail State/Sioux State',
+          'Lone Star State',
+          'Green Mountain State',
+        ],
+        flowerOptions: ['Colorado Blue Columbine', 'Rhododendron', 'Sagebrush'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The US Virgin Islands are the only territory in the US to have coasts on both the ______Sea and the Atlantic Ocean',
+          fillAnswer: 'Caribbean',
+          fillAnswers: ['Baltic', 'Caribbean', 'Black', 'Red'],
+        },
+        uniqueId: '4ft6Dfmn',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'St Thomas',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-cruise-ship-docked-in-a-harbor-next-to-a-city--Zq3KDCYfQE',
+          wikiLink: 'https://en.wikipedia.org/wiki/Virgin_Islands',
+        },
+        landmark: {
+          name: 'Cinnamon Bay',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/26596446@N04/5671537328/in/photolist-9Db7sm-CogBrK-bvmHRV-9cgzzY-DikT4y-9cgzpU-beFsBn-9cdwrZ-pq2SNr-CogzuP-9cdBqv-e84NAq-9cdCvR-ZvAqCW-c4n6v9-54w2X8-aDp71x-9cdBTV-bupuNh-gTLJb-6mkG9q-dao8ea-HfFPay-2npCCT4-2nmE1pD-2nw4vyM-2nq8Xbj-2nvPPT8-2nn9wS7-2nwfSah-2npLtDj-2nv6747-2nvR7US-2nn748S-2nvrw9C-2nv4SWS-2ntpADK-2ntojvD-V3rJ5w-ahJ9Ks-9EZXuh-3TEVEW-9EWZjX-bRqdCX-bRqjFx-Gty1vC-T9PTJd-2nxDMqJ-2nr9Myy-2nn9wVd',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cinnamon_Bay',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Frenchtown',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-filled-with-lots-of-boats-aWESCjuxIOE',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Frenchtown,_U.S._Virgin_Islands',
+        },
+        landmarksRound: [
+          {
+            code: 'LA',
+            number: 6,
+          },
+          {
+            code: 'TN',
+            number: 1,
+          },
+          {
+            code: 'PR',
+            number: 5,
+          },
+        ],
+        landmarkPlaces: [
+          'Southernmost point buoy',
+          'Elephant Rocks State Park',
+          'Oak Alley Plantation',
+          'Welcome to Fabulous Las Vegas sign',
+          'Amelia Earhart Birthplace',
+          'Mount Washington',
+          'West Union Covered Bridge',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'The Last Frontier',
+          'Golden State',
+          'First State/Diamond State',
+          'Centennial State',
+          'Garden State',
+        ],
+        flowerOptions: [
+          'American Beauty Rose',
+          'Peach Blossom',
+          'Wild Prairie Rose',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In the late 1600s, the Virgin Islands were home to real life ______.',
+          fillAnswer: 'pirates',
+          fillAnswers: ['soldiers', 'pirates', 'missionairs', 'native-indians'],
+        },
+        uniqueId: '37WR9ZJs',
+      },
     ],
     capital: 'Charlotte Amalie',
     flower: {
@@ -33825,14 +49981,13 @@ const whereTakenUSCurrent = [
     lat: 44.558803,
     long: -72.577841,
     cities: [
-      'Burlington',
-      'Stowe',
       'Montpelier',
-      'Essex',
-      'Rutland City',
       'South Burlington',
       'Rutland',
-      'Manchester',
+      'Newport',
+      'Bennington',
+      'Colchester',
+      'Essex',
     ],
     game: [
       {
@@ -34507,6 +50662,339 @@ const whereTakenUSCurrent = [
           'Chapel of the Holy Cross',
           'Coastal Maine Botanical Gardens',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Vermont',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-and-green-grass-field-near-body-of-water-during-daytime-8JmXXZWt7EA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vermont',
+        },
+        landmark: {
+          name: 'Church Street Marketplace',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/onasill/51395307252/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Church_Street_Marketplace',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Newport',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-with-a-house-on-a-hill-in-the-background-VS7ZvG-Quuw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Newport_(city),_Vermont',
+        },
+        landmarksRound: [
+          {
+            code: 'WI',
+            number: 5,
+          },
+          {
+            code: 'CO',
+            number: 7,
+          },
+          {
+            code: 'AK',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Isle Royale',
+          'Old Louisiana State Capitol',
+          'Seven Magic Mountains',
+          'Sleeping Bear Dunes',
+          'Biltmore Estate',
+          "St. Patrick's Cathedral",
+          'Salisbury House',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Land of Enchantment',
+          'Island of Enchantment',
+          'Magnolia State',
+          'First State/Diamond State',
+          'Granite State',
+        ],
+        flowerOptions: ['Camellia', 'Rose', 'Peach Blossom'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Vermont is home to the world’s largest “deep hole” dimension granite quarry and North America’s first marble quarry.',
+          falseFact: 'The first general purpose computer was built in Vermont',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'JkXMpTNm',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Vermont',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-road-with-trees-and-a-house-2zosvqM-DDs',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vermont',
+        },
+        landmark: {
+          name: 'Billings Farm & Museum',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/25406886@N03/48664829088/',
+          wikiLink: 'https://de.wikipedia.org/wiki/Billings_Farm',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Burlington',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-boat-docked-at-a-pier-Yl8rQ1CJvkU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Burlington,_Vermont',
+        },
+        landmarksRound: [
+          {
+            code: 'NE',
+            number: 11,
+          },
+          {
+            code: 'TN',
+            number: 3,
+          },
+          {
+            code: 'NC',
+            number: 11,
+          },
+        ],
+        landmarkPlaces: [
+          'The Mammoth Site',
+          'Polynesian Cultural Center',
+          'Badlands National Park',
+          'Franklin Park Conservatory',
+          'Cape Henlopen State Park',
+          'North Christian Church',
+          'Roseland Cottage',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Lone Star State',
+          'Pine Tree State',
+          'Natural State',
+          'Empire State',
+          'Sunflower State/Jayhawker State',
+        ],
+        flowerOptions: ['Mountain Laurel', 'Cherokee Rose', 'American Dogwood'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Vermont is home to the nation’s first ski tow, built in Woodstock in 1934.',
+          falseFact: 'You can type “Vermont” on one row of a keyboard.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'tbMHNRYS',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Vermont',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-and-white-house-near-brown-trees-and-river-during-daytime-u5MyPfbvKww',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vermont',
+        },
+        landmark: {
+          name: 'Cornish–Windsor Covered Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/125295130@N05/48900562078/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Cornish%E2%80%93Windsor_Covered_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bennington',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kenlund/66261945/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bennington,_Vermont',
+        },
+        landmarksRound: [
+          {
+            code: 'PA',
+            number: 12,
+          },
+          {
+            code: 'CA',
+            number: 10,
+          },
+          {
+            code: 'MS',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Empire State Building',
+          'Minneapolis Sculpture Garden',
+          'Fort Union Trading Post National Historic Site',
+          'Battleship Memorial Park',
+          'Dollywood',
+          'Golden Gate Bridge',
+          'Harpers Ferry National Historical Park',
+        ],
+        weatherMonth: 'april',
+        nicknameOptions: [
+          'Volunteer State',
+          'Beehive State',
+          'Peace State/Empire State of the South',
+          'Equality State',
+          'America’s Paradise',
+        ],
+        flowerOptions: ['California Poppy', 'Bitterroot', 'Yellow Elder'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Vermont is the lead producer of maple syrup in the U.S., producing 3.1 million gallons in 2024.',
+          falseFact:
+            'Vermont is the largest domestic producer of oil in the U.S.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'rNzzYfsj',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Vermont',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-car-on-road-surrounded-by-trees-during-daytime-yihTmj5j9NY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vermont',
+        },
+        landmark: {
+          name: 'Vermont State House',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/35817807@N03/51755067484/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vermont_State_House',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Colchester',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/77415367@N00/16069021046/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Colchester,_Vermont',
+        },
+        landmarksRound: [
+          {
+            code: 'MI',
+            number: 10,
+          },
+          {
+            code: 'PR',
+            number: 3,
+          },
+          {
+            code: 'WV',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Salt Lake Temple',
+          'Hanging Lake',
+          'Cadillac Ranch',
+          'Blanchard Springs Caverns',
+          'Castillo San Felipe Del Morro',
+          'Roosevelt Arch',
+          'Appalachian Trail',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Keystone State',
+          'Golden State',
+          'Sooner State',
+          'Garden State',
+          'Bay State/Old Colony State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Saguaro Cactus Blossom',
+          'Oregon Grape',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In Vermont, evidence of Indigenous life dates back about _____  years.',
+          fillAnswer: '13,000',
+          fillAnswers: ['13,000', '15,000', '10,000', '8,000'],
+        },
+        uniqueId: 'b96M5mr4',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Vermont',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-concrete-road-between-green-grass-field-under-white-clouds-during-daytime-Ffcbz1LinCQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vermont',
+        },
+        landmark: {
+          name: 'Creamery Covered Bridge',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/125295130@N05/26510815002/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Creamery_Covered_Bridge',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Essex',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/dougtone/5445024106/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Essex,_Vermont',
+        },
+        landmarksRound: [
+          {
+            code: 'AL',
+            number: 14,
+          },
+          {
+            code: 'AR',
+            number: 3,
+          },
+          {
+            code: 'DE',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Garvan Woodland Gardens',
+          'Beckley Exhibition Coal Mine',
+          'Rocky Statue',
+          'Mount Rushmore',
+          'The Breakers',
+          'Fort Sumter',
+          'Little River Canyon National Preserve',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Land of Enchantment',
+          'Island of Enchantment',
+          'Magnolia State',
+          'First State/Diamond State',
+          'Granite State',
+        ],
+        flowerOptions: ['Camellia', 'Rose', 'Peach Blossom'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'In the center of the state, the most famous range is the Green Mountains. Formed over ____million years ago',
+          fillAnswer: '400',
+          fillAnswers: ['200', '300', '400', '100'],
+        },
+        uniqueId: '4fDPdTP2',
       },
     ],
     capital: 'Montpelier',
@@ -35221,6 +51709,353 @@ const whereTakenUSCurrent = [
           'Scheels Arena',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Washington',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/cars-beside-buildings-_cDfy6fEpmo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington_(state)',
+        },
+        landmark: {
+          name: 'Fort Worden',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/sadofsky/51402373603/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fort_Worden',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Bellevue',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-with-high-rise-buildings-under-gray-sky-during-daytime-w1tm6n-V9Hc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Bellevue,_Washington',
+        },
+        landmarksRound: [
+          {
+            code: 'CO',
+            number: 8,
+          },
+          {
+            code: 'KS',
+            number: 10,
+          },
+          {
+            code: 'OH',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Quincy Mine',
+          'White Sands National Park',
+          'Brandywine Creek State Park',
+          'Craters of the Moon National Monument and Preserve',
+          'Golden Driller Statue',
+          'Seven Sacred Pools',
+          'Caguana Ceremonial Ball Courts Site',
+        ],
+        weatherMonth: 'september',
+        nicknameOptions: [
+          'Aloha State',
+          'Prairie State/Land of Lincoln',
+          'Treasure State/Big Sky Country',
+          'North Star State/Gopher State',
+          'Equality State',
+        ],
+        flowerOptions: [
+          'Goldenrod',
+          'California Poppy',
+          'Saguaro Cactus Blossom',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Washington is the only state to be named after a president.',
+          falseFact:
+            'The oldest golf course in the United States is located in Washington',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'gv5ck57y',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Mount Rainier',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-concrete-blocks-near-green-trees-and-mountain-during-daytime-GxcVd7xZxqM',
+          wikiLink: 'https://en.wikipedia.org/wiki/Mount_Rainier',
+        },
+        landmark: {
+          name: 'Space Needle',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/paddyo/50259306446/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Space_Needle',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Seattle',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/high-rise-buildings-near-coastal-area-under-clear-sky-NAXwZWYVJPQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Seattle',
+        },
+        landmarksRound: [
+          {
+            code: 'NY',
+            number: 13,
+          },
+          {
+            code: 'AL',
+            number: 7,
+          },
+          {
+            code: 'CT',
+            number: 14,
+          },
+        ],
+        landmarkPlaces: [
+          'Olbrich Botanical Gardens',
+          'Craters of the Moon National Monument and Preserve',
+          'Willis Tower',
+          'Kennedy Space Center',
+          'Beale Street',
+          'Stonington Harbour Light',
+          'Pictured Rocks',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'Magnolia State',
+          'Island of Enchantment',
+          'The District',
+          'Golden State',
+          'Buckeye State',
+        ],
+        flowerOptions: ['Hawaiian Hibiscus', 'Cherokee Rose', 'Wild Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Washington produces more apples than any other state in the country.',
+          falseFact:
+            'In Washington, throwing eggs at a public speaker may result in one year in prison.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'cF7tC9xZ',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Port of Seattle',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/aerial-photography-of-harbor-BqPB1vdg3zw',
+          wikiLink: 'https://en.wikipedia.org/wiki/Port_of_Seattle',
+        },
+        landmark: {
+          name: 'Smith Tower',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/paddyo/14482898574/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Smith_Tower',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Spokane',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/city-buildings-during-daytime-0qNDaCqKXNo',
+          wikiLink: 'https://en.wikipedia.org/wiki/Spokane,_Washington',
+        },
+        landmarksRound: [
+          {
+            code: 'FL',
+            number: 6,
+          },
+          {
+            code: 'LA',
+            number: 4,
+          },
+          {
+            code: 'MN',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Salvador Dalí Museum',
+          'Biggest ball of twine',
+          'Seven Magic Mountains',
+          'Steamtown National Historic Site',
+          'Olbrich Botanical Gardens',
+          'Louisville Water Tower',
+          'Georgia Guidestones',
+        ],
+        weatherMonth: 'november',
+        nicknameOptions: [
+          'Ocean State',
+          'Tar Heel State',
+          'Aloha State',
+          'Buckeye State',
+          'America’s Paradise',
+        ],
+        flowerOptions: [
+          'California Poppy',
+          'Bitterroot',
+          'White Pine Cone And Tassel',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'With more than 3,000 glaciers, Washington is the most glaciated of the 48 contiguous states. There are 25 major glaciers on Mount Rainier alone.',
+          falseFact: 'Washingtonis home to "Silicon Hills,"',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'QvpjNTvk',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Washington',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/green-trees-on-mountain-under-cloudy-sky-during-daytime-IyMWh89Kr-E',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington_(state)',
+        },
+        landmark: {
+          name: 'Gum Wall',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/carrielynnp/4821897761/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gum_Wall',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Tacoma',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-neighborhood-with-cars-parked-on-the-street-k_hUEmHbyaY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Tacoma,_Washington',
+        },
+        landmarksRound: [
+          {
+            code: 'MO',
+            number: 6,
+          },
+          {
+            code: 'OK',
+            number: 12,
+          },
+          {
+            code: 'ID',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'J. Paul Getty Museum',
+          'Colt Armory',
+          'Mystic Seaport Museum',
+          'University of Oklahoma',
+          'The Venetian',
+          'World Museum of Mining',
+          'Santa María Magdalena de Pazzis Cemetery',
+        ],
+        weatherMonth: 'july',
+        nicknameOptions: [
+          'Garden State',
+          'The District',
+          'Cotton State/Yellowhammer State',
+          'Island of Enchantment',
+          'Lone Star State',
+        ],
+        flowerOptions: [
+          'White Pine Cone And Tassel',
+          'Indian Paintbrush',
+          'Apple Blossom',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'Washington is home to  _____ federally recognized tribes with reservations across the state',
+          fillAnswer: '29',
+          fillAnswers: ['23', '25', '20', '29'],
+        },
+        uniqueId: 'HYsRR99p',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Washington',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-landscape-with-trees-and-hills-rOSYvaW2BcU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Washington_(state)',
+        },
+        landmark: {
+          name: 'Fremont Troll',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/cnorse/2880827057/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Fremont_Troll',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Vancouver',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-body-of-water-with-buildings-along-it-YjBVFQ38rJ4',
+          wikiLink: 'https://en.wikipedia.org/wiki/Vancouver,_Washington',
+        },
+        landmarksRound: [
+          {
+            code: 'MD',
+            number: 10,
+          },
+          {
+            code: 'VT',
+            number: 4,
+          },
+          {
+            code: 'MI',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Seven Mile Bridge',
+          'Cheaha Mountain',
+          'Molly Brown House',
+          'Valley of Fire State Park',
+          'Mississippi Petrified Forest',
+          'National Cowboy & Western Heritage Museum',
+          'Roseland Cottage',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Aloha State',
+          'Prairie State/Land of Lincoln',
+          'Treasure State/Big Sky Country',
+          'North Star State/Gopher State',
+          'Equality State',
+        ],
+        flowerOptions: [
+          'Goldenrod',
+          'California Poppy',
+          'Saguaro Cactus Blossom',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Washington State has more than 1000 _____',
+          fillAnswer: 'wineries',
+          fillAnswers: ['buildings', 'galleries', 'forts', 'wineries'],
+        },
+        uniqueId: 'HskbvMtS',
+      },
     ],
     capital: 'Olympia',
     flower: {
@@ -35921,6 +52756,336 @@ const whereTakenUSCurrent = [
           'Chaco Culture National Historical Park',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Apostle Islands',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-lighthouse-on-a-cliff-above-a-body-of-water-FR2AbYC3Nxc',
+          wikiLink: 'https://en.wikipedia.org/wiki/Apostle_Islands',
+        },
+        landmark: {
+          name: 'Cana Island Light',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/52421717@N00/48284729991/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cana_Island_Light',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Milwaukee',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/brown-high-rise-building-near-body-of-water-rqs_vNyKWrY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Milwaukee',
+        },
+        landmarksRound: [
+          {
+            code: 'FL',
+            number: 1,
+          },
+          {
+            code: 'MD',
+            number: 1,
+          },
+          {
+            code: 'ID',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Longwood',
+          'Santa María Magdalena de Pazzis Cemetery',
+          'Red Rock Canyon National Conservation Area\n',
+          'Roark Bluff',
+          'Mount Washington Cog Railway',
+          'Windsor Ruins',
+          "Jennette's Pier",
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Equality State',
+          'Tar Heel State',
+          'Granite State',
+          'Mountain State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Indian Paintbrush', 'Rhododendron'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Wisconsin is a leading producer of Ginseng in the United States',
+          falseFact:
+            'Wisconsin was first to abolish slavery for those older than 21 in its constitution',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9ZNDZw8F',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Horicon Marsh',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-small-house-on-a-grassy-hill-K_D0i6UgK2c',
+          wikiLink: 'https://en.wikipedia.org/wiki/Horicon_Marsh',
+        },
+        landmark: {
+          name: 'Holy Hill National Shrine of Mary',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/glow_worm/51533533415/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Holy_Hill_National_Shrine_of_Mary,_Help_of_Christians',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Green Bay',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/53019927@N05/46217926681/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Green_Bay,_Wisconsin',
+        },
+        landmarksRound: [
+          {
+            code: 'NH',
+            number: 5,
+          },
+          {
+            code: 'VA',
+            number: 13,
+          },
+          {
+            code: 'MS',
+            number: 9,
+          },
+        ],
+        landmarkPlaces: [
+          'Trans-Allegheny Lunatic Asylum',
+          'Penobscot Narrows Bridge and Observatory',
+          'Marblehead Light ',
+          'Cathedral Caverns State Park',
+          'Navy Pier',
+          'Salvador Dalí Museum',
+          'Acadia National Park',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'Show Me State',
+          'Bay State/Old Colony State',
+          'Land of Enchantment',
+          'Nutmeg State/Constitution State',
+          'Sunflower State/Jayhawker State',
+        ],
+        flowerOptions: ['Red Clover', 'Sagebrush', 'Pasque Flower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'According to Wisconsin stories, Wisconsin contains more ghosts per square mile than any other state in the nation.',
+          falseFact: 'Wisconsin leads the country in wool production.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'VM8l9XwQ',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Devils Lake',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-man-standing-on-top-of-a-cliff-next-to-a-lake-ndIqRrf_G2Q',
+          wikiLink: 'https://en.wikipedia.org/wiki/Devil%27s_Lake_(Wisconsin)',
+        },
+        landmark: {
+          name: 'Pabst Mansion',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/100015881@N08/9497106909/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Pabst_Mansion',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Madison',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-city-next-to-a-body-of-water-wzPEBkFvO6s',
+          wikiLink: 'https://en.wikipedia.org/wiki/Madison,_Wisconsin',
+        },
+        landmarksRound: [
+          {
+            code: 'WY',
+            number: 1,
+          },
+          {
+            code: 'HI',
+            number: 6,
+          },
+          {
+            code: 'IA',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'Badlands National Park',
+          'La Fortaleza',
+          'Museum of Fine Arts',
+          'Chimney Rock',
+          'Palace of Fine Arts',
+          'Maquoketa Caves State Park',
+          'Castle Craig',
+        ],
+        weatherMonth: 'february',
+        nicknameOptions: [
+          'The District',
+          'Sunshine State',
+          'Grand Canyon State',
+          'Ocean State',
+          'Empire State',
+        ],
+        flowerOptions: ['Rose', 'Flowering Dogwood', 'Yellow Jessamine'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Green Bay is known as the "Toilet Paper Capital" of the world.',
+          falseFact:
+            'Wisconsin  has the highest density population of any state in the U.S.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'bGXBbyP2',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Wisconsin',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/red-and-white-building-near-green-trees-during-daytime-s0lkbvtN9K8',
+          wikiLink: 'https://ro.wikipedia.org/wiki/Wisconsin',
+        },
+        landmark: {
+          name: 'Basilica of St. Josaphat',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/cemillerphotography/19888991778/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Basilica_of_St._Josaphat',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Kenosha',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/27728294@N05/51840181212/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Kenosha,_Wisconsin',
+        },
+        landmarksRound: [
+          {
+            code: 'DE',
+            number: 8,
+          },
+          {
+            code: 'CA',
+            number: 6,
+          },
+          {
+            code: 'MS',
+            number: 12,
+          },
+        ],
+        landmarkPlaces: [
+          'Avalanche Lake',
+          'Brooklyn Bridge',
+          'Montezuma Castle National Monument',
+          'Fort Delaware State Park',
+          'Idaho State Capitol',
+          'Iowa State Capitol',
+          'Bennington Battle Monument',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Land of Enchantment',
+          'Free State/Old Line State',
+          'Aloha State',
+          'Equality State',
+          'Pine Tree State',
+        ],
+        flowerOptions: ['Iris', 'Mayflower', 'American Beauty Rose'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'More than _____ deer roam Wisconsin woods.',
+          fillAnswer: '800,000',
+          fillAnswers: ['300,000', '800,000', '600,000', '200,000'],
+        },
+        uniqueId: 'r5mTgBk7',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Wisconsin',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-aerial-view-of-a-lake-surrounded-by-trees-kcmJQR786W0',
+          wikiLink: 'https://ro.wikipedia.org/wiki/Wisconsin',
+        },
+        landmark: {
+          name: 'North Point Light',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/kenlane/32747883187/',
+          wikiLink: 'https://en.wikipedia.org/wiki/North_Point_Light',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Racine',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/white-and-brown-concrete-building-under-blue-sky-during-daytime-rrRIaCofYnI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Racine,_Wisconsin',
+        },
+        landmarksRound: [
+          {
+            code: 'KY',
+            number: 14,
+          },
+          {
+            code: 'SC',
+            number: 10,
+          },
+          {
+            code: 'VI',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Badlands National Park',
+          'Fort Worden',
+          'Stonington Harbour Light',
+          'Goldbelt Tram',
+          'Vicksburg National Military Park',
+          'Independence Rock',
+          'Bellagio Fountain',
+        ],
+        weatherMonth: 'may',
+        nicknameOptions: [
+          'North Star State/Gopher State',
+          'Equality State',
+          'Tar Heel State',
+          'Granite State',
+          'Mountain State',
+        ],
+        flowerOptions: ['Flor De Maga', 'Indian Paintbrush', 'Rhododendron'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Wisconsin’s name comes from the Wisconsin ______',
+          fillAnswer: 'River',
+          fillAnswers: ['Rock', 'River', 'Plate', 'Mountain'],
+        },
+        uniqueId: 'dJHgQlBX',
+      },
     ],
     capital: 'Madison',
     flower: {
@@ -35938,14 +53103,12 @@ const whereTakenUSCurrent = [
     lat: 38.597626,
     long: -80.454903,
     cities: [
-      'Charles Town',
-      "Harper's Ferry",
       'Charleston',
       'Huntington',
       'Parkersburg',
       'Morgantown',
       'Wheeling',
-      'Orlando',
+      'Hinton',
     ],
     game: [
       {
@@ -36655,6 +53818,349 @@ const whereTakenUSCurrent = [
           'Rainbow Row',
         ],
       },
+      {
+        number: 11,
+        mainImage: {
+          name: 'West Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-ElJDeklYUas',
+          wikiLink: 'https://en.wikipedia.org/wiki/West_Virginia',
+        },
+        landmark: {
+          name: "John Brown's Fort",
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-brick-building-with-a-bell-tower-with-fort-christian-in-the-background-lJ1mbo7J-yI',
+          wikiLink: 'https://en.wikipedia.org/wiki/John_Brown%27s_Fort',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Charleston',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ap0013/51387477712/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Charleston,_West_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'IN',
+            number: 3,
+          },
+          {
+            code: 'KS',
+            number: 9,
+          },
+          {
+            code: 'NJ',
+            number: 2,
+          },
+        ],
+        landmarkPlaces: [
+          'State Capitol',
+          "Bowen's Wharf",
+          'Herbert Hoover National Historic Site',
+          'Fort Frederick',
+          'Cloud Gate',
+          'The Alamo',
+          'Capitol of Puerto Rico',
+        ],
+        weatherMonth: 'june',
+        nicknameOptions: [
+          'Show Me State',
+          'Hoosier State',
+          'Beehive State',
+          'Palmetto State',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Mountain Laurel',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Wild onions called ramps are grown in West Virginia in spring. They’re so popular that they have their own annual festival called the Feast of the Ramson',
+          falseFact:
+            'This territory is the only place in the United States where people drive on the left side of the road.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'XSppRp4V',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'West Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-winding-road-through-a-forest-U6pM04m6cfg',
+          wikiLink: 'https://en.wikipedia.org/wiki/West_Virginia',
+        },
+        landmark: {
+          name: 'Harpers Ferry National Historical Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/107533498@N08/53609424411/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Harpers_Ferry_National_Historical_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Morgantown',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-parking-lot-in-a-city-fx6r-ZfMMPQ',
+          wikiLink: 'https://en.wikipedia.org/wiki/Morgantown,_West_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'AK',
+            number: 7,
+          },
+          {
+            code: 'MT',
+            number: 10,
+          },
+          {
+            code: 'IN',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'San Xavier del Bac Mission',
+          'Rowan Oak',
+          'Fort Christian',
+          'Mount Hood',
+          "Elfreth's Alley",
+          'Old Trail Town',
+          'Monument Valley',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Magnolia State',
+          'Natural State',
+          'Bay State/Old Colony State',
+          'Beaver State',
+          'Beehive State',
+        ],
+        flowerOptions: ['Peony', 'Bitterroot', 'Purple Lilac'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Outdoor advertising got its start in Wheeling when the Bloch Brothers Tobacco Company painted bridges and barns with “Treat Yourself to the Best, Chew Mail Pouch.”',
+          falseFact:
+            "Two of the most successful fast-food chains, Wendy's (Columbus) and Arby's (Boardman) were founded in West Virginia",
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Kv6qnc5g',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'West Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/gray-metal-bridge-over-green-trees-under-white-clouds-and-blue-sky-during-daytime-wdzmEEobY8U',
+          wikiLink: 'https://en.wikipedia.org/wiki/West_Virginia',
+        },
+        landmark: {
+          name: 'Green Bank Telescope',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/botetourt/50511250632/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Green_Bank_Telescope',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Hinton',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/plezero/49705162891/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Hinton,_West_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'GA',
+            number: 4,
+          },
+          {
+            code: 'MD',
+            number: 4,
+          },
+          {
+            code: 'OK',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Ellis Island',
+          'John Dickinson Plantation',
+          'Ryman Auditorium',
+          'Charles E. Conrad Mansion Museum',
+          'Pictograph Cave State Park',
+          'Vermont State House',
+          'Glass House',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Granite State',
+          'Volunteer State',
+          'The Mount Rushmore State',
+          'Green Mountain State',
+          'Sooner State',
+        ],
+        flowerOptions: ['Scarlet Carnation', 'Red Clover', 'Rose'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'West Virginia is comparable in size to both Latvia and Lithuania.',
+          falseFact: 'West Virginia leads the country in wool production.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '9b86Kz6B',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'West Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/an-old-building-in-a-field-with-mountains-in-the-background-k-dnT-bfsz0',
+          wikiLink: 'https://en.wikipedia.org/wiki/West_Virginia',
+        },
+        landmark: {
+          name: 'The Greenbrier',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/retierd/48140052662/',
+          wikiLink: 'https://en.wikipedia.org/wiki/The_Greenbrier',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Parkersburg',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/18345733@N05/52392762089/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Parkersburg,_West_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'WY',
+            number: 10,
+          },
+          {
+            code: 'LA',
+            number: 6,
+          },
+          {
+            code: 'PR',
+            number: 6,
+          },
+        ],
+        landmarkPlaces: [
+          'Rockwood Museum and Park',
+          'Rainbow Row',
+          'Roseman Covered Bridge',
+          'Black Canyon of the Gunnison',
+          'The Alamo',
+          'Amana Colonies',
+          'The Keeper of the Plains',
+        ],
+        weatherMonth: 'january',
+        nicknameOptions: [
+          'Silver State/Sagebrush State',
+          'Hoosier State',
+          'Treasure State/Big Sky Country',
+          'Grand Canyon State',
+          'The Mount Rushmore State',
+        ],
+        flowerOptions: [
+          'Hawthorn',
+          'Saguaro Cactus Blossom',
+          'Flowering Dogwood',
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion:
+            'The Golden Delicious Apple originated in Clay County in  _____ ',
+          fillAnswer: '1905',
+          fillAnswers: ['1915', '1930', '1905', '1950'],
+        },
+        uniqueId: 'TcMGlfS6',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'West Virginia',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-bridge-over-a-river-surrounded-by-trees-hzfVjeUF25U',
+          wikiLink: 'https://en.wikipedia.org/wiki/West_Virginia',
+        },
+        landmark: {
+          name: 'Blennerhassett Island Historical State Park',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/jcsullivan24/50199093511/',
+          wikiLink:
+            'https://en.wikipedia.org/wiki/Blennerhassett_Island_Historical_State_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Wheeling',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-view-of-a-bridge-over-a-body-of-water-5pZjJhmkoBU',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wheeling,_West_Virginia',
+        },
+        landmarksRound: [
+          {
+            code: 'NC',
+            number: 6,
+          },
+          {
+            code: 'FL',
+            number: 8,
+          },
+          {
+            code: 'OR',
+            number: 15,
+          },
+        ],
+        landmarkPlaces: [
+          'National Memorial Cemetery of the Pacific',
+          'West Side Market',
+          "Bowen's Wharf",
+          'Coral Castle',
+          'Fort Frederick',
+          'Dollywood',
+          'Luray Caverns',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Show Me State',
+          'Hoosier State',
+          'Beehive State',
+          'Palmetto State',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: [
+          'Saguaro Cactus Blossom',
+          'Mountain Laurel',
+          "Pink And White Lady's Slipper",
+        ],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'West Virginia is comparable in size to ',
+          fillAnswer: 'Latvia',
+          fillAnswers: ['Ukraine', 'Georgia', 'Spain', 'Latvia'],
+        },
+        uniqueId: 'MSdtPMwm',
+      },
     ],
     capital: 'Charleston',
     flower: {
@@ -36673,14 +54179,12 @@ const whereTakenUSCurrent = [
     lat: 43.075968,
     long: -107.290284,
     cities: [
-      'Cheyenne',
       'Casper',
-      'Jackson',
       'Laramie',
       'Cody',
       'Gillette',
       'Rock Springs',
-      'Manchester',
+      'Sheridan',
     ],
     game: [
       {
@@ -37354,6 +54858,339 @@ const whereTakenUSCurrent = [
           'Battleship North Carolina',
           'Museum of Pop Culture',
         ],
+      },
+      {
+        number: 11,
+        mainImage: {
+          name: 'Grand Teton National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-scenic-view-of-the-grand-tetons-and-the-snake-river-HPiiROXLQts',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grand_Teton_National_Park',
+        },
+        landmark: {
+          name: 'Grand Teton National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-barn-in-a-field-with-mountains-in-the-background-3Za6xD6YQJY',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grand_Teton_National_Park',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Cheyenne',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-street-with-cars-parked-on-both-sides-of-it-L144Uc-MI2M',
+          wikiLink: 'https://en.wikipedia.org/wiki/Cheyenne,_Wyoming',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 9,
+          },
+          {
+            code: 'PA',
+            number: 1,
+          },
+          {
+            code: 'NC',
+            number: 4,
+          },
+        ],
+        landmarkPlaces: [
+          'Cedar Point',
+          'Myriad Botanical Gardens',
+          'Mount Washington Cog',
+          'Durham Museum',
+          'J. Paul Getty Museum',
+          'Thomas Edison National Historical Park',
+          'Rainbow Row\n',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Bay State/Old Colony State',
+          'Hawkeye State/Corn State',
+          'First State/Diamond State',
+          'Ocean State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Goldenrod', 'Scarlet Carnation', 'Sunflower'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'You can drive for hours in Wyoming without seeing a single person.',
+          falseFact:
+            'Wyoming ranks No. 49 among U.S. states in population and No. 43 in land area.',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'MhDBxKW3',
+      },
+      {
+        number: 12,
+        mainImage: {
+          name: 'Jackson Hole',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/snow-covered-trees-and-mountains-during-daytime-MPN5E09DqzA',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jackson_Hole',
+        },
+        landmark: {
+          name: 'Wyoming Frontier Prison Museum',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/27911341@N07/2971423379/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wyoming_State_Penitentiary',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Casper',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/davidwilson1949/3204376723/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Casper,_Wyoming',
+        },
+        landmarksRound: [
+          {
+            code: 'UT',
+            number: 15,
+          },
+          {
+            code: 'PA',
+            number: 10,
+          },
+          {
+            code: 'PR',
+            number: 8,
+          },
+        ],
+        landmarkPlaces: [
+          'El Santuario de Chimayo',
+          'Wadsworth Falls State Park',
+          'Glacier Bay National Park and Preserve',
+          "St. Patrick's Cathedral",
+          'Olbrich Botanical Gardens',
+          'The Parthenon',
+          'Martin Luther King Jr. National Historical Park',
+        ],
+        weatherMonth: 'december',
+        nicknameOptions: [
+          'Garden State',
+          'Granite State',
+          'Island of Enchantment',
+          'Sunshine State',
+          'Peace State/Empire State of the South',
+        ],
+        flowerOptions: [
+          'Flowering Dogwood',
+          "Pink And White Lady's Slipper",
+          'American Beauty Rose',
+        ],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'In the whole state of Wyoming, there are only two escalators, both located in the town of Casper',
+          falseFact: 'Wyoming Joined the U.S. Through a Treaty',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: '8h2qK59f',
+      },
+      {
+        number: 13,
+        mainImage: {
+          name: 'Jackson Hole',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-couple-of-animals-standing-on-top-of-a-snow-covered-field-r5zNz1f2Po0',
+          wikiLink: 'https://en.wikipedia.org/wiki/Jackson_Hole',
+        },
+        landmark: {
+          name: 'Old Trail Town',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/146006524@N05/32089298496/',
+          wikiLink: 'https://fr.wikipedia.org/wiki/Old_Trail_Town',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Gillette',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/reweston-sat/21965607662/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Gillette,_Wyoming',
+        },
+        landmarksRound: [
+          {
+            code: 'AZ',
+            number: 3,
+          },
+          {
+            code: 'NV',
+            number: 3,
+          },
+          {
+            code: 'DC',
+            number: 13,
+          },
+        ],
+        landmarkPlaces: [
+          'Cape Hatteras Lighthouse',
+          'Acadia National Park',
+          'Fort Smith National Historic Site',
+          'Fontainebleau State Park',
+          'Church Street Marketplace',
+          'Monument Valley',
+          'Washington National Cathedral',
+        ],
+        weatherMonth: 'march',
+        nicknameOptions: [
+          'Beaver State',
+          'Hawkeye State/Corn State',
+          'Mountain State',
+          'Empire State',
+          'Beehive State',
+        ],
+        flowerOptions: ['Mountain Laurel', 'Wild Rose', 'Yellow Elder'],
+        facts: {
+          trueFalse: true,
+          trueFact:
+            'Dinosaur digging was so popular in Wyoming that in 1932, a cabin made entirely of fossils was created. This fossil cabin still stands today.',
+          falseFact:
+            'Wyoming is the only state that joined the United States of America as a nation via treaty  (not annexation)',
+          fillQuestion: '',
+          fillAnswer: '',
+          fillAnswers: [],
+        },
+        uniqueId: 'Kb4tplPb',
+      },
+      {
+        number: 14,
+        mainImage: {
+          name: 'Wyoming',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-road-in-the-middle-of-a-field-with-mountains-in-the-background-EZhlsp-_8Rk',
+          wikiLink: 'https://en.wikipedia.org/wiki/Wyoming',
+        },
+        landmark: {
+          name: 'Devils Tower',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/110040712@N04/28364794084/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Devils_Tower',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Laramie',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/ap0013/49157574336/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Laramie,_Wyoming',
+        },
+        landmarksRound: [
+          {
+            code: 'DC',
+            number: 8,
+          },
+          {
+            code: 'SD',
+            number: 5,
+          },
+          {
+            code: 'DC',
+            number: 1,
+          },
+        ],
+        landmarkPlaces: [
+          'Elephant Rocks State Park',
+          'Washington National Cathedral',
+          'Fargo Theatre',
+          'Teton Dam',
+          'Space Needle',
+          'Martin Luther King Jr. Childhood Home',
+          'Warner Theatre',
+        ],
+        weatherMonth: 'august',
+        nicknameOptions: [
+          'Green Mountain State',
+          'Wolverine State/Great Lake State',
+          'Garden State',
+          'Empire State',
+          'Hawkeye State/Corn State',
+        ],
+        flowerOptions: ['Rose', 'Black-eyed Susan', 'Bitterroot'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'Wyoming produces the most _____  in the United States',
+          fillAnswer: 'coal',
+          fillAnswers: ['petroleum', 'natural gas', 'bentonite', 'coal'],
+        },
+        uniqueId: 'htqCGrqs',
+      },
+      {
+        number: 15,
+        mainImage: {
+          name: 'Grand Teton National Park',
+          photographer: '',
+          imageLink:
+            'https://unsplash.com/photos/a-herd-of-horses-grazing-on-a-lush-green-field-V8oNJh-qCeI',
+          wikiLink: 'https://en.wikipedia.org/wiki/Grand_Teton_National_Park',
+        },
+        landmark: {
+          name: 'Old Faithful Inn',
+          photographer: '',
+          imageLink:
+            'https://www.flickr.com/photos/yellowstonenps/32419620161/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Old_Faithful_Inn',
+          hasLandmark: true,
+        },
+        city: {
+          name: 'Sheridan',
+          photographer: '',
+          imageLink: 'https://www.flickr.com/photos/mytravelphotos/5436246899/',
+          wikiLink: 'https://en.wikipedia.org/wiki/Sheridan,_Wyoming',
+        },
+        landmarksRound: [
+          {
+            code: 'VA',
+            number: 11,
+          },
+          {
+            code: 'VT',
+            number: 15,
+          },
+          {
+            code: 'NM',
+            number: 7,
+          },
+        ],
+        landmarkPlaces: [
+          'Fort Union Trading Post',
+          'Winterville site',
+          'Stonington Harbour Light',
+          'Helen Keller Birthplace',
+          'Mystic Seaport Museum',
+          'Old Cowtown Museum',
+          'Appalachian Trail',
+        ],
+        weatherMonth: 'october',
+        nicknameOptions: [
+          'Bay State/Old Colony State',
+          'Hawkeye State/Corn State',
+          'First State/Diamond State',
+          'Ocean State',
+          'The Last Frontier',
+        ],
+        flowerOptions: ['Goldenrod', 'Scarlet Carnation', 'Sunflower'],
+        facts: {
+          trueFalse: false,
+          trueFact: '',
+          falseFact: '',
+          fillQuestion: 'The Wyoming state gem is _____ ',
+          fillAnswer: 'Jade ',
+          fillAnswers: ['Jade ', 'Amethyst', 'Quartz', 'Fluorite'],
+        },
+        uniqueId: 'jZYHXfvv',
       },
     ],
     capital: 'Cheyenne',
