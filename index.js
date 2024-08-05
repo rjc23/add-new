@@ -319,6 +319,7 @@ app.get('/wheretakenUSPerms', async function (req, res, next) {
   res.status(200).send(whereTakenUSPerms);
 });
 
+// update this as needed to read sheet data correctly
 function getFact(gameNumber, facts) {
   switch (gameNumber) {
     case 11: {
