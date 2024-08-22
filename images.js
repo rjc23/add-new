@@ -5,7 +5,7 @@ const whereTakenCurrent = require('./whereTakenCurrent');
 iterate = async () => {
   const outputfolder = 'countries'; // change to states for wheretakenUS
   let nums = 0;
-  fs.readdirSync('./redoimgs/').forEach((file) => {
+  fs.readdirSync('./imgs/').forEach((file) => {
     nums++;
     const codeArr = file.split(/-|_/);
 
