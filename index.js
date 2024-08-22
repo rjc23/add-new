@@ -66,21 +66,6 @@ app.get('/wheretakenNew', async function (req, res, next) {
       countryEntry.cities.push(entry.cityImageName);
     }
 
-    // If there are more than six cities, remove the first city not present in any game
-    if (countryEntry.cities.length > 6) {
-      let citiesInGames = new Set(countryEntry.game.map((g) => g.city.name));
-      let cityToRemove = countryEntry.cities.find(
-        (city) => !citiesInGames.has(city)
-      );
-
-      if (cityToRemove) {
-        countryEntry.cities = countryEntry.cities.filter(
-          (city) => city !== cityToRemove
-        );
-      }
-      // Additional logic may be necessary if no city can be removed
-    }
-
     // Integration of logic from the first code
     let potential = [];
     let potentialNames = [];
