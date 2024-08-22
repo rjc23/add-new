@@ -8,6 +8,7 @@ const whereTakenUSCurrent = require('./whereTakenUSCurrent');
 const months = require('./whereTakenUSutils/months');
 const states = require('./whereTakenUSutils/states');
 const whereTakenUSPerms = require('./whereTakenUSPerms');
+const whereTakenNewPerms = require('./whereTakenNewPerms');
 const app = express();
 const PORT = 3006;
 
@@ -20,6 +21,7 @@ app.listen(PORT, (error) => {
 });
 
 app.get('/wheretakenNew', async function (req, res, next) {
+  const newPerms = [];
   newWhereTaken.forEach((entry) => {
     // Find the corresponding country in the whereTakenCurrent array
     let countryEntry = whereTakenCurrent.find(
@@ -64,21 +66,6 @@ app.get('/wheretakenNew', async function (req, res, next) {
     // Ensure the city from the new game exists in the country's cities array
     if (!countryEntry.cities.includes(entry.cityImageName)) {
       countryEntry.cities.push(entry.cityImageName);
-    }
-
-    // If there are more than six cities, remove the first city not present in any game
-    if (countryEntry.cities.length > 6) {
-      let citiesInGames = new Set(countryEntry.game.map((g) => g.city.name));
-      let cityToRemove = countryEntry.cities.find(
-        (city) => !citiesInGames.has(city)
-      );
-
-      if (cityToRemove) {
-        countryEntry.cities = countryEntry.cities.filter(
-          (city) => city !== cityToRemove
-        );
-      }
-      // Additional logic may be necessary if no city can be removed
     }
 
     // Integration of logic from the first code
@@ -134,9 +121,15 @@ app.get('/wheretakenNew', async function (req, res, next) {
 
     // Push the new game entry to the country's game array
     countryEntry.game.push(newGameEntry);
+
+    // add new perm
+    newPerms.push({ country: countryEntry.name, photoCode: nextGameNumber });
   });
 
-  res.send(whereTakenCurrent);
+  res.send({
+    countries: whereTakenCurrent,
+    perms: newPerms,
+  });
 });
 
 app.get('/wheretakenUSNew', async function (req, res, next) {
@@ -256,6 +249,55 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
   });
 
   res.send(whereTakenUSCurrent);
+});
+
+app.get('/wheretakenPerms', async function (req, res, next) {
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  };
+
+  const distributeCountries = () => {
+    const entries = [...whereTakenNewPerms];
+    shuffleArray(entries);
+
+    // This could be optimized to ensure the spacing between countries
+    const spacedEntries = [];
+    entries.forEach((entry) => {
+      // Try to find an optimal place in spacedEntries
+      let placed = false;
+      for (let i = 0; !placed && i < spacedEntries.length; i += 53) {
+        if (
+          !spacedEntries
+            .slice(Math.max(0, i - 2), i)
+            .some((e) => e.country === entry.country)
+        ) {
+          spacedEntries.splice(i, 0, entry);
+          placed = true;
+        }
+      }
+      if (!placed) spacedEntries.push(entry);
+    });
+
+    return spacedEntries;
+  };
+
+  let lastNumber = 0; // get from perms in where taken repo
+  let currentDate = dayjs(); // get from persm in where taken repo
+
+  const extendedEntries = distributeCountries().map((entry) => {
+    lastNumber++;
+    currentDate = currentDate.add(1, 'day');
+    return {
+      ...entry,
+      date: currentDate.format('D/M/YYYY'),
+      number: lastNumber,
+    };
+  });
+
+  res.status(200).send(extendedEntries);
 });
 
 app.get('/wheretakenUSPerms', async function (req, res, next) {
