@@ -1,10 +1,11 @@
 const sharp = require("sharp");
 const fs = require('fs');
+const whereTakenCurrent = require('./whereTakenCurrent');
 
 iterate = async () => {
   const outputfolder = 'countries'; // change to states for wheretakenUS
   let nums = 0;
-  fs.readdirSync('./imgs/').forEach((file) => {
+  fs.readdirSync('./redoimgs/').forEach((file) => {
     nums++;
     const codeArr = file.split(/-|_/);
 
@@ -19,8 +20,29 @@ iterate = async () => {
         .split(/(\d+)/)
         .filter(Boolean);
 
+      // find country entry
+      // change to wheretakenUSCurrent for wheretakenUS
+      let countryEntry = whereTakenCurrent.find(
+        (country) => country.code.toLowerCase() === code
+      );
+      let games = countryEntry.game;
+
+      if (!countryEntry) {
+        console.log('No country entry found:', file);
+        return; // Skip to the next file
+      }
+
       // Convert number to an integer
-      number = parseInt(number, 10);
+      // TODO: Update the following to number the files correctly based on the new import
+      number = Number(number);
+      if (number === 1) {
+        number = games.length - 1;
+      } else if (number === 2) {
+        number = games.length;
+      } else {
+        console.log('Invalid file number:', file);
+        return; // Skip to the next file
+      }
     } else {
       console.log('Invalid file format:', file);
       return; // Skip to the next file
