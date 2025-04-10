@@ -1,9 +1,9 @@
 const sharp = require("sharp");
 const fs = require('fs');
-const whereTakenCurrent = require('./whereTakenCurrent');
+const whereTakenUSCurrent = require('./whereTakenUSCurrent');
 
 iterate = async () => {
-  const outputfolder = 'countries'; // change to states for wheretakenUS
+  const outputfolder = 'states';
   let nums = 0;
   fs.readdirSync('./imgs/').forEach((file) => {
     nums++;
@@ -20,15 +20,14 @@ iterate = async () => {
         .split(/(\d+)/)
         .filter(Boolean);
 
-      // find country entry
-      // change to wheretakenUSCurrent for wheretakenUS
-      let countryEntry = whereTakenCurrent.find(
-        (country) => country.code.toLowerCase() === code
+      // find state entry
+      let stateEntry = whereTakenUSCurrent.find(
+        (state) => state.code.toLowerCase() === code
       );
-      let games = countryEntry.game;
+      let games = stateEntry.game;
 
-      if (!countryEntry) {
-        console.log('No country entry found:', file);
+      if (!stateEntry) {
+        console.log('No state entry found:', file);
         return; // Skip to the next file
       }
 

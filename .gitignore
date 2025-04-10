@@ -2,3 +2,4 @@ node_modules
 imgs/**
 countries/**
 states/**
+.DS_store

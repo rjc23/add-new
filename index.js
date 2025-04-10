@@ -1,14 +1,11 @@
 const express = require("express");
 const dayjs = require('dayjs');
-const newWhereTaken = require('./wheretakenNew');
-const whereTakenCurrent = require('./whereTakenCurrent');
 const newWhereTakenUS = require('./wheretakenUSNew');
 const newWhereTakenUSFacts = require('./wheretakenUSNewFacts');
 const whereTakenUSCurrent = require('./whereTakenUSCurrent');
 const months = require('./whereTakenUSutils/months');
 const states = require('./whereTakenUSutils/states');
 const whereTakenUSPerms = require('./whereTakenUSPerms');
-const whereTakenNewPerms = require('./whereTakenNewPerms');
 const app = express();
 const PORT = 3006;
 
@@ -18,118 +15,6 @@ app.listen(PORT, (error) => {
       'Server is Successfully Running, and App is listening on port ' + PORT
     );
   else console.log("Error occurred, server can't start", error);
-});
-
-app.get('/wheretakenNew', async function (req, res, next) {
-  const newPerms = [];
-  newWhereTaken.forEach((entry) => {
-    // Find the corresponding country in the whereTakenCurrent array
-    let countryEntry = whereTakenCurrent.find(
-      (country) => country.name === entry.country
-    );
-
-    // If country is not found in the whereTakenCurrent array, skip this iteration
-    if (!countryEntry) return;
-
-    // Find the next game number for this country
-    let nextGameNumber = countryEntry.game.length + 1;
-
-    // Construct the new game entry using the data from newWhereTaken
-    let newGameEntry = {
-      number: nextGameNumber,
-      mainImage: {
-        name: entry.mainImageLocation,
-        photographer: '',
-        imageLink: entry.mainImageLink,
-        wikiLink: entry.mainImageWiki,
-      },
-      landmark: {
-        name: entry.landmarkImageName,
-        photographer: '',
-        imageLink: entry.landmarkImageLink,
-        wikiLink: entry.landmarkImageWiki,
-        hasLandmark: true, // Assuming all landmarks have a 'hasLandmark' value of true
-      },
-      city: {
-        name: entry.cityImageName,
-        photographer: '',
-        imageLink: entry.cityImageLink,
-        wikiLink: entry.cityImageWiki,
-      },
-      landmarksRound: [], // This can be updated later if needed
-      landmarkPlaces: [], // This can be updated later if needed
-      uniqueId: makeid(8), // This can be updated later if needed
-      hasMapAndCityRound:
-        entry.cityImageName && entry.cityImageLink ? true : false, // Assuming all entries have a 'hasMapAndCityRound' value of true
-    };
-
-    // Ensure the city from the new game exists in the country's cities array
-    if (!countryEntry.cities.includes(entry.cityImageName)) {
-      countryEntry.cities.push(entry.cityImageName);
-    }
-
-    // Integration of logic from the first code
-    let potential = [];
-    let potentialNames = [];
-
-    newWhereTaken.forEach((p) => {
-      if (entry.country !== p.country) {
-        const permState = whereTakenCurrent.find((v) => v.name === p.country);
-        if (permState) {
-          permState.game.forEach((game) => {
-            if (game.landmark.hasLandmark) {
-              potential.push({
-                code: permState.code,
-                number: game.number,
-              });
-              potentialNames.push(game.landmark.name);
-            }
-          });
-        }
-      }
-    });
-
-    let codesToAdd = [];
-    for (var i = 2; i >= 0; i--) {
-      let removed = potential.splice(
-        Math.floor(Math.random() * potential.length),
-        1
-      );
-      if (!removed) {
-        removed = {
-          code: 'AK',
-          number: 1,
-        };
-      }
-      codesToAdd = [...codesToAdd, removed[0]];
-    }
-
-    let namesToAdd = [];
-    for (var i = 6; i >= 0; i--) {
-      let removed = potentialNames.splice(
-        Math.floor(Math.random() * potentialNames.length),
-        1
-      );
-      if (!removed || removed === null) {
-        removed = '';
-      }
-      namesToAdd = [...namesToAdd, removed[0]];
-    }
-
-    newGameEntry.landmarksRound = [...codesToAdd];
-    newGameEntry.landmarkPlaces = [...namesToAdd];
-
-    // Push the new game entry to the country's game array
-    countryEntry.game.push(newGameEntry);
-
-    // add new perm
-    newPerms.push({ country: countryEntry.name, photoCode: nextGameNumber });
-  });
-
-  res.send({
-    countries: whereTakenCurrent,
-    perms: newPerms,
-  });
 });
 
 app.get('/wheretakenUSNew', async function (req, res, next) {
@@ -249,55 +134,6 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
   });
 
   res.send(whereTakenUSCurrent);
-});
-
-app.get('/wheretakenPerms', async function (req, res, next) {
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-  };
-
-  const distributeCountries = () => {
-    const entries = [...whereTakenNewPerms];
-    shuffleArray(entries);
-
-    // This could be optimized to ensure the spacing between countries
-    const spacedEntries = [];
-    entries.forEach((entry) => {
-      // Try to find an optimal place in spacedEntries
-      let placed = false;
-      for (let i = 0; !placed && i < spacedEntries.length; i += 53) {
-        if (
-          !spacedEntries
-            .slice(Math.max(0, i - 2), i)
-            .some((e) => e.country === entry.country)
-        ) {
-          spacedEntries.splice(i, 0, entry);
-          placed = true;
-        }
-      }
-      if (!placed) spacedEntries.push(entry);
-    });
-
-    return spacedEntries;
-  };
-
-  let lastNumber = 0; // get from perms in where taken repo
-  let currentDate = dayjs(); // get from persm in where taken repo
-
-  const extendedEntries = distributeCountries().map((entry) => {
-    lastNumber++;
-    currentDate = currentDate.add(1, 'day');
-    return {
-      ...entry,
-      date: currentDate.format('D/M/YYYY'),
-      number: lastNumber,
-    };
-  });
-
-  res.status(200).send(extendedEntries);
 });
 
 app.get('/wheretakenUSPerms', async function (req, res, next) {
