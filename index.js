@@ -31,7 +31,7 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
     }
 
     const newFacts = newWhereTakenUSFacts.find(
-      (facts) => facts.State.toLowerCase() === stateEntry.name.toLowerCase()
+      (facts) => facts.code === stateEntry.code
     );
     // If state is not found in the whereTakenUSNewFacts array, skip this iteration
     if (!newFacts) {
@@ -137,7 +137,7 @@ app.get('/wheretakenUSNew', async function (req, res, next) {
 });
 
 app.get('/wheretakenUSPerms', async function (req, res, next) {
-  const newPhotoCodes = [11, 12, 13, 14, 15]; // edit these as needed
+  const newPhotoCodes = [16, 17, 18, 19, 20]; //TODO: edit these as needed
 
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -178,7 +178,8 @@ app.get('/wheretakenUSPerms', async function (req, res, next) {
 
   const lastEntry = whereTakenUSPerms[whereTakenUSPerms.length - 1];
   let lastNumber = lastEntry.number;
-  let currentDate = dayjs(lastEntry.date, 'D/M/YYYY');
+  const [day, month, year] = lastEntry.date.split('/').map(Number);
+  let currentDate = dayjs(new Date(year, month - 1, day));
 
   const extendedEntries = distributeStates(states, newPhotoCodes).map(
     (entry) => {
@@ -197,67 +198,57 @@ app.get('/wheretakenUSPerms', async function (req, res, next) {
   res.status(200).send(whereTakenUSPerms);
 });
 
-// update this as needed to read sheet data correctly
+// TODO: update this as needed to read sheet data correctly
 function getFact(gameNumber, facts) {
   switch (gameNumber) {
-    case 11: {
+    case 16: {
       return {
         trueFalse: true,
-        trueFact: facts['True Fact 1'],
-        falseFact: facts['False Fact 1'],
+        trueFact: facts.true1,
+        falseFact: facts.false1,
         fillQuestion: '',
         fillAnswer: '',
         fillAnswers: [],
       };
     }
-    case 12: {
-      return {
-        trueFalse: true,
-        trueFact: facts['True Fact 2'],
-        falseFact: facts['False Fact 2'],
-        fillQuestion: '',
-        fillAnswer: '',
-        fillAnswers: [],
-      };
-    }
-    case 13: {
-      return {
-        trueFalse: true,
-        trueFact: facts['True Fact 3'],
-        falseFact: facts['False Fact 3'],
-        fillQuestion: '',
-        fillAnswer: '',
-        fillAnswers: [],
-      };
-    }
-    case 14: {
+    case 17: {
       return {
         trueFalse: false,
         trueFact: '',
         falseFact: '',
-        fillQuestion: facts['Fill in Blank 1'],
-        fillAnswer: facts['Correct Answer'][0],
-        fillAnswers: [
-          facts['Answer A'][0],
-          facts['Answer B'][0],
-          facts['Answer C'][0],
-          facts['Answer D'][0],
-        ],
+        fillQuestion: facts.fill1,
+        fillAnswer: facts.fill1Answer,
+        fillAnswers: [facts.fill1A, facts.fill1B, facts.fill1C, facts.fill1D],
       };
     }
-    case 15: {
+    case 18: {
+      return {
+        trueFalse: true,
+        trueFact: facts.true2,
+        falseFact: facts.false2,
+        fillQuestion: '',
+        fillAnswer: '',
+        fillAnswers: [],
+      };
+    }
+    case 19: {
+      return {
+        trueFalse: true,
+        trueFact: facts.true3,
+        falseFact: facts.false3,
+        fillQuestion: '',
+        fillAnswer: '',
+        fillAnswers: [],
+      };
+    }
+    case 20: {
       return {
         trueFalse: false,
         trueFact: '',
         falseFact: '',
-        fillQuestion: facts['Fill in Blank 2'],
-        fillAnswer: facts['Correct Answer'][1],
-        fillAnswers: [
-          facts['Answer A'][1],
-          facts['Answer B'][1],
-          facts['Answer C'][1],
-          facts['Answer D'][1],
-        ],
+        fillQuestion: facts.fill2,
+        fillAnswer: facts.fill2Answer,
+        fillAnswers: [facts.fill2A, facts.fill2B, facts.fill2C, facts.fill2D],
       };
     }
     default: {
