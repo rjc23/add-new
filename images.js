@@ -1,6 +1,5 @@
 const sharp = require("sharp");
 const fs = require('fs');
-const whereTakenUSCurrent = require('./whereTakenUSCurrent');
 
 iterate = async () => {
   const outputfolder = 'states';
@@ -20,24 +19,30 @@ iterate = async () => {
         .split(/(\d+)/)
         .filter(Boolean);
 
-      // find state entry
-      let stateEntry = whereTakenUSCurrent.find(
-        (state) => state.code.toLowerCase() === code
-      );
-      let games = stateEntry.game;
+      // // find state entry
+      // let stateEntry = whereTakenUSCurrent.find(
+      //   (state) => state.code.toLowerCase() === code
+      // );
+      // let games = stateEntry.game;
 
-      if (!stateEntry) {
-        console.log('No state entry found:', file);
-        return; // Skip to the next file
-      }
+      // if (!stateEntry) {
+      //   console.log('No state entry found:', file);
+      //   return; // Skip to the next file
+      // }
 
       // Convert number to an integer
       // TODO: Update the following to number the files correctly based on the new import
       number = Number(number);
       if (number === 1) {
-        number = games.length - 1;
+        number = 16;
       } else if (number === 2) {
-        number = games.length;
+        number = 17;
+      } else if (number === 3) {
+        number = 18;
+      } else if (number === 4) {
+        number = 19;
+      } else if (number === 5) {
+        number = 20;
       } else {
         console.log('Invalid file number:', file);
         return; // Skip to the next file
